@@ -11,29 +11,29 @@
 ;
 
 #MONARCH
-The Triton Monarchy, The Neo-Reactionary, Neo-Reactionary, M, 1, Colton, M, 1, 1, 0, 1, 0,
+The Triton Monarchy, The Neo-Reactionary, Neo-Reactionary, M, 1, Colton I, M, 1, 1, 0, 1, 0,
   TECH, Physic, IMPUNITY, Power, SOCIAL, ++POLICE, SOCIAL, -EFFIC, SOCIAL, -RESEARCH, ROBUST, MORALE, AQUATIC, 0
   Politics, Police State, MORALE
   Politics, Democratic, nil
   Neo-Reactionary, NRx.
-  Alpha Talent, Gamma Thinker, Alpha Legacy
-  Prime Function, analytical, soulless, rational, inflexible,
-  Unsexed Android
-  impose rational thinking on this Planet
-  to impose rationality and order on the inhabitants of this chaotic Planet
-  destroying all that makes us self-aware
-  destroying all that makes us self-aware
-  try to reduce us all to a collection of algorithms
-  grafting silicon onto her few remaining biological components
-  grafting silicon onto your few remaining biological components
-  destroying the sentience of unwilling subjects
-  so-called logic, M1
-  quest for rational perfection, M1
-  quest for rational perfection, M1
-  licensing fee, M1
-  developing rational codes for your people to follow
-  my Logic Corps
-  the Dictates of Logic
+  Rex, Johnson, Rex's Monument
+  King, sovereign, dictatorial, powerful, oppressive,
+  Authoritarian Tyrant
+  conquer this world for your "kingdom"
+  to give the people of Planet what they really want: Stability
+  removing all rights and personal freedom to expand his control
+  removing all rights and personal freedom to expand your control
+  delusions of grandeur
+  imposing archaic and inefficient systems of governance
+  imposing archaic and inefficient systems of governance
+  delusions of grandeur
+  delusions of grandeur, M1
+  organization of society, M1
+  foolish authoritarianism, M1
+  tribute, M1
+  preventing chaos and anarchism
+  my Royal Legions
+  the Triton Constitution
 
 #BASES
 Seat of Power
@@ -44,29 +44,34 @@ Colton's Founding
 #END
 
 #BLURB
-Those who join us need give up only half of their humanity—the illogical,
-ill-tempered, and disordered half, commonly thought of as ‘right-brain’
-functioning. In exchange, the ‘left-brain’ capacities are increased to undreamed
-potential. The tendency of Biologicals to cling instead to their individual
-personalities can only be attributed to archaic evolutionary tendencies.
+What has progressivism brought us? Decades of war, with man turning on man
+and tearing down his creations with ever more powerful tools of harm, and
+finally bringing an apparent end to the planet of our birth. When humans
+given certain forms of freedom they use it for destructive ends. If
+we are to avoid the mistakes of Earth's decay,
+we must return to stable and well-organized society which acknowledges the
+very real differences between individuals, and has an appropriate place
+for all. The kingdoms of old Earth provide a template which we must adopt
+if we are to survive.
  ^
- ^        —Prime Function Aki Zeta-5,
- ^           “Convergence”
+ ^        —King Colton I,
+ ^           “Address to subjects”
 
 #DATALINKS1
-^LEADER: {Aki Zeta-5 (Prime Function Shell)}
-^BACKGROUND: {Subroutine Specialist under Unity Science Officer}
-^AGENDA: {Rational Objectivity}
-^TECH: {Information Networks, Applied Physics}
+^LEADER: {King Colton I}
+^BACKGROUND: {USA Survivalist militia}
+^AGENDA: {Return to traditional values and societal structure}
+^TECH: {Applied Physics}
 ^
 
 #DATALINKS2
-^+2 RESEARCH: {Human research abilities enhanced by algorithmic control}
-^+2 EFFICIENCY: {Cybernetic biologicals extremely efficient}
-^-1 GROWTH: {Humans ‘possessed by an algorithm’ find reproduction awkward}
-^Impunity to CYBERNETIC penalty: {Cybernetic social choice is ‘rational’ and not dissented by citizens}
-^Can steal technology when capturing a base
-^{May not make Fundamentalist choice in social engineering}
+^+2 POLICE: {Obedient subjects, strong chain of command}
+^-1 EFFICIENCY: {Hyper-centralized control leads to inefficiency}
+^-1 RESEARCH: {Distrust of development and free thought}
+^Impunity to POWER penalty: {Industry prepared for shift to war footing}
+^Robust MORALE: Negative MORALE values halved
+^{May not make Democratic choice in social engineering}
+^Aquatic: Starts at sea.
 
 #FACTIONTRUCE
 #xs 440
