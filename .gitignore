@@ -1,5 +1,28 @@
 .DS_Store
 *.tmp
+*.cvr
+*.cvr
+/Color Blind Palette/*
+/facs/*
+/fx/*
+/movies/*
+/scenarios/1Explore/*
+/scenarios/2Build/*
+/scenarios/3Conquer/*
+/scenarios/Faction v Faction/*
+/scenarios/MP--2 PlayerA/*
+/scenarios/MP--4 PlayerA/*
+/scenarios/MP--4 PlayerB/*
+/scenarios/SP--7 PlayerA/*
+/scenarios/desktop.ini
+/projs/*
+/saves/*
+/techs/*
+/Unsorted factions/*
+/voices/*
+*/personal/*
+movlist.txt
+movlistx.txt
 A.cvr
 AA-ROVER.cvr
 AA-WING.cvr
@@ -15,6 +38,7 @@ ACP00.cvr
 ACP01.cvr
 ACP02.cvr
 ACP03.cvr
+ACOLPOD.cvr
 ac_logo_sm.pcx
 ADROPER.cvr
 Airdp_sm.pcx
@@ -137,7 +161,6 @@ chiron_sm.pcx
 CLONE.FLC
 cloud_sm.pcx
 colfoun_sm.pcx
-/Color Blind Palette/*
 colorvals.tmp
 Comdlg32.ocx
 conq_sm.pcx
@@ -218,7 +241,6 @@ explosions9.tmp
 facblt_sm.pcx
 facedit.exe
 facedit.txt
-/facs/*
 faction.flc
 faction.pcx
 faction3.pcx
@@ -242,7 +264,6 @@ fungpayld_sm.pcx
 fungtow_sm.pcx
 fung_sm.pcx
 FUNLOAD.cvr
-/fx/*
 gaians.flc
 Gaians.pcx
 GAIANS.tmp
@@ -319,7 +340,6 @@ labelsete.txt
 liberate_sm.pcx
 logfile.txt
 logo.pcx
-/maps/*
 markbm_sm.pcx
 Microsoft.txt
 mindworm_sm.pcx
@@ -355,7 +375,6 @@ morgan.txt
 morgan2.pcx
 morgan3.pcx
 MORGANvals.tmp
-/movies/*
 multi.pcx
 nativdes_sm.pcx
 native_sm.pcx
@@ -385,7 +404,6 @@ pop.pcx
 pop_sm.pcx
 PowerGameSPsDiplo2BaseTechGovsColsForms.SC
 printit.txt
-/projs/*
 Ptmod.cvr
 quake_sm.pcx
 Rainfall.pcx
@@ -439,9 +457,7 @@ sanclift_sm.pcx
 Sas.cvr
 satbat_sm.pcx
 satellite.flc
-/saves/*
 Scd.cvr
-/scenarios/*
 scen_sm.pcx
 scient.exe
 Scj.cvr
@@ -494,7 +510,6 @@ sun_sm.pcx
 supply_sm.pcx
 Tabctl32.ocx
 talent_sm.pcx
-/techs/*
 TECLOAD.cvr
 tectonic_sm.pcx
 ter1.pcx
@@ -517,7 +532,6 @@ univ.txt
 univ2.pcx
 univ3.pcx
 UNIVvals.tmp
-/Unsorted factions/*
 usurper.flc
 usurper.pcx
 USURPER.tmp
@@ -572,7 +586,6 @@ VJT01.cvr
 VJTp.cvr
 VLIGHTS.cvr
 Vm.cvr
-/voices/*
 volc_sm.pcx
 Vpbr00.cvr
 Vpbr01.cvr
@@ -617,4 +630,3 @@ XF.pcx
 xi.pcx
 xopeninga.pcx
 xopeningb.pcx
-
