@@ -1,0 +1,56 @@
+Scenario Name: Australia - The Scenario
+SMAC/ SMAX: SMAC
+Author: Matthew Mu Sung
+Date of original posting: 5/14/99
+Original host site: Civilization Gaming Network
+
+--AUSTRALIA scenario--
+
+Thanks for downloading this scenerio.
+
+This is my second scenario I've made for SMAC. I decided to do this one because since
+I live in Australia and there were other country maps out there, Australia should be
+with them as well. You will notice some landmarks and also some other realistic touches
+such as Uranium near Jabaluka, Great Barrier Reef and no Tasmania 'cause it's not part
+of Australia (just joking). The starting location for each faction is a capital city of
+Australia except Canberra and Hobart (there wasn't much room to expand) so Yang moved
+to Alice. The factions have been located to each state becuase of there personality or
+the look of the faction (Peacekeeper's base look's like St Peter's Cathedral, UoP
+is in Melbourne because of Monash Uni, etc.)
+If you're Australian or you know quite a bit about it here, you'll notice alot of familiar
+places.
+
+*There is also a map version out if you do not want to play the scenario. It should be 
+in the maps section of the site you downloaded this scenario from.*
+
+---------------------------------------------------------------------------------------
+INSTALLATION: Extract files into new folder Australia in the scenario folder.
+---------------------------------------------------------------------------------------
+
+OBJECTIVE: To acheive the highest score to win.
+
+Note: Base population, research, territory etc. count as objective points that
+will contribute to the overall score.
+
+DIFFICULTY: Thinker (default)
+
+Tips: *Expand early as Australia is a large continent
+      *Ally as much as possible to avoid conflict (esp. those near the eastern coast)
+      *If you're the Morgan or Miriam, expand as a top piority as you have the most space
+      *The geography resembles Australia but there are some other things to watch out for :-)
+
+If you find any errors or bugs in this scenario, please don't hesitate to e-mail me about them.
+
+Thanks.
+
+******************
+
+Matthew M.
+
+ICQ:4433460
+
+URL:http://surf.to/bladerunner
+
+******************
+
+14/5/99

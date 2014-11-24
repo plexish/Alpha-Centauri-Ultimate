@@ -1,0 +1,111 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Cult of Stars
+;
+; Visit www.aboveac.cjb.net for more
+;
+; For use this Faction file select load from 
+; faction select in the game and write... cult
+;
+
+#CULT
+The Cult of Stars, The Cult, Cultists, M, 2, Castro, M, 1, 1, 1, 0, 0, 
+  TECH, Mythos, IMMUNITY, MORALE, IMPUNITY, TALENT, ROBUST, POLICE, PENALTY, GROWTH, FACILITY, 33, UNIT, 2, UNIT, 16, PSI, 25, RESEARCH, 1, DRONE, 1, TALENT, 1, ENERGY, 1, HURRY, 90, POPULATION, 1, MINDCONTROL, 0, FANATIC, 0
+  Values, Knowledge, RESEARCH
+  Values, Wealth, nil
+  Cult, Cult
+  Charles Dexter Ward, Charles Dexter Ward, Arkham
+  High Priest, Righteous, Crazy, True Belivers, Mad men, 
+  Mad
+  serve the outer gods
+  to summon the great Cthulhu
+  world conquest
+  your own desiers
+  destroy everything
+  playing with her toys
+  playing with your toys
+  beliving in sience
+  faith, M1
+  cause, M2
+  faction cause, M1
+  tribute, M1
+  the summorning
+  my belivers
+  our agreements
+
+#BASES
+Kadath
+Arkham
+Kokkedal
+Damal
+Newor
+jakal
+Irem
+kanant
+Sarahna
+Tyvus
+Mengsk
+Tyrsis
+Andor
+Elvandar
+DS3
+Base 4
+Hurcan
+Io
+Daran
+das'f hjlk'dfrhhn a
+Pommeren
+Gueyney
+Labar y Haber
+Teng
+Kman
+Ljak
+Arkan
+#END
+
+#WATERBASES
+Innsmouth
+Xyiye
+Abyhkm
+Jaharn
+Balic
+Ur Draxa
+Evermeet
+Maztica
+#END
+
+#BLURB
+Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.
+^
+^
+
+#DATALINKS1
+^LEADER: {High Priest Castro}
+^BACKGROUND: {Secret leader of the Cthulhu Cult}
+^AGENDA: {Summon The Great Cthulhu}
+^TECH: {Social Psych}
+^
+
+#DATALINKS2
+^-: {-}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"ok let's stop this stupid war so that  you may learn the truth
+..."
+
+"yeah i agree"
+"no...your faction will be destroyed"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Do you wanna made the peace with $TITLE0 $NAME1"
+
+"sure $NAME3"
+"not at all, your faction don't interest me"
+
+
+# ; This line must remain at end of file

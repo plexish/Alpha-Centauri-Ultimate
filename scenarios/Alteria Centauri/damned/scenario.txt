@@ -1,0 +1,64 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+;Scenario-specific text for Coming of the Damned.
+
+#INTRO
+#xs 320
+#caption Coming of the Damned
+^^
+M.Y.: $DATE4. Coming of the Damned 
+In the year of our lord 2300 the Damned was exiled from Earth 
+for crimes against humanity. 40 years later they have arrived 
+on planet. They quickly overwhelmed the believers and executed 
+sister Miriam. Now the Spartan Federation leads the struggle 
+to purge the foul taint of the Damned from planet. Can they hold 
+together their alliance of war or will all submit to the rule 
+of the damned?
+
+
+#OBJECTIVES
+#xs 440
+#caption Coming of the damned
+^^
+^^Objectives: Control as much as possible of planet by M.Y. $NUM3
+^^
+^^
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory!
+^^
+^^CONGRATULATIONS!
+^^
+$TITLE0 $NAME1 of the $FACTION2, you control you control planet!
+^
+
+#SCENTIMELOSS
+#xs 440
+#caption Defeat!
+^^
+^^you have lost!
+
+^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $YEAR0
+^^
+
+#; This line must remain at end of file

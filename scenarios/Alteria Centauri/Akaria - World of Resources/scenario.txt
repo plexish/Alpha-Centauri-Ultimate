@@ -1,0 +1,105 @@
+;
+; Sid Meier's ALPHA CENTAURI   (BEST GAME SINCE CIV2)
+;
+; This is the scenario text file for Akaria: World of Resources!
+; This __MUST__ be placed in the same directory with the scenario!
+;
+; Enjoy!
+;
+; Akaria: World Of Resources © 1999 Dane Elwell
+;
+; PLEASE READ THE ACCOMPIANING TEXT FILE!
+;
+; <-|CoreDump|->   (a.k.a Dane Elwell)
+
+#INTRO
+#xs 320
+#caption Akaria: World Of Resources!
+^^
+M.Y: $DATE4. It has been three years since you first landed here.
+Your faction has expanded, utilising its resources and its land.
+The only way that your faction is going to survive is if you have all
+three resources under your control. Other factions don't want to share
+so you must get the resources off them! 
+$TITLE1 $NAME2 of the $FACTION3, your goal is to have 19 objective bases,
+out of a total of 21 objective bases, under your control by M.Y 3050.
+^
+You have around 170 turns to complete your objectives.
+^
+Good luck, $TITLE1 $NAME2!
+^^
+^^
+
+#OBJECTIVES
+#xs 440
+#caption Akaria: World Of Resources!
+^^
+^^Objectives: You must control X objective bases by M.Y 3050
+^^
+^^
+^^OBJECTIVE bases currently under your control: $NUM2
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory!
+^^
+^^CONGRATULATIONS!
+^^
+$TITLE0 $NAME1 of the $FACTION2, you control the 19 objective bases!
+^
+
+#SCENTIMELOSS
+#xs 440
+#caption Defeat!
+^^
+You have failed to gain control of all objective bases.
+You have failed to get enough of all three minerals under your control
+to allow you to survive on this planet.
+
+Two years later your faction abandons this world...
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption DEFEAT!
+^^
+$TITLE0 $NAME1 of the $FACTION2 controls ALL the OBJECTIVE bases.
+You have failed to get enough of all three minerals under your control
+to allow you to survive on this planet.
+
+Two years later your faction abandons this world...
+^
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory!
+^^
+CONGRATULATIONS!
+^
+$TITLE0 $NAME1 of the $FACTION2, you control 19 OBJECTIVE bases!
+Your faction can now survive on this planet!  
+
+Congradulations $TITLE0 $NAME1!
+^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. 3050
+^^
+
+#; This line must remain at end of file

@@ -1,0 +1,103 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Scenario-specific text for Near Perfect Planet scenario
+;
+; A Scenario created by Matthew Mu Sung
+;
+; kakzoboy@geocities.com
+;
+; http://surf.to/bladerunner
+; 
+; 24/3/99
+;
+;
+; Have Fun and Good Luck!
+;
+
+#INTRO
+#xs 320
+#caption Perfect is just not good enough....
+^^
+$TITLE1 $NAME2 of the $FACTION3: As you decend towards
+a unknown planet, all seven leaders are eager to set up
+the perfect colony. From the looks above, the planet
+looks rich in nutrients, minerals and water with no signs
+of any alien life form. As you land on the planet, each
+faction has been assigned to a equal section of the planet.
+Each leader begins to set up headquarters and so the
+colonisation begins!
+By M.Y. 2600, reach transcendence and build the ultimate
+colony with everything to gain the most objective points.
+^
+^^Start Date: M.Y. 2115
+^^End Date: M.Y. 2600
+^^
+^^
+
+#OBJECTIVES
+#xs 440
+#caption Perfect is just not good enough....
+^^
+^^Objective: Build the Perfect Colony by M.Y. 2600.
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory!
+^^
+CONGRATULATIONS, $TITLE0 $NAME1 of the $FACTION2! Your faction controls
+the Perfect Colony on a Perfect Planet.
+^^
+
+#SCENTIMELOSS
+#xs 440
+#caption Defeat!
+^^
+$TITLE0 $NAME1 of the $FACTION2 now controls the largest amount of 
+territory. Your faction has been relegated to second-class status as 
+the next era dawns...
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^YOU HAVE WON THE SCENARIO!
+^^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO IS APPROACHING
+^^
+^^GAME WILL END IN M.Y. $YEAR0
+^^
+
+
+#; This line must remain at end of file

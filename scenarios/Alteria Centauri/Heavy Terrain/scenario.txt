@@ -1,0 +1,122 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Scenario-specific text for Heavy Terrain Scenario
+;
+; A Scenario created by Joseph Balderson
+;
+; ay527@torfree.net
+;
+; Have fun!
+;
+
+#INTRO
+#xs 320
+#caption Good news for the unity crew
+As your unity pod streaks away towards Planet, you, $TITLE1 $NAME2 of the $FACTION3, 
+are pleased that at the last minute your technicians managed to
+download a copy of the recovered data from the wreck of the Unity 
+that was found by the now asassinated Captain Garland. You thought 
+you might have to rebuild everything from scratch, reinvent new 
+technologies, recreate civilization anew. But much was saved of 
+the original files, which has greatly accelerated your initial progress 
+on Planet. From last you heard, the other factions also had the 
+exact same data upon their arrival.
+^
+Your findings have shown Planet to be replete with rolling, 
+mountainous terrain, with large tracts of Xenofungus everywhere. 
+And then there are the mind worms...
+^
+But you have not had much luck finding the other factions. 
+Until now. As head of the $FACTION3, you have recently acquired 
+the commlink signals to two of the other factions. 
+^
+And until now you have not paid much attention to the survey 
+records made by the original Unity pod. Looking again at the 
+findings of the pod's AI as it made its way to planetfall, you 
+notice several spots on Planet that might be of interest to 
+future growth and colonisation. And one picture of what seems 
+to be some evidence of debris, or a structure of some sort... 
+another faction, or evidence of a non-human civilization? 
+You are unsure...
+^
+^^Start Date: 2200
+^^  End Date: 2500
+
+#OBJECTIVES
+#xs 440
+#caption HeavyTerrain
+^^
+^^Objectives: 
+^Win by acheiving Transcendance.
+^Win by acheiving Diplomatic Victory.
+^Win by acheiving Economic Victory.
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory!
+^^
+CONGRATULATIONS, $TITLE0 $NAME1 of the $FACTION2! 
+Your faction is the dominant force on Planet, and now 
+the future of mankind is truly at your command!
+^^
+
+#SCENTIMELOSS
+#xs 440
+#caption Defeat!
+^^
+$TITLE0 $NAME1 of the $FACTION2 is now the dominant force 
+on Planet and has inherited the furure of mankind. 
+Your faction will always be important to the cosmic diversity 
+in the grand design, but unfortunately all important decisions
+affecting Planet have been removed from your grasp 
+as the next era dawns...
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^YOU HAVE WON THE SCENARIO!
+^^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $YEAR0
+^^
+
+
+#; This line must remain at end of file
+
+
+
+

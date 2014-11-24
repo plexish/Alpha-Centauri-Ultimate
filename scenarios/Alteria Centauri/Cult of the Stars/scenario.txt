@@ -1,0 +1,78 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+;Scenario-specific text for The Cult of Stars Visit www.aboveac.cjb.net for more
+#INTRO
+#xs 320
+#caption The Cult of Stars
+^^
+M.Y.: $DATE4. The Cult of Stars (aka. The Cthulhu Cult) has risen to prominence on Chiron 
+and now that the stars are right, they plan to wake the great Cthulhu from his eternal sleep. 
+This will result in worldwide madness and riots where humanity will be destroyed. 
+The other fractions are divided; some are strongly against the cult's agenda 
+but others are having to many internal problems to care. All the while the Mi-Gos 
+work to preserve the mining stations they have on Chiron as well as earth, which cannot be
+if their ancient enemy are resurrected. 
+$TITLE1 $NAME2 of the $FACTION3, your goal is either to summon the great cthulhu or destroy 
+the Cthulhu cult.
+^
+^^
+
+#OBJECTIVES
+#xs 440
+#caption Objective^^
+^^Objectives: As in normal SMAC^^
+^^
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory!
+^^
+^^CONGRATULATIONS!
+^^
+$TITLE0 $NAME1 of the $FACTION2, You have won the scenario.
+^
+
+#SCENTIMELOSS
+#xs 440
+#caption Defeat!
+^^
+You have FAILED in your quest.
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption DEFEAT!
+^^
+
+^
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory!
+^^
+CONGRATULATIONS!
+^
+^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $YEAR0
+^^
+
+#; This line must remain at end of file

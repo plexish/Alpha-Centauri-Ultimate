@@ -1,0 +1,99 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Scenario-specific text for the Australia scenario
+;
+; A Scenario created by Matthew Mu Sung
+;
+; kakzoboy@geocities.com
+;
+; http://surf.to/bladerunner
+; 
+; 14/5/99
+;
+;
+; Have Fun and Good Luck!
+;
+
+#INTRO
+#xs 320
+#caption The Land Down Under
+^^
+$TITLE1 $NAME2 of the $FACTION3: Each faction
+has set up base at at one of the capital cities
+of Australia except Canberra and Hobart which was
+replaced by Alice Springs. The land is exactly like
+Australia they seen on earth so they are expecting
+nothing new. So on to the colonising!
+^
+^^Start Date: M.Y. 2110
+^^End Date: M.Y. 2500
+^^
+^^
+
+#OBJECTIVES
+#xs 440
+#caption The Land Down Under
+^^
+^^Objective: To gain the highest score
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory!
+^^
+CONGRATULATIONS, $TITLE0 $NAME1 of the $FACTION2! Your faction has
+acheived the highest score on planet Australia.
+^^
+
+#SCENTIMELOSS
+#xs 440
+#caption Defeat!
+^^
+$TITLE0 $NAME1 of the $FACTION2 has achieved the highest score. 
+Your faction has been relegated to second-class status as 
+the next era dawns...
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^YOU HAVE WON THE SCENARIO!
+^^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO IS APPROACHING
+^^
+^^GAME WILL END IN M.Y. $YEAR0
+^^
+
+
+#; This line must remain at end of file

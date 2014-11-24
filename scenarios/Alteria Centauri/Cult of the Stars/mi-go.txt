@@ -1,0 +1,111 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Fungi from Yuggoth
+;
+; Visit www.aboveac.cjb.net for more
+;
+; For use this Faction file select load from 
+; faction select in the game and write... mi-go
+;
+
+#MI-GO
+The Fungi from Yuggoth, Mi-go, Mi-gos, M, 2, Yuixol, M, 1, 0, 0, 1, 1, 
+  TECH, Orbital, IMMUNITY, MORALE, IMPUNITY, TALENT, ROBUST, POLICE, PENALTY, GROWTH, FACILITY, 35, FACILITY, 4, PSI, 25, RESEARCH, 1, DRONE, 1, TALENT, 1, ENERGY, 1, HURRY, 60, TECHCOST, 60, MINDCONTROL, 0
+  Politics, Police State, EFFIC
+  Economics, Green, nil
+  Mi-go, Mi-go
+  Karl, Xyoi-top, Mine 2
+  Commander, Hard working, Sloppy, Hard working, Lazy, 
+  Lazy
+  live in peace
+  to mine in peace
+  war
+  war
+  spit in my face
+  having fun
+  having fun
+  disturbing the workers
+  faction, M1
+  friendship, M2
+  cause, M1
+  tax, M1
+  war
+  troopers
+  all agreements
+
+#BASES
+base1
+base2
+base3
+base4
+base5
+base6
+base7
+base8
+base9
+base10
+base11
+base12
+base13
+base14
+base15
+base16
+base17
+base18
+base19
+base20
+base21
+base22
+base23
+base24
+base25
+base26
+mine
+#END
+
+#WATERBASES
+waterbase1
+waterbase2
+waterbase3
+waterbase4
+waterbase5
+waterbase6
+waterbase7
+waterbase8
+#END
+
+#BLURB
+The Fungi from Yuggoth
+^
+^???????????????????????
+
+#DATALINKS1
+^LEADER: {Yuixol}
+^BACKGROUND: {Leader of the Mi-go mining colony on Chiron}
+^AGENDA: {Live in peace}
+^TECH: {Space Flight}
+^
+
+#DATALINKS2
+^-: {-}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"ok let's stop this stupid war but  you may learn to make better
+soldiers"
+
+"yeah i agree"
+"no...your faction will be destroyed"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Do you wanna made the peace with $TITLE0 $NAME1"
+
+"sure $NAME3"
+"not at all, your offer don't interest me"
+
+
+# ; This line must remain at end of file

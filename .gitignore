@@ -1,7 +1,6 @@
 .DS_Store
 *.tmp
 *.cvr
-*.cvr
 /Color Blind Palette/*
 /facs/*
 /fx/*

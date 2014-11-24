@@ -1,0 +1,52 @@
+Scenario Name: Near Perfect Scenario
+SMAC/ SMAX: SMAC
+Author: Matthew Mu Sung
+Date of original posting: 3/24/99
+Original host site: Civilization Gaming Network
+
+--NEAR PERFECT PLANET scenario--
+
+Thanks for downloading this scenerio.
+
+As promised, 3 days after releasing the terrain,
+here is the scenario. The map has been slighly
+imporved with land connecting the north and south
+land masses. The land has been equally divided into
+7 equal sections for each faction. Please read the
+intro for more info.
+
+---------------------------------------------------------------------------------------
+INSTALLATION: Extract files into new folder Near Perfect Planet in the scenario folder.
+---------------------------------------------------------------------------------------
+
+OBJECTIVE: Reach transcendence (the only way to win) and build the ultimate colony.
+
+Note: Base population, research, territory etc. count as objective points that
+will contribute to the overall score.
+
+DIFFICULTY: Thinker (cannot be changed)
+
+Note: The personality of each leader has also been randomised to make it more interesting...
+
+Tips: *Try to set up base early to start research but build bases on productive land.
+      *Make researching your top piority as you need to reach transcendence
+      *Expand to cover as much territory as possible
+      *Build aircrafts to patrol and defend you territory as soon as you have the technology
+      *Obviously if you use University then you'll have a head start so when you finish
+       it then try another faction to win with
+
+If you find any errors or bugs in this scenario, please don't hesitate to e-mail me about them.
+
+Thanks.
+
+******************
+
+Matthew M.
+
+ICQ:4433460
+
+URL:http://surf.to/bladerunner
+
+******************
+
+24/3/99

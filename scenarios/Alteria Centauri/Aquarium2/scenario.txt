@@ -1,0 +1,97 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Scenario-specific text for Aquarium Scenario
+;
+; A Scenario created by Simon de Vet
+;
+; http://home.istar.ca/~sdevet
+; sdevet@istar.ca
+;
+; Have fun!
+;
+
+#INTRO
+#xs 320
+#caption An unpleasant discovery
+^^
+$TITLE1 $NAME2 of the $FACTION3: Upon arriving at Chiron, the
+Unity probes discover something quite startling. Instead of the 
+lush, earthlike planet you had been promised, you stumble upon 
+a world of water. A mistake? A conspiracy? It is hardly relevant 
+anymore. Luckily, before the crash landing, you and your crewmates 
+manage to download the Unity files on seafaring. Just be happy that 
+the landing probes can double as personal floatation devices.
+^
+^^Start Date: 2100
+^^End Date: Variable
+^^
+^^
+
+#OBJECTIVES
+#xs 440
+#caption Aquarium
+^^
+^^Objective: Win.
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory!
+^^
+CONGRATULATIONS, $TITLE0 $NAME1 of the $FACTION2! Your faction controls
+the largest amount of territory, sealing your dominance over the other
+factions! 
+^^
+
+#SCENTIMELOSS
+#xs 440
+#caption Defeat!
+^^
+$TITLE0 $NAME1 of the $FACTION2 now controls the largest amount of 
+territory. Your faction has been relegated to second-class status as 
+the next era dawns...
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^YOU HAVE WON THE SCENARIO!
+^^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $YEAR0
+^^
+
+
+#; This line must remain at end of file

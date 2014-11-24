@@ -1,0 +1,117 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Damned
+;
+; Made with ACEdit (c)1999 ANX  at http://www.acedit.8m.com
+;
+; For use this Faction file select load from 
+; faction select in the game and write... Damned
+;
+
+#DAMNED
+The Damned, The Damned, Damned, M, 1, Martin, M, 0, 1, 0, 0, 0, 
+  TECH, InfNet, TECH, 1, SOCIAL, ++RESEARCH, SOCIAL, --PROBE, FACILITY, 8, DRONE, 4, MORALE, no, INTEREST, non
+  Values, Power, Choose one
+  Politics, Fundamentalist, nil
+  DAMNED, DAMNED
+  Nataliya, Fedorov, Nataliya Lab
+  Lord Commander, brilliant, unethical, talented, reckless, 
+  Madman
+  reducing us all to mindless servants of his diabolical schemes
+  reducing us all to mindless servants of your diabolical schemes
+  reduce the human population of this world into mindless slavery
+  torturing the wretched fools who chose to follow him
+  torturing the wretched fools who chose to follow you
+  preaching brutal nihilism
+  dreaming up new ways to exterminate our species
+  dreaming up new ways to exterminate our species
+  conducting unethical rese, M1
+  unethical methods, M2
+  research, M1
+  "research", M1
+  research grant, M1
+  pushing the boundaries of science
+  University Enforcement
+
+#BASES
+New Hope
+Safe Harbor
+Lab Three
+Library of Planet
+Planetary Archives
+Razvitia Progress Base
+Cosmograd
+Budushii Dvor
+Tsiolkovsky Institute
+Mendelev College
+Nauk Science Center
+Zarya Sunrise
+Nadezjda Hope
+Academgorodok
+Koppernigk Observatory
+Svobodny Free Base
+Zvedny Gorodok
+Baikonur
+Bibliotyek Science
+Bibliotyek Letters
+Climactic Research
+Monitoring Station
+Buran Prospect
+Mir Lab
+Relativity School
+Pavlov Biolab
+Lomonosov Park
+#END
+
+#WATERBASES
+Tech Core
+Dark Domain
+The Marine Institute
+Marine Biology Lab
+Oceanographic Lab
+Hydrothermal Institute
+Deep Sea Lab
+Hell
+#END
+
+#BLURB
+Might makes right 
+ ^
+ ^        --   Lord Commander Martin,
+ ^           "Codex of the Damned"
+
+#DATALINKS1
+^LEADER: {Lord Commander Martin}
+^BACKGROUND: {Earth, Surpreme Commander}
+^AGENDA: {Power.}
+^TECH: {Doctrine: Flexibility}
+^
+
+#DATALINKS2
+^+2 MORALE: {Well-armed survivalist movement}
+^+1 POLICE: {Highly disciplined followers}
+^Underground bunkers: {Free PERIMETER DEFENSE at each base}
+^{Prototype units do not cost extra minerals}
+^{One BONUS TECH at beginning of gam}
+^{Extra DRONE for every four citizens {(lack of ethics)}
+^{May not use Fundamentalist Politics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Call off your dogs, $NAME1. I am ready to pledge Blood Truce if you will leave me to my research."
+
+"Very well, but do not provoke me further."
+"Too bad, $NAME3. Your fate is already sealed."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"We are peaceful researchers, $TITLE0 $NAME1. Will you sign a Treaty of Friendship and leave us to study in peace?"
+
+"Of course. We must certainly strive to increase our knowledge."
+"No. I don't trust your unethical approach to research, $NAME3."
+
+
+# ; This line must remain at end of file

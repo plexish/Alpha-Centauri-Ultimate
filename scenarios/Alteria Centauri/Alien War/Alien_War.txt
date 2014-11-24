@@ -1,0 +1,36 @@
+Alien War Scenario
+
+-------------------
+The story:
+
+On Earth you were a military officer, and when United Nations offered you membership in planned expedition to Alpha Centauri as Security Commander you decided to join. Flight was not succesful in its last stage and the starship "Unity" crashed on Chiron, the only habitable planet in the star system. Several escape pods landed scattered over the nearby region. Since many crew members survived, it would appear that the future of the mission is secured. Unfortunately, one year after the planetfall things look even worse. A distinct division between U.N. mission leaders emerged. Commisioner Pravin Lal frustrated with actions of other leaders and their apparent will to proceed with their own agendas adapted doctrine of strong rule over the mission. He secured support of Lady Deirdre Sky for himself, but failed to do it with science officer, Provost Zakharov and CEO Nwabudike Morgan. Zakharov decided to resist Pravin Lal, and created strong alliance with CEO Morgan.
+
+You found yourself in an extremely difficult position, between two groups fiercely opposed each other and almost ready for war. Recently, Pravin Lal created a defensive perimeter around the main base, his U.N. Headquarters. On top of that there is a report that just before the crash of the "Unity", the starship recorded an activity on the planet, which was most likely of an alien origin. However, this report is being neglected by the other leaders. They are too occupied with their personal quarrels.
+
+You realize, that the mission is about to fail. You have talked to your subordinates, and you know that many of them sympathise strongly with either one or the other side. If you join one side, the military will be fragmented too. You decide that the only possible way to save the mission is to stay neutral. You gather the most loyal to you military officers and troops and depart the human colony bases heading east. You cross high mountain range dividing the continent and travelling across the desert you reach eastern coast. 
+
+You know that your recent departure from the colony was not welcomed by Pravin Lal, Provost Zakharov and CEO Morgan. However, judgeing from your last conversation with Lady Deirdre, you conclude that she understood your position and perhaps you may count for her support in difficult times.
+
+The year is 2101.
+Will you be succesful in establishing stable colony?
+Will disagreement between mission leaders be settled?
+Who are the aliens?
+
+-------------------
+You play Spartans
+Transcend level
+64x128 map size
+All victory conditions, but highest score wins.
+Tech stagnation
+No random events
+No spoils of war
+Directed research
+Iron Man
+
+Faction 1=CARETAKE
+Faction 2=USURPER
+Faction 3=PEACE
+Faction 4=UNIV
+Faction 5=GAIANS
+Faction 6=MORGAN
+Faction 7=SPARTANS

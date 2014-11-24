@@ -1,0 +1,93 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Scenario-specific text for Conquest of Europe Scenario
+;
+; A Scenario created by Dan Garmat
+;
+; consultrg@worldnet.att.net
+;
+; Enjoy!
+;
+
+#INTRO
+#xs 320
+#caption WW3
+^^
+$TITLE1 $NAME2 of the $FACTION3: In the year 2100, the
+French feelings of superiority became too much for everyone
+else. The French leader, Jaques LaFleur has stirred the 
+Frenchies to war, and the world will not rest. Play as the
+French to continue their conquest, or another to put an end
+to it. The British are the weakest.
+^
+^^Start Date: 2100
+^^End Date: 2700
+^^
+^^
+
+#OBJECTIVES
+#xs 440
+#caption WW3
+^^
+^^Objective: Win.
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory!
+^^
+CONGRATULATIONS, $TITLE0 $NAME1 of the $FACTION2! Your faction has won! 
+^^
+
+#SCENTIMELOSS
+#xs 440
+#caption Defeat!
+^^
+$TITLE0 $NAME1 of the $FACTION2 now controls the largest amount of 
+territory. Your faction has been relegated to second-class status as 
+the next era dawns...
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^YOU HAVE WON THE SCENARIO!
+^^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $YEAR0
+^^
+
+
+#; This line must remain at end of file
