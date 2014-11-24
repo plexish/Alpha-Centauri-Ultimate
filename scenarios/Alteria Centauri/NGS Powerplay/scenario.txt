@@ -1,0 +1,150 @@
+; XENOFUNGUS http://xenofungus.cjb.net
+; 
+; Strategic Scenarios for Sid Meier's ALPHA CENTAURI
+;
+; Copyright (c) 1999/2001 Tres [ tox@technologist.com ]
+;
+; NOT FOR COMMERCIAL USE!
+;
+
+
+#INTRO
+#xs 320
+#caption XENOFUNGUS - STRATEGIC SCENARIOS FOR SMAC (US Version)
+^
+^SCENARIO : New Ground Series - POWERPLAY v1.2
+^
+^BACKGROUND / STORY : http://xenofungus.cjb.net
+^
+^SCENARIO TYPE : Builder Scenario
+^
+
+
+#OBJECTIVES
+#xs 440
+#caption Deep Space Colony CHIRON 
+^^SUB-COLONY LEADER: 
+^^$FACTION1 $FACTION2, $FACTION3
+^
+^^TARGETS: 
+^^Establish autonomous bases.
+^^Build up an effective infrastructure.
+^^Discover advanced technologies.
+^^Establish diplomatic relations to the competing sub-colonies.
+^^Develop social structures.
+^
+^^ACHIEVED TARGETS:
+^^$NUM2
+^^(The achieved targets increase your prestige to the competing sub-colonies)
+
+
+
+
+#SCENTIMEWIN
+#xs 440
+#caption Deep Space Colony 
+^^SUB-COLONY LEADER: 
+^^$FACTION1 $FACTION2, $FACTION3
+^
+^^TARGETS: 
+^^Establish autonomous bases.
+^^Build up an effective infrastructure.
+^^Discover advanced technologies.
+^^Establish diplomatic relations to the competing sub-colonies.
+^^Develop social structures.
+^
+^^ACHIEVED TARGETS:
+^^$NUM2
+^^(The achieved targets increase your prestige to the competing sub-colonies)
+
+
+
+
+#SCENTIMELOSS
+#xs 440
+#caption Deep Space Colony 
+^^SUB-COLONY LEADER: 
+^^$FACTION1 $FACTION2, $FACTION3
+^
+^^TARGETS: 
+^^Establish autonomous bases.
+^^Build up an effective infrastructure.
+^^Discover advanced technologies.
+^^Establish diplomatic relations to the competing sub-colonies.
+^^Develop social structures.
+^
+^^ACHIEVED TARGETS:
+^^$NUM2
+^^(The achieved targets increase your prestige to the competing sub-colonies)
+
+
+
+
+
+#SUDDENDEATH
+#xs 440
+#caption Deep Space Colony 
+^^SUB-COLONY LEADER: 
+^^$FACTION1 $FACTION2, $FACTION3
+^
+^^TARGETS: 
+^^Establish autonomous bases.
+^^Build up an effective infrastructure.
+^^Discover advanced technologies.
+^^Establish diplomatic relations to the competing sub-colonies.
+^^Develop social structures.
+^
+^^ACHIEVED TARGETS:
+^^$NUM2
+^^(The achieved targets increase your prestige to the competing sub-colonies)
+
+
+
+
+
+#SUDDENDEATH0
+#xs 440
+#caption Deep Space Colony 
+^^SUB-COLONY LEADER: 
+^^$FACTION1 $FACTION2, $FACTION3
+^
+^^TARGETS: 
+^^Establish autonomous bases.
+^^Build up an effective infrastructure.
+^^Discover advanced technologies.
+^^Establish diplomatic relations to the competing sub-colonies.
+^^Develop social structures.
+^
+^^ACHIEVED TARGETS:
+^^$NUM2
+^^(The achieved targets increase your prestige to the competing sub-colonies)
+
+
+
+
+
+
+
+
+#SCENARIOWARNING
+#xs 440
+#caption Deep Space Colony 
+^^SUB-COLONY LEADER: 
+^^$FACTION1 $FACTION2, $FACTION3
+^
+^^TARGETS: 
+^^Establish autonomous bases.
+^^Build up an effective infrastructure.
+^^Discover advanced technologies.
+^^Establish diplomatic relations to the competing sub-colonies.
+^^Develop social structures.
+^
+^^ACHIEVED TARGETS:
+^^$NUM2
+^^(The achieved targets increase your prestige to the competing sub-colonies)
+
+^
+^^Deep Space Colony Chiron will be integrated in the Terran Empire in the year M.J. $NUM0 
+
+
+#; Diese Zeile muﬂ am Dateiende stehen.

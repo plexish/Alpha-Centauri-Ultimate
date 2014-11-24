@@ -1,0 +1,136 @@
+; XENOFUNGUS http://xenofungus.cjb.net
+; 
+; Strategic Scenarios for Sid Meier's ALPHA CENTAURI
+;
+; Scenario File "AlterWars : Buccaneers!" (V1.0/US)
+;
+; Copyright (c) 1999 Tres (trespassa@lycosmail.com)
+;
+; NOT FOR COMMERCIAL USE!
+
+
+#BELIEVE
+Zion Hydroponics Inc, The Farmer, Farmers, M, 2, Miriam, F,  1,  1, 0, 0, 1,
+  TECH, Psych, SOCIAL, --RESEARCH, SOCIAL, +PROBE, Energy, 250, SOCIAL, ++SUPPORT, SOCIAL, -PLANET, FANATIC, 0
+  Politics, Fundamentalist, PROBE
+  Values, Knowledge, nil
+  Cultivating, Cult.,
+  Jessica, Westcott, Jessica's Faith
+  Agriculturist, green thumping,
+  Agricultural Specialist
+  embrace the truth of the Hydroponic Scripture
+  to embrace the truth of the good Hydroponic Scripture
+  imposing her agricultural moral code on everyone else
+  imposing your agricultural moral code on everyone else
+  shove your farming extremism down my throat
+  pounding her cherished handbook of low gravity hothouse management 
+  pounding your Handbook of Low Gravity Hothouse Management
+  green thumping extremism
+  green thumping extremism, M1
+  life of agricultural, M1
+  bizarre growing practices, M2
+  tithe, M1
+  upholding standards of food and tilled land
+  my Seeds of Garden Eden
+  Zion Hydroponics Food Trade Charta
+
+#BASES
+New Jerusalem
+Great Conclave
+Great Zion
+Far Jericho
+Redemption Base
+Children of God
+Noah's Rainbow
+The Voice of God
+Judgement Seat
+Valley of the Faithful
+Blessed Redeemer
+The Glory of God
+New Eden
+Terrible Swift Sword
+Time of Salvation
+Eternal Reward
+The Lord's Mercy
+Righteous Sentence
+Throne of God
+The Rapture
+The Lord's Wrath
+The Lord's Grace
+The Hand of God
+The Coming of the Lord
+Sanctity Base
+The Lord's Chosen
+Hallowed Ground
+The Lord's Gift
+Divinity Base
+The Word of God
+Revelation Base
+The Holy Fire
+The Lord's Truth
+Blessed Saviour
+From On High
+Godwinson's Hope
+House of Martyrs
+#END
+
+#WATERBASES
+He Walked on Water
+Loaves and Fishes
+Belly of the Whale
+Fisher of Men
+Port Grace
+Water to Wine
+Consecrated Waters
+#END
+
+#BLURB
+The righteous need not cower before the drumbeat of human hunger.
+Though the song of yesterday fades into the challenge of tomorrow,
+God still watches and nourish us. Evil lurks in the Barren Lands as it
+lurked in the Garden of Eden. But it was never the Garden
+that was evil.
+^
+^        -- Agricultural Specialist Miriam Godwinson,
+^           "Zion Hydroponics Food Trade Charta"
+
+#DATALINKS1
+^LEADER: {Agricultural Specialist Godwinson}
+^BACKGROUND: {ZH Agrar Conglomerate, Zion Hydroponics}
+^AGENDA: {Life of Agricultural Management}
+^TECH: {Social Psych}
+^
+
+#DATALINKS2
+^+25% Bonus when attacking enemies, from strength of convictions.
+^+1 PROBE:  {Devout believers difficult to brainwash}
+^+2 SUPPORT: {Citizens eager to defend faith}
+^-2 RESEARCH:  {Suspicious of secular science}
+^-1 PLANET:  {Believe Planet is their promised land}
+^Accumulates NO research points until MY 2110.
+^{May not use Knowledge value in Social Engineering.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME1, it is the Lord's Will that we end this immoral conflict.
+Pledge Food Truce with me and I shall pray for your
+stomach's redemption."
+
+"As you wish. Truce pledged."
+"I'll see you in starving hell first, $NAME3."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"I have been praying for you lately, $TITLE0 $NAME1. The Lord
+wishes us to live side by side as brothers and sisters; we must
+sign a Treaty of Friendship and eat together in peace."
+
+"Amen, $NAME3. Lasting peace is a great gift indeed."
+"No. Your fanaticism makes me shiver, $NAME3."
+
+
+
+# ; This line must remain at end of file
+

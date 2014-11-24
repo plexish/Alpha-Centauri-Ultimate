@@ -1,0 +1,136 @@
+; XENOFUNGUS http://xenofungus.cjb.net
+; 
+; Strategic Scenarios for Sid Meier's ALPHA CENTAURI
+;
+; Copyright (c) 1999/2001 Tres [ tox@technologist.com ]
+;
+; NOT FOR COMMERCIAL USE!
+;
+
+
+
+#INTRO
+#xs 320
+#caption Xenofungus - Strategic Scenarios for SMAC (US Version)
+^
+^SCENARIO : D-Day Trilogy [Part 1] - D-DAY 2150 v3.0
+^
+^BACKGROUND / STORY : http://xenofungus.cjb.net
+^
+^SCENARIO TYPE : Military Operation
+^
+
+
+
+#OBJECTIVES
+#xs 440
+#caption Hive Supreme Commando
+^
+^Message to:
+^
+^General Yang, Commander Operation D-Day 2150
+^
+^
+^Orders:
+^
+^Conquer the following enemy cities:
+^MORGAN INDUSTRIES (Morgan Primary Ressource) 
+^UN-HEADQUARTER (Carzinome Desert)
+^
+^Defend the HIVE INVASION ZONE at all cost.
+^
+^Operational Status:
+^
+^Achieved Targets: $NUM2
+^
+
+#SCENTIMELIMIT
+#xs 440
+#caption Hive Supreme Commando
+^
+^M.J. $YEAR0
+^
+^Termination Operation D-Day 2150
+^
+^Cities to take planetary control:  
+^MORGAN INDUSTRIES (conquer) 
+^UN-HEADQUARTER (conquer)
+^HIVE INVASION ZONE (defend)
+^
+^Achieved Targets: $NUM2
+^
+
+#SCENTIMEWIN
+#xs 440
+#caption Hive Supreme Commando
+^
+^Termination Operation D-Day 2150
+^
+^Cities to take planetary control: 
+^MORGAN INDUSTRIES (conquer) 
+^UN-HEADQUARTER (conquer)
+^HIVE INVASION ZONE (defend)
+^
+^Achieved Targets: $NUM2
+^
+
+#SCENTIMELOSS
+#xs 440
+#caption Hive Supreme Commando
+^
+^Termination Operation D-Day 2150
+^
+^Cities to take planetary control: 
+^MORGAN INDUSTRIES (conquer) 
+^UN-HEADQUARTER (conquer)
+^HIVE INVASION ZONE (defend)
+^
+^Achieved Targets: $NUM2
+^
+
+#SUDDENDEATH
+#xs 440
+#caption Hive Supreme Commando
+^
+^Termination Operation D-Day 2150
+^
+^Cities to take planetary control:  
+^MORGAN INDUSTRIES (conquer) 
+^UN-HEADQUARTER (conquer)
+^HIVE INVASION ZONE (defend)
+^
+^Achieved Targets: $NUM2
+^
+
+#SUDDENDEATH0
+#xs 440
+#caption Hive Supreme Commando
+^
+^Termination Operation D-Day 2150
+^
+^Cities to take planetary control: 
+^MORGAN INDUSTRIES (conquer) 
+^UN-HEADQUARTER (conquer)
+^HIVE INVASION ZONE (defend)
+^
+^Achieved Targets: $NUM2
+^
+
+
+
+
+#SCENARIOWARNING
+#xs 440
+#caption Hive Supreme Commando
+^
+^Operation D-Day 2150 will be terminated M.J. $NUM0
+^
+^Cities to take planetary control: 
+^MORGAN INDUSTRIES (conquer) 
+^UN-HEADQUARTER (conquer)
+^HIVE INVASION ZONE (defend)
+^
+^Achieved Targets: $NUM2
+^
+
+#; This line must remain at end of file

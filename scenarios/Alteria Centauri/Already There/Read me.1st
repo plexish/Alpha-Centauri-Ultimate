@@ -1,0 +1,20 @@
+I made 2 different settings:
+
+a) I took the original factions and made no changes in their settings, except
+that the Caretakers are set to "exceptionel peaceful) and do have no starting
+tech exept the Progenitor Psych and shall have the Applied Physics in 2121.
+You must not change the original faction's txt files.
+The fixed difficult level is set to Librarian as present we've still a bug in the
+higher levels. (This version seems to me being more easy that version "b")
+
+b) I changed the caretaker's settings (to the same like Gaia except negave morale) and gave all human factions additional research 
+(this may be better for starting the game as multiuser PBEM).
+
+*Important*: In the case that you use this version "b": 
+before loading the scenario the original "caretake.txt" must be overwritten
+by the modified txt file "0-scenario-caretake.txt" that is hereby.
+(for easy handling I also attached here the original "caretaker.txt" and 2 batch files, so that you don't forget to set the original back after playing)
+------------------------------------------------------------------------------------------
+Dreifels@1st-euro.net
+Dec 06, 1999
+http://1st-euro.net/AC/

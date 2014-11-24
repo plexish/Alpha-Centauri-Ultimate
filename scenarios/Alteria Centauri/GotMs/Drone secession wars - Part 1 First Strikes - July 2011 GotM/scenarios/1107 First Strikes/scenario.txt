@@ -1,0 +1,121 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Scenario Template
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+; This file can be copied into the same directory as a scenario
+; file and customized for that scenario.
+;
+; Many game text files (e.g. ALPHA.TXT, SCRIPT.TXT, etc), as well
+; as art files (UNITS.PCX, etc) can be copied into the scenario
+; directory and modified; files in the scenario directory automatically
+; override files in the main game directory.
+;
+; Note that all of the strings and numbers in #INTRO and #OBJECTIVES
+; can be used in either. #INTRO is shown at the beginning of the
+; scenario; #OBJECTIVES is shown when "review objectives" is picked
+; from the menu.
+;
+
+#INTRO
+#xs 320
+#caption SCENARIO
+^^
+^^Commencing Scenario
+^^
+^^$TITLE1 $NAME2 of the $FACTION3
+^^In order to qualify for the prizes of the GotM competition you will have  
+^^to successfully incite drone riots, simultaneously, in at least 2 of the following
+^^Hiverian bases:
+^^Chairman's Burrow
+^^Social Artery
+^^People's Endeavor
+^^For a 'Bronze victory' you need incite drone riots in 2 bases simultaneously;
+^^For a 'Silver victory' you need incite drone riots in 3 bases simultaneously;
+^^For a 'Gold victory' you need incite drone riots in 3 bases simultaneously by MY2210;
+^^The respective bases must be rioting at the moment of the save.
+^^You can submit saves with only one city rioting but that will not guarantee
+^^any prizes.
+^^
+^^$DATE4
+
+##optional for both #INTRO and #OBJECTIVES
+## $TITLE1 $NAME2 of the $FACTION3 => Player's faction
+## $DATE4 = current date, includes "M.Y."
+## $NUM0 = objectives needed for victory
+## $NUM1 = objectives needed for instant victory
+## $NUM2 = objectives in player's possession at beginning
+## $NUM3 = ending year of scenario
+
+#OBJECTIVES
+#xs 440
+#caption SCENARIO
+^^
+^^Scenario Objectives
+^^Objectives needed for victory: at least 2 of the 3 bases rioting simultaneously.
+^^
+^^$TITLE1 $NAME2 of the $FACTION3
+^^In order to complete the scenario, you have to successfully incite drone riots,
+^^simultaneously, in at least 2 of the following
+^^Hiverian bases:
+^^Chairman's Burrow
+^^Social Artery
+^^People's Endeavor
+^^
+^^You can stop and submit your save at any time regardless of the MY.
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0 - END OF SCENARIO
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory
+^^
+^^
+
+#SCENTIMELOSS
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption End of Scenario!
+^^
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^YOU HAVE WON THE SCENARIO!
+^^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $NUM0
+^^
+
+
+
+#; This line must remain at end of file

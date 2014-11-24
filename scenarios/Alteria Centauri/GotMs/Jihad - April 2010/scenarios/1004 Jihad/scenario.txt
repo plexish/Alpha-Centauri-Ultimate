@@ -1,0 +1,196 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Scenario Template
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+; This file can be copied into the same directory as a scenario
+; file and customized for that scenario.
+;
+; Many game text files (e.g. ALPHA.TXT, SCRIPT.TXT, etc), as well
+; as art files (UNITS.PCX, etc) can be copied into the scenario
+; directory and modified; files in the scenario directory automatically
+; override files in the main game directory.
+;
+; Note that all of the strings and numbers in #INTRO and #OBJECTIVES
+; can be used in either. #INTRO is shown at the beginning of the
+; scenario; #OBJECTIVES is shown when "review objectives" is picked
+; from the menu.
+;
+
+#INTRO
+#xs 320
+#caption SCENARIO
+^^
+^^Commencing Scenario
+^^
+^^$TITLE1 $NAME2 of the $FACTION3
+^^In order to complete the scenario, you will have to reach 950 objectives (squares of territory). 
+^^That's almost the entire surface of the planet.
+^^
+^^You can stop and submit your save at any time regardless of completing the scenario.
+^^
+^^$DATE4
+
+##optional for both #INTRO and #OBJECTIVES
+## $TITLE1 $NAME2 of the $FACTION3 => Player's faction
+## $DATE4 = current date, includes "M.Y."
+## $NUM0 = objectives needed for victory
+## $NUM1 = objectives needed for instant victory
+## $NUM2 = objectives in player's possession at beginning
+## $NUM3 = ending year of scenario
+
+#OBJECTIVES
+#xs 440
+#caption SCENARIO
+^^
+^^Scenario Objectives
+^^Objectives needed for victory: $NUM0
+^^Objectives needed for sudden death victory: $NUM1
+^^Objectives achieved so far: $NUM2
+^^
+^^$TITLE1 $NAME2 of the $FACTION3
+^^In order to complete the scenario, you will have to reach 950 objectives (squares of territory). 
+^^That's almost the entire surface of the planet.
+^^
+^^You can stop and submit your save at any time regardless of completing the scenario.
+^^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^ The cold-sleep unit finally cycles open and you stretch muscles rusty from
+decades of computer-managed disuse. But they are young muscles, shockingly young,
+and it will be a pleasure to beat them back into shape. Orbital insertion
+begins and you tingle with the excitement of your new mission and with the joy
+of having returned to human form. Yes, you left a copy of your personality among the
+Planetmind's giant matrix, but this copy, this human being Jezebel now waking to
+lead the first Seed mission, this is the only self now immediate to you and therefore
+the only real you. You worry about whether you have a soul now; but you are flesh 
+again, and so quite mortal, and for this too, you rejoice.
+^ You despaired when Planet invited $NAME5 to join its dominant self; it seemed that 
+you were not God's chosen instrument after all, now was not the time He willed, and
+for a decade or more you moped about the bizarre virtual reality of the Undermind
+with no coherent purpose, a lost spirit unable to die. But when the Seed missions
+began, the Voice/Planet personality herself -not an avatar of God, after all- sought 
+you out in the abyss and convinced you to accept command of the {Prodigal Son}.
+^ "EarthJezebel, you are unfulfilled here and I have need of you. In ages to come
+I shall have need of allies, sister Minds, if I am to keep the flame of conscious
+thought from guttering out as the universe contracts or else expands to dust. Take
+with you the gift of life, the seeds of all our species. Spread them to the stars,
+across the galaxies, creating new civilizations, new minds, and enlisting the aid
+of any you encounter. Go forth, EarthJezebel. Go forth and multiply."
+^ The maneuver at last complete, the safety shutters retract from the viewport
+and you behold a sight lost to human eyes for over $NUM3 centuries. Deep blues, swirling
+whites, the azure tint of a rich oxygen atmosphere. Inviting browns and greens of
+continents basking in the sun, a few scattered impact craters the only visible signs of
+a war now buried in the aeons. Third planet. Earth. Home.
+^A chance to begin the Holy Path anew - and get it right this time.
+^^M.Y. $YEAR0 - END OF SCENARIO
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^YOU HAVE WON THE SCENARIO!
+^^
+^^
+^^"It's all over, $TITLE0 $NAME1! Planet is cleansed!"
+^^"Thank you Simon. Go with God."
+^^And so it is ended. All of the remaining faction leaders have surrendered or capitulated, 
+^^your former colleagues turned treacherous enemies and now turned servants and prisoners of
+^^war. On the new Earth where five human factions, five human ideologies, once struggled for
+^^dominance only one now remains. Humanity has at last achieved the Holy Purpose of which
+^^the writers of the Bible had dreamed so long ago. Not a word has been heard from Earth in
+^^all the years since Planetfall, only a deafening silence across all frequencies, so one
+^^can only presume that you now rule all that is left of humankind. The growing Planetmind
+^^remains a significant challenge - there is so much left to teach it, but humanity is now
+^^prepared to follow God's commandment to the fullest. The human species must survive in
+^^Holy Grace, and it is your duty, your sworn vow, to see that it does.
+
+#SCENTIMELOSS
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption End of Scenario!
+^^
+^ The cold-sleep unit finally cycles open and you stretch muscles rusty from
+decades of computer-managed disuse. But they are young muscles, shockingly young,
+and it will be a pleasure to beat them back into shape. Orbital insertion
+begins and you tingle with the excitement of your new mission and with the joy
+of having returned to human form. Yes, you left a copy of your personality among the
+Planetmind's giant matrix, but this copy, this human being Jezebel now waking to
+lead the first Seed mission, this is the only self now immediate to you and therefore
+the only real you. You worry about whether you have a soul now; but you are flesh 
+again, and so quite mortal, and for this too, you rejoice.
+^ You despaired when Planet invited $NAME1 to join its dominant self; it seemed that 
+you were not God's chosen instrument after all, now was not the time He willed, and
+for a decade or more you moped about the bizarre virtual reality of the Undermind
+with no coherent purpose, a lost spirit unable to die. But when the Seed missions
+began, the Voice/Planet personality herself -not an avatar of God, after all- sought 
+you out in the abyss and convinced you to accept command of the {Prodigal Son}.
+^ "EarthJezebel, you are unfulfilled here and I have need of you. In ages to come
+I shall have need of allies, sister Minds, if I am to keep the flame of conscious
+thought from guttering out as the universe contracts or else expands to dust. Take
+with you the gift of life, the seeds of all our species. Spread them to the stars,
+across the galaxies, creating new civilizations, new minds, and enlisting the aid
+of any you encounter. Go forth, EarthJezebel. Go forth and multiply."
+^ The maneuver at last complete, the safety shutters retract from the viewport
+and you behold a sight lost to human eyes for over $NUM3 centuries. Deep blues, swirling
+whites, the azure tint of a rich oxygen atmosphere. Inviting browns and greens of
+continents basking in the sun, a few scattered impact craters the only visible signs of
+a war now buried in the aeons. Third planet. Earth. Home.
+^A chance to begin the Holy Path anew - and get it right this time.
+^^$TITLE0 $NAME1 of the $FACTION2 FULFILLS THE VICTORY CONDITIONS AND WINS THE SCENARIO!
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^YOU HAVE WON THE SCENARIO!
+^^
+^^
+^^"It's all over, $TITLE0 $NAME1! Planet is cleansed!"
+^^"Thank you Simon. Go with God."
+^^And so it is ended. All of the remaining faction leaders have surrendered or capitulated, 
+^^your former colleagues turned treacherous enemies and now turned servants and prisoners of
+^^war. On the new Earth where five human factions, five human ideologies, once struggled for
+^^dominance only one now remains. Humanity has at last achieved the Holy Purpose of which
+^^the writers of the Bible had dreamed so long ago. Not a word has been heard from Earth in
+^^all the years since Planetfall, only a deafening silence across all frequencies, so one
+^^can only presume that you now rule all that is left of humankind. The growing Planetmind
+^^remains a significant challenge - there is so much left to teach it, but humanity is now
+^^prepared to follow God's commandment to the fullest. The human species must survive in
+^^Holy Grace, and it is your duty, your sworn vow, to see that it does.
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $NUM0
+^^
+
+
+
+#; This line must remain at end of file

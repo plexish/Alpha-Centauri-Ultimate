@@ -1,0 +1,163 @@
+;techs:
+;RetroEng, BioEng, AMA, Gene, Neural Grafting, BioGen, EthCalc, SocPsych,
+;IndBase, IndEcon, IndAuto, InfNets, PlaNets, OptComps, AdapDoct, Appl Phys
+;Polymorph Soft, Doc: Flex, Doc: Mob, CentGen, CentMed, EcoEng, CentEmp, Ecology
+;EcoEng
+;# = 25
+
+; -III THE GENESIS PROJECT III-
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+; The Genesis Project - text & graphics created by Cybergod ;> 
+; 
+; For more factions visit http://www.networknode.iwarp.com
+; email info@networknode.iwarp.com
+; 
+; This is a splinter UoP faction which rewrites the words GM!
+; It reminds me of the Planetary Health Service too much, although I made it a long time before...
+;
+;Modified for a scenario by Brian Blaha
+
+#GENESIS
+The Genesis Project, The Creator, Genesis, F, 1, Chaue, M, 1, 0, 1, 1, 0,
+  RESEARCH, 5, TALENT, 1, FANATIC, 0, INTEREST, 0,    SOCIAL, +MORALE, SOCIAL, -PLANET, SOCIAL, --ECONOMY, SOCIAL, --GROWTH, SOCIAL, +PROBE, FREEFAC, 17, FREEABIL, 18, ROBUST, SUPPORT, ;fac is research hospital, abil is hypnotic trance
+  Values, Knowledge, GROWTH
+  Politics, Fundamentalist, nil
+  Genesis, Genesis
+  Maya, Quaid, Maya's Sunset
+  Creator, talented, totally unethical, enhanced, demonic
+  Evolution Gone Wrong
+  bring humans closer to perfection through genetics
+  to perfect humans through The New Book of Genesis
+  creating monsters
+  creating monsters
+  unleash all kinds of genetic diseases and deformities onto this world
+  programing new viruses and diseases to help him conquer the world
+  programing new viruses and diseases to help you conquer the world
+  going too far with my genetic alterations
+  abysmal plans, M2
+  creative biology, M1
+  unheard-of monstrosities, F2
+  genesis funding, M1
+  finding new cures and remedies for humans of Planet
+  Warriors of Genesis
+  The New Book of Genesis
+
+#BASES
+Nucleus
+GeneWorks Company
+Genetic Mirror
+Humans: Only Better
+Gaia's Gift
+The Genelink
+The Hibernator
+GATTACA
+The Fifth Letter
+Four Lettered Language
+Geneland
+Remedies for All
+Universal Vaccine
+Vaccine for Evil
+The 'Good' Implants
+Planet Laboratories
+Planet Galenics
+Test-tube Planet
+The Tiny World
+Macro Space
+Micro Space
+'G' Zone
+'A' Zone
+'T' Zone
+'C' Zone
+Holodeck
+The Last Riddle
+Retrodome
+Telomerase
+Meioville
+Phage
+Mendel Institute
+Agar
+Knockout
+Quadruploid
+Jurassic Park
+3'
+5'
+#END
+
+#WATERBASES
+Strands of Life
+Sacred Well
+Pure Perfection
+H2O Close Enough
+Homogenic Substances
+Genetical Improvement
+Ripple of Life
+#END
+
+#BLURB
+Why let your offspring inherit your imperfections?
+Let us correct them and enter the new age of enlightenment.
+^
+^        -- Creator Johans Chaue,
+^           "The Perfect Book"
+
+#DATALINKS1
+^LEADER: {Creator Johans Chaue}
+^BACKGROUND: {University Genetics Research Team, Natalia Lab}
+^AGENDA: {Following the rules of The New Book of Genesis}
+^TECH: {Retroviral Engineering}
+^
+
+#DATALINKS2
+^+1 PROBE:  {Strict followings of the Perfect Book}
+^-1 PLANET:  {Nature is considered flawed}
+^-2 GROWTH:  {Reproduction is carefully monitored}
+^-2 ECONOMY:  {Big money is needed for such extravagant experiments}
+^Extra {Talent} per citizen: {Enhanced humanoids}
+^Free {Research Hospitals} upon discovering {Gene Splicing}
+^Extra {one} research point per base: {Citizens are studied as experiments}
+^{May not use Fundamentalist Politics.}
+
+
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"My researchers and I have had enouth of this pointless war, $TITLE0 
+$NAME1! Won't you sign peace with us, lest you fall victim to my nano viruses?"
+
+"Very well, but my people are not comfortable with your experimentation."
+"Too bad, $NAME3. I guess your nano-freaks cannot save you from me!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"You seem a prudent leader, $NAME1. I see that both of our medical 
+initiatives would benefit from a Treaty of Friendship between our two factions."
+
+"Of course. From penicillin to nanobots, medicine has improved our lives."
+"No. Rumors abound of your research on unwilling human subjects."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Call off your hunting beasts, $NAME1, for I am the mighty $TITLE2 
+$NAME3! I shall exterminate your pityful species unless you Pledge Truce!"
+
+"Progenitor: fear disease. Pledge Truce: mighty Genesis."
+"Genesis: pathetic. Genesis: just another parasite to exterminate!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"I presume your kind must have enormous medical knowledge, $TITLE0 
+$NAME1. Will you sign a Treaty of Friendship and let us co-operate in peace?"
+
+"Medical matters: paramount: cure diseases. Treaty: agreed."
+"Genesis: bent on creating monsters. Treaty: not advisable."
+
+
+# ; This line must remain at end of file
+
+

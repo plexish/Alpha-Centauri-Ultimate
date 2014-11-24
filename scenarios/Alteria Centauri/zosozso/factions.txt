@@ -1,0 +1,10 @@
+caretaker based:
+hortus - gardener of Chiron, fungus and worm bonuses
+pario - builder, constructor, economic power
+techtriad - scientist, researcher
+
+usurper based:
+chondrichthyes  - sea based offensive (latin for shark)
+antimind - mindworm, spore launcher, native life offensive
+phoenix - air power offense
+

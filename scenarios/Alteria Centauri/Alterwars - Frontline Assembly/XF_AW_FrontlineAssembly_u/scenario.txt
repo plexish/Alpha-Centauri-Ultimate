@@ -1,0 +1,216 @@
+; XENOFUNGUS http://xenofungus.cjb.net
+; 
+; Strategic Scenarios for Sid Meier's ALPHA CENTAURI
+;
+; Scenario File "AlterWars : Frontline Assembly" (V1.0/US)
+;
+; Copyright (c) 1999 Tres (trespassa@lycosmail.com)
+;
+; NOT FOR COMMERCIAL USE!
+
+
+
+#INTRO
+#xs 320
+#caption AlterWars : Frontline Assembly (US Version V1.0)
+^Trade Outpost CROOKED CROSS (Outer Colony Ring)
+^In the year 2077 Morgan Industries established a Trade Outpost on this small world. 
+Rich Resources and the vicinity to profitable merchant routes made it possible to become an important part of the industrial empire of Morgan.
+^Three years later the fast growth of Crooked Cross attracted lots of urban refugees to settle on this wealthy planet. 
+^Zion Hydroponics Inc. founded a fertile collective of religious farmers and ranchers.
+Short time after Crooked Cross evolved to a market that delivers minerals and food to the whole Outer Colony Ring.
+^But one day the Spartan Liberation Army (SLA), an interstellar gang of mercenaries, claimed land on Crooked Cross.
+They revealed a dubious contract with FarOutExploration (FOE), the company that discovered Crooked Cross in the year 2067.
+The contract implied that the SLA bought a quarter of the landmass of Crooked Cross from FOE.
+^And the FLA had good lawyers, so the United Nations Colony Administration (UNCA) had to hand out the land.
+^Due to this unique legal decision, the UNCA demanded a constant presence to protect the rights of the colonists.
+The Colony Courts decided to allow an armed police force on Crooked Cross.
+^Until now the planetary peace is stable. But tensions between the factions are growing...
+
+
+#OBJECTIVES
+#xs 440
+#caption Trade Outpost CROOKED CROSS (Outer Colony Ring)
+^SCENARIO TARGETS 
+^
+^MORGAN INDUSTRIES
+^    Run a profitable trade outpost.
+^    Protect your business partners.
+^ZION HYDROPONICS INC
+^    Run a profitable agrar conglomerate.
+^    Protect your farms and ranches.
+^SPARTAN LIBERATION ARMY
+^    Optain resources for the SLA.
+^    Protect your strategic supply bases.
+^    Increase your influence on Crooked Cross.
+^COLONY POLICE
+^    Uphold the Colony Laws.
+^    Serve and protect the civilian population.
+^    Seize any aggressions on Crooked Cross.
+^
+^
+^VALUABLE TARGETS:
+^$NUM2 of 12 under your control, $FACTION1 $FACTION2 ($FACTION3) 
+^MORGAN INDUSTRIES: Stock Exchange, Prefab Factory, Ore Mine
+^ZION HYDROPONICS INC: Seed&Breed Institute, Golden Granary, Cattle Ranch
+^SPARTAN LIBERATION ARMY: Buccaneer¥s Den, Bloody Hill, Blackbeard Cove
+^COLONY POLICE: Police Headquarter, Supreme Court, High Security Prison
+
+
+
+
+#SCENTIMEWIN
+#xs 440
+#caption Trade Outpost CROOKED CROSS (Outer Colony Ring)
+^SCENARIO TARGETS 
+^
+^MORGAN INDUSTRIES
+^    Run a profitable trade outpost.
+^    Protect your business partners.
+^ZION HYDROPONICS INC
+^    Run a profitable agrar conglomerate.
+^    Protect your farms and ranches.
+^SPARTAN LIBERATION ARMY
+^    Optain resources for the SLA.
+^    Protect your strategic supply bases.
+^    Increase your influence on Crooked Cross.
+^COLONY POLICE
+^    Uphold the Colony Laws.
+^    Serve and protect the civilian population.
+^    Seize any aggressions on Crooked Cross.
+^
+^
+^VALUABLE TARGETS:
+^$NUM2 of 12 under your control, $FACTION1 $FACTION2 ($FACTION3) 
+^MORGAN INDUSTRIES: Stock Exchange, Prefab Factory, Ore Mine
+^ZION HYDROPONICS INC: Seed&Breed Institute, Golden Granary, Cattle Ranch
+^SPARTAN LIBERATION ARMY: Buccaneer¥s Den, Bloody Hill, Blackbeard Cove
+^COLONY POLICE: Police Headquarter, Supreme Court, High Security Prison
+
+
+
+#SCENTIMELOSS
+#xs 440
+#caption Trade Outpost CROOKED CROSS (Outer Colony Ring)
+^SCENARIO TARGETS 
+^
+^MORGAN INDUSTRIES
+^    Run a profitable trade outpost.
+^    Protect your business partners.
+^ZION HYDROPONICS INC
+^    Run a profitable agrar conglomerate.
+^    Protect your farms and ranches.
+^SPARTAN LIBERATION ARMY
+^    Optain resources for the SLA.
+^    Protect your strategic supply bases.
+^    Increase your influence on Crooked Cross.
+^COLONY POLICE
+^    Uphold the Colony Laws.
+^    Serve and protect the civilian population.
+^    Seize any aggressions on Crooked Cross.
+^
+^
+^VALUABLE TARGETS:
+^$NUM2 of 12 under your control, $FACTION1 $FACTION2 ($FACTION3) 
+^MORGAN INDUSTRIES: Stock Exchange, Prefab Factory, Ore Mine
+^ZION HYDROPONICS INC: Seed&Breed Institute, Golden Granary, Cattle Ranch
+^SPARTAN LIBERATION ARMY: Buccaneer¥s Den, Bloody Hill, Blackbeard Cove
+^COLONY POLICE: Police Headquarter, Supreme Court, High Security Prison
+
+
+
+
+#SUDDENDEATH
+#xs 440
+#caption Trade Outpost CROOKED CROSS (Outer Colony Ring)
+^SCENARIO TARGETS 
+^
+^MORGAN INDUSTRIES
+^    Run a profitable trade outpost.
+^    Protect your business partners.
+^ZION HYDROPONICS INC
+^    Run a profitable agrar conglomerate.
+^    Protect your farms and ranches.
+^SPARTAN LIBERATION ARMY
+^    Optain resources for the SLA.
+^    Protect your strategic supply bases.
+^    Increase your influence on Crooked Cross.
+^COLONY POLICE
+^    Uphold the Colony Laws.
+^    Serve and protect the civilian population.
+^    Seize any aggressions on Crooked Cross.
+^
+^
+^VALUABLE TARGETS:
+^$NUM2 of 12 under your control, $FACTION1 $FACTION2 ($FACTION3) 
+^MORGAN INDUSTRIES: Stock Exchange, Prefab Factory, Ore Mine
+^ZION HYDROPONICS INC: Seed&Breed Institute, Golden Granary, Cattle Ranch
+^SPARTAN LIBERATION ARMY: Buccaneer¥s Den, Bloody Hill, Blackbeard Cove
+^COLONY POLICE: Police Headquarter, Supreme Court, High Security Prison
+
+
+#SUDDENDEATH0
+#xs 440
+#caption Trade Outpost CROOKED CROSS (Outer Colony Ring)
+^SCENARIO TARGETS 
+^
+^MORGAN INDUSTRIES
+^    Run a profitable trade outpost.
+^    Protect your business partners.
+^ZION HYDROPONICS INC
+^    Run a profitable agrar conglomerate.
+^    Protect your farms and ranches.
+^SPARTAN LIBERATION ARMY
+^    Optain resources for the SLA.
+^    Protect your strategic supply bases.
+^    Increase your influence on Crooked Cross.
+^COLONY POLICE
+^    Uphold the Colony Laws.
+^    Serve and protect the civilian population.
+^    Seize any aggressions on Crooked Cross.
+^
+^
+^VALUABLE TARGETS:
+^$NUM2 of 12 under your control, $FACTION1 $FACTION2 ($FACTION3) 
+^MORGAN INDUSTRIES: Stock Exchange, Prefab Factory, Ore Mine
+^ZION HYDROPONICS INC: Seed&Breed Institute, Golden Granary, Cattle Ranch
+^SPARTAN LIBERATION ARMY: Buccaneer¥s Den, Bloody Hill, Blackbeard Cove
+^COLONY POLICE: Police Headquarter, Supreme Court, High Security Prison
+
+
+
+
+
+
+#SCENARIOWARNING
+#xs 440
+#caption Trade Outpost CROOKED CROSS (Outer Colony Ring)
+^SCENARIO TARGETS 
+^
+^MORGAN INDUSTRIES
+^    Run a profitable trade outpost.
+^    Protect your business partners.
+^ZION HYDROPONICS INC
+^    Run a profitable agrar conglomerate.
+^    Protect your farms and ranches.
+^SPARTAN LIBERATION ARMY
+^    Optain resources for the SLA.
+^    Protect your strategic supply bases.
+^    Increase your influence on Crooked Cross.
+^COLONY POLICE
+^    Uphold the Colony Laws.
+^    Serve and protect the civilian population.
+^    Seize any aggressions on Crooked Cross.
+^
+^
+^VALUABLE TARGETS:
+^$NUM2 of 12 under your control, $FACTION1 $FACTION2 ($FACTION3) 
+^MORGAN INDUSTRIES: Stock Exchange, Prefab Factory, Ore Mine
+^ZION HYDROPONICS INC: Seed&Breed Institute, Golden Granary, Cattle Ranch
+^SPARTAN LIBERATION ARMY: Buccaneer¥s Den, Bloody Hill, Blackbeard Cove
+^COLONY POLICE: Police Headquarter, Supreme Court, High Security Prison
+^
+^Resources of the Trade Outpost Crooked Cross will be exhausted in the year M.J. $NUM0 
+
+
+#; Diese Zeile muﬂ am Dateiende stehen.

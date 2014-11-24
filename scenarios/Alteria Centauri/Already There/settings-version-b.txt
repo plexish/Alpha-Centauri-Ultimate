@@ -1,0 +1,141 @@
+This is valid for version "b"!
+------------------------------
+*Important*:
+before loading the game the file "caretake.txt" must be overwritten
+by the modified txt file "0-scenario-caretake.txt" that is hereby.
+(for easy handling I also attached here the original "caretake.txt"
+and 2 batch files, so that you don't forget to set the original back
+after playing)
+--------------------------------------------------------------------
+
+Settings:
+---------
+Start at: 2120
+
+Difficulty: Librarian (as there is still the bug in upper levels)
+
+Energy: All factions 100, Caretakers 10
+
+Control the social settings of your faction 
+and the actual research when doing the 1st turn!
+
+
+Research already done:
+----------------------
+
+Cyborgs:
+ApplPhys
+Biogenetics
+Centauri Ecology
+Information Network
+Planetary Network
+no further changes to original set
+As there still the bug is in, Cyborgs can't steal tech when capturing
+a base
+
+
+Pirates:
+ApplPhys
+Mobility
+Flexibility
+no further changes to original set
+
+
+Drones:
+ApplPhysics
+IndustrBase
+no further changes to original set
+
+Angels:
+Applied Physics
+Information Network
+Planetary Network
+no further changes to original set
+
+Cult:
+ApplPhys
+CentEcology
+Soc Psych
+no further changes to original set
+
+
+Caretakers:
+Progenitor Psych
+The Caretakers are set to "exceptional peaceful" and "defense"
+Objectives: Green,
+(dis)advantages: +1 Planet, +1 Research, -2 Grow (Original from Gaia
+exept morale setting)
+
+already made research:
+Progenitor Psych
+(all other the Caretakers have to research new)
+
+already built:
+5 cities size 1, all with
+Perimeter Defence
+Energy Bank
+Research Hospital
+Punishment Sphere
+Centauri Preserve
+Temple of Planet
+Flechette Defense System
+Geosynchronus Survey
+
+already built Secret Project:
+The Manifold Harmonics
+The Caretaker's HQ = Manifold Nexus
+
+----
+all other (human) factions have:
+one city size 5 with
+Recycling Tanks
+Recreation Comm
+(Pirates have 1 city size 5 and one size 1 both with Pressure Dome and
+Recreation Comm)
+1 former
+1 sea former
+2 Scout Patrol 1-1-1 (Pirates 1 Unity Transport Foil and 1 Unity Laser
+Foil additional)
+2 sea fields with mineral bonus
+1 sea field with energy bonus (exept Cult, as Cult is set on Uranium
+fields)
+
+---
+hidden/sleeping units ("lurker"):
+as Alien:
+several Sealurks, some Locosts, some MK3
+ALL are VERY dangerous
+(always where maybe special objectives for settling and/or Culture
+objects of the Caretakers)
+
+as Caretaker's units:
+mass of very great Mindwors on Manifold Nexus Island
+and some very great Sealurks around the island
+
+---
+additional Caretaker's weapons:
+21 Defence Orbital Pods (unseen until Orbital flight is researched by
+minimum one faction, however, later in game the AI may scramble they.
+When you get orbital spaceflight, you see all Caretaker's defense pods)
+5 MK3 (30-12-3)
+4 Tectonic missiles
+4 Fungus missiles
+2 Planet Busters
+
+Remark: don't believe the Caretakers do have too much power. 
+The Ai will not use it (exept you attack the Caretakers) until 
+a very late time in the game when you really have the possibility 
+to protect your faction and/or win a battle with the right weapon 
+(e.g. kill the powerful MK3 with a mind worm).
+In the tests (up to 2450 I made) the Caretakers are really peaceful
+and, as they don't have a harbour, the can't make an early contact.
+The open question is what is better for the human player(s): 
+make contact early when getting all commlinks (Secret Project)
+or better not. This depends from your strategy as an early contact
+may force an early war to Caretakers, and this maybe happen when 
+you don't have the weapons for it.
+In a single user game the other AI factions don't attack the
+Caretakers, exept the Pirates, for a long time. 
+Remember: to win in Transcendet isn't possible as long as an alien 
+faction exist. So at least you must attack them.
+--- end --

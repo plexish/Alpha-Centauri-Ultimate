@@ -1,0 +1,15 @@
+A time capsule is visible at the bottom of a waterfall. Its contents include:
+
+A child's drawing of a man with a white and black beard, and a blue hat. Signed, P.L.
+Legal documents proclaiming various rights for all people.
+Encrypted computer files.
+A tiny vial of water.
+A shredder pistol modified for use as a hypodermic spray.
+
+(You may replace drone.txt with drone2.txt by renaming drone.txt, then
+renaming drone2.txt drone.txt, then using Menu -> Scenario -> Reload Faction
+to reload the Drone faction file. This adds ROBUST, SUPPORT to the Drone faction,
+as they are inspired to support a democracy by the legal documents.)
+
+(This is one of two discoveries necessary to view a.txt. When you have found
+the other, also read a.txt)

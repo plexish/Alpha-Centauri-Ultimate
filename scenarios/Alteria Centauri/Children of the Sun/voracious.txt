@@ -1,0 +1,123 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Ypunag
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.civgaming.net/citizens/networknode/
+; email networknode@lycos.com
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; To use this Faction file select load from 
+; faction select in the game and write... VORACIOUS
+;
+
+#VORACIOUS
+The Voracious, Voracious, Voracious, M, 1, Klessske, M, 1, 1, 0, 1, 0, 
+  ALIEN, 0, TECH, Ecology, TECH, DocFlex, SHARETECH, 1, SOCIAL, +MORALE, SOCIAL, +INDUSTRY, FREEFAC, 2, AQUATIC, 0, NODRONE, 3
+  Future Society, Thought Control, POLICE
+  Economics, Free Market, nil
+  The Voracious, The Re.
+  Sssya, Myozue, Kopsssuni
+  Hunter, Allmighty, fiend, feared, unwholesome, 
+  venomous
+  rule Planet
+  rule Planet
+  conquering us all
+  conquering Planet
+  devour everything and everyone on this world
+  devour everything and everyone on this world
+  devour everything and everyone on this world
+  outright barbarity
+  Brood, M1
+  Jyssseu Masters, M2
+  Broods fortunes, M1
+  gift, M1
+  dessstroying the unworthy
+  the Brood
+  the Hunters Lawsss
+
+#BASES
+Khopsssuni
+Sssian
+Djaob
+Dagoe
+Elluk
+Juzai
+Jagne
+Ghidda
+Unisss
+Klossu
+Fnable
+Pobosss
+Sssnatoe
+Fassshe
+Wuutu
+Epsssno
+Zosssmaf
+Cresssi
+Ljoh
+Illal
+Droad
+Ignhuua
+Wrukko
+Tresssyu
+Puad
+#END
+
+#WATERBASES
+Uruk
+Leasssio
+Yrrua
+Zhagga
+Amaysss
+Essskek
+Nepasss
+Zussu
+#END
+
+#BLURB
+Like usss, humansss prisssoner now here. Help or conquer, my brood
+isss divided.
+^
+^   -- Klessske  Fysssue
+^      "A Study of the Voracious"
+^
+^
+
+#DATALINKS1
+^LEADER: {Hunter Klessske}
+^BACKGROUND: {Captain, Huntership Ar'akar}
+^AGENDA: {Conquest}
+^TECH: {Doctrine: Flexibility, Planetary Ecology}
+^
+
+#DATALINKS2
+^+1 Growth: the Voracious reproduction cycle is extremely quick
+^+1 Morale: natural predators
+^+1 Industry: Pack Animal mentality allows for greater teamwork
+^{May NOT use Free Market}
+^
+^     A semi-aquatic reptile, the Voracious have developed an 
+appetite for both human and Progenitor flesh.
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"War makesss usss weak asss the othersss grow ssstronger. We call
+Truce?"
+
+"Agreed Hunter devour everything and everyone else on this world."
+"You ate our last emmisary, $NAME3. I think not!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"A treaty will ssserve usss both yesss?"
+
+"Agreed $NAME3"
+"We've heard rumors of your 'tastes' Hunter $NAME3. We decline."
+
+
+# ; This line must remain at end of file

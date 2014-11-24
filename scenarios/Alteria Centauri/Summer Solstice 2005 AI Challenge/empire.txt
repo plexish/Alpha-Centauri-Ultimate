@@ -1,0 +1,118 @@
+;Faction portrait from http://web.jjay.cuny.edu/~jobrien/reference/meiji.jpg
+;Logo from http://www.evansvillegamingguild.com/rpgs/l5r/downloads/Mon - Imperial Hantei color.gif
+;This faction is not designed to be played by a skilled player!
+
+#EMPIRE
+Honorable Empire, The Emperor, Empire, M, 1, Hantei, M,  1,  1, 0, 0, 1,
+  MORALE, 0, INTEREST, -10, COMMERCE, -1, FANATIC, 0,   TECH, Psych, SOCIAL, +MORALE, SOCIAL, +INDUSTRY, SOCIAL, +SUPPORT, SOCIAL, +POLICE, ROBUST, EFFIC, FREEABIL, 22, SOCIAL, -ECONOMY
+  Economics, Planned, GROWTH
+  Values, Wealth, nil
+  Imperial, Imperial,
+  Kachiko, Bayushi, Shiro Bayushi
+  Emperor, most noble, hypocritical, honorable, narrow-minded,
+  Inhuman Monster
+  uphold our honor
+  to develop an honorable society
+  thwarting free trade
+  thwarting free trade
+  thwart free trade
+  denying human nature
+  denying human nature
+  undermining free enterprise
+  abhorrence of money, M1
+  honor, M1
+  Honorable Empire, M1
+  offering, M1
+  protecting your honor
+  Ninja
+  the Imperial Mandate
+
+#BASES
+The Forbidden City
+Osaka
+Kagoshima
+Sapporo
+Shiro Ide
+Kyuden Ikoma
+Kenson Gakka
+Rehaido Uikku
+Yasuki Yashiki
+Toshi Inazuma
+Aojiroi Oku Shiro
+Samui Kaze Toshi
+Mori Kage Kyuden
+Suzu sano Shinda
+Takai Kusa Heigen
+Kawa Mittsu Kishi
+Lhasa
+Yumen
+Nanchang
+Xining
+Harbin
+Macau
+Dali
+#END
+
+#WATERBASES
+Umi Amaterasu
+Shima no Kinu
+Sunda Mizu Mura
+Umi Asako
+Kaigen no Kurai Nimu
+Michi no Kurai Ashi
+Kotei Michi
+#END
+
+#BLURB
+^  Death before dishonor.
+^
+^        -- Traditional saying
+
+#DATALINKS1
+^LEADER: {Emperor Hantei}
+^BACKGROUND: {South Japan, Unity Junior Officer}
+^AGENDA: {Glorious Honorable Empire}
+^TECH: {Social Psych}
+^
+
+;Industry: +1
+;Economy: -1
+;Growth
+;Research
+;Planet
+;Morale: +1, MORALE, 0
+;Police: +1, FREEABIL Nonlethal Methods
+;Support: +1
+
+#DATALINKS2
+^+25% Bonus when attacking enemies, from devotion to the
+Emperor.
+^+1 POLICE:   {Respect for and fear of the warrior}
+^+1 INDUSTRY: {Peasants work hard for the next life}
+^+1 MORALE:   {Highly trained and respected warrior class}
+^-1 ECONOMY:  {Money disdained, oppressed merchant class}
+^-1 COMMERCE: {Commerce considered dishonorable}
+^-10% interest on energy reserves: {Mistreatment of merchants}
+^{May not value Wealth.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"You are a worthy foe, $TITLE0 $NAME1. It shames us both to
+fight -- honor demands that we resolve our grievances peacefully."
+
+"May we both enjoy prosperity."
+"You lie so that you may betray us. Your 'honor' is a sham!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Honorable $TITLE0 $NAME1, I offer you a gift: exchange of
+goods and knowledge formalized by a Treaty of Friendship."
+
+"It pleases my... umm... 'honor' to accept such a gracious gift."
+"Your culture holds ours in contempt: we have nothing to gain from you."
+
+
+# ; This line must remain at end of file
+

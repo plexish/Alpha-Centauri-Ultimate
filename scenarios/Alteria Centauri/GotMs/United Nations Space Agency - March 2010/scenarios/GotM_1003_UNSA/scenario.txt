@@ -1,0 +1,150 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; Scenario Template
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+; This file can be copied into the same directory as a scenario
+; file and customized for that scenario.
+;
+; Many game text files (e.g. ALPHA.TXT, SCRIPT.TXT, etc), as well
+; as art files (UNITS.PCX, etc) can be copied into the scenario
+; directory and modified; files in the scenario directory automatically
+; override files in the main game directory.
+;
+; Note that all of the strings and numbers in #INTRO and #OBJECTIVES
+; can be used in either. #INTRO is shown at the beginning of the
+; scenario; #OBJECTIVES is shown when "review objectives" is picked
+; from the menu.
+;
+
+#INTRO
+#xs 600
+#caption SCENARIO
+#sprite ac_logo_sm.pcx
+^^===== GotM Scenario, March 2010 =====
+^^$TITLE1 $NAME2 of the $FACTION3
+^^
+^To: Commander Kirkway 
+^From: Commissioner Pravin Lal 
+^U.N. Headquarters, MY 2150, January 29 
+^
+^Commander, I am greatly concerned, that recent conflicts on Chiron threaten 
+our ambition of returning into space. Therefore, I created United Nations
+Space Agency (UNSA). I nominate you to the position of Agency Director.                        
+^ 
+^I prepared adequate means to build UNSA facilities on one of the islands of
+Santa Ana Archipelago, south of Monsoon Jungle and east of Sea of Unity, 
+that was scouted 10 years ago by Believers. Spartans have already established 
+a base near Geothermal Shallows. So far, we have good relations with Colonel 
+Santiago. You can also ask for assistance Lady Deirdre Sky, our long time 
+pactmate. Her bases are on Monsoon Jungle coast to the north. Our intelligence 
+is sketchy, but there is possible Hive activity in the west. I know, Yang 
+can threaten your bases, but still the archipelago is the most safe location 
+for UNSA. There is little knowledge on recent drone rebellion in the Hive. 
+Watch for Hive rebels in the region. Send a patrol to South 2 Airbase Complex, 
+I will send supplies to that location for you. 
+^
+^Your objective, Commander Kirkway, is to successfully launch our first 
+satellite into Chiron's orbit as soon as you can.
+^
+^Good Luck! 
+^Pravin Lal 
+^ =============================================================
+^ NOTES:
+^ - Use CTRL+F4 to see scenario objectives.
+^
+
+##optional for both #INTRO and #OBJECTIVES
+## $TITLE1 $NAME2 of the $FACTION3 => Player's faction
+## $DATE4 = current date, includes "M.Y."
+## $NUM0 = objectives needed for victory
+## $NUM1 = objectives needed for instant victory
+## $NUM2 = objectives in player's possession at beginning
+## $NUM3 = ending year of scenario
+
+#OBJECTIVES
+#xs 600
+#caption SCENARIO
+^^
+^^ GOTM Scenario, March 2010
+^ ============================================================================
+^ Scenario Objectives:
+^ - Launch a satellite in possible least number of turns. 
+^ - GotM score will depend on the number of turns you played, in case of a tie, 
+^      victory points determine the winner.
+^ ============================================================================
+^ Other notes:
+^ - U.N. Airbase Complex, South 2, has some goodies for you! 
+^   Follow Lal's recommendation and visit the continent shore.
+^ - Missile chassis is now available with Doctrine: Air Power.
+^ - Colony pods are disabled. Protect your five bases!
+^ - Hit CTRL+H to home your independent supply crawlers, once in a base.
+^
+
+#SCENTIMELIMIT
+#xs 440
+#caption End of Scenario
+^^
+^^M.Y. $YEAR0
+^^
+^^END OF SCENARIO
+^^
+
+#SCENTIMEWIN
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^YOU HAVE WON THE SCENARIO!
+^^
+
+#SCENTIMELOSS
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+
+#SUDDENDEATH
+#xs 440
+#caption End of Scenario!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^FULFILLS THE VICTORY CONDITIONS
+^^
+^^AND WINS THE SCENARIO!
+^^
+
+#SUDDENDEATH0
+#xs 440
+#caption Victory
+^^
+^^CONGRATULATIONS!
+^^
+^^$TITLE0 $NAME1 of the $FACTION2
+^^
+^^YOU HAVE WON THE SCENARIO!
+^^
+
+#SCENARIOWARNING
+#xs 440
+#caption End of Scenario Warning
+^^
+^^END OF SCENARIO APPROACHING
+^^
+^^GAME WILL END IN M.Y. $NUM0
+^^
+
+
+
+#; This line must remain at end of file

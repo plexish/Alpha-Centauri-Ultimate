@@ -1,0 +1,119 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Progenitor AntiMind
+;
+; Copyright (c) 1999 by Firaxis Games, Inc.
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#ANTIMIN
+Progenitor AntiMind, The Chironian Life, AntiMind, M, 2, Marr, M, 1, 1, 0, 0, 1,
+  ALIEN, 0, OFFENSE, 125, SOCIAL, +++PLANET, SOCIAL, ++MORALE, FACILITY, 35, TECH, CentGen, TECH, CentEmp, WORMPOLICE, 0, PSI, 50
+  Economics, Green, PLANET,
+  nil, nil, nil
+  AntiMind, AntiMind
+  Manifold Synapse, Monolith Synapse, Planetworm Graveyard
+  Omnipotent, flowerlike, scum, ecologically sensitive, eco-daft, 
+  Dirty Fungus
+  protect my lifeforms
+  to guard and lead the native life
+  ripping out all PlanetLife on this planet
+  ripping out all PlanetLife on this planet
+  destroy my bretheren and burn my brain
+  abusing human life and spirit
+  abusing human life and spirit
+  fostering fungus munchers
+  fungus munchers, M1
+  overall survival, M2
+  slimy fungus, M2
+  fungal field toll, M1
+  helping and strengthening Planet's native forces
+  the Mindworm Guards
+  the Green Dream Alliance
+
+#BASES
+AntiMind Nexus
+Planetworm Graveyard
+Joining : Complete
+Planet : Vision
+Human : Clearing
+Great Alliance
+Suffering : Ended
+Nexus : Flowering
+Seed of Destruction
+Symbiosis
+Host : Wonderous
+Native : Power
+Planet : Vengeance
+#END
+
+#WATERBASES
+Planets Tears
+SeaLurk : Majesty
+IsleDeep : Spawning
+Planets Saviour
+Tyranny : Ending
+Wrath of Planet
+#END
+
+#BLURB
+Lady Dierdre: right in her assumption. Planetfungus: sentient, is thinking.
+Humans: disrupting it. Need: strike back. Planetmind: weak. Erratic
+attacks: not the answer. Planet: needs an army. I: AM that army. 
+^
+^        -- AntiMind,
+^           "PlanetArmy"
+
+#DATALINKS1
+^LEADER: {AntiMind}
+^BACKGROUND: {Mindworm/Progenitor Hybrid}
+^AGENDA: {Mindworm Freedom}
+^TECH: {Centauri Genetics, Centauri Empathy}
+
+
+#DATALINKS2
+^+3 PLANET: {Able to tap into Planetmind's neural net to capture mindworms}
+^+2 MORALE: {AntiMind fighters are comitted to secure planet's realm}
+^Free BROOD PIT in every base: {Well trained for raising native life forms}
+^Mind Worms do double police duty: {Fear and reverence for native life}
+^50 precent stronger PSI combat: {Master of psi powers}
+^"Energy Grid" at each base: {Increased infrastructure generates additional energy}
+^Begin game with a Mk I Battle Ogre and extra Colony Pod
+^All prototyped combat units have 2-square sighting radius ("Resonance" sensitivity)
+^Can direct research efforts (rediscovering technology & infrastructure)
+^Possess a physical scan of Planet's surface
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Throw down arms: let the native forces of Planet and 'visitors' live in peace."
+
+"Good.  Now we may live in a harmonious peace."
+"I, $TITLE0 $NAME1, shall never give you filthy slugs human slaves!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"I sense: friend of Planet, $TITLE0 $NAME1. I suggest: Treaty of Friendship. Our species: live side by side in peace." 
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Our forces: experience wasteful destruction. Our kind: like brother and sister. A Truce: please concur"
+
+"Destruction of Manifold Six: to be avoided. Agreement."
+"Manifold Six: tougher than you, $NAME3. Destruction: prepare!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, clearly your kind masters of Planet. Treaty of Friendship: teach me more of my potential"
+
+"Welcome back: prodigy. Aims: similar. Treaty: fine idea."
+"Your understanding of Manifold Six: feeble. Treaty: not at this time."
+
+# ; This line must remain at end of file

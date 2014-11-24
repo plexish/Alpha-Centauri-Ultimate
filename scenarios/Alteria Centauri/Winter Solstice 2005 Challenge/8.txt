@@ -1,0 +1,8 @@
+(To properly trigger this, either probe or capture Watcher's Eye, the adjacent city.
+If this city no longer exists, the information revealed at this location is lost.)
+
+You discover files that seem to contain gibberish marked by Hive intelligence as
+documents of extreme interest. Whatever interests them must be worth stealing.
+
+(This is one of two discoveries necessary to view a.txt. When you have found
+the other, also read a.txt)

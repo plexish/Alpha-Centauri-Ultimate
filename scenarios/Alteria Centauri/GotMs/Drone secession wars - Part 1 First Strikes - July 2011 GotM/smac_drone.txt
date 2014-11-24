@@ -1,0 +1,115 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Free Drones
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... smac_drone
+;
+
+#SMAC_DRONE
+The Free Drones, The Laborer, Drones, M, 2, Domai, M, 0, 0, 0, 0, 0, 
+  TECH, Indust, SOCIAL, ++INDUSTRY, SOCIAL, --RESEARCH, PSI, 1, RESEARCH, 1, DRONE, 1, TALENT, 1, ENERGY, 1
+  Future Society, Eudaimonic, INDUSTRY
+  Economics, Green, nil
+  Free Drone, Free D.
+  Maxwell, Irwin, Maxwell's Assembly
+  Foreman, stalwart, brainless, diligent, self-important, 
+  Undeserving Malcontent
+  improve the lot of the common citizen
+  to free the enslaved working classes from their oppressors
+  controlling all industrial production on Planet
+  controlling all industrial production on Planet
+  undermine the very foundations of our society
+  glorying in the accolades of his mindless lackeys
+  glorying in the accolades of your mindless lackeys
+  inciting drones against their rightful masters
+  self-righteous bombast, M1
+  industrial ambitions, M2
+  self-styled worker's paradise, M1
+  charitable donation, M1
+  maintaining a minimum standard of living for the common citizen
+  my Labor Mediation Teams
+  the Planetary Living Standard
+
+#BASES
+Free Drone Central
+Hall of Industry
+Smokestack Hill
+Steelfount
+Freedman's Park
+Common Ground
+Labor Trust
+Liberty Plant
+Freedom's Foundry
+Assembly Hall
+Worker's Paradise
+Miner's Freehold
+Digger's Descent
+Domai Dome
+Living Standard
+Spanner Works
+Staples of Life
+Hammer and Tongs
+Anvil of Man
+Whipsaw Base
+Drilling Grounds
+Guild House
+Craftsman Keep
+Future's Fulcrum
+Power Grid
+#END
+
+#WATERBASES
+Seawork Caverns
+Chainlink Break
+Welder's Shipyards
+Deep Platform Nine
+Stevedore Dock
+Longshoreman's Quay
+Tanker's Rest
+Coral Warehouse
+#END
+
+#BLURB
+"Now it's day and night the irons clang, and like poor galley
+slaves 
+^We toil and toil, and when we die, must fill dishonored graves
+
+#DATALINKS1
+^LEADER: {Foreman Domai}
+^BACKGROUND: {Unity Assistant Jobtech 3rd Class}
+^AGENDA: {Emancipation of the working class}
+^TECH: {Industrial Base}
+^
+
+#DATALINKS2
+^+2 INDUSTRY: {Excellent craftsmen and skilled workers}
+^-2 RESEARCH: {Emphasis on productivity instead of 'blue-sky' research}
+^{May not use Green economics.}
+^-1 DRONES in every base: {Working for common good reduces discontent}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"The common man has suffered most during this interminable conflict.
+For the  sake  of our citizens, we should set aside our egotistical
+pride and pledge Blood Truce."
+
+"You're right, our people deserve better. We'll sign your truce."
+"Our people gladly suffer any hardship to encompass your destruction."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"You seem to care about your citizens' welfare, $TITLE0 $NAME1.
+In the interest  of  our people, we should forswear our personal
+ambitions and sign a Treaty of Friendship."
+
+"Yes, the desires of the people should come first. "
+"My people exist only to further my ambitions. A Treaty does not fit with my plans at this time."
+
+
+# ; This line must remain at end of file

@@ -1,0 +1,161 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+; FACTION FILE: Planet Believers
+; made by bdanv & Larrin for
+; WPC's April 2010 Alpha Centauri Game of the Month - "Jihad"
+; an original idea by dmm1285
+;
+;
+;
+
+#FUNGGIRL
+The Zealots, Planet Believers, Zealots, M, 2, Jezebel, M, 1, 1, 0, 0, 1, 
+  FACILITY, 35, FUNGNUTRIENT, 1, FUNGMINERALS, 1, FUNGENERGY, 1, DEFENSE, 5, OFFENSE, 5, SOCIAL, ++PLANET, SOCIAL, +SUPPORT, 0, PSI, 3900, TECHCOST, 125, 
+  Economics, Green, GROWTH, 
+  Politics, Democratic, nil, 
+  Holier-than-thou, Holier-than-thou
+  larvae, boil, Cha Dawn's Birthplace
+  Sister, righteous, enlightened, visionary, merciless,
+  fanatical
+  follow The Path
+  to follow The Path
+  fighting the crusade against the unrighteous
+  fighting the crusade against the unrighteous
+  kill the native life
+  following The Path
+  following The Path
+  killing native life
+  mind attacks, M1
+  rapport with Planet, M2
+  'hounds indoctrination', M2
+  offering, M1
+  shielding you from the wrath of Planet
+  my followers
+  God's Commandments
+
+#BASES
+The Path
+Jerusalem's Dawn
+Worm Husk
+The Slithering
+Teeming Spawn
+Fungus Among Us
+Preserve
+The Psi Chamber
+Xenofungus
+Empath Training
+Trance
+Divide and Conquer
+Centauri Nexus
+I'm Locust Man
+Chiron Nest
+Shooting Spores
+Spore Launcher Platform
+Jezebel's Birthplace
+The Lifecycle
+Demon Boils
+Planet Rising
+NewFung Lab
+Worm's Conclave
+Zion Edicts
+Seers of Redemption
+Sword of God
+Noah's Shrine
+The Consecration of God
+Planetvision Judgement
+Trance of the Faithful
+Blessed Planet
+The Stigmata of God
+New Haven
+Terrible Souls
+Light of Salvation
+Eternal Sanctum
+The End Mercy
+Righteous Fire
+Chalice of God
+Locust's Rapture
+The Lord's Misery
+The Lord's Hermitage
+#END
+
+#WATERBASES
+Sea Shelter
+Deep Spawn
+Sea Worms
+Lurker Reef
+Isle on Water
+WaveTrance Fishes
+Belly of Planet
+Fisher of Ninevah
+Ark of the Grace
+Water Reverie
+Consecrated Sanctuary
+#END
+
+#BLURB
+Our crusade against the unrighteous shall not falter; for our faith will sustain us. 
+God commands us that we issue forth and cut off the generations of the wicked. 
+NOW is the time! NOW shall we don the Armor of Righteousness and blot that 
+which is evil in his sight from the world! 
+^
+^Amen.
+^
+^        -- Sister Jezebel,
+^           "The Path"
+
+
+
+#DATALINKS1
+^LEADER: {Sister Jezebel}
+^BACKGROUND: {Daughter of Cha Dawn and Miriam Godwinson}
+^AGENDA: {The Path}
+^
+
+#DATALINKS2
+^+2 PLANET: {Devoted to preserving native life}
+^+1 Nutrients/Minerals/Energy in fungus squares
+^+100% Psi combat modifier
+^Cost of native life reduced: {Zealots know The Path}
+^+1 SUPPORT: {Fanatic citizens willing to support the Holy War}
+^-95% Offensive combat: {Unable to field conventional forces}
+^-95% Deffensive combat: {Unable to field conventional forces}
+^{May not use Democratic politics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Planet finds this conflict most displeasing. Let us live in accordance with her will and pledge Blood Truce."
+
+"Um...sure...whatever Planet says..."
+"Have you been sniffing spores again, $NAME3? Let's see if Planet can save you now!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Planet senses a kinship between our people. Let us forge a bond by signing a Treaty of  Friendship!"
+
+"Planet is wise, $NAME3. So it has been spoken, so let it be done."
+"Planet must have magma in its mantle, $NAME3. We'll never join your spore-sniffing fanatics!"
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Planet finds this conflict most displeasing. Let us live in accordance with her 
+will and pledge Blood Truce."
+
+"Manifold Six: must be heeded! Agreement!"
+"Presumption: to speak to Manifold Six: human concept: heresy! Truce: no!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my philosophies would seem to make
+me the only natural ally for you from among these warring human
+factions. Can't we sign a Treaty of Friendship and coexist in peace?
+
+"Zealots: safe ally. Treaty: admirable idea."
+"Zealots: control: too important. Ally: dangerous. Answer: no."
+
+# ; This line must remain at end of file

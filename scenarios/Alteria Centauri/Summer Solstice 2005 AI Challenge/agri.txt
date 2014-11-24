@@ -1,0 +1,128 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Agri-Culture v1.0
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.civgaming.net/citizens/networknode/
+; email networknode@lycos.com
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; To use this Faction file select load from the 
+; faction menu and type... agri
+;
+; Altered by Brian Blaha for a scenario
+
+#AGRI
+Agri-Culture, The Providers, Agrians, F, 2, Niobe, F, -1, 0, 1, 0, 1, 
+ TERRAFORM, 0,   SOCIAL, -PLANET, SOCIAL, -INDUSTRY, DEFENSE, 115, SOCIAL, -POLICE, SOCIAL, +EFFIC, FACILITY, 13, SOCIAL, ++SUPPORT, FREEFAC, 14, TECH, Ecology
+  Economics, Planned, RESEARCH
+  Economics, Green, nil
+  Agrian, Agrian
+  Assa, Ussue, Djal
+  High Councillor, prepared, homely, hearty, dimwitted, 
+  backward
+  cultivate and terraform
+  prepare Planet for agriculture
+  claiming all arable land
+  claiming all the arable land
+  ruin the land
+  terraforming at random
+  overtilling the soil
+  overworking the land
+  Council, F1
+  agriculture, M2
+  terraforming, M1
+  land tax, M1
+  terraforming
+  the Homeguard
+  Agri-Culture teachings
+
+#BASES
+Djal
+Medi
+Hjor
+Blumma
+Feroim
+Allos
+Fonner
+Ineb
+Wrass
+Apho
+Chias
+Tappihm
+Chureh
+Honno
+Phios
+Pyra
+Nuno
+Hunnah
+Taone
+Pallu
+Hado
+Padde
+Blas
+Ochre
+Shuena
+Jikno
+Nuad
+#END
+
+#WATERBASES
+Ulle
+Muneus
+Pepnua
+Jeun
+Nirr
+Ljen
+Gjan
+Trull
+#END
+
+#BLURB
+We seek only to live in peace and practice our agricultural skills,
+for more people will come to populate this planet we now call home,
+and none are loved more or held in greater esteem than those who 
+fill the stomachs of the hungry.
+^
+^
+^   -- Wrema Niobe
+^      "A Cultivators Journal"
+^
+^
+
+#DATALINKS1
+^LEADER: {High Councillor Wrema Niobe}
+^BACKGROUND: {Agronomist, Terraforming Engineer}
+^AGENDA: {To terraform Planet for future generations}
+^TECH: {Centauri Ecology}
+^
+
+#DATALINKS2
+^-1 PLANET:   {Large scale Terraforming ecologically disruptive}
+^-1 INDUSTRY: {Industry uses precious arable land}
+^-2 POLICE:   {Independant and generally peaceful people}
+^+15% on Defense: {Fiercely protective of homelands}
+^Arboreal affinity: {Free TREE FARM at each base}
+^{May not use Green Economics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This war only destroys valuable land, let's sign a Truce and be
+done with it."
+
+"Lands not in conflict are indeed precious."
+"The land is more valuable without you!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Let us sign a treaty of Peace, $TITLE0 $NAME1"
+
+"Let us grow what is ours, chew, and eat our fill."
+"I think not, your designs on my land are ingenuous."
+
+
+# ; This line must remain at end of file

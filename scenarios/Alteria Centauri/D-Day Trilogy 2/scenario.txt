@@ -1,0 +1,156 @@
+; XENOFUNGUS http://xenofungus.cjb.net
+; 
+; Strategic Scenarios for Sid Meier's ALPHA CENTAURI
+;
+; Copyright (c) 1999/2001 Tres [ tox@technologist.com ]
+;
+; NOT FOR COMMERCIAL USE!
+;
+
+
+
+#INTRO
+#xs 320
+#caption Xenofungus - Strategic Scenarios for SMAC (US Version)
+^
+^SCENARIO : D-Day Trilogy [Part 2] - Desert Storm 2162 v3.0
+^
+^BACKGROUND / STORY : http://xenofungus.cjb.net
+^
+^SCENARIO TYPE : Military Operation
+^
+
+
+
+#OBJECTIVES
+#xs 440
+#caption UN-Admiralty
+^
+^Message to:
+^
+^Commander Lal, Commanding Officer Operation Desert Storm 2162
+^
+^
+^Orders:
+^
+^Conquer the following enemy cities:
+^GENERAL YANG´S FORTRESS (southern Carzinome Desert)
+^UN-HEADQUARTER (northern Carzinome Desert)
+^MORGAN INDUSTRIES (Morgan Primary Ressource) 
+^
+^Defend the UN-COMMAND CENTER, UN-OUTPOST 1 and UN-OUTPOST 2 at all cost.
+^
+^Operational Status:
+^
+^Achieved Targets: $NUM2
+^
+
+#SCENTIMELIMIT
+#xs 440
+#caption UN-Admiralty
+^
+^M.J. $YEAR0
+^
+^Termination Operation Desert Storm 2162
+^
+^Cities to take planetary control:  
+^MORGAN INDUSTRIES (conquer) 
+^UN-HEADQUARTER (conquer)
+^GENERAL YANG´S FORTRESS (conquer)
+^UN-COMMAND CENTER (defend)
+^UN-OUTPOST 1 (defend)
+^UN-OUTPOST 2 (defend)
+^
+^Achieved Targets: $NUM2
+^
+
+#SCENTIMEWIN
+#xs 440
+#caption UN-Admiralty
+^
+^Termination Operation Desert Storm 2162
+^
+^Cities to take planetary control: 
+^MORGAN INDUSTRIES (conquer) 
+^UN-HEADQUARTER (conquer)
+^GENERAL YANG´S FORTRESS (conquer)
+^UN-COMMAND CENTER (defend)
+^UN-OUTPOST 1 (defend)
+^UN-OUTPOST 2 (defend)
+^
+^Achieved Targets: $NUM2
+^
+
+#SCENTIMELOSS
+#xs 440
+#caption UN-Admiralty
+^
+^Termination Operation Desert Storm 2162
+^
+^Cities to take planetary control: 
+^MORGAN INDUSTRIES (conquer) 
+^UN-HEADQUARTER (conquer)
+^GENERAL YANG´S FORTRESS (conquer)
+^UN-COMMAND CENTER (defend)
+^UN-OUTPOST 1 (defend)
+^UN-OUTPOST 2 (defend)
+^
+^Achieved Targets: $NUM2
+^
+
+#SUDDENDEATH
+#xs 440
+#caption UN-Admiralty
+^
+^Termination Operation Desert Storm 2162
+^
+^Cities to take planetary control:  
+^MORGAN INDUSTRIES (conquer) 
+^UN-HEADQUARTER (conquer)
+^GENERAL YANG´S FORTRESS (conquer)
+^UN-COMMAND CENTER (defend)
+^UN-OUTPOST 1 (defend)
+^UN-OUTPOST 2 (defend)
+^
+^Achieved Targets: $NUM2
+^
+
+#SUDDENDEATH0
+#xs 440
+#caption UN-Admiralty
+^
+^Termination Operation Desert Storm 2162
+^
+^Cities to take planetary control:  
+^MORGAN INDUSTRIES (conquer) 
+^UN-HEADQUARTER (conquer)
+^GENERAL YANG´S FORTRESS (conquer)
+^UN-COMMAND CENTER (defend)
+^UN-OUTPOST 1 (defend)
+^UN-OUTPOST 2 (defend)
+^
+^Achieved Targets: $NUM2
+^
+
+
+
+
+#SCENARIOWARNING
+#xs 440
+#caption UN-Admiralty
+^
+^Operation Desert Storm 2162 will be terminated M.J. $NUM0
+^
+^Cities to take planetary control: 
+^MORGAN INDUSTRIES (conquer) 
+^UN-HEADQUARTER (conquer)
+^GENERAL YANG´S FORTRESS (conquer)
+^UN-COMMAND CENTER (defend)
+^UN-OUTPOST 1 (defend)
+^UN-OUTPOST 2 (defend)
+^
+^Achieved Targets: $NUM2
+^
+
+
+# ; This line must remain at end of file

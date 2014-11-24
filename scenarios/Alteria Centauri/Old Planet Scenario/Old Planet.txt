@@ -1,0 +1,39 @@
+SMACX Scenario "Old Planet"
+---------------------------
+
+based on map "Old Planet (SMACX  Great, 236kb 52x104)"
+
+This scenaro combines the 2 Alien factions of SMACX with 
+5 human factions from SMAC:
+
+Gaia, Hive, University, Believers, Peacekeepers
+and
+Caretakers, Usurpers
+
+Start is set to 2105, the year when the Alien arrive.
+
+All human factions got a city size 2 (otherwise Drone ruits
+in difficulty "Transcend" will come, or all factions
+have to get Recreation Comm at start) and 2 free Colony Pods, 
+1 Former, 2 Scout Patrols + 1 Unity Rover
+
+The Alien factions got a city size 1, 1 free Colony Pod, 1 Former,
+1 Scout Patrol and 1 MK1
+
+The starting tech is original as in SMAC resp. SMACX.
+
+The only exception the University is: as the advantage "one free tech
+at start" doesn't work in a scenario after building the 1st city, I
+gave the University one tech more: Centauri Ecology (similar to that
+I do in a game if I play the Uni).
+
+Starting Energy is set to 50 for all human and to 10 for the alien
+
+----
+
+The Alpha Centauri.ini attached shows how you have to set your 
+ini so that the original colors and pictures are used.
+
+Dec 25, 1999
+Dreifels@1st-euro.net
+http://1st-euro.net/AC/

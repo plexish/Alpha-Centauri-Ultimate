@@ -1,0 +1,212 @@
+; XENOFUNGUS http://xenofungus.cjb.net
+; 
+; Strategic Scenarios for Sid Meier's ALPHA CENTAURI
+;
+; Scenario File "AlterWars : Buccaneers!" (V1.0/US)
+;
+; Copyright (c) 1999 Tres (trespassa@lycosmail.com)
+;
+; NOT FOR COMMERCIAL USE!
+
+
+
+#INTRO
+#xs 320
+#caption AlterWars : Buccaneers! (US Version V1.0)
+^Mining Colony ORE-WELL-S23/P3/M2
+^In the year 2098 Morgan Industries established a mining colony on the second moon, third planet, planetary system 23. 
+^Nwabudike Morgan, the youngest son of general director Massabe Morgan, leads this colony to learn the rules of business from scratch. 
+^Due to the barren lands of Ore Well food is very rare. 
+^Despite all odds Nwabudike managed it to make a contract with Zion Hydroponics Inc. 
+^The ZH Agrar Conglomerates are specialized in Low Gravity Farming in hostile areas. 
+Agricultural Specialist Miriam Godwinson provides the mining facilities with fresh nutrients from her hothouses. 
+Meanwhile the two are running a profitable business.
+^
+^But profit attracts others also.
+^
+^The Spartan Liberation Army, as always low on resources and money, spotted this valuable target.
+Short time after, they land a small pirate vessel somewhere in the wastelands of the Ore Well moon.
+^
+^Needless to say what their greedy hands want to grab...
+
+
+#OBJECTIVES
+#xs 440
+#caption Mining Colony ORE-WELL-S23/P3/M2 
+^SCENARIO TARGETS 
+^
+^MORGAN INDUSTRIES
+^Run a profitable mining colony.
+^Defend the colony against all enemies.
+^Protect your business partners.
+^
+^ZION HYDROPONICS INC
+^Run a profitable agrar conglomerate.
+^Defend the hothouses against all enemies.
+^
+^SPARTAN LIBERATION ARMY
+^Optain resources for the SLA.
+^Defend the pirate ship "CRUX" against all enemies.
+^Occupie the strategic outpost ORE-WELL-S23/P3/M2.
+^
+^LEADER
+^$FACTION1 $FACTION2, $FACTION3
+^
+^ACHIEVED TARGETS:
+^$NUM2 of 4 
+^(Mining Complex A, Mining Complex B, ZH Agrar Conglomerate, Pirate Ship "CRUX")
+
+
+
+
+#SCENTIMEWIN
+#xs 440
+#caption Mining Colony ORE-WELL-S23/P3/M2 
+^SCENARIO TARGETS 
+^
+^MORGAN INDUSTRIES
+^Run a profitable mining colony.
+^Defend the colony against all enemies.
+^Protect your business partners.
+^
+^ZION HYDROPONICS INC
+^Run a profitable agrar conglomerate.
+^Defend the hothouses against all enemies.
+^
+^SPARTAN LIBERATION ARMY
+^Optain resources for the SLA.
+^Defend the pirate ship "CRUX" against all enemies.
+^Occupie the strategic outpost ORE-WELL-S23/P3/M2.
+^
+^LEADER
+^$FACTION1 $FACTION2, $FACTION3
+^
+^ACHIEVED TARGETS:
+^$NUM2 of 4 
+^(Mining Complex A, Mining Complex B, ZH Agrar Conglomerate, Pirate Ship "CRUX")
+
+
+
+
+#SCENTIMELOSS
+#xs 440
+#caption Mining Colony ORE-WELL-S23/P3/M2 
+^SCENARIO TARGETS 
+^
+^MORGAN INDUSTRIES
+^Run a profitable mining colony.
+^Defend the colony against all enemies.
+^Protect your business partners.
+^
+^ZION HYDROPONICS INC
+^Run a profitable agrar conglomerate.
+^Defend the hothouses against all enemies.
+^
+^SPARTAN LIBERATION ARMY
+^Optain resources for the SLA.
+^Defend the pirate ship "CRUX" against all enemies.
+^Occupie the strategic outpost ORE-WELL-S23/P3/M2.
+^
+^LEADER
+^$FACTION1 $FACTION2, $FACTION3
+^
+^ACHIEVED TARGETS:
+^$NUM2 of 4 
+^(Mining Complex A, Mining Complex B, ZH Agrar Conglomerate, Pirate Ship "CRUX")
+
+
+
+
+
+#SUDDENDEATH
+#xs 440
+#caption Mining Colony ORE-WELL-S23/P3/M2 
+^SCENARIO TARGETS 
+^
+^MORGAN INDUSTRIES
+^Run a profitable mining colony.
+^Defend the colony against all enemies.
+^Protect your business partners.
+^
+^ZION HYDROPONICS INC
+^Run a profitable agrar conglomerate.
+^Defend the hothouses against all enemies.
+^
+^SPARTAN LIBERATION ARMY
+^Optain resources for the SLA.
+^Defend the pirate ship "CRUX" against all enemies.
+^Occupie the strategic outpost ORE-WELL-S23/P3/M2.
+^
+^LEADER
+^$FACTION1 $FACTION2, $FACTION3
+^
+^ACHIEVED TARGETS:
+^$NUM2 of 4 
+^(Mining Complex A, Mining Complex B, ZH Agrar Conglomerate, Pirate Ship "CRUX")
+
+
+
+
+
+#SUDDENDEATH0
+#xs 440
+#caption Mining Colony ORE-WELL-S23/P3/M2 
+^SCENARIO TARGETS 
+^
+^MORGAN INDUSTRIES
+^Run a profitable mining colony.
+^Defend the colony against all enemies.
+^Protect your business partners.
+^
+^ZION HYDROPONICS INC
+^Run a profitable agrar conglomerate.
+^Defend the hothouses against all enemies.
+^
+^SPARTAN LIBERATION ARMY
+^Optain resources for the SLA.
+^Defend the pirate ship "CRUX" against all enemies.
+^Occupie the strategic outpost ORE-WELL-S23/P3/M2.
+^
+^LEADER
+^$FACTION1 $FACTION2, $FACTION3
+^
+^ACHIEVED TARGETS:
+^$NUM2 of 4 
+^(Mining Complex A, Mining Complex B, ZH Agrar Conglomerate, Pirate Ship "CRUX")
+
+
+
+
+
+
+
+#SCENARIOWARNING
+#xs 440
+#caption Mining Colony ORE-WELL-S23/P3/M2 
+^^SCENARIO TARGETS 
+^
+^MORGAN INDUSTRIES
+^Run a profitable mining colony.
+^Defend the colony against all enemies.
+^Protect your business partners.
+^
+^ZION HYDROPONICS INC
+^Run a profitable agrar conglomerate.
+^Defend the hothouses against all enemies.
+^
+^SPARTAN LIBERATION ARMY
+^Optain resources for the SLA.
+^Defend the pirate ship "CRUX" against all enemies.
+^Occupie the strategic outpost ORE-WELL-S23/P3/M2.
+^
+^LEADER
+^$FACTION1 $FACTION2, $FACTION3
+^
+^ACHIEVED TARGETS:
+^$NUM2 of 4 
+^(Mining Complex A, Mining Complex B, ZH Agrar Conglomerate, Pirate Ship "CRUX")
+^
+^Resources of the Mining Colony ORE-WELL-S23/P3/M2 will be exhausted in the year M.J. $NUM0 
+
+
+#; Diese Zeile muﬂ am Dateiende stehen.

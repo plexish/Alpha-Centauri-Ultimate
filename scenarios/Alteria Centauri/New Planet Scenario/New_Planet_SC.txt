@@ -1,0 +1,61 @@
+"New Planet"
+(build 7)
+Scenario is made for SMACX
+
+Map size is a medium between the "Standard" and the "Huge" format.
+(that size I always missed on the CDs)
+
+Settings for "New Planet"
+-------------------------
+
+Starting Year 2105
+
+Human factions got 1 ready built city size 3, 
+having already recycling tanks and recreation comm in their HQ
+and start with 2 Scout Patrols, 1 Unity Rover, 1 former, 
+2 free colony pods 
+(Pirates have escape pods, Angels have 1 Scout + 1 Probe, 
+Cult have 1 Scout + 1 mindworm)
+
+Alien factions got 1 ready build city size 1 and start with
+1 Scout Patrol, 1 MK1, 1 free colony pod
+(this difference in the city's size makes the aliens very week, 
+so I add to the personality of both aliens "shameless betray
+human players". If you like to play an alien faction by a human 
+player you should correct this entry and increase the city's size
+for both aliens to 3 and/or give them a 2nd free colony pod)
+
+Energy is as original 10-10-10-10-10-10-10
+
+All settings from standard faction txt files.
+
+Starting already done research (same as original):
+
+Angels:
+Information Network D1, Planetary Networks D2
+
+Caretakers:
+Biogen, InfNet, Ecology, and the 2 Alien specials
+Progenitor Psych E1 and Field Modulation C2
+shameless betray human players
+
+Cyborgs:
+Applied Physics C1, Information NEtwork D1
+
+Drones:
+Industrial Base
+
+Fungboy (Cult):
+Centauri Ecology E1, Social Psych B1
+
+Pirates:
+Mobility E1, Flexibility E1
+
+Usurpers:
+Ecology, Physic, Biogen, and the 2 Alien specials
+Progenitor Psych E1 and Field Modulation C2
+shameless betray human players
+
+Dec 20, 1999 (rev 6)
+Feb 28, 2001 (rev 7)
+Dreifels@gmx.net
