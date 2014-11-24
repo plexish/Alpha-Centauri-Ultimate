@@ -1,0 +1,123 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Texas
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... texas
+;
+
+#TEXAS
+Texas, The Conservative, Texans, M, 1, Houston, M, 1, 0, 0, 1, 0, 
+  TECH, SingMec, TECH, 8, SOCIAL, ++TALENT, SOCIAL, --SUPPORT, SOCIAL, +++ECONOMY, UNIT, 0, PSI, 50, RESEARCH, 8, TALENT, 8, ENERGY, 500, COMMERCE, 8, MORALE, 5, POPULATION, 5, INTEREST, 50, MINDCONTROL, 0, COMMFREQ, 0, FREEPROTO, 0
+  Politics, Democratic, ECONOMY
+  Economics, Green, nil
+  enthusiastic, enthus.
+  Lamar, Anderson, Houston
+  President, patriotic, Drunk, Leaders, redneck, 
+  dumb redneck
+  Together we can unite and return Texas to its glory
+  To found our society on the principles of freedom
+  Uniting this world under the Texan Banner
+  On reuniting a power that never existed
+  Force your old world ways upon this planet
+  Plotting ways claim this world as Texas
+  Plotting ways to claim this world as Texas
+  Being blind to the world
+  Blindness, M1
+  Independence, M2
+  Revolution, M1
+  fee, M1
+  keeping an eye on the workers
+  The Texas Rangers
+  Texas Law
+
+#BASES
+Austin
+Houston
+Dallas
+Fort Worth
+San Antonio
+Abiline
+Brownwood
+Stephenville
+Plano
+Mineral Wells
+El Paso
+Midland
+Odessa
+Amarillo
+Bridgeport
+Waco
+Hico
+Marshall
+Denton
+Saginaw
+Texas City
+The Colony
+White Settlement
+Sherman
+Plano
+Marble Falls
+Jasper
+#END
+
+#WATERBASES
+Galvaston
+Port Texas
+Bay City
+Beach City
+Cut and Shoot
+Del Rio
+Eldarado
+#END
+
+#BLURB
+^  "Texas will again lift its head and stand among the nations;
+it ought to do so, for no country upon the globe can compare
+with it in natural advantage and the self of body, to embrace
+the self of group and the self of humanity. The goals of the
+group and the greater race are transcendent, and to embrace
+them is to achieve enlightenment. 
+^
+^        --Sam Houston,
+^           "unknown Speech"
+
+#DATALINKS1
+^LEADER: {Sam Houston VI}
+^BACKGROUND: {United States, President of Texas}
+^AGENDA: {New Texan Republic}
+^TECH: {Singularity Mechanics}
+^
+
+#DATALINKS2
+^{+2 TALENT}
+^{-2 SUPPORT}
+^{+3 ECONOMY}
+^Skunk Works: {Free Prototypes}
+^{Mind Control Immunity}
+^About a dozen huge undocumented bonuses
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this War to continue, $NAME1, a pledge of
+Blood Truce would seem in order."
+
+"Indeed. Blood Truce would be most satisfactory."
+"Never! I plan to put an end to your scheming once an"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your ideals are admirable if a bit misguided and
+your faction need not pose a threat to Texas. Shall we sign
+a Treaty of Friendship to formalize our relationship"
+
+"As you wish. Texas seems a valuable friend."
+"No. Your Ideas are a bit too bizarre for me, $NAME3."
+
+
+# ; This line must remain at end of file

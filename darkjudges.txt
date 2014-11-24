@@ -1,0 +1,120 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Dark Judges
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... darkjudges
+;
+
+#DARKJUDGES
+The Dark Judges, ExtraDimensional Judges, Dark Judges, M, 2, Death, M, 1, 1, 0, 0, 0, 
+  TECH, Biogen, IMMUNITY, PROBE, FACILITY, 33, FACILITY, 30, FACILITY, 23, FACILITY, 8, PSI, 75, RESEARCH, 2, HURRY, 125, MINDCONTROL, 0, FANATIC, 0
+  Values, Power, RESEARCH
+  none, none, nil
+  Death, Death
+  Judge Fire, Judge Mortis, Judge Fear
+  Chief Judge, cleansing, evil, weird, genocidal, 
+  genocidal
+  wipe out life on this planet
+  to purge this planet of the guilty.
+  killing everyone
+  mass murder
+  murder my population
+  engaged in genocide
+  engaged in genocide
+  genocide
+  genocidal agenda, M1
+  genocidal agenda, M2
+  population culls, M1
+  contribution, M2
+  their messy, yet necessary duties
+  my dark judges
+  the law
+
+#BASES
+Necropolis
+Mausoleum
+The Crypt
+Killing Centre #1
+Torture Centre
+Dept of Life Removal
+Dismemberment Meadows
+Deadworld
+Justice is Done
+All are Guilty
+Zombie Vats
+Death City 
+Mortis City
+Fear City
+Fire City
+Nausea
+Phobia
+Despair
+The Ovens
+Lime Pit
+Resyk
+Purged
+Killing Centre #2
+All will die
+Cemetery 
+Crematorium
+Killing Centre #3
+#END
+
+#WATERBASES
+Deep Rest
+Sleeps with the Fishes
+Immersion Therapy
+Sea Cleansing Centre
+Drown in Peace
+Keel Haul
+Piranha Pods
+Killing Centre #4
+#END
+
+#BLURB
+"The crime isssss life...
+^  The sssssentence issss .... death"
+^
+^         Judge Death
+^
+^
+
+#DATALINKS1
+^LEADER: {Judge Death}
+^BACKGROUND: {Invader from another dimension}
+^AGENDA: {Genocide - All life is a crime}
+^TECH: {Biogenetics}
+^
+
+#DATALINKS2
+^{Only interest is power}
+^{Fanatical troops fear nothing}
+^{High Psi talent}
+^{Can jump from base to base via home dimension}
+^{Population ruthlessly controlled}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME1, We are willing to accept a tactical truce, for we cannot
+be destroyed before our great work is done."
+
+"Very well $NAME3, but any further atrocities will result in your annihilation."
+"Never $NAME3, you must be finished off now whilst you're weakened."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Your resources would be most useful in my cleansing work $TITLE0
+$NAME1. Join my Dark Judges and together we shall purify this
+planet."
+
+"Yes $NAME3, I'll help you so long as $TITLE0 $NAME1 isn't among the guilty..."
+"NO! You'll be the death of us all !!"
+
+
+# ; This line must remain at end of file

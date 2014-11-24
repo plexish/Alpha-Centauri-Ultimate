@@ -1,0 +1,152 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#UNICON
+New University Commonwealth, The Researcher, Unicon, M, 1, Oleksandra, F, 0, 0, 1, 1, 1, 
+TECH, InfNet, SOCIAL, +EFFIC, SOCIAL, +RESEARCH, SOCIAL, -PLANET, SOCIAL, --POLICE, FACILITY, 8, FREEFAC, 9, FREEFAC, 17, TECH, 2, 
+Future Society, Cybernetic, RESEARCH, 
+Politics, Fundamentalist, nil, 
+Unicon, Unicon
+Isabella, Stankov, Isabella Dvor
+Doctor, magnificent, ethically lacking, advanced, horrific, 
+Technofreak
+pursue pure knowledge
+to strive in research and commit myself to perfection
+crossing the line of humane ethics
+crossing the line of humane ethics
+turn all humanity into colonies of lab rats to serve you
+researching new weapons of mass destruction
+playing with your lab animals
+conducting dispicable research
+bizzare agenda, M1
+thirst for knowledge, M2
+'perfection', M2
+enhancement fee, M1
+helping your pathetic minions live in this harsh world
+Unicom Security
+Unicom Law
+
+#BASES
+Unicom Base
+Laboratoria
+Tesla City
+Cybertown
+Zakharovgrad
+Base of Idealism
+Pure City
+Kosmodrom
+Zvezda Star
+Data Collection
+Dvornik Palaces
+Technograd
+Kolonia Base
+Futur Lab
+Pure Knowledge
+Research Tower
+Commonwealth Rise
+Sveta Planeta
+Nanograd
+Talent Gardens
+Universal Truth
+Monolithian Secret
+Base of the Wise
+Encyclopedia Galactica
+New Generation
+Magnificent Perfection
+Nova Utopia
+#END
+
+#WATERBASES
+Vodograd
+Wave Kinetics
+Unicom Marinery
+Knowledge Basin
+Base of Pureness
+Aquatic Development
+Synth of the Sea
+Infinite Complexity
+#END
+
+#BLURB
+"Many cycles have passed since the seeds of human knowledge
+have scattered across the face of the new world. So
+many human souls, unprepared for the new chapter in
+human history. Billions are dead on the old world, because
+of human incapacity to conserve pure knowledge and not
+twist it into some ville instrument of destruction.
+Only by pursuing unmeddled and conserved reseach can
+we survive and achieve wonders with this new chance
+on Chiron." 
+^
+^        -- Doctor Oleksandra Zakharov,
+^           "Unwritten History"
+
+#DATALINKS1
+^LEADER: {Doctor Oleksandra Zakharov}
+^BACKGROUND: {University of Planet, Prokhor Zakharov's grand daughter}
+^AGENDA: {Pure Knowledge}
+^TECH: {Biogenetics, Information Networks and Applied Physics}
+
+#DATALINKS2
+^+1 EFFIC: {Efficient machinery}
+^+1 RESEARCH: {Commited to research}
+^-1 PLANET: {Artificial exploitation of Planet}
+^-2 POLICE: {Weak controls over ethics}
+^Free {Network Node} at each base
+^Free {Biology Lab} upon discovering Centauri Empathy
+^Free {Research Hospital} upon discovering Gene Splicing
+^{May not run Fundamentalist Politics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Our tactical calculations seem incorrect, for you have
+proven to be a worthy opponent indeed. Shall we call
+off this destructive war and leave each other alone
+to study in peace?"
+
+"This war cost me one research point too many. It's
+a Truce."
+"It's time to end your unethical ways, Doctor."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Dear $TITLE0, I see that our research projects could
+go hand in hand. Why don't we establish a Treaty to
+exchange our priceless knowledge?"
+
+"Why of course. Technology and Friendship - together!"
+"I do not wish to be subjected to your 'research' projects,
+Doctor."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Our tactical calculations seem incorrect, for you have
+proven to be a worthy opponent indeed. Shall we call
+off this destructive war and leave each other alone
+to study in peace?"
+
+"Technology: important. Death: to be avoided. Truce:
+agreed."
+"$NAME3: dispicable projects nearing end. War: continues!"
+uer."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, as you see, among all these warring
+human factions, our faction has continued to pursue
+research of pure knowledge, unmeddled by outside motives.
+You seem technological powerful. Why don't we aid each
+other and exchange knowledge through a Treaty of Friendship?"
+
+"Unicom possesion: valuable human knowledge. Treaty:
+agreed."
+"Progenitor: disgusted by your lack of scruples. Treaty:
+no."
+
+# ; This line must remain at end of file

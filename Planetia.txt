@@ -1,0 +1,128 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Pursuers of Planet
+;
+;	Designed By: Xyrex - 1999
+;
+;	To use this faction -
+;		Load SMAC, in the 'Select Faction' menu select your replacement faction (I recommend the University),
+;		select 'Load' and type 'Knowledge' (no quotes)	
+;
+;
+;	This faction is part of a series of factions which I plan to release over the next few months
+;
+;	I would appreciate any comments, especially one's relating to how I might improve this file, send them to -
+;		xyrex2001@hotmail.com
+;
+;	Patially made with ACEdit (c)1999 ANX  at http://www.acedit.8m.com
+;
+;	You can freely distribute the 'Pursuers' collection under the condition that you keep all the files together
+;
+
+#PLANETIA
+Planetia Ruling, Planetia, Planetians, F, 1, Alya, F, -1, 0, 1, 0, 1, 
+  TECH, Ecology, SOCIAL, +++GROWTH, SOCIAL, ++PLANET, SOCIAL, ---POLICE, SOCIAL, -SUPPORT, FACILITY, 3, UNIT, 1, UNIT, 8, PSI, 25, DRONE, 4, TALENT, 6, SOCIAL, --MORALE, FUNGNUTRIENT, 2, MINDCONTROL, 0, IMPUNITY, GREEN, PENALTY, FREE MARKET
+  Economics, Green, TALENT
+  Politics, Police State, nil
+  Planet, Planet
+  Omikron, Naylla, Orion
+  Social Leader, inhuman, obsessive, freedom loving, inane, 
+  pitiful
+  perfect and protect Planet
+  to perfect Planet's systems, and protect It from harm
+  obliteration of Planet
+  destroying Planet and it's systems
+  plunder Planet
+  drilling the surfaces of our world
+  becoming bloated on Planets' resources
+  preaching Planets' demise
+  pitiful excuses, M1
+  factions moral development, M1
+  Planet walks, M1
+  token of good will, M1
+  your sector
+  my mind worms
+  Planetia Morality Code 257
+
+#BASES
+Arrakis Awakened
+Planet Dreams
+Mindworm Pass
+Garden of Paradise
+Chiron Preserve
+Dreams of Green
+Omikron Devout
+Morality Halls
+Entropy Halls
+Planetary Housing 
+Morality Preachings
+Greenhouse Gate
+Revealing of Ideals
+Research Nodes
+Mind Worm Training Camp
+House of Planet
+Temple of Planet
+Planets Walks
+About Planet
+Arrival of Thoughts
+Approach of Dreams
+Beliefs Encountered
+Dream Halls
+Housing of Thought
+Fortran Assault
+Deirdre's Monument
+Monument to Planet
+#END
+
+#WATERBASES
+Garden of the Deep
+Planet's Sea
+Fungal Void
+Approach of Sea
+Arrival of Our Ideals
+Isle of the Deep
+Flotation of Fungus
+Approach of Fungal Blooms
+#END
+
+#BLURB
+^The rulers of Planet have long plundered it's wealth and beauty, this shall occur no longer!
+^
+^        —Alya
+^           Sounds of Planet
+
+#DATALINKS1
+^LEADER: {Alya}
+^BACKGROUND: {A descendant of Deirdre Sky, this leader seeks moral perfection and Planet's protection}
+^AGENDA: {Democracy and Green / Growth}
+^TECH: {Centuari Ecology +1 Free Tech}
+^
+
+#DATALINKS2
+^+3 Growth: {Link with Planet}
+^+2 Planet: {Link with Planet}
+^-3 Police: {Utopian Society}
+^-1 Support: {Little Military Efforts}
+^{Impunity to negatives of 'Green' economics}
+^
+
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"I believe that this war in which we stand degenerates us both, let us swear Blood truce"
+
+"Of-course, your ideals deserve to live"
+"Your ramblings and Planet dreams will get no farther"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Let us sign a Treaty of Friendship"
+
+"Of-course, our people shall flourish amongst the fungus!"
+"Never, your people are too obsessed with Planet's function."
+
+
+# ; This line must remain at end of file

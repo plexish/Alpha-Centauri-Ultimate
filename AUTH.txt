@@ -1,0 +1,140 @@
+; Sid Meier's Alpha Centauri
+;
+; The Colonial Authority
+;
+; Custom Faction Sig2013-04
+; Text by Sigma
+; Special thanks to ete and Jarlwolf (AC2) for balance suggestions
+; 
+
+#AUTH
+Colonial Authority, The Enforcer, Authority, F, 1, Basque, F, 1, 1, 1, 0, 1, 
+TECH, Mobile, SOCIAL, ++SUPPORT, SOCIAL, +POLICE, SOCIAL, -RESEARCH, FREEABIL, 22, DEFENSE, 125, SOCIAL, --PLANET,
+Values, Power, SUPPORT, 
+nil, nil, nil, 
+Authority, Auth., 
+Colette, Arsene, Unity Memorial
+Marshall, devoted, power hungry, ambitious, tyrannical, 
+Heartless Tyrant
+bring unity to mankind's fractured colonies
+rebuild the union of our colonies by any means necessary
+grinding us under her bootheel in the name of confederacy
+grinding the rest of us under your bootheel in the name of confederacy
+wipe out every ideology that conflicts with your narrow vision
+roaming the streets of her wretched capital sniffing out dissenters
+roaming the streets of your wretched capital sniffing out dissenters
+making oppressive demands on my fellow colonists
+oppressive demands, M2
+colonial endeavors, M2
+peacekeeping operations, M2
+military tax, M1
+preventing our colonies from tearing each other apart
+Colonial Security
+Colonial Law
+
+#BASES
+Colony One
+Last Watchtower
+Tower of Fraternity
+Tower of Equality
+Tower of Liberty
+Authority Base
+Pillar of Unity
+Barricades Risen
+Soldier's Stand
+Call to Arms
+Beating of the Drums
+Prelude to War
+The Cannonade
+Fort Marathon
+Hastings Monument
+Lexington Academy
+Stalingrad Outpost
+Normandy Outpost
+Mars Ascendant
+Strength Indivisible
+Titan Fortress
+Veteran Square
+Defense Council
+Equal Ground
+Field of Honor
+Phalanx City
+Earth Remembrance
+Reforged Union
+Brothers in Arms
+Battlefield Dawn
+Mission Priority
+#END
+
+#WATERBASES
+Naval Authority
+La Rochelle Academy
+Salamis Anchorage
+Gathered Current
+Ocean of Unity
+Breakwater Stronghold
+#END
+
+#BLURB
+^If we are to survive on this world, then it will
+be as one nation with a singularity of purpose. The
+Many fall, the One survives. The Many flee, the One
+stands strong. The Many struggle, the One perseveres.
+^
+^        -- Marshall Valentin Basque,
+^           "The Colonial Creed"
+
+#DATALINKS1
+^LEADER: {Valentin Basque}
+^BACKGROUND: {French Republic, Unity Chief of Staff}
+^AGENDA: {Colonial Unity}
+^TECH: {Doctrine: Mobility}
+
+#DATALINKS2
+^+2 SUPPORT:   {Well funded military}
+^+1 POLICE: {Strict legal system}
+^-1 RESEARCH:  {Resources diverted to military spending
+^-2 PLANET: {Unconcerned with preserving native ecosystem}
+^All units gain Non-Lethal Methods upon discovery of Intellectual Integrity
+^+25% Defense: {Heavily equipped security forces}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This Vendetta has only served to further divide
+our colonies, $NAME1. In the name of unity, we must
+pledge Blood Truce."
+
+"Peace and unity are lofty goals, $NAME3. I agree to your Truce."
+"What you call division we call freedom, $NAME3. There will be no truce."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your actions have proven that you too value the unity
+of our civilization above all else. With a Treaty of Friendship, we can take
+the first step towards reaching that common goal."
+
+"And let this Treaty be the first step on the road to a united Planet."
+"You seem to have misjudged my goals, $NAME3. Go preach your dogma to someone who cares."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This Vendetta is threatening out goals for unifying our people, $NAME1.
+A Blood Truce is the only sensible choice."
+
+"Progenitor: unity also endangered. Blood Truce: solution"
+"Humans: fractured: Progenitors: as one. Victory: inevitable."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, we value law and order above all else. If you were to sign a 
+Treaty of Friendship with us, we could be of assistance in providing that same
+order to your people."
+
+"Law: order: necessary. Treat: also necessary."
+"$NAME3: believes herself Progenitors' master. Treaty: unwise."
+
+# ; This line must remain at end of file

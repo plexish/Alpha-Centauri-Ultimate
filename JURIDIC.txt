@@ -1,0 +1,127 @@
+; -III THE JURIDIC III-
+; <adj.of the administration of justice, courts of justice, or jurisprudence.>
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+; Text by by "Vultur"Ê<gabrymng@libero.it> 
+; originally called "Planet Lawyers"
+; Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.civgaming.net/citizens/networknode/
+; email networknode@lycos.com
+;
+
+#JURIDIC
+Planet's Law, The Lawful, Lawyers, M, 2, Mason, M, 0, 0, 1, 1, 0, 
+TECH, InfNet, TECH, Psych, SOCIAL, +ECONOMY, SOCIAL, +PROBE, SOCIAL, -EFFIC, SOCIAL, -MORALE, VOTES, 1.5, DRONE, 4, ROBUST, POLICE 
+Politics, Democratic, ECONOMY, 
+Future Society, Eudaimonic, nil, 
+Lawful, Lawful
+Della Street, Paul Drake, Della Street's Desk
+Attorney, cunny, slimy, cunning, pettifogger, 
+Creeping Worm
+bring a legal action against our enemys
+to look after the interests of my clients
+to shelve the truth for his own interests
+to shelve the truth for your own interests
+make this world a place full of greed and unfairness
+searching new ways to destroy people's happiness
+searching new ways to destroy people's happiness
+despising the truth
+disregard for the truth, M1
+law suits, M2
+law squabbles, M2
+fee, M1
+avoid long and expensive juridical actions
+Lawyer's Offices
+Penal Code
+
+#BASES
+Court of Appeals
+Circuit Courts
+Court of Cassation
+Constitutional Court
+High Commission
+Amnesty Town
+Pillar of Rights
+Equality Village
+Court of Justice
+Criminal Tribunal
+State Auditors' Department
+High Court
+Court Martial
+Court of Inquiry
+Court Record
+International Right
+#END
+
+#WATERBASES
+Ocean Authority
+Water District
+Seas Commission
+Underwater Tribunal
+Aquatic Right
+#END
+
+#BLURB
+^The chaos has destroyed Unity's mission and the lesson was simple, 
+we can't live in peace if we don't respect something above us: The Law.
+The first thing that we must remember is nothing is as important as the Law itself:
+The Law is equality for all. 
+^
+^-- Attorney Perry Mason Jr,
+^   "The First Lesson"
+
+#DATALINKS1
+^LEADER: {Perry Mason Jr}
+^BACKGROUND: {United States Supreme Court, Unity's Lawful Consultant}
+^AGENDA: {The True Respect of the Law}
+^TECH: {Information Networks, Social Psych}
+
+#DATALINKS2
+^+1 ECONOMY: {High Fees}
+^+1 PROBE: {Professional Secret}
+^-1 EFFIC: {Individualistic methods}
+^-1 MORAL: {Lack of ethics}
+^+50% Votes: {Gifted speackers}
+^Extra DRONE each 4 citizen {Lack of ethics}
+^Robust Police: (Citizens fear the Lawyers)
+^May not use Eudaimonic Future Society
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order."
+
+"Indeed. Blood Truce would be most satisfactory."
+"Never! I plan to put end to your attempt to people's unlawfulness!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1,  I think that  we shall sign a Treaty
+of Friendship and ending this boring debate."
+
+"As you wish. The Lawyers seem valuable friends."
+"No. Your words can't change the substance: you are a liar!"
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement:truce."
+"Progenitor: not so stupid as you think. You: prepare to be destroyed."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my intent is in total respect of the Law.
+Can't we sign a Treaty of Friendship and coexist in peace?"
+
+"Lawyers: wise people. Your Law System: good for Progenitor. Treaty: admirable idea."
+"Lawyers: in error. Progenitor: Human Law: can't accept. Answer: no.
+
+# ; This line must remain at end of file

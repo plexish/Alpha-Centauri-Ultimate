@@ -1,0 +1,140 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Path of Order
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from
+; faction select in the game and write... brother
+;
+
+#BROTHER
+The Path of Order, The Big Brother, Big-Brotherists, M, 2, Amille Parnassus, 
+M, 1, 1, 0, 0, 0,
+  TECH, DocLoy, SOCIAL, ---SUPPORT, SOCIAL, --GROWTH, SOCIAL, ++++POLICE, 
+SOCIAL, ++INDUSTRY, FACILITY, 23, HURRY, 50, MINDCONTROL, 0
+  Future Society, Thought Control, POLICE
+  Politics, Democratic, nil
+  Brotherist, Brothe.
+  Athena, Stephanopoulos, Athena's Justice
+  Doctor, orderly, draconian, indoctrinated, enslaved,
+  Thought-Controlling freak
+  to enforce security and overseeing methods
+  enforce security and protocol
+  mind-controlling the world
+  mind-controlling the world
+  torture and enslave the poor souls who follow you
+  watching old Holovids and eating junk food
+  watching old Holovids and eating junk food
+  watching old Holovids and eating junk food
+  Uber Faction, M1
+  security doctrine, M1
+  Big Brotherist methods, M2
+  Security Fund, M1
+  enforcing the doctrine of order and perfection
+  Enforcers
+  the Path of Order
+
+#BASES
+Parnassus Shining
+Parnassus Tranquility
+Parnassus Garden
+Parnassus Prison
+Parnassus Re-Education
+Parnassus Base
+Parnassus Fortress
+Parnassus Hive
+Parnassus Halls
+Parnassus Anthill
+Parnassus Swarming
+Parnassus Plaza
+Parnassus Factory
+Clone Factory
+Prison Omega
+Fortress Encampment
+Death Camp 1
+Death Camp 2
+Death Camp 3
+Death Camp 4
+Internment
+Execution Hill
+Thought Control Plaza
+Thought Control Centre
+The Great Eye
+The Unseeing Eye
+Overseer Farm
+#END
+
+#WATERBASES
+Undersea Prison
+Undersea Plexus
+Police Plexus
+Watery Grave
+Water Factory
+Ocean Harness
+Tidal Chain
+Wave Control
+#END
+
+#BLURB
+For today, we celebrate the first glorious anniversary of the
+Information Purification Directives. We have created, for the
+first time in all history, a garden of pure ideology. Where
+each worker may bloom secure from the pests of contradictory
+and confusing truths. Our Unification of Thought is more powerful
+a weapon than any fleet or army on earth. We are one people.
+With one will. One resolve. One cause. Our enemies shall talk
+themselves to death. And we will bury them with their own confusion.
+We shall prevail!
+^
+^
+^   -- Doctor Amille Parnassus
+^      "The Principle"
+^
+
+#DATALINKS1
+^LEADER: {Doctor Amille Parnassus}
+^BACKGROUND: {Olympia, Greece; Unity Police Chairman}
+^AGENDA: {Big-Brother society}
+^TECH: {Doctrine: Loyalty}
+^
+
+#DATALINKS2
+^+4 POLICE: {Strict control of people, constant monitoring}
+^+2 INDUSTRY: {Highly centralized industries, forced labor from all 
+citizens}
+^-3 SUPPORT: {Extremely costly thought-control society}
+^-2 GROWTH: {Strict population controls}
+^Free Punishment Sphere at every base: {Public torture of criminals to set 
+"examples"}
+^Immunity to Mind Control: {Thought control society}
+^50% hurry costs: {Public conscription for large construction projects}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"We cannot afford this expensive and life-costly war. Let us end
+it now, so that our two great societies can regroup and rebuild
+lest we destroy each other in a fit of blind, manic rage."
+
+"Fine, but I warn you, my forces are ready to be deployed at a moment's 
+notice."
+"No, $NAME3, you will burn like the poor souls that you executed in the name 
+of "order" and "Security"."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, I am sure you can find me to be a reasonable man,
+and my Big-Brother methods need not pose a threat to you. If
+we but make a Treaty of Friendship, then our two great societies
+can coexist in peace, not interfering with each others business."
+
+"You'd like that, $NAME3, wouldn't you? Very well, but don't think for a 
+moment that you can mind-control my citizens."
+"No, you frighten me with your absolute control of everything in society."
+
+
+# ; This line must remain at end of file
+

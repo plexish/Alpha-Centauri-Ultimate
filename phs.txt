@@ -1,0 +1,119 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Planet Health Services
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+; by Mark Burdon mumfstar@hotmail.com, Why are you even reading this?
+; Done with ACEdit (c)1999 ANX and manually
+; 
+; To use this Faction file select load from 
+; faction select in the game and write... phs
+;
+
+#PHS
+Planet Health Services, The Medic, PHS, M, 1, Fitzben, M, -1, 0, 1, 0, 0, 
+  TECH, Biogen, SOCIAL, +RESEARCH, SOCIAL, +GROWTH, SOCIAL, --ECONOMY, SOCIAL, -MORALE, FACILITY, 17, HURRY, 150
+  Politics, Democratic, RESEARCH
+  Values, Wealth, nil
+  PHS, PHS
+  Natalie, Greene, Ward Natalie
+  Doctor, brilliant, poor, talented, penniless, 
+  Monstrosity
+  research health
+  to combine science with ethics
+  experimenting his poisons on humans
+  experimenting your poisons on humans
+  conduct your unspeakable experiments
+  laying down plans to genetically destroy us
+  laying down plans to genetically destroy us
+  conducting evil research
+  Genetic Team, M1
+  research, M1
+  "research", M1
+  medical tax, M1
+  providing free healthcare
+  PHS Security
+  PHS Ethical Standards
+
+#BASES
+PHS Base
+Gene Lab
+Lab Three
+Peace Hospital
+Planetary Archives
+Good Friday Academy
+Pot o' Gold
+Lab Nine
+Children's Ward
+ER
+Casualty Ward
+Accident Ward
+Research Branch
+Experiment Base
+Beta-Ray Department
+New Dublin
+Ambulance Station Alpha
+Ambulance Station Delta
+Free Gardens
+Eye on Space
+Earth Memorial
+Gratitude Cemetery
+Shamrock Biolab
+Bionexus
+Medicinal Storage
+Dr ABC
+Splicing Department
+#END
+
+#WATERBASES
+Sea Hospital
+Marine Biology Lab
+Pressure Ward
+Sea Farm
+Lighthouse One
+The Bay
+#END
+
+#BLURB
+Wisdom is knowledge put to good use. Health is as important here
+as it was on Earth.
+^
+^        -- Doctor Kyle Fitzben,
+^           "The Balance"
+
+#DATALINKS1
+^LEADER: {Doctor Kyle Fitzben}
+^BACKGROUND: {Irish NHS leader, Unity Health Specialist}
+^AGENDA: {Research, hospitals}
+^TECH: {Biogenetics}
+^
+
+#DATALINKS2
+^+1 RESEARCH: {Brilliant research}
+^+2 GROWTH: {Excellent  Maternity Wards}
+^-2 ECONOMY: {Small wages}
+^-1 MORALE: {Inexperienced armies.}
+^{Free RESEARCH HOSPITAL at each base.}
+^{+50% HURRY COSTS (too busy in healthcare)}
+^{May not use Weath Values in Social Engineering.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Call a ceasefire, $NAME1.We mean you no harm."
+
+"Sign Blood Truce"
+"Too late, $NAME3. The blood of your experiments cry out for revenge."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"We are a pro-life faction, $TITLE0. Let us sign a Treaty of Friendship
+and go back to our people."
+
+"It's true.We both want the best for our race."
+"No. I don't trust your approach to research, $NAME3."
+
+
+# ; This line must remain at end of file

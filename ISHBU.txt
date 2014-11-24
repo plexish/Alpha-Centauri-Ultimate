@@ -1,0 +1,144 @@
+; by Chiron Force
+; Sid Meier's Alpha Centauri
+; Faction Editor
+; www.networknode.org
+
+#ISHBU
+Ishbu United, The Rational, Ishbu, M, 2, Tomo, M, 0, 1, 1, 0, 1, 
+TECH, Mobile, SOCIAL, +EFFIC, SOCIAL, +MORALE, UNIT, 11, TERRAFORM, 0, FREEPROTO, 0, MORALE, 0, COMMERCE, 1, 
+Economics, Planned, ECONOMY, 
+Economics, Free Market, nil, 
+Ishbu, Ishbu
+Hakura, Mikinono, Hakura City
+President, rational, uninspired, sensible, uninspired, 
+Uninspired
+plan our society
+rationaly plan society
+controlling your faction based on misled ideals
+controlling my faction based on your misled ideals
+try to rationalize you faluries
+ordering around his misled citizens
+ordering around your misled citizens
+planning the overthrow of other leaders
+misled plans, M1
+rational planning, M2
+rational society, M2
+planning grant, M1
+keeping society from falling into anarchy
+my Society Planning Team
+Ishbu Constitution
+
+#BASES
+Ishbu Fourm
+Development City
+Rationale Town
+Society Structure
+People United
+Politburo Base
+Oricum Village
+Humanity's Blueprint
+Hiroki Vista
+Progress of People
+Icru Metropolis
+Plans for the Future
+Quest for Knowladge
+Thirst for Conformity
+Ishbu Programming Base
+Efficency Planning
+Alcaer Cliffs
+Cartography Bureau
+Future Plans
+Progressive District
+Prosperity Plaza
+Okidu Flats
+Industrial Planning Town
+Mines of Lerolia
+Surpluss Storehouses
+Abundency Treasury
+Insurence for the Future
+Resolute Goals
+Political Planning District
+Ai Metropolis
+#END
+
+#WATERBASES
+Plans for the Waves
+Tealsea Township
+Undersea Treasury
+Agrican Harbor
+Ishbu Naval Harbor
+Maratime Intrests
+Ocean Effiecency Base
+Maratime Planning Center
+#END
+
+#BLURB
+^  Since the beginning, man has toyed with the unknown,
+diving headfirst into the unexplored depths of science
+and technology.  We have made rash decisions, yet we
+fail to consider consequences.  Now we must resolve
+to plan our future as a people United. 
+^
+^       -- President Kenuchi Tomo
+^          " Proper Progression of Mankind"
+
+#DATALINKS1
+^LEADER: {Kenuchi Tomo}
+^BACKGROUND: {Unity Planning Team, Martial Arts expert}
+^AGENDA: {Proper planning for the future and progress of Humanity}
+^TECH: {Doctrine: Moblilty}
+
+#DATALINKS2
+^+1 EFFICIENCY: {Industry is planned out to be effective }
+^+1 MORALE: {Properly motivated citizens}
+^Free Vehicle - Unity Rover: {Rough terrain was planned for}
+^{May not use Free Market economics.}
+^
+^
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"War is hurting our peoples and slowing the fowardly
+movement of our race.  We should agree to a truce."ld
+set aside our egotistical pride and pledge Blood Truce."
+
+"You're right, we need to begin proper planning. We'll
+sign your truce."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"You seem to care about the planning of your faction,
+$TITLE0 $NAME1. In the interest of progress sign a Treaty
+of Friendship."
+
+"Yes, the proper planning of our faction should come
+first."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Surely your fation is as rational as ours, $TITLE0
+$NAME1.  We should pledge a blood truce and end this
+conflict."
+
+"All Progenitor: equally important. Truce: best forent:"
+truce."
+truce."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Though others mistrust you, $TITLE0 $NAME1, I believe
+your science and understanding of Planet would go well
+with our rational planning. We should sign a Treaty
+of Friendship that we may coexist in peace."
+
+"Treaty: beneficial to all. Idea: agreed upon."
+"Presumption: interaction with $NAME3: somehow beneficial:
+"
+
+# ; This line must remain at end of file

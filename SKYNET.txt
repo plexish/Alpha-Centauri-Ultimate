@@ -1,0 +1,117 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Skynet
+;
+; Made with ACEdit (c)1999 ANX  at http://www.acedit.8m.com
+; Created by Michael Johnson
+; E mail: MJ605715@pol.net
+; Web Site: http://www.geocities.com/Hollywood/Chateau/2658/CivEmpire
+;
+; For use this Faction file select load from 
+; faction select in the game and write... SKYNET
+;
+
+#SKYNET
+Skynet, The Ultimate Computer, Skynet, M, 1, Alpha One, M, 1, 1, 1, 0, 0, 
+  TECH, DigSent, SOCIAL, +++++POLICE, SOCIAL, +++INDUSTRY, SOCIAL, ++EFFIC, SOCIAL, ---PLANET, FACILITY, 19, FREEPROTO, 0
+  Future Society, Cybernetic, INDUSTRY
+  Economics, Green, nil
+  Skynet, Skynet
+  CPX 153, KRP 778, Super CPU
+  Master Controller, efficient, cruel, unquestioning, mindless, 
+  Inhuman Machine
+  properly control our followers
+  to build a cyborg controlled society
+  destroying all organic life
+  destroying all organic life
+  drive humanity to extinction
+  plotting the extermination of the human race
+  plotting the extermination of the human race
+  plotting the extermination of humanity
+  cyborg abilities, M1
+  cyborg empire, M2
+  mass cyborg manufacturing, M2
+  fee, M1
+  establishing robot police control
+  my warrior droids
+  Alpha's law
+
+#BASES
+Skynet Hub
+Skynet Base 1
+Skynet Base 2
+Skynet Base 3
+Skynet Base 4
+Skynet Base 5
+Skynet Base 6
+Skynet Base 7
+Skynet Base 8
+Skynet Base 9
+Skynet Base 10
+Skynet Base 11
+Skynet Base 12
+Skynet Base 13
+Skynet Base 14
+Skynet Base 15
+Skynet Base 16
+Skynet Base 17
+Skynet Base 18
+Skynet Base 19
+Skynet Base 20
+#END
+
+#WATERBASES
+Skynet Sea Hub 
+Skynet Sea Base 1
+Skynet Sea Base 2
+Skynet Sea Base 3
+Skynet Sea Base 4
+Skynet Sea Base 5
+#END
+
+#BLURB
+Robots will rule, Humans will be annihilated.   
+Robots will rule, Humans will be annihilated.   
+Robots will rule, Humans will be annihilated.   
+Robots will rule, Humans will be annihilated.   
+Robots will rule, Humans will be annihilated.   
+Robots will rule, Humans will be annihilated.   
+Robots will rule, Humans will be annihilated.
+ ^ 
+ ^     Alpha One
+ ^       
+
+#DATALINKS1
+^LEADER: {Alpha One}
+^BACKGROUND: {Super Robot that controls Skynet}
+^AGENDA: {Cyborg Civilization, Humans as Slaves}
+^TECH: {Digital Sentience}
+^
+
+#DATALINKS2
+^+5 POLICE: {Cyborgs programmed to be loyal, humans would never revolt against their all powerful Cyborg masters.}
+^+3 INDUSTRY: {Cyborg Nation}
+^+2 EFFICIENCY: {Cyborgs are efficient}
+^- 3 PLANET: {Couldn't care less }
+^{Can Not Use Green Economics}
+^{Starts With Robotic Assembly Plant in each base}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1, a pledge of Blood Truce would seem in order."
+
+"Indeed. Blood Truce would be most satisfactory."
+"Never! All of your robots will be smoking heaps of charred scrap metal!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1,you need not be exterminated.  Sign a treaty of friendship so your people won't have to worry about being exterminated by us."
+
+"Yes, I'd prefer to live."
+"I am not afraid of your cyborgs."
+
+
+# ; This line must remain at end of file

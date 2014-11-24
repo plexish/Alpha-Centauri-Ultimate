@@ -1,0 +1,124 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Adventurer's Club
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; text by pentalarc, graphics by networknode
+; www.networknode.org
+;
+
+#ADVE
+Adventurer's Club, the Adventurers, Adventurers, M, 2, Rudyard Kerrelling, M, 1, 1, 1, 1, 0, 
+  SOCIAL, +MORALE, SOCIAL, -PLANET, SOCIAL, -POLICE, SOCIAL, -PROBE, FACILITY, 6, UNIT, 11, UNIT, 11, UNIT, 11, HURRY, 80
+  Economics, Free Market, SUPPORT
+  Economics, Planned, nil
+  Adventurer, Advent.
+  Sanyard, Fanshaw, Sanyard's Memorial
+  Colonel, brave, foolhardy, brave, jingoistic, 
+  jingoistic
+  explore this planet, and have many a great adventure
+  explore and subdue this planet, seeing all there is to see
+  endangering everyone with foolhardy exploration
+  endangering everyone with foolhardy exploration
+  wander off on some strange safari
+  admiring his collection of taxidermied mindworm heads
+  admiring your collection of taxidermied mindworm heads
+  jingoism
+  adventuring spirit, M1
+  exploration, M2
+  explorations, M1
+  comission, M1
+  expanding your borders
+  Army of Adventureres
+  your bylaws
+
+#BASES
+Adventurers' Club
+Adventurer's Den
+Bernstein's Pub
+Safari Club
+Minelli's Supplies
+Hunter's Lodge
+Mapmaker's Lodge
+Attshaugh
+Pelford-on-Morris
+Kelchester
+Johnsberg-on-Sennett
+Lankford
+Finister-on-Whitcomb
+Erlinger
+Equiping Camp
+Tommison's Den
+Basecamp Vanessa
+Walnut Room
+Trophy Room
+Mahogony Room
+Gin-and-Bridge Club
+Ironwood Room
+Hemmingway Tavern
+Teak Room
+Gentleman's Destiny
+Rosewood Room
+Immanster
+#END
+
+#WATERBASES
+High Seas
+Storm Bay
+Whaling Life
+Queen's Ocean
+Open Ocean
+King's Ocean
+Wavedodger
+Ocean Club
+#END
+
+#BLURB
+"You say this is a dangerous and unexplored land, an exotic world
+where we never know what we will find.  And I say, good!  The
+Earth ran out of blank spaces on the map, and exoticness itself.
+ There needs to be a proper place for a gentleman to have his
+adventures."
+^   
+^       Colonel Rudyard Kerrelling
+^    "Big Game Hunting on Planet, Introduction"
+^
+
+#DATALINKS1
+^LEADER: {Rudyard Kerrelling}
+^BACKGROUND: {Thorpe-on-Heering, New United Kingdom, Unity Armory Officer}
+^AGENDA: {to explore and adventure}
+^TECH: {none}
+^
+
+#DATALINKS2
+^-1 PLANET: {Safaris and "battling the elements"}
+^-1 POLICE: {independantly minded}
+^-1 PROBE : {computer espionage considered "ungentlemanly"}
+^+1 MORALE: {very confident}
+^80% hurry costs: {always ready to adventure}
+^rec commons at every base: {pubs, drawing rooms, conservatories}
+^begins with 3 bonus unity rovers: {explorers    //  May not use Planned}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This uncivilized conflict is no way for civilized gentlemen to
+act.  I think we should sign a truce."
+
+"Yes, quite this conflict is absurd"
+"No, you wanted adventure, well, you've got it. . . prepare to be the primary characters in a war novel"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Your culture is quite fascinating, would you like to cooperate
+with a treaty?"
+
+"Yes, that does seem in order $NAME3"
+"I don't feel like becoming a part of your petty empire, no dice."
+
+
+# ; This line must remain at end of file

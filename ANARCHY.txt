@@ -1,0 +1,128 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Anarchists v1.0
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.networknode.org
+; email networknode@lycos.com
+;
+; To use this Faction file select load from 
+; faction select in the game and write... anarchy
+;
+
+#ANARCHY
+The Anarchists, The Revolutionary, The Anarchists, M, 2, Magnus, M, 1, 1, 0, 0, 0, 
+  TECH, Indust, SOCIAL, +GROWTH, SOCIAL, ---EFFIC, SOCIAL, +SUPPORT, SOCIAL, ----RESEARCH, FACILITY, 6, FACILITY, 10, UNIT, 7, DRONE, 3, HURRY, 75, TECHCOST, 175, COMMERCE, 3, POPULATION, 1, FANATIC, 0,
+  Values, Power, GROWTH
+  Politics, Police State, nil
+  Anarchist, Anarch.
+  McErlain, Giyuaani, BlackMarket
+  Firebrand, free, riotus, free willed, primitive, 
+  scum
+  bring down the system
+  destroy authority
+  destroying all we have built
+  sending civilization back to the stone age
+  spread wide ranging pandemonium
+  creating dissent
+  creating disorder
+  large scale chaos
+  violent thuggery, M1
+  individual freedoms, M2
+  childish social games, M2
+  gift, M1
+  removing authority
+  Vandals
+  freedom of the individual
+
+#BASES
+BlackMarket
+Punk Central
+Hells Kitchen
+Deo
+Mesa
+Mofo
+Firaxis
+Freedom
+Compton
+Neo York
+Neo Berlin
+Iron Fist
+Newtown
+The Cross
+Soho
+Sid City
+Nancy City
+Vandaltown
+Ghetto
+Neo London
+The Pit
+Gangland
+South Central
+Neo Angeles
+Neo Francisco
+Neo Frankfurt
+Firaxis
+#END
+
+#WATERBASES
+Aspyr
+Biggs City
+McLaren City
+Clash City
+Birdmen City
+Vander
+DK City
+#END
+
+#BLURB
+So many ways to get what you want, I choose the best, I use the rest...
+^
+^        -- Firebrand Annus Magnus,
+^           "Written in History"
+
+#DATALINKS1
+^LEADER: {Firebrand Annus Magnus}
+^BACKGROUND: {Factory Worker}
+^AGENDA: {Growth, Power}
+^TECH: {Industrial Base}
+^
+
+#DATALINKS2
+^+1 GROWTH: {Lack of Social Planning}
+^-3 EFFICIENCY: {Badly organized, if at all}
+^+1 SUPPORT: {3 units free per base}
+^-4 RESEARCH: {Not disciplined enough to learn what can be taken from others}
+^FREE FACILITIES: {Skunkworks and Recreation Commons each base}
+^FANATICS: {Enough said}
+^HURRY 75%: {Excellent improvisation}
+^TECHCOST 175%: {Atrocious education system}
+^FREE UNIT: {Alien Artifact (Black Market)}
+^{May not use Police State Politics.}
+^{Receives HALF votes in elections for Planetary Governor and Supreme Leader}
+^{May exceed HAB COMPLEX population requirements by 1}
+^{Extra drone per 3 citizens, culture of aggression}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This scrap between us is bollocks, $NAME1. Call it a draw and
+lets get on with something interesting."
+
+"Enough said, lets put an end to this riot."
+"Never. Im going to have you executed for your crimes against civilization."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"This crap mission is a farce, lets throw together and show the
+others how its done!"
+
+"Crude but effective, $TITLE4--I am with you."
+"No. You've push the limits of deceny too far $NAME3."
+
+
+# ; This line must remain at end of file

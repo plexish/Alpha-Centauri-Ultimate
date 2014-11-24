@@ -1,0 +1,138 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#HYDROS
+Marine University, The Marine Biologist, Hydrologists, M, 1, Cousteau, M, 0, 0, 1, 0, 0, 
+TECH, InfNet, SOCIAL, ++RESEARCH, SOCIAL, --PROBE, FACILITY, 8, TECH, DocFlex, AQUATIC, 0, DRONE, 4, TECH, 1, 
+Values, Knowledge, RESEARCH, 
+Politics, Fundamentalist, nil, 
+University, Univ.
+Nataliya, Fedorov, Nataliya Lab
+Provost, brilliant, unethical, talented, reckless, 
+Madman
+pursue unfettered research
+to pursue pure research unfettered by outside motives and meddling
+conducting all manner of unethical, immoral, and evil research
+conducting all manner of unethical, immoral, and evil research
+conduct your unspeakable experiments
+dreaming up new ways to exterminate our species
+dreaming up new ways to exterminate our species
+conducting unethical research
+unethical methods, M1
+research, M2
+"research", M2
+research grant, M1
+pushing the boundaries of science
+University Enforcement
+University Policy
+
+#BASES
+Oxford
+Cambridge
+St Andrews
+McGill
+Carleton
+Simon Fraser
+Harvard
+Yale
+Princeton
+Berkeley
+Duke
+Westpoint
+Cornell
+Brigham Young
+Purdue
+Sandhurst
+Leiden
+Heidelberg
+Sorbonne
+Massey
+McMasters
+Macquarrie
+UCLA
+Stanford
+Concordia
+UBC
+#END
+
+#WATERBASES
+University Base
+Marine Biology Lab
+Oceanographic Lab
+Hydrothermal Institute
+Deep Sea Lab
+The Marine Institute
+Tidal Research Center
+Reef Laboratories
+#END
+
+#BLURB
+The substructure of the universe regresses infinitely towards
+smaller and smaller components. Behind atoms we find electrons,
+and behind electrons quarks. Each layer unraveled reveals new
+secrets, but also new mysteries.
+^
+^
+^        --Marinebiologist Jacques Cousteau,
+
+#DATALINKS1
+^LEADER: {Dr. Jacques Cousteau}
+^BACKGROUND: {French Commonwealth, Unity Science Officer}
+^AGENDA: {Research, free flow of information.}
+^TECH: {Information Networks}
+^
+
+#DATALINKS2
+^+2 RESEARCH:  {Brilliant research}
+^-2 PROBE:  {Academic networks vulnerable to infiltration}
+^Free NETWORK NODE at every base
+^One BONUS TECH at beginning of game
+^Extra DRONE for every four citizens {(lack of ethics)}
+^{May not use Fundamentalist Politics.}
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Call off your dogs, $NAME1. I am ready to pledge Blood
+Truce if you will leave me to my research."
+
+"Very well, but do not provoke me further."
+"Too bad, $NAME3. Your fate is already sealed."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"We are peaceful researchers, $TITLE0 $NAME1. Will you
+sign a Treaty of Friendship and leave us to study in
+peace?"
+
+"Of course. We must certainly strive to increase our
+"
+knowledge."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Call off your hunting beasts, $NAME1. I am ready to
+pledge Blood Truce if you will leave me to my research."
+ace. Cannot we, as their leaders, accede to their wishes
+and pledge Blood Truce?"
+
+"$NAME3: harmless. Truce: agreed."
+"Suggest: research new weapon. War: continues!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"We understand your kind are deeply interested in research,
+$TITLE0 $NAME1. Will you sign a Treaty of Friendship
+and leave us to study in peace?"
+
+"Research: paramount: rescue of all inhabitants. Treaty:
+agreed."
+
+# ; This line must remain at end of file

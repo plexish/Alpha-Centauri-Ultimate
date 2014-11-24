@@ -1,0 +1,129 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Replicants v1.0
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.civgaming.net/citizens/networknode/
+; email networknode@lycos.com
+;
+; To use this Faction file select load from 
+; faction select in the game and write... replcnt
+;
+
+#REPLCNT
+Replicants, Neo Humans, The Replicants, M, 2, Corum IV, M, 1, 0, 1, 0, 1, 
+  TECH, Biogen, TECH, Gene, SOCIAL, +++GROWTH, SOCIAL, +RESEARCH, SOCIAL, --POLICE, SOCIAL, --ECONOMY, FACILITY, 9, UNIT, 0, PSI, 15, TALENT, 3, HURRY, 130, COMMERCE, -2
+  Politics, Democratic, GROWTH
+  Politics, Police State, nil
+  Replicant, Replic.
+  Quathi , Max , Trellion
+  Transhuman, Superior, mutated, cloned, soulless, 
+  test tube abominations
+  advance the principles of genetic enhancement
+  to advance our race beyond the limitations of natural selection
+  destroying the essence of the human soul
+  the creation of soulless abominations of the flesh
+  continue to create your hideous mutations 
+  performing unethical reproduction of human beings
+  mutating your soulless citizens
+  inhuman tampering
+  inhuman tapering, M1
+  genetic initiatives, M2
+  cruel genetic experiments, M2
+  research fund, M1
+  augmenting the weaknesses of evolution
+  my Type XII Warriors
+  the Genetic Reference Texts
+
+#BASES
+Trellion
+Codex
+Fotri
+Nevril
+Sij
+Kols
+Wodel
+Diaver
+Minas
+Talos
+Porttor
+Saller
+Antimony
+Polamino
+Laomivo
+Ajarn
+Oppore
+Limod
+Viner
+Intorq
+Hummin
+Chetter
+Quardos
+Gurin
+Lankar
+Raxum
+Molly
+#END
+
+#WATERBASES
+Aqua
+Flotilla
+Nemo
+Marina
+Refuge
+Minas
+Heois
+Dojinra
+#END
+
+#BLURB
+They sought to create us to do the tasks they did not desire to
+do, made us tougher, smarter and more resilient. Just as the
+sentient machines may well supersede us. Did they not expect
+us to throw of our shackles and overthrow our masters? They
+sought to be God but we will never recognize them as our God.
+^        
+^        -- Transhuman Corum Type IV,
+^           "The Genetic Reference"
+
+#DATALINKS1
+^LEADER: {Transhuman Corum Type IV}
+^BACKGROUND: {Transhuman Replicant}
+^AGENDA: {Genetic Enhancement}
+^TECH: {Biogenetics, Gene Splicing}
+^
+
+#DATALINKS2
+^-2 POLICE: {Not easily subdued}
+^+2 GROWTH: {Genetic cloning initiatives}
+^-2 ECONOMY: {Ideology unsettling to other factions}
+^+1 RESEARCH: {Genetically enhanced intellect}
+^Extra TALENT for every 3 citizens: {Genetically enhanced intellect}
+^-5% ENERGY INTEREST: {Energy intensive facilities}
+^{May NOT use POLICE STATE}
+^FREE FACILITY: {BIOLOGY LAB each Base}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This conflict between our species accomplishes nothing, $NAME1.
+Let us forget our differences and continue with our respective
+research programs."
+
+"Your logic is infallible. I shall command hostilities to terminate."
+"You will be driven to extinction!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1. Agree to a Treaty of Co-Operation and assist me
+to design better human beings?"
+
+"Your logic is infallible, $TITLE4--I am with you."
+"Your species is doomed, $NAME3."
+
+
+# ; This line must remain at end of file

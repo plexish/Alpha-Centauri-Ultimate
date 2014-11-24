@@ -1,0 +1,131 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#PROCYON
+Procyon Consortium, The Amoeba, Procyon, M, 2, Zedaak, M, -1, 0, 0, 0, 1, 
+SOCIAL, ++GROWTH, SOCIAL, -MORALE, SOCIAL, --PLANET, FREEABIL, 6, FACILITY, 37, UNIT, 21, TECH, DocFlex, TECH, Metal, AQUATIC, 0, ALIEN, 0, POPULATION, -2, 
+Politics, Democratic, GROWTH, 
+Politics, Police State, nil, 
+Procyon, Procyon
+Inoora, Huunop, Inoora's Pool
+Nucleon, tenacious, inscrutable, prosperous, virulent, 
+Virus
+fill this world with our progeny
+found a new home for the Procyon race on this planet
+overrunning Planet with his slimey brothers
+overrunning Planet with your slimey brothers
+pollute this planet with your race of pestilent outcasts
+plotting to turn this planet into a ruined imitation of his homeworld
+plotting to turn this planet into a ruined imiitation of your homeworld
+grotesque expansionism
+grotesque expansionism, M1
+resettlement plans, M2
+family reunion, M1
+donation, M1
+preserving the Procyon species and civilization
+Procyon Legal Code
+Deep Ones
+
+#BASES
+Planet: Hope
+Earthen Refuge
+River: Memory
+Dry Oasis
+Muddy Waters
+Venture: Bold
+Continent: Frontier
+The Grotto
+Adaptation: Need
+#END
+
+#WATERBASES
+New Procyon
+Waters: Living
+Current: Strength
+Ocean: Rebirth
+Deep Refuge
+Reflecting Pool
+Sea: Tranquil
+Isle: Paradise
+Surface: Like Glass
+Seafoam Bay
+Coral Castle
+Sunken Fotress
+Fathoms: Unending
+Seafloor Hatchery
+Tides: Change
+Shoals of Good Tidings
+Floating Garden
+Surf: Peaceful
+Memory of Home
+River: Memory
+Gathering: The Lost
+Dive Platform
+Ocean: Vitality
+Growth: Eternal
+Sea of Salvation
+Drift: Space
+Refugee Harbor
+Procyon: Calling
+Procyon: Haven
+Riptide: Conquest
+Ocean: Mirror
+Home: Sorrow
+Waves: Protection
+Refreshment: to be Found
+The Sea: Bountiful
+Temple: Deep
+#END
+
+#BLURB
+^  While at first the specimen recovered from the New
+Sargasso appeared to be nothing less than a giant amoeba,
+subsequent tests revealed a the presence of a complex
+nervous system unlike anything yet discovered on Planet.
+This researcher apologizes to report that the specimen's
+tissue experienced a state of rapid dissolution soon
+after dissection. 
+^
+^        -- Oleksiy Danilenko,
+^           University of Planet Report on Specimen 91124
+
+#DATALINKS1
+^LEADER: {Nucleon Zedak bora-Jellico}
+^BACKGROUND: {Elected Leader of the Procyon}
+^AGENDA: {New Procyon Homeworld}
+^TECH: {Doctrine: Flexibility, Nanometallurgy}
+
+#DATALINKS2
+^+2 GROWTH:   {Rapid asexual reproduction}
+^-1 MORALE: {Inept soldiers}
+^-2 PLANET:  {Unconcerned with preserving native ecosystem}
+^Aquatic alien faction
+^Experienced deep sea miners {Free Subsea Trunkline at each base}
+^Free Deep Pressure Hull for all marine units
+^Suffers no negative effects from Democratic Politics
+^Can exceed Hab Complex limits by 2.
+^Cannot use Police State Politics
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Vendetta: hinders Procyon recovery. Blood Truce: necessary"
+edge of Blood Truce would seem in order."
+
+"Humanity has also suffered the affects of this war.
+A truce is indeed necessary."
+"Impossible! I plan to wipe your pestilent kind from Planet!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1: ally to Procyon. Potential: Friendship:
+will bring benefit to both species."
+
+"Very well, a Treaty it is."
+"I fear I have to refuse. I'm not comfortable with your
+kind's slow conquest of Planet."
+
+# ; This line must remain at end of file

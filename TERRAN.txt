@@ -1,0 +1,130 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Terran League
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.civgaming.net/citizens/networknode/
+; email networknode@lycos.com
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; To use this Faction file select load from the
+; faction menu in the game and write... terran
+;
+
+#TERRAN
+Terran League, The League Navy, Terrans, M, 2, Mattingley, F, 1, 1, 0, 0, 0, 
+  TECH, Chaos, SOCIAL, -GROWTH, SOCIAL, ---MORALE, IMMUNITY, POLICE, FACILITY, 28, UNIT, 11, DRONE, 5, POPULATION, -2, 
+  Values, Power, POLICE
+  Future Society, Eudaimonic, nil
+  Terran, Terran
+  Kelle, Chun, Outpost A1
+  Commodore, courageous, misguided, loyal, hopeless, 
+  deranged
+  bring this mission under Terran League control
+  restore this mission to Terran League control
+  forcing us to bow to her League superiors
+  imposing the will of the League upon us
+  force us to answer to some distant regime
+  usurping local rule on Planet
+  usurping local rule on Planet
+  imposing the will of the League upon us
+  Terran League, M1
+  initiatives, M2
+  Terran League Outposts, M1
+  League tax, M1
+  Returning League control
+  League Marines
+  Terran League Law
+
+#BASES
+Outpost A1
+Outpost A2
+Outpost A3
+Outpost A4
+Outpost A5
+Outpost A6
+Outpost A7
+Outpost A8
+Outpost A9
+Outpost B1
+Outpost B2
+Outpost B3
+Outpost B4
+Outpost B5
+Outpost B6
+Outpost B7
+Outpost B8
+Outpost B9
+Outpost C1
+Outpost C2
+Outpost C3
+Outpost C4
+Outpost C5
+Outpost C6
+Outpost C7
+Outpost C8
+Outpost C9
+#END
+
+#WATERBASES
+Outpost D1
+Outpost D2
+Outpost D3
+Outpost D4
+Outpost D4
+Outpost D5
+Outpost D6
+Outpost D7
+#END
+
+#BLURB
+The mutineers had fled with the ship after our first encounter
+with the terror of the worms. We now find ourselves stranded.
+My immediate concern is the immense amount of work that we have
+ahead of us. The Mission we had come to rescue was a shambles,
+and with only a handful of loyal crew I was close to despair.
+Yet the Terran League Navy had spent many resources in my training,
+and I was not about to fail. I will continue with the rescue mission.
+^
+^
+^   -- Commodore Mattingley
+^      "Entry 695.005"
+^
+^
+
+#DATALINKS1
+^LEADER: {Commodore Mattingley}
+^BACKGROUND: {Terran League Naval Officer}
+^AGENDA: {To restore Terran League control of the mission}
+^TECH: {Non Linear Mathematics}
+^
+
+#DATALINKS2
+^-1 GROWTH: {Military Outposts not conducive to population growth}
+^-3 MORALE: {Marooned on Planet}
+^IMPUNITY POLICE: {Strict Military Regime}
+^EXTRA DRONES: {Every 5 population, isolated servicemen}
+^POPULATION LIMITS: {May exceed population limits by 2, cramped military living conditions.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"We must cease hostilities or else the mission will fail utterly
+$TITLE0 $NAME1"
+
+"I agree. Prepare the documents $NAME3"
+"Never, Your presence here is an insult."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"I propose a treaty of Peace $TITLE0 $NAME1 between our forces.
+How do you answer?"
+
+"So be it $NAME3"
+"not at all, your objectives don't interest me"
+
+
+# ; This line must remain at end of file

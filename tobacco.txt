@@ -1,0 +1,119 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Tobacco Consortium
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... tobacco
+;
+
+#TOBACCO
+Tobacco Consortium, Big Tobacco, Tobacco Consortium, M, 2, Bob, M, 1, 0, 0, 1, 0, 
+  SOCIAL, --GROWTH, SOCIAL, ++ECONOMY, ROBUST, SUPPORT, SOCIAL, --PLANET, UNIT, 1, DRONE, 4, ENERGY, 100, COMMERCE, 1, FUNGENERGY, 1
+  Values, Wealth, ECONOMY
+  Future Society, Cybernetic, nil
+  Tobacco Consortium, Tobacc.
+  Joe Camel, Mr. Butts, Camelville
+  Chairman, powerful, greedy, dedicated, tobacco-hooked, 
+  inhumane
+  increase cigarette sales
+  to put a cigarette in every person's hand
+  selling cigarettes to minors
+  selling cigarettes to minors
+  kill thousands with your devilish products
+  smoking cigarettes
+  puffing on a cigar
+  causing millions of lung cancer fatalities
+  tobacco products, M2
+  sale of tobacco, M2
+  promotion of smoking, M1
+  tobacco tax, M1
+  increasing tobacco sales
+  my lobbyists
+  the Consortium Code of Conduct
+
+#BASES
+Tobacco City
+Buttsville
+Marlboro Country
+Kool
+Camel
+Winston
+Filter Lights
+Merit
+Tar City
+Smoker's Paradise
+Nicotineopolis
+Tobacco Town
+Stogie City
+Pipe Flats
+Smoker's Club Resort
+555
+Cigarette City
+Tobaccopolis
+No Bull
+Filter Longs Extra
+Puff Town
+Smoky City
+Black Lung Township
+Smogland
+Nicotine Base
+Tobaccoville
+Carton Town
+#END
+
+#WATERBASES
+Soggy Stogies
+Tobacco Beach
+Nicotine Island
+Lung Cancer Lagoon
+Ocean of Smoke
+Smoky Seas
+Smog Atoll
+Tobacco Lake
+#END
+
+#BLURB
+Why do politicians tax cigarettes but smoke cigars?
+^
+^   -- Winston advertisement billboard
+^      
+^
+^
+
+#DATALINKS1
+^LEADER: {Chairman Bob}
+^BACKGROUND: {Chairman of Tobacco Consortium, an association of leading cigarette makers}
+^AGENDA: {Promoting the sale of cigarettes}
+^TECH: {None}
+^
+
+#DATALINKS2
+^-2 GROWTH: {Too many people dying of lung cancer}
+^+2 ECONOMY: {Good advertising and soft money leads to more sales of stoges}
+^Robust SUPPORT: {Users are too addicted to oppose Big Tobacco}
+^Free former at start: {Farm implement brought over by consortium for planting tobacco}
+^+1 Commerce rate, +1 energy in fungus square: {Tobacco sales (better varieties possible with crossbreeding with fungus}
+^Extra drone per 4 citizens, may not use Cybernetic: {Addiction causes followers' minds to become messed up.}
+^-2 PLANET: {Tobacco farming damages environment}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Why don't we stop the fighting and have a nice cigar instead?"
+
+"Sure?  Can I borrow a light?"
+"No, you smog-covered addicts!  You're gonna die young anyway from smoking, but I'll end your lives even faster with war!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, let's sign an agreement for collaboration."
+
+"sure $NAME3"
+"No.  I want my bases to remain smoke-free."
+
+
+# ; This line must remain at end of file

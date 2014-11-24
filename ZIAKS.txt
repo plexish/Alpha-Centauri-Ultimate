@@ -1,0 +1,140 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Ziak Council
+;
+; Made with ACEdit (c)1999 ANX  at http://www.acedit.8m.com
+;
+; To install, place this file into your SMAC folder.
+; Then when you're selecting a faction, hit the load button and type in AMERICAN.
+; This will temporarily replace one of the factions with this one.
+;
+;
+; Do you have a custom faction?
+; Send it in to:
+; ============
+; Jacob
+; evil_conquerer@yahoo.com
+; Co-webmaster of The Arrival
+; http://ac.strategy-gaming.com/
+; ============
+;
+;
+; The Ziaks are an advanced race, who crashed on Chiron the same
+; time that the Unity pods did.  They are concerned with only
+; sciences, and to them, Diplomacy is a MAJOR science.
+; The only problem with the ziaks is that they have no regard for money.
+; I created these files with ACEdit.  all of the pics have been
+; modified.  Enjoy
+; Oh yeah, i want to review it if you modify this, and i will add
+; your readme on to mine in the next version.  If you wish me to
+; review it, load it in to www.sidgames.com/ac/
+;
+; TrascendZarkhorav
+;
+
+#ZIAKS
+The Ziak Council, Ziak Dragon, Ziak Dragons, M, 2, Masdenay-nok, M, -1, 0, 1, 0, 0, 
+  TECH, SingMec, TECH, NanoMin, TECH, 3, SOCIAL, +++++RESEARCH, SOCIAL, -----ECONOMY, SOCIAL, --INDUSTRY, FACILITY, 33, FACILITY, 8, PSI, 5, RESEARCH, 30, NODRONE, 1, TALENT, 1, ENERGY, -10, TECHCOST, 50, COMMERCE, -25, MORALE, 2, VOTES, 5, POPULATION, 3, MINDCONTROL, 0, FANATIC, 0, COMMFREQ, 0, FREEPROTO, 0, TERRAFORM, 0
+  Values, Knowledge, RESEARCH
+  Values, Wealth, nil
+  Ziak, Ziak
+  Scriholas, Nathakos, Ziak Tech Advancement Center.
+  Holder of Knowledge, Enlightened, Untrustworthy, Unethical, Fanatical, 
+  Useless
+  Live with Nature and Science
+  Live with Peace of Mind.
+  Researching everything.
+  Researching everything but technology that may help us.
+  Plan to destroy us all.
+  Planning to destroy us all.
+  Planning to destroy us all.
+  Withholding information and evil intent of such.
+  Research, M1
+  Lifestyles, M2
+  Researches, M1
+  ...Payment, M1
+  Peacekeeping
+  Assintant
+  faction file's laws
+
+#BASES
+Ziak Landing
+Ziak Prime Research
+Ziak Labs of Biology
+Ziak Labs of Destruction
+Ziak Labs of Telepathy
+Ziak Labs of Physiology
+Ziak Labs of Transportation
+Ziaks Labs of Epidemiology
+Ziak Labs of Pure Research
+Ziak Labs of Archeology
+Ziak Labs of Psychology
+Ziak Labs of Diplomacy
+Ziak Labs of Astronomy
+Ziak Base 1
+Ziak Base 2
+Masdenay-Nok's Prize
+Ziak Pearl
+Price of Health
+Haven
+Princely Research
+Ziak Base 3
+Ziak Base 4
+Ziak Base 5
+Ziak Base 6
+Ziak Base 7
+Ziak Base 8
+Ziak Tech Advancement Center
+#END
+
+#WATERBASES
+Ziak Waterfall
+Ziak Marine Labs of Biology
+Ziak Marine Labs of Astronomy
+Ziak Marine Labs of Pure Research
+Ziak Marine Lab of Meteorology
+Ziak Marine Labs of Transportation
+Ziak Marine Labs of Power
+Ziak Finding
+#END
+
+#BLURB
+The Ziak Dragons
+ ^  "Of Night, arises dawn, and of dawn, arises a 
+ ^new life.  And with that, new sciences occur.  And with that, night  falls."
+ ^   Masdenay-Nok
+ ^"Of Light And of Darkness"
+
+#DATALINKS1
+^LEADER: {Chanceller Masdenay-Nok/ Diplomatic Reletions Officer Nathakos}
+^BACKGROUND: {Alien race from who knows where, crashed on Chiron the same time that Unity factions did}
+^AGENDA: {To gain all knowledge}
+^TECH: {Controlled Singularity and Nanominiturization}
+^
+
+#DATALINKS2
+^----ECONOMY: {The have no monetary system and they spend all the time researching}
+^+++++Research: {Greatest scientist alive on chiron}
+^{Free Psi Gate at every base-  the technology from their homeworld is carried on.}
+^{Nanominiturization and Singularity Mechanics- Ship computer still partially intact.}
+^{3 free techs at beginning-  computer has enough power to perform 3 Datasearches.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"My Research has been slowing because of this war. I believe you have the same problem. We should end the war because of this. "
+
+"That is satisfactory"
+"I disagree.  You shall be destoyed."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"I ask of you to make peace with my $TITLE0 $NAME1, and reap the life of research. Do you accept?"
+
+"Gladly."
+"Nay. I am not interested."
+
+
+# ; This line must remain at end of file

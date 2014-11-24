@@ -1,0 +1,152 @@
+; by Jambeaux
+; Sid Meier's Alpha Centauri
+; http://www.networknode.org
+;
+
+#BARD
+Bards of Chiron, The  Chorus of Life, Bards, M, 1, Jambeaux, M, 0, 1, 1, 0, 1, 
+TECH, Ecology, FACILITY, 3, SOCIAL, ++PLANET, SOCIAL, +TALENT, SOCIAL, +GROWTH, IMMUNITY, INDUSTRY, FUNGNUTRIENT, 1, DEFENSE, 125, TERRAFORM, 0, FREEPROTO, 0, WORMPOLICE, 0, PSI, 50, TALENT, 1, POPULATION, 1, TECH, 2, 
+Future Society, Eudaimonic, EFFIC, 
+nil, nil, nil, 
+Bards, Bards
+Emotion, Aganga, Lovesongs
+Lead Singer, tuneful, plant singing, melodic, plant singers, 
+Tree Hugger
+harmonize Planet/Earth Ecologies
+to bring Earth and Planet Ecologies into harmony
+singing us all into oblivian
+singing us all into oblivian
+sing the whole of Chiron into oblivian
+singing to the plants and  wildlife like an idiot
+singing to the plants and wildlife like an idiot
+rousing Planet against others
+blasted singing, M1
+ecological  enhancements, M2
+ecological enhancements, M2
+fee, M1
+taming the wildlife of Chiron
+Angel Voices
+Ecological Law
+
+#BASES
+Anthem De Arms
+Angels Aria
+Rock Steady
+Ode to Chiron
+Mandolin Mesa
+Tunesville
+Jazzman's Point
+Lute's Landing
+Wailing Sax
+Guitar Riff
+Battledrums
+Dance of the Fireflies
+Baritone Base
+Mistweave
+Harper's Lair
+Faerie Tale
+Rock N' Roll
+Encore
+Horsefeathers
+Musical Mayhem
+Bards Rock
+Mistsong
+The Band
+Mystic Shielding
+For a Song
+Dreamweaver
+Moonlight Sonata
+The Hangout
+Harmony Hold
+Midnight Chorus
+Viva Los Vegas
+Fiddlesticks
+Warsong
+Sweet Summers
+Halo of Song
+Enchanted Voices
+Blues Corner
+#END
+
+#WATERBASES
+Hydroflute
+Flutedreams
+Aquatic Ayre
+Rainbow Hymn
+Sea of Song
+Ocean of Lyrics
+Love Song
+#END
+
+#BLURB
+^  It has become a well known fact that music in and
+of itself can change the behavior of plants and of animals.
+ Our hope is to use music as the focus to bring Planet
+and Earth Ecologies together in harmony.
+^
+^        -- Lead Singer Jambeaux Jangles
+^           "Music and Plant/Animal Life"
+
+#DATALINKS1
+^LEADER: {Jambeaux Jangles}
+^BACKGROUND: {America, Unity Entertainer}
+^AGENDA:{Eudaimonic Society, Chiron/Earth Botany}
+^TECH: {Centauri Ecology}
+
+#DATALINKS2
+^+2PLANET: {Know the songs of Planet}
+^+1 TALENT: {Bards are talented individuals}
+^+1 GROWTH: {Very romantic individuals}                                       
+^{Immune to Industry minuses}
+^{1 fungus nutrient}
+^
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"I suggest we sign a Blood Truce before someone gets
+truly ticked off, wouldn't you agree?"
+
+"Hey, no problem here, Blood Truce it is then."
+"...and watch as you sing the local wildlife right into
+my living room?  I don't think so buddy, your mine now!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your  about two sandwiches short of
+a picnic, but what say me and you sign a Treaty of Friendship."
+ Shall we sign a Treaty of Friendship to formalize our
+symbiotic relationship?
+
+"I'm not quite sure how to take that, but I will agree
+to the Treaty."
+"I got your sandwiches right here, $NAME3.  You can
+stuff your Treaty with them!"
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement:
+truce."
+"Your needs: truth: not same. Continued conflict: beneficial
+to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my ecological philosophies would
+seem to make me the only natural ally for you from among
+these warring human factions. Can't we sign a Treaty
+of Friendship and coexist in peace?
+
+"Bards: safe ally. Treaty: admirable idea."
+"Bards: control: too important. Ally: dangerous. Answer:
+no."
+
+# ; This line must remain at end of file

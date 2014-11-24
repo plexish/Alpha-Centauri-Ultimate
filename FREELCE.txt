@@ -1,0 +1,125 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Freelancers v1.0
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.civgaming.net/citizens/networknode/
+; email networknode@lycos.com
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; To use this Faction file select load from 
+; faction select in the game and write... freelce
+;
+
+#FREELCE
+The Freelancers, The Mercenary, Freelancers, M, 2, Serbetar, M, 1, 1, 0, 1, 0, 
+  TECH, DocLoy, TECH, Physic, SOCIAL, -MORALE, SOCIAL, --PLANET, SOCIAL, ---ECONOMY, SOCIAL, ++SUPPORT, FACILITY, 17, FACILITY, 1, ENERGY, 25, HURRY, 60, COMMERCE, 1, DRONE, 4
+  Values, Wealth, SUPPORT
+  Future Society, Eudaimonic, nil
+  Freelancer, Freelancers,
+  Roget, Dalma, Victors Stand
+  General, honourable, warmonger, elite, deluded, 
+  ragged brigands
+  conquer all before us
+  fulfil my contracts and shape the future of this planet
+  conscripting our youth into his private militia
+  forcing this planet towards an arms race
+  gather your host and prepare to annihlate us
+  parading his troops
+  in endless parades
+  para-military training
+  mercenary freebooters, M2
+  elite troops, M2
+  militia men, M2
+  reward, M1
+  contract
+  Shock Troopers
+  the Freelancers Code
+
+#BASES
+Freelance Command
+Victors Stand
+Nerets Ridge
+Bunker Hill
+Reters Base
+Fort Apache
+Huyit Control
+Fort Reason
+Devils Chance
+Beggars Canyon
+Last Doubt
+Boot Hill
+Fort Redoubt
+Demons Regret
+Angels High
+Tango Sector
+Tangier
+Philus 88
+Hill 786
+Baens
+Outpost R47
+Athen
+Hill 219
+Targa
+Sector J98
+Laidis
+Outpost 6GH
+#END
+
+#WATERBASES
+Tangier
+Markeesh
+Tabernec
+Cormorant
+Ibis 59
+Kraken 24
+Bravo Delta
+Sea Wolf
+#END
+
+#BLURB
+Mercenaries have been around since the dawn of civilization, why
+should the 22nd Century be any different?
+^
+^        -- General Kukalis Serbetar,  
+^           "The Aspyr Interviews"
+
+#DATALINKS1
+^LEADER: {General Kukalis Serbetar}
+^BACKGROUND: {Mercenary, Commando}
+^AGENDA: {To attain wealth and power}
+^TECH: {Doctrine: Loyalty, Applied Physics}
+
+#DATALINKS2
+^-1 MORALE: {Mercenaries fighting other peoples wars}
+^-2 PLANET: {No respect for the environment}
+^-3 ECONOMY: {Contract earnings}
+^+2 SUPPORT: {Excellent supply lines}
+^FREE FACILITIES: {Research Hospital (for casualties) at each base.}
+^{Headquarters at each base}
+^60% HURRY COSTS: {Factories geared up for wartime production.}
+^{May Not use Eudaimonic future society (military regime)}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"My forces far outweigh yours, $NAME1. Pledge Blood Truce now or
+be vanquished."
+
+"So be it, you run a hard bargain."
+"Bragging will not deter me, $NAME3. Prepare your troops!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1. My mercenary bretheren are content to fufill only
+their contracts that do not involve conflict wuth your Faction.
+I suggest we sign a Treaty and not meddle in each others affairs."
+
+"I agree, but do not trespass on my territory."
+"I think not. A faction of mercenaries is dangerous and untrustworhthy."
+
+
+# ; This line must remain at end of file

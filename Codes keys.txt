@@ -1,0 +1,102 @@
+Drones rules code:
+Add the associated values for all desired variant rules:
+32: Psych-boosting facilities will also boost Lal's bonus talents.
+16: "Superdrones", normally caused only by bureaucracy, can now be caused by conquest, -TALENT, and the University's bonus 
+    drones.
+8:  If a base is all drones, and some are turned into specialists, an equal number will be turned into 
+    superdrones.  If a base is all superdrones and it is supposed to have even more drones than that, "phantom 
+    drones" will be created.  Superdrones and phantom drones do increase the number of talents needed to prevent
+    drone riots.  (Thus, there is no way to stop drone riots other than psych, drone control facilities, and 
+    police.)  If a base is all talents and is supposed to have more talents, it will create "phantom talents",
+    allowing a specialist base to still have golden ages.
+4:  With -1 or lower POLICE, punishment spheres and non-lethal methods will not work.  (Punishment spheres will
+    still decrease labs, though.)
+2:  Drone-suppressing facilities and projects (but not police) cannot suppress superdrones directly; instead they
+    will spend one "point" of drone control to turn the superdrone into a normal drone, and then suppress it.
+1:  Drone-suppressing facilities can suppress pacifism drones.
+
+------------------------
+
+Unit cost formula code:
+The options (for unit cost in rows) are as follows:
+0,8,16,24: WeaponX(Armor+Chassis)/2^(reactor+1).  Weapon has a minimum equal to (Armor/2)+1, rounded down.  
+   Anything other than a scout patrol (1/1/1/*1) has a minimum cost equal to Reactor*1.5, rounded up.
+1,9,17,25: WeaponX(Armor+Chassis)*(6-reactor)/20.  Weapon has a minimum equal to Armor/3, rounded up, 
+   to a maximum of 4, and anything other than a scout patrol has a minimum cost equal to Reactor+1.  The cost is
+   capped at 250 rows.
+2,10,18,26:(Weapon+Armor)*chassis/4
+3,11,19,27:WeaponX(Armor+Chassis)/4 for fission reactor, WeaponX(Armor+Chassis)/3 for other reactors.  Weapon 
+   has a minimum equal to Armor/3, rounded up, to a maximum of 4, and anything other than a scout patrol has a 
+   minimum cost equal to Reactor+1.  The cost is capped at 250 rows.
+4,12,20,28:(Weapon or Armor, whichever is higher)*chassis/4.
+5,13,21,29: WeaponX(Armor+Chassis)*(6-reactor)/20.  Weapon has a minimum equal to Armor-1, to a maximum of 4, 
+   and anything other than a scout patrol has a minimum cost equal to Reactor+1.  The cost is capped at 250 
+   rows.
+6,14,22,30: WeaponX(Armor+Chassis)/4 for fission reactor, WeaponX(Armor+Chassis)/3 for other reactors.  Weapon 
+   has a minimum equal to Armor-1, to a maximum of 4, and anything other than a scout patrol has a minimum cost 
+   equal to Reactor+1.  The cost is capped at 250 rows.
+
+For codes 8,9,11,13,14,24,25,27,29, and 30, chassis cost is increased by reactor for sea units, and by the 
+   amount that reactor increases move speed for air units.
+For codes 0,1,3,5,6,8,10,11,13,14,16,17,19,21,22,24,25,27,29, and 30, armor is halved for sea units, and 
+   multiplied by 2*reactor for armored air units.  Furthermore, sea units have their cost halved (rounding up) 
+   unless they are probe teams, and air units have their cost halved (rounding down), and then halved again 
+   (rounding down) if they are combatunits; all these reductions take place before the reactor-based minimum or 
+   the penalty for high weapons and armor (described below) is applied.
+For codes 0,8,16, and 24, infantry (land units with chassis cost 1) has its cost halved (rounding down), and 
+   then 1 added, before the reactor-based minimum or high-weapons-and-armor penalty.  For codes 1,3,5,6,9,11,13,
+   14,17,19,21,22,25,27,29, and 30, the same changes are made, but after applying the penalty and reactor-based 
+   minimum.
+For codes 0,1,3,5,6,8,10,11,13, and 14, another 1 is added to the cost if armor and weapon both have cost more 
+   than 1, and another 1 is added if it's a land unit and the weapon, armor, and chassis all have cost more 
+   than 1.  Codes 16,17,19,21,22,24,26,27,29, and 30 do the same thing, but for combat units only.
+For codes 18,20,26, and 28, the cost is increased by 1/3 for any reactor higher than fission.
+For all unit codes, the cost is increased by 25% per point of cost of special abilities.
+
+------------------------
+
+Pacifism rules:
+
+0.No units produce pacifism drones.
+1.Only air units with 2 or more attack produce pacifism drones; interceptors are exempt.
+2.Only air units with 2 or more attack produce pacifism drones; interceptors are not exempt.
+3.Air units produce pacifism drones, unless they are noncombat (i.e. have no attack) or scout units 
+  (i.e. those with 1 attack, 1 defense, and 1 reactor) or interceptors.
+4.Air units produce pacifism drones, unless they are noncombat (i.e. have no attack) or scout units.
+5.Only combat air units produce pacifism drones;interceptors are exempt.
+6.Only combat air units produce pacifism drones;interceptors are not exempt.
+7.Only units with 2 or more attack produce pacifism drones.
+8.Only unarmored units with 1 or 0 attack do not produce pacifism drones.
+9.Only noncombat units and scout units do not produce pacifism drones.
+10.Only unarmored noncombat units and scout units do not produce pacifism drones.
+11.Only noncombat units do not produce pacifism drones.
+12.Only unarmored noncombat units do not produce pacifism drones.
+13.All combat units, as well as probe teams, produce pacifism drones.
+14.All combat units and armored noncombat units, as well as unarmored probe teams, produce pacifism drones.
+15.All units produce pacifism drones.
+
+Equivalently:
+-Land and sea units will not produce pacifism drones unless the code is 7 or higher.
+-Interceptors will not produce pacifism drones if the code is 1,3, or 5.
+-Noncombat units will not produce pacifism drones unless the code is 8, 10, 12, or 14 and they are armored, or 
+ the code is 15 regardless of armor.  However, if the code is 13 or 14, probe teams are considered combat units 
+ for this purpose.
+-Units with 1 attack will not produce pacifism drones if the code is 1,2, or 7.  If in addition they have no 
+ armor, they will not produce pacifism drones on a code of 8, and if they also have reactor 1 then they will
+ not produce pacifism drones except on a code of 5,6, or 11 or higher
+-No unit will produce pacifism drones if the code is 0.
+
+------------------------
+
+Conventional missile rules:
+
+This controls how the cost and power of missiles are affected by the unit's reactor.
+
+1. They are not affected.
+2. The power is multiplied by the reactor value.
+3. The power and the weapon cost are both multiplied by the reactor value.
+4. The power is multiplied by 2^reactor.  (i.e. doubled for each reactor level.)
+5. The power and weapon cost are both multiplied by 2^reactor.
+6. The power and weapon cost are both multiplied by 2^reactor, after which the weapon cost is increased by the
+   (unmultiplied) power (causing the efficiency of missile weapons to increase with reactor, but fairly slowly).
+7. The power is multiplied by 2^reactor; the weapon cost is multiplied by the reactor value.

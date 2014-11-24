@@ -1,0 +1,142 @@
+;
+; Sid Meier's Alpha Centauri
+;
+; The Chrysalis Collective
+;
+; Custom Faction Sig2013-07
+; Text by Sigma
+; Special thanks to ete (AC2) for balance suggestions
+; 
+;
+; 
+
+#GENOME
+Chrysalis Collective, The Enhanced, Chrysalites, F, 2, Navarro, F, 0, 0, 1, 0, 1, 
+TECH, BioGen, SOCIAL, +MORALE, SOCIAL, --GROWTH, TALENT, 3, FREEFAC, 9, HURRY, 110,
+Values, Knowledge, RESEARCH, 
+Politics, Fundamentalist, nil, 
+Chrysalite, Chrysalite,
+Odette, Frakes, Crick Station
+Director, brilliant, deviant, unswerving, degenerate, 
+Mad Scientist
+bring about a new era of human evolution
+employ genetics and biological science to unlock the potential of the human race
+converting humanity into a race of freaks and mutants
+converting humanity into a race of freaks and mutants
+recreate every living thing on Planet as a biological nightmare
+cooking up new genetic abominations
+cooking up new genetic abominations
+biological crimes
+biological crimes, M2
+medical research, M1
+genetic experiments, M2
+grant, M1
+providing treatments and therapies to improve the potential of Planet's citizens
+the Chrysalite Response units
+Chrysalis Collective Policies
+
+#BASES
+Humanity Reborn
+Jaqueline's Ladder
+Tree of Life
+Blood Music
+Salktown
+Viral Prison
+Chimera Preserve
+Beyond Human
+Panacea Capitol
+Genome Library
+Mutation Analysis
+Promise of Life
+Darwin's Triumph
+Vaccine Archive
+Transhuman Dreams
+Biodeterminism
+Cognition Lab
+Clone Combine
+Central Reticulum
+Mass Trial Management
+Medical Monument
+Hippocratic School
+Homo Centauri
+Cell Foundry
+Immunity Palace
+Pasteur Memorial
+#END
+
+#WATERBASES
+Amino Sea
+The Gene Pool
+Guanine Island
+Regeneration Bay
+Erythro Depths
+Snow Derick
+Healing Waters
+#END
+
+#BLURB
+^Every human being spends thirty minutes as a single celled organism,
+scarcely different from the first paramecia that fought tooth and nail against
+nature's cruelty for every evolutionary edge they could find. It is amazing to
+think how far we have come since then, and humbling to think how far we have yet
+to go.
+^
+^        -- Director Jaqueline Navarro,
+^           "The Terminal Cure"
+
+#DATALINKS1
+^LEADER: {Jaqueline Navarro}
+^BACKGROUND: {Western American Republic, Unity Medical Officer}
+^AGENDA: {Human biological improvement}
+^TECH: {Biogenetics}
+
+#DATALINKS2
+^-2 GROWTH:   {Exacting population control}
+^+2 MORALE:   {Elite field operatives}
+^1 additional talent for every 3 citizens: {Gene enhanced workers}
+^Free Biology Lab at every base with discovery of Centauri Empathy
+^110% Hurry Cost {Elitism creates unmotivated workforce}
+^{May not choose Fundamentalist Politics}
+
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"War is barbarism, $NAME1. Surely our people have shown themselves to be
+more evolved than to remain embroiled in this pointless skirmish. A Blood
+Truce is the only sensible option."
+
+
+"Indeed, let's leave the primitive bloodhsed behind on Earth."
+"Your high and mighty act isn't fooling anyone, $NAME3! I'll have no Truce with you!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, the human race on Planet will never reach its full potential as
+long as we remain fractured and at each others' throats. Let's sign a Treaty of
+Friendship as the first step down the path to future evolution."
+
+"Then let me be the first to take that step, $NAME3. Where do I sign?"
+"I can't agree to a Treaty with someone who treats humans as guinea pigs for her depraved experiments."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Surely your race has evolved beyond the need for this ludicrous violence, $NAME1.
+You must see reason in a Blood Truce."
+
+"Progenitor: understand. Truce: reasonable."
+"Evolution: favors the strong. $NAME3: weak. Extermination: inevitable."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, I admire your people's genetic strength and evolved society. 
+A Treaty of Friendship would allow both of our races to benefit from one 
+another's capabilities."
+
+"Human: much potential. Treaty: beneficial to Progenitor."
+"Humans: inferior species. Treaty: weaken Progenitor."
+
+# ; This line must remain at end of file

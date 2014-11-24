@@ -1,0 +1,143 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Pursuers of Power
+;
+;	Designed By: Xyrex - 1999
+;
+;	To use this faction -
+;		Load SMAC, in the 'Select Faction' menu select 
+;		your replacement faction (I recommend the University),
+;		select 'Load' and type 'Knowledge' (no quotes)	
+;
+;
+;	This faction is part of a series of factions which I 
+;	plan to release over the next few months
+;
+;		This faction is an extreme and adjusted version 
+;		of the Hive. They have high efficiency and morale ratings
+;		but low support and research ratings. The main thing about
+; 		this faction is the fact that, with free
+;		punishment spheres in every city, they never have drone riots,
+; 		which can lend to some interesting play
+;		ideas
+;		I'm a bit worried about the -1 research modifier 
+;		(the punishment spheres half science as it is) so
+;		if you think it makes it to boring / difficult email me at the address below
+;
+;
+;	I would appreciate any comments, especially one's relating to how I
+;	might improve this file, send them to -
+;		xyrex2001@hotmail.com
+;
+;	Partially made with ACEdit (c)1999 ANX  at http://www.acedit.8m.com
+;
+;	You can freely distribute the 'Pursuers' collection under the condition
+;	that you keep all the files together
+;
+
+
+#POWER
+Pursuers of Power, The Controller, Power, M, 2, Owen Branwen, M, 1, 1, 0, 0, 0, 
+  TECH, DocLoy, TECH, Physic, SOCIAL, +++EFFIC, SOCIAL, ++MORALE, SOCIAL, ----SUPPORT, IMMUNITY, EFFIC, FACILITY, 4, FACILITY, 23, DRONE, 2, MINDCONTROL, 0
+  Future Society, Thought Control, POLICE
+  Politics, Democratic, nil
+  Power, Power
+  Biela, Troopar, Ideals of Biela
+  Social Preserver, menacing, controlling, obsessive, insolent, 
+  mindless
+  properly control our followers
+  to found a society on the principles of controlled idealism
+  reducing us all to mindless servants of his diabolical schemes
+  reducing us all to mindless servants of his diabolical schemes
+  turn us into unthinking drones (non P.C.)
+  hurling his followers into battle, and death
+  hurling your followers into battle, and death
+  brutal thought suppression
+  suppression, M1
+  ideology, M2
+  mind control experiments, M1
+  social fee, M1
+  controlling dissent
+  my Social Police
+  Social Code 935
+
+#BASES
+Powerhold
+Defense of People
+The Mass of Mind
+Belief Centrals
+Never Dissent
+Caverns of Hope
+Communal Nexus
+Protection of the Ideas
+One
+Unite Us Under
+Discipline Tubes
+One Flag, Our Flag
+Union of Disciplines
+Sanctity of Police
+We Are Strong
+Research Controlled
+Social Artery
+Industrial Crawling
+Factory Uniting
+Not Apart
+We Must Unite
+Social Mind Set 9483
+Keeper of Thought
+Socialism Tunnels
+Control Node 34
+The Cleansing
+Never Leave
+#END
+
+#WATERBASES
+Omicron Central
+Branwen Port
+Water and Power 
+Area of Mind
+Whirlpool of Mind
+Center of Ideas
+Deep Clustering
+Ocean Core
+#END
+
+#BLURB
+^In order to survive the human culture must always be preserved, even through thought and despair; I remove these things.
+^
+^        —Owen Branwen
+^           "Thoughts of Hope"
+
+#DATALINKS1
+^LEADER: {Owen Branwen}
+^BACKGROUND: {Overthrower of Chairman Yang during Planet's first colonization}
+^AGENDA: {The total control of citizens}
+^TECH: {Doctrine: Loyalty / Applied Physics}
+^
+
+#DATALINKS2
+^+3 Efficiency: {Lack of human error}
+^+2 Morale: {Enforced morale}
+^-4 Support: {expenses}
+^{Immunity to Mind Control / Inefficiency}
+^{Punishment Sphere / Perimeter Defense each Base}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This Vendetta degrades us both, $NAME1. Therefore, let us declare Blood Truce "
+
+"Very well, we shall respect our own ideals... for now."
+"Never! I plan to put an end to your scheming once and for all!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"You seem well developed, $TITLE0 $NAME1. Therefore, let us become members in a Treaty of Friendship."
+
+"As you wish. You seems a valuable friend."
+"No. Your social experiments are insulting to this world."
+
+
+# ; This line must remain at end of file

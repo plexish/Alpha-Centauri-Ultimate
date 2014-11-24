@@ -1,0 +1,116 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: World Wrestling
+;
+; Done with ACFEdit (c)1999 ANX 
+;
+; For use this Faction file select load from 
+; faction select in the game and write Wrestling Fans
+;
+
+#WRESTLING FANS
+World Wrestling, the wreslters, Wrestlers, M, 2, Ric Flair, M, 1, 1, 0, 0, 0, 
+  SOCIAL, --RESEARCH, SOCIAL, +ECONOMY, SOCIAL, +TALENT, TECH, Psych, VOTES, 1.2
+  Future Society, Thought Control, EFFIC
+  Values, Knowledge, nil
+  psycho, psycho
+  Richard , Flair, Flair's Fortitude
+  The Nature Boy, Chest Thumping, Barbarian, Entertaining, Over-Excited, 
+  Weight-Lifter Wannabe
+  expand the greatest phemomenon in sports entertainment today: wrestling.
+  to expand the greatest phemomenon in sports entertainment today: wrestling.
+  forcing neighbors to watch such horrific displays of violence
+  forcing neighbors to watch such horrific displays of violence
+  transmit such excessively stupid crap into our entertainment nodes.
+  greasing up his fake muscles with superlube
+  greasing up his fake muscles with superlube
+  chest thumping shovanism
+  chest thumping shovanism, M1
+  indirect mind control attempts, M1
+  idioc displays of machoism, M1
+  payment, M1
+  keeping the transmissions of payperviews, Nitro, and Raw from being jammed
+  my four horseman
+  your contract
+
+#BASES
+WrestleMania
+Uncencsored
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+vw
+w
+x
+y
+#END
+
+#WATERBASES
+Bash at The Beach
+z
+aa
+vv
+bb
+nn
+mm
+,,
+#END
+
+#BLURB
+Ladies and Gentleman, Children of all ages . . . Lets get ready to . .
+
+ 0
+\/ SUCK IT!!
+/\
+^
+
+#DATALINKS1
+^LEADER: {The Nature Boy Ric Flair}
+^BACKGROUND: {15 times WCW/WWf World Heavyweight Champion}
+^AGENDA: {Becoming mre powerful through indoctrinating fans in other lands through pay-per-vues}
+^TECH: {Social Psych}
+^
+
+#DATALINKS2
+^-2 Research: {Wrestling fans/Wrestlers aint to bright}
+^+1 Commerce: {Pay Per Views generate great revenue}
+^+1 Talent: {Wrestling is Fun to watch! At least for this faction.}
+^{+ 20% bonus in votes for governor}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME1, hi"
+
+"ok"
+"no"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"hi"
+
+"ok"
+"no"
+
+
+# ; This line must remain at end of file

@@ -1,0 +1,142 @@
+; Sid Meier's Alpha Centauri
+;
+; The Technocrat Foundation
+;
+; Custom Faction Sig2013-01
+; Text by Sigma
+; Special thanks to ete, BUncle and Jarlwolf (AC2) for balance suggestions
+; 
+;
+
+#TECHNO
+Technocrat Foundation, The Engineer, Technocrats, M, 2, Federov, M,  0, 0, 1, 0, 1,
+  TECH, InfNet, SOCIAL, +RESEARCH, SOCIAL, +EFFIC, SOCIAL, --MORALE, ROBUST, EFFIC, FACILITY, 8, POPULATION, 2, AQUATIC, 0,
+  Values, Knowledge, EFFIC
+  Values, Power, nil
+  Technocrat, Techno.,
+  Sasha, Arkady, Vasilev Park
+  Founder, visionary, arrogant, brilliant, soulless
+  Soulless Machine
+  advance the cause of scientific discovery
+  to raise a society built on science and reason 
+  replacing the human race with computers and machines
+  replacing the human race with computers and machines
+  derail mankind's natural evolution
+  turning people into glorifed computer programs
+  turning your citizens into glorified computer programs
+  playing God with human minds
+  inhuman methods, M2
+  research and development, M1
+  lofty experiments, M2
+  scientific donation, M1
+  pushing the boundaries of science
+  Foundation Investigators
+  the Foundation Charter
+
+#BASES
+Technocrat Foundation
+Cosmograd
+New Tunguska
+Tesla Complex
+High Lab
+Erdos Station
+Sagan Academy
+Mind and Machine
+Von Neuman Monument
+Faraday City
+Testing Grounds
+The Mind Foundry
+Event Horizon
+Monad Institute
+Alpha Observatory
+Geological Institute
+Common Task
+Quantum Frontier
+Engineer's Den
+Turing Castle
+Memory Palace
+Dilemma Archive
+Prime Router
+Gathering of Minds
+Computorium
+Network Core
+Code Fortress
+#END
+
+#WATERBASES
+Dirac Point
+Maxwell Harbor
+Hydrolab
+Logic Gate
+Sunken Academy
+Sea of Causality
+Waveform Cluster
+#END
+
+#BLURB
+^The common work of all science is bringing under order the blind
+violence and injustice of the universe. In this way we will one
+day break free from the limitations of death and dischord, the way 
+that by rockets we escaped Earth's gravity.
+^
+^        -- Founder Josef Federov,
+^           "Address to the Republic Academy of Science"
+
+#DATALINKS1
+^LEADER: {Josef Federov}
+^BACKGROUND: {Republic of Ukraine, Unity Chief Engineer}
+^AGENDA: {Technological Advancement}
+^TECH: {Information Networks}
+^
+
+#DATALINKS2
+^+1 RESEARCH:  {Focused on scientific advancement}
+^+1 EFFIC:   {Society regulated by artificial intelligence}
+^-2 MORALE:  {Reliant on technology rather than training}
+^Free NETWORK NODE at every base
+^Hab Complex requirements tightened to Size 5: {Digital infrastructure prioritized over civic}
+^EFFICIENCY penalties reduced by half: {Computer assisted government}
+^{May not use Power Values.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"You've proven your point, $NAME1. I am ready to concede a Blood Truce
+if you will leave our Foundation to its work."
+
+"Very well, but do not make this mistake again."
+"Your "work" has gone on long enough, $NAME3. It ends now."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Our organizations both share in the Great Common Task of Mankind,
+$TITLE0 $NAME1. A Treaty of Friendship would be the most efficient way
+by which we could both advance that cause and move our race towards
+its future."
+
+"Certainly! We would both benefit greatly from that arrangement."
+"I don't share your faith in machines, $NAME3. No deal"
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This Vendetta is a poor use of our scientific efforts, $NAME1. Let's 
+pledge Blood Truce so we can both put it to better use."
+
+"Human science: primitive: little danger. Decision: Truce."
+"Research: threat to Progenitor. Conclusion: must be stopped!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Our races both value scientific progress,$TITLE0 $NAME1. If you sign
+a Treaty of Friendship, we could both benefit from the one another's
+research."
+
+"Science: necessary for society. Treaty: beneficial."
+"$NAME3: Progenitor: Uncommon goals. Response: rejection: firmly."
+
+
+# ; This line must remain at end of file
+

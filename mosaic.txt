@@ -1,0 +1,152 @@
+; Hi all,
+; After trying out the standard factions, I got to wondering what would happen if Unity had
+; included one dedicated to the preservation and advancement of all the culture and art the
+; travellers left behind. Kind of a half-museum, half-artists colony.
+; The name comes from the fact that they had to gather up and piece together myriad
+; artistic traditions and works. The basic idea is that they had to strike a difficult
+; balance between keeping the past intact, but also moving civilization ahead, so the
+; faction has an internal split between the creators and preservers - which allows a bit of
+; gameplay freedom over which course to take.
+;
+; This started off as a joke, but it got to be fun to play. They seemed pretty balanced at
+; Transcend level, when I played them in place of the Believers.
+;
+; Also, thanks to ANX for ACEdit 1.2!
+;
+; Commando Z
+;
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Mosaics
+;
+; Made with ACEdit (c)1999 ANX at http://www.acedit.8m.com
+;
+; To install place this file into your SMAC folder.
+; Then when you're selecting a faction, hit the load button and type in BORG.
+; This will temporarily replace one of the factions with this one.
+;
+; Alternate method:
+; To permanently install this faction, open the file alpha.txt, go to the section
+; marked "#FACTIONS" and select one of the original fractions to replace. 
+; Then type the following in its place:
+; MOSAIC,  MOSAICS
+;
+;
+; Do you have a custom faction? Send it in to:
+; ================
+; Jacob Lee
+; evil_conquerer@yahoo.com
+; Co-webmaster of The Arrival
+; http://ac.strategy-gaming.com/
+; ================
+;
+
+#MOSAICS
+Mosaics, The Artist, Mosaics, M, 2, Willem Noah, M, 0, 0, 1, 1, 0, 
+TECH, Psych, SOCIAL, +TALENT, SOCIAL, -GROWTH, SOCIAL, -PROBE, SOCIAL, -POLICE, FACILITY, 6, TALENT, 4
+Politics, Democratic, TALENT
+Politics, Fundamentalist, nil
+Mosaic, Mosaic
+Lissa, Tranh, Lissa's Gallery
+Curator, inspired, stylish, artistic, insipid, 
+self-indulgent mediocrity
+make Planet a haven for creative self-expression
+to make Planet a haven for creative self-expression
+turning Planet into a playground for the self-indulgent
+turning Planet into a playground for the self-indulgent
+turn Planet into a playground for the self-indulgent
+painting absurdly flattering self-portraits
+painting absurdly flattering self-portraits
+leading our best minds into self-indulgent waste
+pretentious posturing, M1
+undying masterpieces, M2
+creative processes, M1
+commission, M1
+creating masterpieces
+Artist's Guild
+the Elements of Style
+
+#BASES
+Mosaic Studio
+Restoration Villa
+Renaissance Gallery
+Pastoral Revival
+Michelangelo
+Raphael
+Pollock
+De Kooning
+Titian
+Velasquez
+Dali
+Olowe of Ise
+Manet
+Khakkar
+Zha Shibiao
+O'Keefe
+Hasegawa
+Brueghel
+Kahlo
+Holbein
+Diego Rivera
+Palazzo Noah
+Postmoderne
+Bauhaus
+von Schulyer
+Xai-Xai
+Sabrina
+#END
+
+#WATERBASES
+Port Turner
+Monet Station
+Waterdance
+Quan Yen
+Aylward
+Hopper Base
+Pliesson
+Sessions
+#END
+
+#BLURB
+
+^In the beginning, there was the Void. Then the Lord spake: "Let there be light! And color! And texture! And style!" 
+^The Lord looked down on his Creation, and saw it was good.
+^Then on the eighth day, the Lord created the Critic ...
+^
+^Curator Willem Noah
+^"A Portrait of the Artist as a Young Blob"
+
+#DATALINKS1
+^LEADER: {Curator Willem Noah}
+^BACKGROUND: {Eurocom Neo-Louvre, Unity Ship's Cultural Curator}
+^AGENDA: {Creative Free Expression}
+^TECH: {Social Psych}
+^
+
+#DATALINKS2
+^+TALENT: {Artists' colony}
+^-GROWTH: {Self-indulgence}
+^-PROBE: {Few secrets in an open society}
+^-POLICE: {Artists' temperament ...}
+^One extra TALENT for every four citizens: {Attracts creative minds}
+^Each city has a Recreation Commons: {Many outlets for creativity}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Shall we end this destructive war and resume the quest for Truth and Beauty?"
+
+"Yes, let us make peace and pursue Art for Art's Sake."
+"We refuse that commission. The preliminary sketches for your destruction are ready!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Let us enter a Treaty of Friendship, $TITLE0 $NAME1, so that we may make Planet safe for creative free expression. "
+
+"We agree, $NAME3. May our friendship be both inspiring and durable."
+"We think not. Such a condition would only hamper our creativity."
+
+
+# ; This line must remain at end of file

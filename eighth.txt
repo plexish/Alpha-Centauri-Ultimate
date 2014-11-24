@@ -1,0 +1,118 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Mindworms with Minds
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... eighth
+;
+
+#EIGHTH
+Mindworms with Minds, The Eight Faction, natives, M, 2, mind worm, M, 1, 1, 0, 0, 0, 
+  TECH, CentPsi, TECH, CentEmp, TECH, CentGen, TECH, CentMed, SOCIAL, +++++PLANET, PSI, 100, ENERGY, 10, TECHCOST, 200, COMMERCE, -2, MORALE, 2, FUNGNUTRIENT, 2, FUNGMINERALS, 2, FUNGENERGY, 2, POPULATION, -9, MINDCONTROL, 0, FANATIC, 0, FREEPROTO, 0, TERRAFORM, 0
+  Values, Power, PLANET
+  none, none, nil
+  native, native
+  Anonymous Locust, Anonymous IOD, Alpha Centauri base
+  Anonymous, traditional, backwards, traditional, subhuman, 
+  subhuman
+  ensure the development of our native life forms
+  to give the natives their due rights
+  driving off the newcomers
+  driving off the newcomers
+  destroy the last hope of humanity
+  killing humans
+  killing humans
+  devious actions against us human beings
+  native life, M2
+  goals for proper treatment of Centaurians, M1
+  management of the planet, M1
+  wad of dough, M1
+  protecting native life on the planet
+  the natives of Chiron
+  our planetary policies
+
+#BASES
+Heart of Chiron
+Fungus Forest
+Mindworm Metropolis
+Locust Land
+Chiron City
+Fungus Flats
+Fungus Farms
+Fungus Fantasy
+Chiron County
+Chiron Countryside
+Mindworm Masses
+Centauri Central
+Centauri City
+Fungus Mungus
+Chiron Central
+Centauri County
+Centauri Countryside
+Alpha 1
+Alpha 2
+Alpha 3
+Alpha 4
+Locust Looney Bin
+Fungus Evreywhere
+Fungus Overload
+Fungus Madness
+Fungus Crazy
+Fungus Explosion
+#END
+
+#WATERBASES
+Isle of the Waters
+Isle of the Shallows
+Isle of the Abyss
+Isle of the Coast
+Isle of the Trench
+Isle of the Lagoon
+Isle of the Reef
+Isle of the Open Sea
+#END
+
+#BLURB
+This is our planet, fellow mindworms!  We must reclaim it!
+^
+^        -- Anonymous native Centauri life form
+^
+
+#DATALINKS1
+^LEADER: {A. mindworm}
+^BACKGROUND: {An experiment that didn't end quite as Lady Deirdre planned.}
+^AGENDA: {Equal rights for native species}
+^TECH: {Assorted Centauri technologies (Psi, Empath, Meditation, Genetics)}
+^
+
+#DATALINKS2
+^+5 PLANET: {Their natural enviroment.}
+^Fanatic, Mind Control immune: {Humans do not fully understand minds of native Centauri life}
+^+2 everything in fungus square: {Being native, they know how to use the planet to the fullest.}
+^-2 Commerce rate: {Humans are leery of associating with mindworms.}
+^Bases may be up to size 16 w/out hab complex.: {Native life forms don't need protection from native environment. (Note: -9 was max allowed)}
+^100% Bonus for psi combat, Morale modifier +2, free prototypes: {Only the finest mindworms, IoD's, and locusts are admitted.  These guys know the foe very very well.  }
+^research time doubled: {Have no almost no technological base.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Please step off our turf, $NAME1. I will make peace with you."
+
+"Very well, but don't let me catch you back-stabbing us."
+"Tough, $NAME3.  You inferior natives must be eliminated."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1. I believe we can work together to benefit both
+sides.  Deal?"
+
+"Yes.  It will benefit both of us."
+"No way am I gonna work with some little grubs and insects!"
+
+
+# ; This line must remain at end of file

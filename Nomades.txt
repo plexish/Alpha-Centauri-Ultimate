@@ -1,0 +1,129 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FICHIER DE FACTION: NOMADES DE CHIRON
+;
+; version 1.0 (auteur Torvald Normann, illustrations Robin Pirez)
+;
+; Les Nomades de Chiron constituent une faction personnalisée pour le jeu Sid Meier's Alpha Centauri (TM), également appelé SMAC. Afin de l'utiliser dans le jeu, les quatre fichiers (Nomades.txt, Nomades.pcx, Nomades2.pcx et Nomades3.pcx) doivent être placés dans le répertoire "Sid Meier's Alpha Centauri" de votre disque dur.
+;
+; Lors du choix de la faction à incarner pendant une partie de SMAC, cliquez sur la faction que vous voulez remplacer par les Nomades (ne vous inquiétez pas; ce remplacement ne sera pas définitif), choisissez l'option "charger" puis tapez "Nomades".
+;
+; Adressez toutes vos questions, remarques ou commentaires à tnormann@iname.com
+;
+
+#NOMADES
+Nomades De Chrion, l'Explorateur, Nomades, M, 2, Ilmar, M, 1, 0, 1, 0, 1, 
+  TECH, DocFlex, SOCIAL, +PLANET, SOCIAL, ++EFFIC, SOCIAL, -POLICE, SOCIAL, -PROBE, DRONE, 4, POPULATION, 2, FANATIC, 0
+  ECONOMIE, VERTE, EFFICACITE
+  ECONOMIE, PLANIFIEE, nil
+  Faction Nomade, Faction.
+  Mieli, Jervo, MEMOIRE DE KALEVALA
+  Compagnon, courageux, lunatique, raisonnables, errants, 
+  maniaque du voyage
+  poursuivre notre route vers des contrées inexplorées
+  voyager en paix et effectuer notre pélerinage en symbiose avec Planète
+  explorer les moindres recoins de cette planète
+  explorer les moindres recoins de cette planète
+  vous approprier toutes les capsules de l'Unity
+  déambuler sur cette planète sans but apparent
+  déambuler sur cette planète sans but apparent
+  collecter toutes les capsules de l'Unity pour mon usage personnel
+  peuple de promeneurs, M1
+  efforts d'exploration, M2
+  pélerinages incessants, M2
+  droit de passage, M1
+  cartographier ces terres.
+  mes Rangers
+  Code du Voyageur
+
+#BASES
+DEBUT DU VOYAGE, M1
+CARAVANE DE TELLUS, F1
+MEMOIRE DE KALEVALA, F1
+APPEL DE CHIRON, M1
+HOMMAGE A NESSUS, M1
+REPOS DU NOMADE, M1
+ETAPE DE CROISSANCE, F1
+VENT DE L'OUEST, M1
+CAMPEMENT BENI, M1
+OASIS DE PAIX, M1
+POINT D'EAU, M1
+FRONTIERE DU DOMAINE, F1
+STEPPES DE POHJOLA, F2
+PLAINE VERTE, F1
+VALLEE DES ACRIDIENTS, M2
+PATURAGES DES VERS, F1
+QUETE DE VAINAMOINEN, F1
+SECRET DU LOUP, M1
+TROUPEAU ENCHANTE, M1
+CAMP DU GUERRIER, M1
+REVE D'UNTAMO, M1
+SEVRAGE DU DESTRIER, M1
+CHAUSSES DE LEMINKAINEN, F2
+PASSAGE DES SAISONS, M1
+FORET DE MIELIKKI, F1
+TRAINEAU D'ILMATAR, M1
+CERCLE DE LOVIATAR, M1
+#END
+
+#WATERBASES
+LARMES D'ILMATAR, F2
+VAGUE D'ESPOIR, F1
+LAC FLOTTANT, M1
+BERCEAU D'AHTO, M1
+PROFONDEURS MYSTIQUES, F2
+BARQUE DE VAINAMOINEN, F1
+VOYAGE D'ILMARINEN, M1
+HORIZON LOINTAIN, M1
+#END
+
+#BLURB
+Nous avons traversé le temps et le vide pour te rejoindre - toi
+qui jadis n'étais qu'une lanterne dans les cieux de nos ancêtres.
+Et maintenant, où nous emmèneras-tu?
+^
+^
+^   -- Ahto Ilmar
+^     "Songes du Premier Crépuscule"
+^
+^
+
+#DATALINKS1
+^DIRIGEANT : {Compagnon Ahto Ilmar}
+^CURRICULUM : {Officier de Marines Coloniaux de l'Unity}
+^ORDRE DU JOUR : {Symbiose avec Planète}
+^TECHNOLOGIE : {Doctrine Flexibilité}
+^
+
+#DATALINKS2
+^+1 en Planète: {expérience de survie en milieux hostiles}
+^+2 en Efficacité: {communication longues distances très performante}
+^-1 en Police: {soif de liberté}
+^-1 en Repérage: {structure éparpillée de la société}
+^+25% en attaque: {technique guerilla: connaissance du terrain et camouflage}
+^complexes d'habitation nécessaire au-delà de 5 habitants: {vie de nomades}
+^un droïde supplémentaire tous les 4 citoyens: {appel du voyage}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Nous ne souhaitons que passer notre chemin en paix, $NAME1. Si
+vous ètes d'accord, nous consentons à conclure une Trève de
+Sang avec votre peuple.""
+
+"Qu'il en soit ainsi !"
+"Non, vous avez dépassé les limites, et vous ne méritez plus de fouler ces terres !"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Nous devons effectuer notre pélerinage ensemble, $TITLE0
+$NAME1. Voulez-vous signer un Traité d'Amitié avec mon peuple
+pour que nous puissions commencer notre quête?"
+
+"Je suis d'accord avec vous, $TITLE4 $NAME3. Signons ce traité !"
+"Non, $NAME3. Nos chemins se croiseront peut-être une autre fois."
+
+
+# ; This line must remain at end of file

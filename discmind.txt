@@ -1,0 +1,128 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Disciples of the Mind
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from
+; faction select in the game and write... discmind
+;
+
+#DISCMIND
+Disciples of the Mind, The Ascetic, Disciples, M, 2, Shen, M, 0, 0, 0, 0, 0,
+  TECH, Psych, SOCIAL, +MORALE, SOCIAL, +POLICE, SOCIAL, --GROWTH, FACILITY, 
+27, PSI, 100, MINDCONTROL, 0
+  Politics, Fundamentalist, MORALE
+  Future Society, Eudaimonic, nil
+  Disciple, Discip.
+  Zachariah, Lindly, Lindly's Temple
+  Master, strong-willed, antagonistic, strong-willed, weak-minded,
+  Addlepated Idiot
+  harness the power of the mind
+  increase the strength of the will
+  spreading nihilistic propaganda
+  spreading nihilistic propaganda
+  spread the caustic words of ethical nihilism into the population
+  nerve-stapling himself
+  nerve-stapling yourself
+  being a tyrannical dictator
+  Ascetic Lifestyle, M1
+  Mentat Schools, M2
+  Ascetic Lifestyle, M1
+  grant, M1
+  hardening and culturing the power of the mind
+  mind-probes
+  the Teachings of Shen
+
+#BASES
+Temple of the Mind
+Temple of Psych
+Eye of Lollo
+Hand of Shen
+Mind's Eye
+Purity of Thought
+Morale Hardening
+Strength of Ego
+Id Fortress
+Cathedral of Superego
+Subconscious Gathering
+Consciousness Whip
+Thought Fortress
+Tower of Iron Will
+Ego Hold
+Grasp of the Brain
+Logic Whip
+Hardening of Thought
+Strength of Mind
+Power of the Mind
+Sanctum of Meditation
+Chamber of the Psyche
+Hospital of the Brain
+Hold of Consciousness
+Logic Temple
+Cathedral of Id
+Psych Whip
+#END
+
+#WATERBASES
+Ocean Serenity
+Serenity of the Mind
+Foam of the Mind
+Womb of the Mind
+Serenity Fortress
+Calmness Sea
+Fury of the Tides
+Wrath of Waters
+#END
+
+#BLURB
+Strength of will and purity of heart are the two fundamental principles
+of both defense and offense. To draw inwards and rely on the
+strength of the mind, rather than the power of the gun or the
+speed of the fist, is to achieve victory.
+^
+^
+^   -- Master Shen Turim
+^      "Power of the Mind"
+^
+^
+
+#DATALINKS1
+^LEADER: {Master Shen Turim}
+^BACKGROUND: {Working Man Hold, The Human Hive; Psych Engineer}
+^AGENDA: {Strength of the mind}
+^TECH: {Social Psych}
+^
+
+#DATALINKS2
+^+1 POLICE: {Voluntary surrender to control}
+^+1 MORALE: {Powerful will-modifier}
+^-2 GROWTH: {Ascetic lifestyle prevents growth}
+^+100% Psi bonus: {Mental hardening}
+^Immune to Mind Control: {Strong-willed}
+^Free Command Center at every base: {Training facilities}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Meditation is difficult when one is constantly being interrupted
+by military reports and battle statistics. Let us take a break
+from this pointless debate and culture our minds."
+
+"The Mind is quicker than the eye. It is done."
+"No, your heedless asceticism annoys me."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1 think of the things I could teach you if we were
+but allies! I could share my revelations on the mind with you.
+Together, we could become the most powerful minds on Planet!"
+
+"All for Purity of Thought $NAME3"
+"Your thoughts betray you. I refuse your offer."
+
+
+# ; This line must remain at end of file
+

@@ -1,0 +1,128 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Agri-Culture v1.0
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.networknode.org
+; email networknode@lycos.com
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; To use this Faction file select load from the 
+; faction menu and type... agri
+;
+
+#AGRI
+Agri-Culture, The Providers, Agrians, F, 2, Niobe, F, -1, 0, 0, 1, 1, 
+  TECH, Ecology, SOCIAL, -PLANET, SOCIAL, -INDUSTRY, SOCIAL, ++MORALE, SOCIAL, --POLICE, FACILITY, 14, UNIT, 1, UNIT, 1, TERRAFORM, 0
+  Economics, Planned, MORALE
+  Economics, Green, nil
+  Agrian, Agrian
+  Assa, Ussue, Djal
+  High Councillor, prepared, homely, hearty, dimwitted, 
+  backward
+  cultivate and terraform
+  prepare Planet for agriculture
+  claiming all arable land
+  claiming all the arable land
+  ruin the land
+  terraforming at random
+  overtilling the soil
+  overworking the land
+  Council, F1
+  agriculture, M2
+  terraforming, M1
+  land tax, M1
+  terraforming
+  the Homeguard
+  Agri-Culture teachings
+
+#BASES
+Djal
+Medi
+Hjor
+Blumma
+Feroim
+Allos
+Fonner
+Ineb
+Wrass
+Apho
+Chias
+Tappihm
+Chureh
+Honno
+Phios
+Pyra
+Nuno
+Hunnah
+Taone
+Pallu
+Hado
+Padde
+Blas
+Ochre
+Shuena
+Jikno
+Nuad
+#END
+
+#WATERBASES
+Ulle
+Muneus
+Pepnua
+Jeun
+Nirr
+Ljen
+Gjan
+Trull
+#END
+
+#BLURB
+We seek only to live in peace and practice our agricultural skills,
+for more people will come to populate this planet we now call home,
+and none are loved more or held in greater esteem than those who 
+fill the stomachs of the hungry.
+^
+^
+^   -- Wrema Niobe
+^      "A Cultivators Journal"
+^
+^
+
+#DATALINKS1
+^LEADER: {High Councillor Wrema Niobe}
+^BACKGROUND: {Agronomist, Terraforming Engineer}
+^AGENDA: {To terraform Planet for future generations}
+^TECH: {Centauri Ecology}
+^
+
+#DATALINKS2
+^-PLANET: {Large scale Terraforming ecologically disruptive}
+^-INDUSTRY: {Industry uses precious arable land}
+^+2MORALE: {Fiercely protective of homelands}
+^-2POLICE: {Independant and generally peaceful people}
+^FREE FACILITY: {Hybrid Forest at each base due to terraforming skill}
+^FREE UNITS: {2 free Terraformers}
+^{Terraforming costs HALVED}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This war only destroys valuable land, lets sign a Truce and be
+done with it."
+
+"Straightforward as ever. I agree."
+"No. You have angered me for the the last time."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Let us sign a treaty of Peace $TITLE0 $NAME1"
+
+"As you will it, $NAME3"
+"I think not, your backward ideaologies do not appeal to me."
+
+
+# ; This line must remain at end of file

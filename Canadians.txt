@@ -1,0 +1,117 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Canadians
+;
+; Partially made with ACEdit (c)1999 ANX  at http://www.acedit.8m.com
+;
+; For use this Faction file select load from 
+; faction select in the game and write... Canadians
+;
+
+#CANADIANS
+Canadians, The Canadian, Canadians, M, 2, Blaze, M, 0, 0, 1, 0, 1, 
+  TECH, EthCalc, SOCIAL, -EFFIC, SOCIAL, -POLICE, SOCIAL, +SUPPORT, SOCIAL, +RESEARCH, FACILITY, 2, TALENT, 5
+  Politics, Democratic, GROWTH
+  Future Society, Thought Control, nil
+  Canadian, Canuck.
+  Celine, Zayez, Celine's Hope
+  The Right Honourable, awe-inspiring, loyal, fence-sitting, blind, 
+  Idealistic Bastard
+  create a world free of discrimination and prejudice
+  to create a world of equal peoples
+  creating an oppressive dictatorship
+  the arrogant consumption of this world
+  oppress everyone you come across
+  obstructing human expression
+  poisoning the world with your presence
+  molesting small children
+  poor excuse for an idea, M1
+  every human being, M1
+  worthy cause, M1
+  amount of cash, M1
+  defending human rights
+  the great peoples of my nations
+  the just laws that govern us
+
+#BASES
+Ottawa
+Toronto
+Vancouver
+Montreal
+Edmonton
+Regina
+Niagara
+Calgary
+Missasauga
+Quebec City
+Winnipeg
+Trois Rivers
+Hamilton
+Yellow Knife
+Whitehorse
+Banff
+Thunder Bay
+Halifax
+Saskatoon
+Prince Rupert
+Sudbury
+Fredricton
+Victoria
+Alert
+St. John's
+St. John
+Charlottetown
+#END
+
+#WATERBASES
+P.E.I.
+Newfoundland
+Nova Scotia
+Elsmere Island
+Vancouver Island
+Baffin Island
+Cape Breton
+Moose Factory
+#END
+
+#BLURB
+"I am Canadian."
+ ^
+ ^1998 Television Commercial
+ ^Molson Breweries
+
+#DATALINKS1
+^LEADER: {Blaze Sarkisian}
+^BACKGROUND: {PhD in Philosophic Studies, leader of "Social Advancement" political party}
+^AGENDA: {To encourage the growth of humankind}
+^TECH: {Ethical Calculus}
+^
+
+#DATALINKS2
+^-1 EFFICIENCY: {Due to lengthy political process}
+^-1 POLICE: {Scared that someone will be offended}
+^+1 RESEARCH: {High education rate, many inventors hail from Canada}
+^+1 SUPPORT: {Canadians supply more than their share of peacekeepers}
+^FREE TECH: {Ethical Calculus}
+^FREE FACILITY: {Children's Creche}
+^FREE TALENT: {For every five citizens}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"I've got bigger fish to fry.  What do you say we put this petty conflict behind us, at least for now?"
+
+"Sure - at least you're not American"
+"You think I'm blind? Don't make me break my foot off in your ass!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Since we are working towards common goals, $TITLE0 $NAME1, why don't we unite in our efforts as Pact Brothers?"
+
+"I agree - let's talk about this over a cold one, $NAME3"
+"Nope - you're drinking alone tonight"
+
+
+# ; This line must remain at end of file

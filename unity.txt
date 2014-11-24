@@ -1,0 +1,120 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#UNITY
+UN Unity, The Survivors, Unity Crew, M, 1, Jones, M, -1, 0, 1, 0, 0, 
+SOCIAL, +SUPPORT, SOCIAL, +EFFIC, SOCIAL, -GROWTH, FREEABIL, 8, TECH, Physic, SOCIAL, +MORALE, MORALE, 0, POPULATION, 2, 
+nil, nil, nil, 
+nil, nil, nil, 
+Unity Crew, Unity Crew
+Maria Nello, John Flavio, Zeroy Gravity Laborator
+Commander, tenacious, dogmatic, utilitarian, pragmatic, 
+Crude and Rough
+live
+staying alive
+executing Captain Garland's killer
+executing Captain Garland's killer
+exist
+moaning about our beliefs
+thinking up new brainwashing methods
+hellbent on capturing Garland's murderer
+existence, M1
+people, M2
+faction's plans, M2
+donation, M1
+helping
+the Unity flight squardon
+Unity law
+
+#BASES
+UN Unity Wreckage
+Sick Bay
+Captain's Quarters
+Zero Gravity Laboratory
+Outer Hull
+Cyrogenic Bulkhead
+Communications Center
+Living Quarters
+Engine Room
+Power Plant
+Ship Brig
+Cargo Hold
+Former Storage
+Colony Pod Storage
+Escape Pod Deck
+Ship Bridge
+Recreational Center
+Waste Management
+Weapons Storage
+#END
+
+#WATERBASES
+Unity Foil
+Unity Gunship
+Unity Life Preserver
+Unity Water Wings
+Unity Speedos
+Unity Bikinis
+#END
+
+#BLURB
+You know, it would be prudent if we worked together;
+set aside ideological differences and established a
+foothold on this hostile planet. No? Makes too much
+sense? Ok, have it your way then. 
+^
+^        -- Commander Pascal Jones
+^          "Conversations with Council"
+
+#DATALINKS1
+^LEADER: {Pascal Jones}
+^BACKGROUND: {Commander, UN UNity}
+^AGENDA: {Survival, apprehension of Captain Garland's assassin}
+^TECH: {Applied Physics}
+
+#DATALINKS2
+^+1 SUPPORT: {Maximize resources}
+^+1 EFFICENCY: {Centrifugal toliets}
+^+1 MORALE: {Highly trained personal}
+^-1 GROWTH: {Haphazard bases leave little room to expand}
+^AAA Tracking ability FREE to all units upon dicovery of Doctrine: Air Power: {Gifted pilots}
+^Need HAB COMPLEX for bases to exceeed size 5: {Space at a premium}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME1, why are we fighting. There are still a plethora of challenges that need to be tackled, no need to make survival even less likely. Shall we sign a Blood Truce?"
+
+"Good point, the mindworms have been assualting our perimeter again. I'll sign your truce."
+"You know what? I just don't like you."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, all we're trying to do is survive. Care to sign a Treaty of Friendship?"
+
+"Sounds good, we won't get in your way."
+"No."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+"Your needs: truth: not same. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my philosophies would seem to make
+me the only natural ally for you from among these warring human
+factions. Can't we sign a Treaty of Friendship and coexist in peace?
+
+"Unity: safe ally. Treaty: admirable idea."
+"Unity: control: too important. Ally: dangerous. Answer: no."
+
+# ; This line must remain at end of file

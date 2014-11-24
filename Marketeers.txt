@@ -1,0 +1,134 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#MARKETEERS
+Free Market Zone, The Libertarian, Marketeers, F, 2, Al-Rammah, F, 0, 0, 0, 1, 0, 
+TECH, IndEcon, FACILITY, 7, ROBUST, POLICE, ROBUST, PLANET, SOCIAL, +EFFIC, SOCIAL, -PLANET, SOCIAL, -GROWTH, SOCIAL, -PROBE, COMMFREQ, 0, INTEREST, 1, COMMERCE, 1, 
+Economics, Free Market, ECONOMY, 
+Economics, Planned, nil, 
+Marketeer, Marketeer
+Kamel, Musharaf, Kamel's Fire
+Minister, freedom loving, unconcerned, productive, selfish, 
+corporate lackey
+establish effective markets
+to found a society on the principles of free trade and entrepreneurship
+eliminating any economic security we have
+eliminating any economic security we have
+turn us all into lab rates for your economic theories
+laughing off the suffering of the disadvantaged in her society
+laughing off the suffering of the disadvantaged of your society
+ignoring human concerns in favor of wealth
+pie in the sky economic theory, M1
+society's wealth, M2
+economic development, M2
+contract enforcement fee, M1
+protecting the wealth of Planet
+Marketeer criminal enforcement
+Chiron contractual agreement
+
+#BASES
+Central Market
+Financial Center
+Trader's Base
+Open Trade
+Open Borders
+Supply and Demand
+City of Startups
+Entrepreneur
+Growth and Productivity
+Adam Smith Memorial
+Liberty City
+Competitiveness
+Investment City
+Human Capital
+Red Tape Shears
+Vibrant Society
+Capital and Labor
+Tradable Commodities
+Trade Network
+Goods and Services
+Wealth Creation
+#END
+
+#WATERBASES
+Sea Lanes
+Open Fishery
+Ocean Shipping
+Refueling Stop
+Floating Docks
+Frozen Seafood
+#END
+
+#BLURB
+The lack of established interests, combined with
+the expertise of thousands inventive and hard working
+colonists provides an opportunity to establish a nearly
+perfect competitive market on Chiron. It is an opportunity
+almost unheard of in human history. 
+^
+^   Halah Farid Al-Rammah
+^   Economics of Colonization
+
+#DATALINKS1
+^LEADER: {Halah Farid Al-Rammah}
+^BACKGROUND: {Iraq, Jordan, England, unity Economic organizer}
+^AGENDA: {Free market economy}
+^TECH: {Industrial Economics}
+^
+
+#DATALINKS2
+^Halved disadvantages for Free Market Economy
+^Free Comm Frequency at start.
+^+1 Efficiency: (Highly competitive economy leads to greater efficiency)
+^-1 Planet: (lax government regulation increases opportunities for pollution)
+^Increased income from Treaties and Pacts
+^-1 Growth: (Competitive society reduced incentive for children)
+^1% interest on energy reserves
+^-1 Probe: (more open society permits easier spying)
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As this war has been costly for both our factions,
+I suggest that we declare blood truce and stop this conflict."
+
+"Indeed. Blood Truce would be most satisfactory."
+"Never! I plan to put an end to your scheming once and
+for all!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, We always desire further trading partners
+and diplomatic contacts.  Would you sign a treaty of
+friendship, and increase the wealth of both our factions?
+
+
+"As you wish. The Marketeers seem a valuable friend."
+mies."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As this war has been costly for both our factions,
+I suggest that we declare blood truce and stop the conflict."
+
+"Progenitor: agree, costly war. Mutual agreement: truce."
+"Faction: focus: energy.  Warriors: not.  Marketeers: eliminate."
+
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my noninterference philosophies would
+seem to make me the only natural ally for you from among
+these warring human factions. Can't we sign a Treaty
+of Friendship and coexist in peace?
+
+"Marketeers: safe ally. Treaty: admirable idea."
+"Marketeers: trade: advantage other, benefit aliens: less. Answer:
+no."
+
+# ; This line must remain at end of file

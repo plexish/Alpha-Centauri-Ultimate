@@ -1,0 +1,123 @@
+; 
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Saints
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+; -III THE SAINTS III-
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+; Text & Graphics by Jambeaux <jambeaux61@hotmail.com> 
+; EXCEPT base pic from StarCraft <www.blizzard.com>
+; For more factions visit http://networknode.org
+; email networknode@lycos.com
+
+#SAINTS
+The Saints, The Enlightened, Saints, F, 2, Euphoria, F,  0,  1, 1, 1, 0,
+  TECH, Mobile, TECH, InfNet, FACILITY, 8, SHARETECH, 3, FREEPROTO, 0, SOCIAL, ++++MORALE, SOCIAL, +POLICE, SOCIAL, -INDUSTRY, SOCIAL, ++RESEARCH, SOCIAL, --PROBE, PSI, 50, ROBUST, RESEARCH, UNIT, 2
+  Values, Knowledge, RESEARCH
+  Values, Power, nil
+  Saints, Saints,
+  Crysyla, Adonis, Urasia
+  Sorceress, mysterious, paranoid, enlightened, sorcerous,
+  Disillusioned Witch
+  pursue research in Tech and Magic
+  to pursue reseach in Tech and Magic without interferance from others
+  conducting all manner of unethical, immoral, and evil research in the Arcane
+  conducting all manner of unethical, immoral, and evil research in the Arcane
+  conduct your unspeakable experiments
+  dreaming up new ways to exterminate our species
+  dreaming up new ways to exterminate our species
+  conducting unspeakable research
+  unethical magical methods, M2
+  magical preparations, M2
+  bizarre research fantasies, M2
+  research tax, M1
+  bringing Magic and Science to the New World
+  the Saints Squad
+  the Laws of TechMagic
+
+#BASES
+Mists of Time
+Mechanized Magic
+Mechanamagica
+Saint Euphoria
+Wizards Guild
+Arts of Arcane
+Conjurers Paradise
+Charming Deciet
+Heaven's Mana
+Runes of War
+Spell Scrolls
+Devine Aura
+Misty Moors
+Crystal Ball
+Tarot Deck
+The Candle Inn
+Enchanter
+Deep Magic
+Gargoyle Heights
+Avalon
+Harvest Moon
+Symbol of Ryltan
+#END
+
+#WATERBASES
+Cosmic Waves
+Tides of Time
+Arcane Sea
+Sea Magic
+Ocean of Tears
+#END
+
+#BLURB
+Magic and Science are but two sides of the same coin, magic being science that has yet to 
+be discovered.  One must always stand ready to defend their beliefs in the face of the
+opposition to the research of magic and science as one, there will always be disbelivers.
+^
+^        -- Sorceress Angela Euphoria,
+^           "In Defence of Research"
+
+#DATALINKS1
+^LEADER: {Sorceress Angela Euphoria}
+^BACKGROUND: {Arcane Arts, Unity Researcher}
+^AGENDA: {Study of Magic and Technology}
+^TECH: {Doctrine: Mobility and Information Networks}
+^
+
+#DATALINKS2
+^+4 MORALE:  {Strong defence of their beliefs}
+^+1 POLICE:  {Highly disciplined followers}
+^-1 INDUSTRY:  {Extravagant weapons are costly}
+^+2 RESEARCH:  {Its what they do:)}
+^-2 PROBE:  {Information networks leave them open to infiltration}
+^{PSI 50% due to magic usage}
+^FREE NETWORK NODE at all bases.
+^SHARETECH with 3 others.
+^Prototype units do not cost extra minerals.
+^{May not use Power value in Social Engineering.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"You cannot hope to stand against me, $NAME1.
+Pledge Blood Truce now or face total destruction."
+
+"Truce it is, then. I thank you."
+"Bluffing will get you nowhere, $NAME3. Prepare to be obliterated!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1. My enlightened followers are content to guard their homes
+and Research Facilities. I suggest we sign a Treaty of Friendship
+and stay out of each others' way."
+
+"Fair enough, but I shall guard my research carefully."
+"No, I do not trust your dabbling in the arcane arts"
+
+
+# ; This line must remain at end of file
+

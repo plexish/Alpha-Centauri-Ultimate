@@ -1,0 +1,131 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The People's Opposition
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from
+; faction select in the game and write... peop
+;
+
+#PEOP
+The People's Opposition, The Rebel, Oppositionist, M, 2, Ro, F, 1, 1, 0, 0, 0,
+  TECH, Physic, SOCIAL, -ECONOMY, SOCIAL, --EFFIC, SOCIAL, +MORALE, SOCIAL, ++INDUSTRY, DRONE, 4
+  Values, Power, INDUSTRY
+  Economics, Free Market, nil
+  Opposition, Opposi.
+  Rachael, Harbin, Rachael's Opposition
+  Prime Anarchist, freedom-loving, anarchistic, freedom-loving, rebellious,
+  Impudent Barbarian
+  free the dispossessed people of Planet
+  free the People
+  toppling all modern civilization
+  toppling all modern civilization
+  rebel against all that is just and true
+  organizing her socks
+  organizing your socks
+  merciless destruction
+  rebels, M2
+  People's Opposition, F1
+  rebellion, M1
+  grant, M1
+  stopping the cogs of totalitarianism
+  People's Army
+  the Charter of the People's Opposition
+
+#BASES
+The People's Opposition
+Working People's Base
+Disenfranchised Drones
+Proletarian Peak
+Rebellion Free Hold
+Svobodny Free Hold
+Dregs of Society
+Militant Uprising
+People's Rebellion
+The Dispossessed Drone
+Military Revolution
+Angry Citizens
+Seeds of Revolution
+Defiant Cry
+Defiance Free Base
+Defiance Freehold
+Eagle of Chiron
+Raised Guns
+Mattercannon Way
+Laserblast Hill
+Artillery Fortress
+Rebellion Fort
+Militocracy Base
+Armed Drones
+The Crushed Disparity
+Working People's Fort
+Rebel Fortress
+#END
+
+#WATERBASES
+Underwater Complex
+Undersea Uprising
+Seabase Takeover
+Pirate Port
+Foamy War
+Brigandeer Fort
+Marauder Seabase
+Buckaneer Base
+#END
+
+#BLURB
+Here are the dregs of society. The dispossessed farmers, disenfranchised
+merchants, angry workers, militant rebels, social outcasts,
+goths, hedonists, unhappy drones, and rebellious Talents. We
+need a common goal. And that goal is REBELLION!! WE WILL TAKE
+BACK WHAT IS RIGHTFULLY OURS!!!
+^
+^
+^        —Prime Anarchist Samantha Ro
+^           "Charter of the People's Opposition"
+^
+^
+
+#DATALINKS1
+^LEADER: {Samantha Ro}
+^BACKGROUND: {Parnassus Anthill; Escaped Big Brotherist Citizen}
+^AGENDA: {Military Power, Planned Economy}
+^TECH: {Applied Physics}
+^
+
+#DATALINKS2
+^+2 INDUSTRY: {The disenfranchised freely commit themselves to work for the 
+Common Goal}
+^+1 MORALE: {Militant rebellion}
+^- 2 ECONOMY: {Drones are suspicious of the thing that made them who they 
+are}
+^- 1 EFFICIENCY: {Unplanned, inefficient government}
+^1 extra Drone for every 4 citizens: {Rebellious citizens, freedom of 
+speech}
+^175% OFFENSE: {Dispossessed Citizen's Army, fueled by hatred of the system}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"I'm tired of this ceaseless fighting. Let us make Blood Truce,
+if only for a little while."
+
+"Alright fine, but I'll be back in ten Planetyears to crush your impudent 
+rebellion"
+"No, your pitiful People's Opposition will be crushed!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, I assure you that my followers and I do not brook
+any ill will towards you or your people. Simply free your disenfranchised
+citizens, so that we may have equality and peace. Let us sign
+a Treaty of Friendship to ensure the well being of the People."
+
+"Very well, $NAME3"
+"No, not at all."
+
+
+# ; This line must remain at end of file

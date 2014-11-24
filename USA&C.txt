@@ -1,0 +1,115 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: American & Chiron Unity
+;
+; Made with ACEdit (c)1999 ANX  at http://www.acedit.8m.com
+;
+; For use this Faction file select load from 
+; faction select in the game and write... USA&C
+;
+
+#USA&C
+American & Chiron Unity, The Idealist, USA&C PeaceKeepers, M, 1, Lawrence, M, 1, 0, 1, 1, 1, 
+  TECH, DocLoy, SOCIAL, ++GROWTH, SOCIAL, ++RESEARCH, FACILITY, 24, TALENT, 4, VOTES, 2, MINDCONTROL, 0
+  Politics, Democratic, GROWTH
+  Future Society, Thought Control, nil
+  USA&C PeaceKeeper, USA&C .
+  Sarita, Kakani, Sarita's Memorial
+  Brother, humane, passive, loyal, self-righteous judge, 
+  control freek
+  enforce a law of peace and humanity upon these retches
+  unite chiron under the the Americans in the peace and humanity which is American
+  turning us all into soppy drodes under his control
+  turning us all into soppy drodes under your control
+  turn us all under your control and setting up yourself as the only 'power' on the planet
+  writing doctrines and laws of peace and enforeing them through war
+  writing doctrines of peace and laws and enforcing them through war
+  being the self-anointed self-righteous governer of this planet for your own ends hiding it behind the banner of peace
+  self-anointed self-righteous governer of this planet for your own ends , M1
+  faction to enforce the peace and your control over chiron, M1
+  peace efforts, M1
+  tribute, M1
+  a way of enforceing peace on the planet 
+  my militarized instriments of peace
+  USA&C law
+
+#BASES
+Alabama
+Alaska
+Arizona
+California
+Colorado
+Florida
+Gorgia
+Idaoh
+Illinois
+Iowa
+Kansas
+Kentucky
+Massachusetts
+Minnesota
+Mississippi
+Nevada
+New York
+Ohio
+Oaklahomer
+Oregon
+Pennsylavaina
+Tennessee
+Utah
+Washington
+Virginia
+Vermont
+Texas
+#END
+
+#WATERBASES
+Hawaii
+Rhode Island
+Sea City
+Marine City
+Ocean City
+Port City
+Fleet City
+Anchor City
+#END
+
+#BLURB
+^USA&C is the United States of America And ^ Chiron
+our aim is to unite the old American peoples who have collinised the planet along with all other fractions of chrion
+^
+^       --Brother Lawrence
+           "The pledge of the USA&C"
+^
+
+#DATALINKS1
+^LEADER: {Brother Lawrence}
+^BACKGROUND: {Ex-UN Minister broke away beacuse of corruption within the UN he know aims to creat a truly peacefull world}
+^AGENDA: {Peace , Humanity , Democracy and Idealism}
+^TECH: {Doctorain Loyalty}
+^
+
+#DATALINKS2
+^Free Hab Complex: {The peace and freedom attracts people}
+^Extra TALENT for each 4 citizens: {Such a peacefull place attracts the interllectuals}
+^Double votes: {Great support for there peacefull way of life}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Our squabbling is pointless and has no barring to my mission of peace and would profit usboth let us make a peace and expand our commercial empires"
+
+"Agreed let our peoples prosper in peace"
+"Never the taste of your blood shall be sweetness to my lips"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Peace is the way if we continue on this spirial of death we shall both come to an end as our enimies grow strong"
+
+"Wise words $TITLE4 let us not continue in this maddness"
+"An end to your profaining ways I cannot make peace with such as you"
+
+
+# ; This line must remain at end of file

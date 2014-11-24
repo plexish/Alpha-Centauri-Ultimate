@@ -1,0 +1,115 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Dark Side
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... sith
+;
+
+#SITH
+The Dark Side, The Sith, Sith, M, 1, Maul, M, 1, 1, 1, 0, 0, 
+  TECH, InfNet, TECH, 1, SOCIAL, -SUPPORT, SOCIAL, +MORALE, SOCIAL, +POLICE, SOCIAL, +RESEARCH, PSI, 50, DRONE, 3, COMMERCE, -2, MINDCONTROL, 0
+  Values, Knowledge, RESEARCH
+  Economics, Green, nil
+  Sith, Sith
+  Naberrie, Vader, Naberrie Lab
+  Darth, cunning, evil, well-trained, weak-minded, 
+  Crazy Wizard
+  learn the ways of the Sith
+  to hunt down the Jedi and bring order to the galaxy
+  using Sith mind tricks
+  using Sith mind tricks
+  harness the power of the Dark Side
+  twirling his double-bladed lightsaber
+  twirling your double-bladed lightsaber
+  using Sith mind tricks
+  Sith powers, M2
+  ways of the Force, M2
+  "ways of the Force", M2
+  bounty, M1
+  pushing the boundaries of Evil
+  the Galactic Trade Federation
+  the Intergalactic Trade Laws
+
+#BASES
+Death Star
+Tatooine
+Dantooine
+Alderaan
+Yavin
+Dagobah
+Coruscant
+Bespin
+Mos Eisley
+Jundland Wastes
+Endor
+Cloud City
+Anchorhead
+Sullust
+Spice Mines of Kessel
+Beggar's Canyon
+Corellia
+Tanaab
+Toshi Station
+Malastare
+Naboo
+Boonta
+#END
+
+#WATERBASES
+Aquilaris
+Otoh Gunga
+Mon Calamari
+Dune Sea
+Hoth Ice Base
+#END
+
+#BLURB
+^At last we shall reveal ourselves to the Jedi.  At last we shall
+have revenge.
+^
+^        -- Darth Maul,
+^           "Sith Handbook"
+
+#DATALINKS1
+^LEADER: {Darth Maul}
+^BACKGROUND: {Sith Council, Unity Sith Officer}
+^AGENDA: {Imperial Rule, Dark Side of the Force}
+^TECH: {Information Networks}
+^
+
+#DATALINKS2
+^+1 MORALE: {Intensive Sith training}
+^+1 POLICE: {Strict Imperial control}
+^+1 RESEARCH: {Sith are guided by the Force}
+^-1 SUPPORT: {High cost to maintain Sith}
+^-2 COMMERCE
+^{+50% Psi Combat}
+^{Units and Bases cannot be subverted.}
+^{One bonus tech at beginning of game}
+^{Extra DRONE for every three citizens}
+^{May not use Green economics}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Call off your bounty hunters, $NAME1. I am ready to pledge
+Sith Truce if you will leave me to my ways of the Force."
+
+"Yes. I dare not underestimate the power of the Dark Side."
+"Young fool, you shall pay the price for your lack of vision."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"We are peaceful Sith, $TITLE0 $NAME1. Will you sign a Treaty of
+Friendship and leave us to learn the ways of the Force?"
+
+"It is unavoidable. It is your destiny."
+"No. You are not a Jedi yet, $NAME3."
+
+
+# ; This line must remain at end of file

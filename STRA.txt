@@ -1,0 +1,140 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Strangers
+;
+; Created April 2001 by Sysiyö using the ACEditor.
+; Graphics: base images modified from original SMAC graphics. Diplomacy
+; images and diplomacy landskape from the movie Dark City. Faction logo
+; by Sysiyö, based on the movie.
+; (C) 2001 Sysiyö. All reproduction, downloads and changes fully allowed.
+; For any suggestions, E-mail me at sysiyo@teenagewildlife.com
+;
+; Based on Alex Proyas' 1998 S-F movie, Dark City.
+; for more factions visit [www.networknode.org]
+
+#STRA
+Strangers, The Tuners, Strangers, M, 2, Mr. Book, M, 1, 0, 1, 0, 0, 
+  TECH, Psych, SOCIAL, +++INDUSTRY, SOCIAL, +POLICE, SOCIAL, --EFFIC, SOCIAL, -SUPPORT, DRONE, 3, VOTES, 1/2, MINDCONTROL, 0
+  Values, Knowledge, RESEARCH
+  Politics, Democratic, nil
+  Stranger, Strang.
+  Mr. Hand, Schreber, Hand City
+  Leader, old, dying, tuning, lifeless, 
+  Memory-wiping Corpse
+  search for the human soul
+  find the human soul
+  turning us all into guinea pigs for his "search for the human soul"
+  turning us all into guinea pigs for your "search for the human soul"
+  use innocent humans as guinea pigs
+  tuning his palace into grotesque forms
+  tuning your palace into grotesque forms
+  wiping memories of my subjects
+  tuning abilities, M2
+  search for the human soul, M1
+  studies on humans, M2
+  energy amount, M1
+  making sure your citizens retain their memories
+  Mr. Hand
+  the Law
+
+#BASES
+Dark City
+Avenue M
+Green Line
+Blue Line
+The Subways
+Avenue F
+Bank of Memories
+Square Z
+The Automat
+The Labyrinth
+Avenue A
+Dark Base
+Base F
+Square H
+Avenue B
+Avenue W
+Hall Q
+Tuning Chambers
+Red Line
+Maze Quarters
+#END
+
+#WATERBASES
+Shell Beach
+Dark Beach
+Port E
+The Machinery
+Moisture
+Dark Ship
+#END
+
+#BLURB
+First there was darkness. Then came the Strangers. They were a
+race as old as time itself. They had mastered the untimate ability:
+To alter prysical reality by will alone. But they were dying.
+They left their world, seeking a cure for their mortality. Their
+endless journeu brought them to a small, blue world. [Our] world.
+^
+^   -- Daniel P. Schreber
+^      "Dark City", datalinks
+
+#DATALINKS1
+^LEADER: {Mr. Book}
+^BACKGROUND: {<Unknown>}
+^AGENDA: {To find the human soul}
+^TECH: {Social Psych}
+^
+
+#DATALINKS2
+^+3 INDUSTRY: {May "tune" anything into existance}
+^+1 POLICE: {May simply wipe memories of insurgent humans}
+^-2 EFFICIENCY: {Maintaining controll of large groups is hard}
+^-1 SUPPORT: {Maintaining controll of a human army takes a lot of resources}
+^Extra DRONE in every 3 citizens: {Humans tend to revolt against Strangers}
+^Immunity to Mind Controll
+^50% votes in Planetary Council: {May vote on behalf of their human citizens}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME1, though we could tune your bases out of existance,
+I am willing to save your lives, for this Vendetta interferes
+badly with my search for the human soul. I urge you to sign
+this Blood Truce, yes."
+
+"As long as your tuners do not try to wipe my memory, I'm willing to sign your Truce, $NAME3."
+"Your search will soon be over, for you will find our soul in your DEATH, $NAME3!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, our studies would be greatly enchanged if we
+could monitor an untuned human socity. This could be best archieved
+under a Treaty of Friendship between our factions, yes?"
+
+"I am willing to help you in your studies, $NAME3. I allso hope that we could commerence trade between our factions."
+"I fear letting your ... people to study my society would greatly weaken their minds and create unnessessary risks. Thus I must decline."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, we are not interested in your kind, yes. Thus I feel
+this Vendetta serves no purpose in my search. You will sing a Blood
+Truce to end it, yes?"
+
+"Progenitor willing: find other targets. Truce: Agreed."
+"Stranger: has too much power. Such treath: to be eliminated."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"There is no reason for our races not to sign a Treaty of Friendship, yes,
+since both of us just want to mind our own busineses. I have no
+interest in your race and you have no interest in mine."
+
+"$NAME3: correct. Treaty: secure one front and: leave room for other targets."
+"$NAME3's tuning abilities: to be under continuous surveillance. Treaty: create unwanted feeling: of peace. Answer: no."
+
+# ; This line must remain at end of file

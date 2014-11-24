@@ -1,0 +1,143 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#CLONES
+The Sons of Oceanus, The Personality Cult, Oceanus, M, 2, Portia Ponthieux, F, 0, 0, 1, 1, 1, 
+TECH, DocFlex, FACILITY, 26, SOCIAL, +++++GROWTH, SOCIAL, --EFFIC, FACILITY, 22, FACILITY, 38, PENALTY, Democratic, PENALTY, Green, AQUATIC, 0, MORALE, -3, POPULATION, 1, HURRY, 150, 
+Future Society, Thought Control, POLICE, 
+Politics, Fundamentalist, nil, 
+Oceanus, Oceanus
+Cheyenne, Dr.Volgin, Portia's Paradise
+Madame, ambitious, narcissistic, numerous, deformed, 
+narcissistic madwoman
+live lives of luxury
+to found a society that serves my personal ambitions
+controlling us for her own selfish ends
+controlling us for your own selfish ends
+attempt to instill your own selfish desires on the rest of the planet
+drinking fine wine and living off the backs of misconcieved clones
+drinking fine wine and living off the backs of misconcieved clones
+preaching narcissism
+pathetic narcissism, M1
+personal bout for happiness, M2
+personal ambitions, M2
+donation, M1
+keeping my clones in line
+my clones
+my personal desires
+
+#BASES
+Portia's retreat
+City of Lights
+Joy de Vivre
+Hard Currency
+Castle Santerre
+Industrial Ambition
+Genejack Journey
+Discipline Tubes
+Throngs of Clones
+Clone Cavern
+Ventilation Pipes
+Ivory Tower
+Mount Ponthieux
+Fort Ponthieux
+Land of Luxury
+New Versailles
+Palace of Power
+Personal Ambitions
+Lap of Luxury
+The Pursuit of Happiness
+#END
+
+#WATERBASES
+Portia's Paradise
+Cloning Chambers
+Sealab
+Caviar and Clones
+Ocean Blues
+Conchshell Concerthall
+Splicer's Haven
+Tribute to Rapture
+Life and Luxury
+City of The Sea
+Ventilation Pipes
+Deep Sea Mining Station
+Capitalism Cove
+Palace of Portia
+Point Portia
+More Caviar and Clones
+Andrew Ryan is jealous
+Temple of Portia
+Pursuit of Profit
+Power for Portia
+Port du Ponthieux
+Penda Cove
+Clone Cove
+Double Helix Harbour
+Portia's Promise
+Profit for Portia
+Portia's Pier
+Les Enfants Terribles
+#END
+
+#BLURB
+^ All the factions claim utopia on this world for their
+followers. I just claim I want to live a life of luxury.
+Any are welcome to join me but I expect they are fine
+with seeing their replica work hard." 
+^
+^        -- Portia Ponthieux,
+^           "Cloning and Caviar."
+
+#DATALINKS1
+^LEADER: {Portia Ponthieux}
+^BACKGROUND: {European Sectum of France, Unity Geneticist}
+^AGENDA: {Plutocratic Dictatorship}
+^TECH: {Doctrine: Flexibility}
+
+#DATALINKS2
+^+5 GROWTH:   {Mass produced clones and very liberalistic view on sex}
+^-2 EFFIC: {Clones often have defects or deformities}
+^Cloning Facilities: {Free Genejack facilities}
+^Underwater Metropolis: {Free Pressure Domes}
+^Thermal Vent Communities: {Free Thermocline Transducer}
+^Illiterate Clones: Penalty to Democracy
+^Industrialist Motives: Penalty to Green
+^Underwater Mining Operations: {Free Subsea Trunklines}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Wars are expensive, $NAME1, and draining for both of
+us. How about we sign a truce together."
+
+"A truce would be in my best interest as well."
+"I'd rather drown you with your own ego Portia, Au revoir!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, you seem sensible and realistic enough, and you also seem to be beneficial towards increasing my prosperiety. I think a treaty is a good option, don't you?"
+
+"Yes, I think it is a good idea. A treaty would be most beneficial to us as well."
+"No. Your lack of care for your followers and self serving interests are despicable, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This war is expensive for me, $NAME1, and draining for you. A pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+"Your financial condition: do not care. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my personal pursuit of happiness isn't a problem or threat to your forces, shall we sign a treaty of friendship?
+
+"Oceanus: wealthy ally. Treaty: admirable idea."
+"Oceanus: leader's ego: too bloated. Ally: selfish. Answer: no."
+
+# ; This line must remain at end of file

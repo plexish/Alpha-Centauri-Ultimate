@@ -1,0 +1,143 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Britain
+;
+; File and images created by: Geoffrey Woodward
+;
+; ===============
+; Do you have a custom faction file? Send it in to:
+; Jacob Lee
+; evil_conquerer@yahoo.com
+; Co-webmaster of The Arrival
+; http://ac.strategy-gaming.com/
+; ===============
+;
+; To install place this file and the 3 image files into your SMAC folder and the MP3 file
+; in the voices folder.
+; Then when you're selecting a faction, hit the load button and type in BRITAIN.
+; This will temporarily replace one of the factions with this one.
+;
+; Alternate method:
+; To permanently install this faction, open the file alpha.txt, go to the section
+; marked "#FACTIONS" and select one of the original fractions to replace. 
+; Then type the following in its place:
+; BRITAIN, BRITAIN
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#BRITAIN
+United Kingdom of Great Britain, The Brit, Britain, M, 1, Churchill, M,  0,  1, 0, 1, 0,
+  TECH, IndAuto, ++GROWTH, SOCIAL, ++POLICE, SOCIAL, +ECONOMY, SOCIAL, -EFFIC, SOCIAL, +RESEARCH, FACILITY, 2
+  Politics, Democratic, GROWTH
+  Politics, Police State, nil
+  Britain, UK,
+  Blair, Hague, Queen's Base
+  Prime Minister, excellent, conquering, powerful, plundering
+  Imperialistic fool
+  rebuild the great British Empire
+  to retake our place as the most powerful nation on the planet
+  taking over the world through his empire-building ways
+  taking over the world through your empire-building ways
+  put the planet under your foolish rule
+  dreaming up new ways to exert his imperialistic impulses
+  dreaming up new ways to exert your imperialistic impulses
+  moaning about the ancient British Empire
+  obsessive empire building, M2
+  expansion, M1
+  "expansion", M1
+  military grant, M1
+  expanding the British Empire
+  British Troops
+  British Policy
+
+#BASES
+London
+Cardiff
+Glasgow
+Edinburgh
+Birmingham
+Leads
+Sheffield
+Liverpool
+Manchester
+Bradford
+Bristol
+Belfast
+Mewcastle upon Tyne
+Southampton
+Northampton
+Norfolk
+Swansea
+Newport
+Plymouth
+Leicester
+Rhyl
+Bangor
+Cheshire
+Wrexham
+Northumberland
+Anglesey
+Armagh
+Dundee
+Fife
+Londonderry
+Caerphilly
+Dover
+Yorkshire
+
+#WATERBASES
+Clacton-on-Sea
+Cardigan Bay
+Cambridge Water Base
+Oxford Naval Yard
+Isle of Wight
+#END
+
+#BLURB
+I would say to the House, as I said to those who've joined the government;
+I have nothing to offer but blood, toil, tears and sweat.
+^
+^        -- Sir Winston Churchill,
+^           Speech, House of Commons, 13 May 1940
+
+#DATALINKS1
+^LEADER: {PM Winston Churchill}
+^BACKGROUND: {United Kingdom of Great Britain, Prime Minister}
+^AGENDA: {Rebuilding the British Empire.}
+^TECH: {Industrial Automation}
+^
+
+#DATALINKS2
+^+2 GROWTH:  {Rapid Expansion}
+^+2 POLICE:  {Quite strict control of subjects}
+^-1 EFFICIENCY: {Large Beuracracy}
+^+1 ECONOMY: {Very strong, well-managed economy}
+^+1 RESEARCH: {Excellent education}
+^FREE FACILITY: {Children's Creche}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Please call back your troops, $NAME1. I am ready to pledge
+Blood Truce if you will leave me to peacefully expand my empire."
+
+"Very well, but do not insult me further."
+"Too bad, $NAME3. Your 'empire' shall soon fall."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"We believe that you could be powerful allies, $TITLE0 $NAME1. Will you
+sign a Treaty of Friendship that we may join forces and crush our common foes?"
+
+"Of course. We must rule this planet together."
+"No. I alone shall rule this opulent planet, $NAME3."
+
+
+
+# ; This line must remain at end of file
+

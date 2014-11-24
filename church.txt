@@ -1,0 +1,123 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#CHURCH
+The Catholic Church, The Church, Church, M, 1, John Paul III, M, 0, 1, 0, 1, 1, 
+SOCIAL, +GROWTH, SOCIAL, +EFFIC, SOCIAL, --RESEARCH, NODRONE, 1, SHARETECH, 0, MORALE, 0, TECHSHARE, 4, 
+Values, Wealth, GROWTH, 
+Future Society, Cybernetic, nil, 
+Church, Church
+Cardinal Elloisio, Bishop Hahn, The Holy See
+Pope, Christ-like, souless, holy, zealot, 
+Jesus freak
+fall on our knees and pray
+to share God's true teaching to all on this heathen planet
+perverting the Gospel and seeing each of us burn in hell
+perverting God's word and seeing us burn in hell
+create a modern day Sodom and Gomorrah
+spouting false teachings to the oppressed masses
+spouting false teachings to the oppressed masses under your yolk
+preaching false Gospels
+New King Jimbo's Bible, M1
+understanding of the Gospels, M2
+religious endeavours, M2
+Peter's Pence, M1
+spreading the Lord's word
+the Swiss Guard
+Bibical Canon
+
+#BASES
+Vatican City
+The Holy See
+New Apostolic Church
+Sts. Peter and Paul
+Papal States
+Arimathea
+Jericho
+Bethany
+Bethlehem
+Galilee
+Cana
+Nazareth
+Capernaum
+Tyre
+Samaria
+Judea
+Joppa
+Gaza
+Caesarea
+New Rome
+Corinth
+Galatia
+Ephesia
+Philippi
+Colosse
+Thessalonia
+Sistine Chapel
+#END
+
+#WATERBASES
+Fisher of Men
+Cast Your Net
+Holy Water
+#END
+
+#BLURB
+^  Peace be with you. 
+^
+^        -- Traditional,
+^           "Roman Catholic Mass"
+
+#DATALINKS1
+^LEADER: {John Paul III}
+^BACKGROUND: {Vatican City}
+^AGENDA: {Convert the faithless}
+^TECH: {none}
+^
+
+#DATALINKS2
+^+1 GROWTH:   {Rapid population growth}
+^+1 EFFICIENCY: {Unquestioned Ruler}
+^-2 RESEARCH:  {Science frowned upon}
+^{Gains any tech known to four other infiltrated factions (Papal 'Emissaries')}
+^{May not use Cybernetic Society Type.}
+^{One fewer drone per base (Comfort of Mass)}
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"For everything there is a season, $NAME1, even a time
+for Blood Truce.  Do you not agree?"
+
+"Amen.  Let us lay down our arms awhile."
+"Burn in hell, $NAME3."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, the Lord said let there be peace. Shall we sign a Treaty of Friendship and together emulate the Lord?"
+
+"Amen.  Let us live side by side in the light of the Lord's gift of peace."
+"No. Your heathen ways are frowned upon in the Vatican, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1, a pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+"Your needs: truth: not same. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my noninterference philosophies would seem to make me the only natural ally for you from among these warring human factions. Can't we sign a Treaty of Friendship and coexist in peace?
+
+"Church: safe ally. Treaty: admirable idea."
+"Church: control: too important. Ally: dangerous. Answer: no."
+
+# ; This line must remain at end of file

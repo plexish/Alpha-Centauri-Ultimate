@@ -1,0 +1,124 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Syndicate v1.0
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.civgaming.net/citizens/networknode/
+; email networknode@lycos.com
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; To use this Faction file select load from 
+; faction select in the game and write... syndct
+;
+
+#SYNDCT
+The Syndicate, The Primus, Syndicate, M, 1, Yamamoto, M, 0, 1, 1, 1, 0, 
+  TECH, InfNet, TECH, PlaNets, SOCIAL, +ECONOMY, SOCIAL, ---SUPPORT, SOCIAL, ---PROBE, SOCIAL, +++MORALE, FACILITY, 11, UNIT, 12, COMMERCE, 1, SHARETECH, 1, ENERGY, 50
+  Future Society, Thought Control, ECONOMY
+  Economics, Free Market, nil
+  Syndicate, Syndicate
+  Fleur, Matsumura, Daimyo Hub
+  Primus, Omniscient, Prying, Informed, greedy, 
+  Control Freak
+  forge vast informative communication networks
+  to accumulate data and increase its communication
+  spreading propaganda to undermine our authority
+  spreading your propaganda
+  blatantly abuse our trust
+  spreading baseless propaganda
+  spreading baseless propaganda
+  monopolising the media
+  propaganda, M1
+  communications networks, M2
+  communications empire, M1
+  retainer, M1
+  providing vast communication networks
+  Syndicate Mercenaries
+  Syndicate Controls
+
+#BASES
+Daimyo Hub
+Nissa
+Juji
+Chugow
+Manju
+Shiro
+Akira 1
+Ojissan
+Osoroshi
+Jain Momjii
+Tattobu
+Komoru
+Kieki
+Takada
+Achick
+Matsumura
+Akawashi
+Toho
+Temura 3
+Kenji
+Harujo
+Chiyoko
+Chameura
+Sing Kai
+Moriko
+Toshigii
+Pikachu City
+#END
+
+#WATERBASES
+Kawsan
+Juboi
+Oyomei
+Neo Mushashi
+Korihnoki
+Shimoda
+Netanka
+Copurya
+#END
+
+#BLURB
+Once we believed that money was the true wealth in a society,
+but we were wrong. Infotainment is the new gold rush of this
+planet.
+^
+^        -- Primus Satoru Yamamoto,
+^           "A Study of Information Networks"
+
+#DATALINKS1
+^LEADER: {Primus Satoru Yamamoto}
+^BACKGROUND: {Communications Tycoon, Media Psychologist}
+^AGENDA: {Economy, Thought Control}
+^TECH: {Planetary Networks}
+
+#DATALINKS2
+^+1 ECONOMY: {Communications Empire}
+^-3 SUPPORT: {Citizens require expensive technologies}
+^-2 PROBE: {Immense database hard to police}
+^+3 MORALE: {Propaganda Experts}
+^FREE FACILITY: {Hologram Theatre each base}
+^{50 Energy Credits at start}
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Vendetta inteferes with broadcasts, $NAME1. I suggest we pledge
+Blood Truce and resume transmissions."
+
+"True, my people have missed your programming. I shall order units to withdraw."
+"Too little too late, $NAME3, I plan to shut down your propagandist empire."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$NAME1, The Syndicate has much information to transmit to your
+people, let us sign a contract of co-operation."
+
+"By all means. Let transmission begin."
+"No. Your propaganda machine sickens me."
+
+
+# ; This line must remain at end of file

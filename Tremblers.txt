@@ -1,0 +1,137 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#TREMBLERS
+Trembler Commune, The pacifist, Tremblers, M, 2, Elazar, M, -1, 0, 0, 0, 1, 
+TECH, Psych, FREEFAC, 2, FACILITY, 6, SOCIAL, --MORALE, SOCIAL, ---POLICE, SOCIAL, +PROBE, MINDCONTROL, 0, PSI, 30, TALENT, 4, 
+Politics, Fundamentalist, TALENT, 
+Values, Power, nil, 
+Trembler, Trembler
+David, Peled, David's land
+Brother, idealistic, undefended, peace loving, naive, 
+cult leader
+eliminate destructive forces in the world
+to found a society on the principles of pacifism and strong community
+converting us all to his dangerous religious sect
+converting gullible followers to your religious sect
+subtly take over chiron's citizens for your own ends
+writing his useless "texts for living"
+writing dangerous "texts for living"
+preaching dangerous beliefs
+weak minded collective, M1
+attempts at conversion, M2
+pacifist ideals, M2
+donation, M1
+protecting the flock
+Trembler protection volunteers
+Trembler religious codes
+
+#BASES
+Those who Tremble
+City of Shakers
+Faithful Servants
+End to Bloodshed
+New Beginning
+Providence
+Now we See
+Meditation
+Strength of Mind
+Conviction
+City of Healing
+Renouncement of Sin
+Missionary City
+Luthersville
+Ghandi
+End of War
+Spread the Word
+We are Humbled
+Turn the Cheek
+One for All
+Seeing the Light
+New Foundation
+Love thy Neighbor
+Trust and Hope
+We Walk Together
+Savior
+#END
+
+#WATERBASES
+Cleansing
+Vast Ocean, Humble Self
+Holy Waters
+Purification
+Part the Sea
+Deep Conversion
+#END
+
+#BLURB
+Before you make a move against your fellow man, ask
+yourself, are your truly righteous in your actions,
+or do you merely wish to benefit yourself? Holyness
+is not merely a matter of folowing instructions, or
+having good intentions, but in every action thinking
+and acting for the benefit of our fellow men, in addition
+to ourselves.
+^
+^
+^        -- Brother Michael Elazar,
+
+#DATALINKS1
+^LEADER: {Michael Elazar}
+^BACKGROUND: {Israel, unity Security Officer}
+^AGENDA: {Pacifist Religion}
+^TECH: {Social Psych}
+
+#DATALINKS2
+^Free children's Creche with Ethical Calculus
+^Free recreation commons {Community oriented faction}
+^1 extra telent per 4 citizens {Community minded followers work together to solve problems}
+^+30% psi combat {Religious training results in strong minded and calm followers}
+^-2 morale {Pacifist group}
+^Immunity to mind control {Followers are difficult to convert out of group}
+^+1 probe  {followers eager to convert others to cause}
+^-3 police {Pacifist faction unhappy with military action}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"The tremblers wish all bloodshed to stop.  We wish
+to declare blood truce ot end this unnecessary fighting."
+
+"Indeed. Blood Truce would be most satisfactory."
+"Never! Your dangerous religious tenets shall be eliminated!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, despite our differences in viewpoints,
+the tremblers believe that we must avoid warfare and
+join in cooperation.  Will you sign a treaty of friendhsip,
+that future destruction be averted?"
+
+"As you wish. The Tremblers seem a valuable friend."
+"No. I do not want my society converted to your unusual beliefs, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"The tremblers wish all bloodshed to stop.  We wish
+to declare blood truce ot end this unnecessary fighting."
+
+"Progenitor: belief confusing.  War: costly.  Truce: Accepted"
+"Pacifists:  Fightinbg skill: low.  War: continue."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, despite our differences in viewpoints,
+the tremblers believe that we must avoid warfare and
+join in cooperation.  Will you sign a treaty of friendhsip,
+that future destruction be averted?"
+
+"Warfare: destructive.  Treaty: beneficla.  Treaty: Agreed"
+"Religion:  dangerous.  Conversion: possible.  Answer: no."
+
+# ; This line must remain at end of file

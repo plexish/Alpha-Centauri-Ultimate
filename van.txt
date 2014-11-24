@@ -1,0 +1,176 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Vanguard v2.0
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; -III THE VANGUARD III-
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+; Text by Rob Boyd
+;
+; Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://networknode.org
+; email networknode@lycos.com
+;
+; For use this Faction file select load from 
+; faction select in the game and write... van
+;
+
+#VAN
+Vanguard of the New World, Mission Protectorate, Vanguard, M, 2, Robert Ross, M, 0, 1, 1, 0, 1, 
+TECH, Biogen, FREEFAC, 3, SOCIAL, --GROWTH, SOCIAL, -POLICE, SOCIAL, ++EFFIC, SOCIAL, +MORALE, SOCIAL, +RESEARCH, IMPUNITY, Democratic, MINDCONTROL, 0, FREEPROTO, 0, 
+Politics, Democratic, EFFIC, 
+Values, Wealth, nil, 
+Protectors, Protec.
+Shannon McAlister, Ivan Lem, Shannon's Grace
+Brigadier General, capable leader, close minded, Mission faithful, narrow-minded, 
+blind idealist
+restore Humanities dignity by reuniting all and fulfilling our original Mission
+re-unite all the members of the Unity and restore our original Mission
+contolling all of us and subjecting us to his "Mission"
+controlling all the factions under your own little regime!
+manipulate the others while waving your "Mission" banner
+playing with his tin "peace-keeping" soldiers
+playing with your tin "peace-keeping" soldiers
+stubbornly clinging to the Unity "Mission"
+Mission focused rhetoric, M1
+your re-unification efforts, M2
+your re-unification efforts, M2
+stipend, M1
+defending the New World from self-serving egomaniacs
+my disciplined peace-keeping forces
+the U.N. Unity Mission protocols
+
+#BASES
+Unity Mission H.Q.
+Efficiency Lab
+Amity Base
+Peacemaker Accord
+Academic Seat
+Mission Post
+General's Aim
+Task Force Command
+Embassy Base
+Protocol Province
+Higher Purpose
+Able Park
+Survivor Spirit
+Dynamic Terrain
+Overland
+Recon Outpost
+Diplomatic Institute
+Hope Springs
+Tranquil Flow
+Trinity College
+Eco-Study
+Higher Ground
+Beauty of Nature
+Tech Local 110
+Skilled Workers Hub
+Forward Observer
+Chiron's Shadow
+Reclaimed Territory
+Ross Outlook
+Eire's Pride
+Memories of Vancouver
+Brigadier's Boundary
+Lem's AstroLab
+New Peking
+Shannon's Grace
+#END
+
+#WATERBASES
+Deep Vista
+Oceanic Research
+Aquatic Investigation
+Marine Biolab
+Seaforth Station
+Water Garden
+Nautical Endeavour
+Hydro Research
+Fleet Dock
+HydroChem Resource
+Maritime Platform
+Naval Anchorage
+Puerto Armada
+Junk Port
+#END
+
+#BLURB
+Initial reports of Planet indicated no sentient life. Apparently,
+this information was in error. Reconnaissance of our landing
+site revealed a xenoform that mysteriously attacks the mind.
+First observed behaviour is terror, then wild hallucinations,
+paranoid delusions with murderous results, self-inflicted of
+other-wise. It is vital to our survival that we come to understand
+these phenomina. Our only clue is that the more disciplined
+mind seemed less vulnerable. Ivan Lem is leading a team to investigate.
+I fear for mankind's survival if we and the other UNITY landing
+Pods are unable to overcome the challenges of this New World.
+^
+^   -- Brigadier General Robert Ross
+^      "Personal Journal of the UNITY Mission"
+^
+
+#DATALINKS1
+^Brigadier General Robert Ross
+^Free Unified Dominion of Canada, U.N. Peacekeeping Commander
+^Re-unification of Unity Mission
+^Free Tech - {Biogenetics}
+
+#DATALINKS2
+^Free Facility - {Recyling Tanks}
+^+2 EFFIC: {Learned to make most of the available resources}
+^+1 RESEARCH: {Research will make up for current lack here on Planet}
+^+1 MORALE: {Disciplined, highly trained Peacekeeping troops}
+^-2 GROWTH: {Harsh environment}
+^-1 POLICE: {Authortarian regimes stifle research, initiative and creative problem solving}
+^IMPUNITY: {Democratic}
+^Also: {Free Proto-types} and {Immunity to Mind Control}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, this strife that sets man against man
+even brother against brother shall be our undoing, we
+will not survive long in this New World if we continue
+in armed conflict. $TITLE Blood Truce is the answer,
+is it not?"
+
+"True, $TITLE2 let these foolish hostilities cease."
+"Brother $TITLE2, The answer is your demise and that shall be all!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, Let us sign a treaty that we may unite
+and achieve the lofty goals of our Unity Mission and
+restore our Human dignity!"
+
+"So be it, $TITLE2 $NAME3."
+"A treaty does not serve our puposes at this time, or
+me, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, it is in your best interest to discontinue
+your engagement with my forces, I recommend a pledge
+of Blood Truce"
+
+"Progenitor: Best interests, yours. Mutual agreement: truce."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, Strategically speaking it is best at
+this time to form an Alliance Treaty with your kind,
+will you accept this arrangement?"
+
+"Vanguard: equally repulsed.  Progenitor: strategic
+value high, accept."
+
+# ; This line must remain at end of file

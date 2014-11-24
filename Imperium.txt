@@ -1,0 +1,141 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#IMPERIUM
+Imperium Crescint, The Imperialist, Imperium, M, 1, Sepsu, M, 0, 1, 0, 1, 1, 
+FACILITY, 2, SOCIAL, ++GROWTH, SOCIAL, ++ECONOMY, SOCIAL, --MORALE, SOCIAL, ---POLICE, MORALE, -2, DRONE, 3, HURRY, 50, 
+Economics, Free Market, GROWTH, 
+Economics, Planned, nil, 
+Imperium, Imperium
+Dionysai, Dr.Manfield, The Pillars of Heracles
+Emperor, strong, brutal, strong, repressive, 
+elitist scumbag
+grow strong
+to found a society on the principles of Empire and Social Darwinism
+reducing us all to slaves of him and his rich elitist lackeys
+reduce the world into a corrupt slave state
+reduce the world into a corrupt slave state
+creating disparity and slavery for his people
+creating disparity and slavery for your people
+spreading repressive imperialism
+economic disparity, M1
+growing empire, M2
+pursuits in growing your empire, M2
+tribute, M1
+from refraining to conquer your cities
+my mighty army
+my empire's might
+
+#BASES
+The Pillars of Heracles
+Emperor's Will
+Gilgamesh
+Helot's Service
+Slave Drive
+Colonial Efforts
+Growing Empire
+Expanding Borders
+Divide and Conquer
+Torch of Civilization
+Pinnacle of Strength
+Natural Selection
+The Weak Shall Die
+Those Who Earn It
+Self Made City
+The Pursuit of Wealth
+Great Monument
+Royal Estate
+Divine Rule
+For The Emperor
+Emperors Strength
+Assimilated Interests
+Conqueror's Reign
+Reign of the Emperor
+The 12 Labours
+Sepsu's Stronghold
+Monument to Glory
+Flame of the Empire
+Slave Market
+Exotic Goods
+Merchants Guild
+Fuedal Farms
+Noblemans Castle
+City of Slaves
+Servants Quarters
+Top Of The Pyramid
+Ares Revenge
+#END
+
+#WATERBASES
+Merchants Port
+Slave Galley
+Mercantalist Dreams
+Sepsu's Harbour
+Imperial Docks
+Might of the Navy
+Strength of the Sea
+#END
+
+#BLURB
+^  In order to survive this brutal world we have to
+discard false notions of "human rights." No one is entitled
+to anything, and no one deserves anything unless they
+earn it; let natural selection sort the weak from the
+strong, the rich from the poor. 
+^
+^        -- Emperor Sepsu Shuhaduku,
+^           "Strength is Survival-Creed of the Strong"
+
+#DATALINKS1
+^LEADER: {Sepsu Shuhaduku}
+^BACKGROUND: {Republic of Iraq, Unity Obstetrician}
+^AGENDA: {Social Darwinist Empire}
+^TECH: {None}
+
+#DATALINKS2
+^+2 GROWTH:   {Large families and slave trade}
+^+2 ECONOMY: {Wealthy Merchants}
+^-2 MORALE:  {Backstabbing and slavery doesn't motivate people to fight}
+^Large Cities: {Free HAB COMPLEX at each base}
+^{May not use Planned Economics politics.}
+^
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"There is no need to show our strength right now, let
+us sign a truce, $NAME1."
+
+"A truce would allow our people to recover their strength."I'd"I'drathercrush
+your weak faction into the ground!"
+crush your weak faction into the ground!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, our empire is strong, and we see the strength in your faction. We offer a treaty of friendship, but the question is will you accept it?
+
+"Yes. We will grow stronger together, your majesty."
+"No, your society's economic level of disparity is quite appalling, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Our forces have no need to test their strength, $NAME1, a pledge of Blood Truce seems the best course of action."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+"Your strength: weak. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, our Empire is mighty, and your people are as well. We extend our arm in friendship, do you accept our offer?"
+
+"Imperium: strong ally. Treaty: admirable idea."
+"Imperium: individual ego: too important. Ally: dangerous. Answer: no."
+
+# ; This line must remain at end of file

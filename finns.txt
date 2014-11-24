@@ -1,0 +1,156 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#FINNS
+Finns, The Socialists, Finns, M, 2, Mannerheim, M, 0, 1, 0, 0, 1, 
+IMPUNITY, Democratic, PENALTY, Wealth, TECH, Ecology, FREEFAC, 2, SOCIAL, +EFFIC, SOCIAL, +GROWTH, SOCIAL, -ECONOMY, 
+Politics, Democratic, INDUSTRY, 
+Economics, Free Market, nil, 
+Finn, Finn
+General Ehrnrooth, A.I.Virtanen, Viipuri
+Warmarshall, trustworthy, oldfashioned, incredible, ruthless, 
+communist
+equally guide our followers
+to found a society on the principles of Mr. Karl Marx
+reducing us all to mindless slaves of his economic paralysis
+reducing us all to mindless slaves of your economic paralysis
+reduce the human population of this world into socialism
+brainwashing the wretched fools who chose to follow him
+brainwashing the wretched fools who chose to follow you
+making people poor and unhappy
+ways of adapting the ideas of Mr. Marx, M1
+socialistic experiments, M2
+socialistic experiments, M2
+recycling fee, M1
+arranging second-hand fairs
+Finnish Security
+Finnish Law
+
+#BASES
+Helsinki
+Virolahti
+Lieksa
+Viipuri
+Turku
+Tampere
+Mikkeli
+Oulu
+Jyvaskyla
+Lahti
+Kemi
+Rovaniemi
+Kuopio
+Kotka
+Lappeenranta
+Pori
+Rauma
+Porvoo
+Hameenlinna
+Sodankyla
+Savonlinna
+Hamina
+Kajaani
+Joensuu
+Seinajoki
+Lohja
+Forssa
+Vehkalahti
+Varkaus
+Kouvola
+Imatra
+Jarvenpaa
+Riihimaki
+Heinola
+Pieksamaki
+Raahe
+Uusikaupunki
+#END
+
+#WATERBASES
+Ahvenanmaa
+Myrkkyluoto
+Karlskrona
+Ravansaari
+Suomenlinna
+Mustasaari
+Dragsvik
+Suursaari
+Nauvo
+Kaskinen
+Naantali
+Hailuoto
+Kemio
+Soisalo
+Eckero
+Rankki
+#END
+
+#BLURB
+^  What actually is the way out of here, maybe no one
+can tell. Propably god could help, but is that kind
+of entity willing to listen? If not, then we are on
+our own... 
+^
+^        -- Warmarshall Mannerheim,
+^           "Kollaa will hold position"
+
+#DATALINKS1
+^LEADER: {G.C. Mannerheim}
+^BACKGROUND: {Finland, Warmarshal during WW2}
+^AGENDA: {Socialistic democracy}
+^TECH: {Centauri ecology}
+
+#DATALINKS2
+^Impunity : DEMOCRACY {Well organized defence politics}
+^PENALTY: Wealth {Poor majority will envy the richer people}
+^+1 EFFIENCY:  {Advanced recycling methods}
+^-1 ECONOMY: {No interest of monetary goals}
+^+1 GROWTH: {NOKIA - Connecting people...}
+^May not use Free Market economics.
+^Free Children's Creche after tech: improved social wellfare
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This pickering is pointless, $NAME1, should we call
+it a truce."
+
+"Indeed. A Truce would be most satisfactory."
+"Never! You have no place for my plans, so you shall
+die!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your ideals are admirable if a bit
+foolish and your faction need not pose a threat to Finnish
+policy. Shall we sign a Treaty of Friendship to formalize
+our symbiotic relationship?"
+
+"As you wish. The Finns seems a valuable friend."
+"No. Your incompetence to make wealth is ridiculous"
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This pickering is pointless, $NAME1, should we call
+it a truce?"
+
+"Progenitor: perceive no point either. Mutual agreement:truce."
+"Pickering: you. Waging war: Progenitor. Continue:agression"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my peaceful philosophies would seem
+to make me the only natural ally for you from among
+these warring human factions. Can't we sign a Treaty
+of Friendship and coexist in peace?"
+
+"Finns: safe ally. Treaty: admirable idea."
+"Finns: oldfashioned: too peculiar. Ally: dangerous."
+
+# ; This line must remain at end of file

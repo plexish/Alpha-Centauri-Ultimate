@@ -1,0 +1,106 @@
+; by Duran Duran
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Barbarella
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+; 
+; Faction Graphics Copyright c2000 NetworkNode
+; For more factions visit http://networknode.org
+; email networknode@lycos.com
+;
+; To use this Faction file select load from 
+; faction select in the game and write... barb
+;
+
+#BARB
+Barbarella, The Earthlings, Earthlings, F, 2, Barbarella, F, 0, 0, 0, 0, 0, 
+  SOCIAL, +PROBE, SOCIAL, +GROWTH, ROBUST, MORALE, PENALTY, -None-, FACILITY, 3, FACILITY, 6
+  Future Society, Eudaimonic, MORALE
+  none, none, nil
+  Earthling, Earthl.
+  Dildano, Professor Ping, Sogo
+  Queen of the Galaxy, pretty pretty, hussy, groovy, druggy, 
+  tramp
+  find Duran Duran
+  to find Duran Duran
+  spreading her immoral ways
+  fornicating
+  seduce my fellow citizens
+  in promiscuous acts
+  in lustful orgies
+  rampant sexual acts
+  Republic, M1
+  search for Duran Duran, M2
+  search for Duran Duran, M1
+  faction file tax, M1
+  seeking Duran Duran
+  forces
+  the Republic of Earth Laws
+
+#BASES
+Republic of Earth
+Lythion
+Sogo
+Positronic Ray
+Dildano
+Pygar
+Duran Duran
+Black Queen
+Labyrinth
+Professor Ping
+Marcan
+Alfie
+Dino de Laurentiis
+#END
+
+#WATERBASES
+Mathmos
+Tyrants Lair
+Essence of Man
+Pretty Pretty
+#END
+
+#BLURB
+I'm here on the orders of the President of the Republic of Earth.
+I'm here to find Duran Duran.
+^
+^ -- Barbarella
+^      "1968"
+^
+^
+
+#DATALINKS1
+^LEADER: {Barbarella}
+^BACKGROUND: {Secret Agent for the Earth Republic}
+^AGENDA: {To find Duran Duran}
+^TECH: {None}
+^
+
+#DATALINKS2
+^FREE FACILITIES: {Recycling Tanks (the Mathmos)}
+^{Recreation Commons (to smoke essence of man)}
+^PROBE +1: {Barbarella's secret agent training}
+^GROWTH +1: {Constant sexual gratification has side effects!}
+^ROBUST MORALE: {Blind optimism in the face of disaster}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This conflict inhibits our search for Duran Duran. Let us cease
+hostilities."
+
+"Yes, That would be nice."
+"no...your funky faction will be destroyed."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Peace and Love should be the name of the game $TITLE0 $NAME1,
+don't you think? How about a treaty?"
+
+"sure $NAME3"
+"not at all, your fornicating faction doesn't interest me!"
+
+
+# ; This line must remain at end of file

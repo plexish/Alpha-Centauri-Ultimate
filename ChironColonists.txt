@@ -1,0 +1,147 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#CHIRONCOLONISTS
+Chiron Colonists, The Developer, Colonists, M, 2, Silva, M, 0, 0, 0, 1, 1, 
+TECH, Ecology, SOCIAL, ++GROWTH, SOCIAL, +EFFIC, SOCIAL, -POLICE, SOCIAL, --PLANET, UNIT, 1, TERRAFORM, 0, 
+Values, Wealth, GROWTH, 
+Economics, Green, nil, 
+Colonial, Colonist
+Santos, Aprecido, Santos's Tract
+Head Developer, independent, exploitive, pioneering, exploitive, 
+Ravenous Glutton
+utilitize the resources of planet
+to found a society for the betterment of those who choose to join it
+exploiting planet until there is nothing left
+exploiting all of planet's resources for yourself
+spread all over planet and consume it for your own ends
+destroying the world and leaving us with nothing
+thoughtlessly consuming everything you see around you
+greedily exploiting our new world
+exploitation of planet, M1
+development of planet, M2
+colonization efforts, M2
+resource payment, M1
+protecting our newly settled lands
+border militia
+Chiron frontier law
+
+#BASES
+Flagpost Colony
+First Frontier
+Virgin Lands
+Untouched Farmlands
+Mines of Chiron
+Tamer of Chiron
+Roughneck Boomtown
+Pioneer City
+Footprint of Earth
+Chiron Developed
+Frontier Borders
+Sea to Sea
+Flagstaff
+Wilderness Settled
+City of Bounty
+Freedom town
+Next Frontier
+Gold Rush
+Hardwood Forest
+Lands of Plenty
+Plowshares
+New Brasilia
+Amazon of Chiron
+City of Destiny
+Fungal Clearing
+Motherlode
+Sodbreaker
+Outback Settlement
+Wild Country
+Chiron Siberia
+Blooming Desert
+Next Horizon
+Chiron developed
+Lands of Plenty
+Miners Camp
+#END
+
+#WATERBASES
+Sea Frontier
+Dredged from the Deep
+Ports and Ships
+Bountiful Fishery
+Deep Frontier
+Abyssal Settling
+Seas of Kelp
+#END
+
+#BLURB
+Perhaps our greatest tool for taming the centauran
+system is a properly engineered forest.  With the proper
+mix of trees, such a forest proves highly resilient,
+and supplies vital food and raw materials, while requiring
+little maintenance once grown.  Such a forest will also
+push back the dangerous xenofungus from our cities,
+and supplies defensive cover if war breaks out.  Forests
+have proven their worth over and over, and with development,
+will be useful far into the future. 
+^
+^        -- Head Developer Pedro Silva,
+^           "The Development of Chiron"
+
+#DATALINKS1
+^LEADER: {Pedro Silva}
+^BACKGROUND: {Brazil, Unity Survey and Construction Officer}
+^AGENDA: {wealth, widespread society}
+^TECH: {Centauri Ecology}
+
+#DATALINKS2
+^+2 GROWTH:   {Desire to colonize planet}
+^+1 EFFICIENCY: {Colonists well organize, good workers}
+^-1 POLICE:  {Joined unity to escape opression}
+^-2 PLANET: {Environmental issues deemed less important}
+^Enhanced Terraforming: {Skilled Builders}
+^Free former
+^Cannot use Green Economics:  {Little concern for environmental issues}
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This war needlessly consumes many resources.  Let us
+agree to a truce and put them to better use."
+
+"Indeed. Blood Truce would be most satisfactory."
+"And let your followers sprawl all over planet?  Never."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, I see no reason why both of our factions
+cannot amicably settle this planet together.  A treaty
+between our factions would seem in order."
+
+"A treaty would be an excellent idea."
+"No. I will never agree to such a treaty."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This war needlessly consumes many resources.  Let us
+agree to a truce and put them to better use."
+
+"Resource consumption: high.  Truce: Agreed"
+"Colonists: expanding: future power: high.  Truce: no."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, I see no reason why both of our factions
+cannot amicably settle this planet together.  A treaty
+between our factions would seem in order."
+
+"Settle planet: Agree.  Treaty: Signed."
+"Future enemy: possible.  Treaty: no"
+
+# ; This line must remain at end of file

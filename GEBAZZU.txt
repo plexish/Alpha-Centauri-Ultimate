@@ -1,0 +1,126 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Gebazzu v1.0
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.civgaming.net/citizens/networknode/
+; email networknode@lycos.com
+;
+; To use this Faction file select load from 
+; faction select in the game and write... gebazzu
+;
+
+#GEBAZZU
+The Gebazzu, The Insectoids, Gebazzu, M, 1, Zhisku, M, 0, 1, 0, 0, 1, 
+  TECH, DocLoy, SOCIAL, ---ECONOMY, SOCIAL, +POLICE, SOCIAL, +EFFIC, SOCIAL, +SUPPORT, FACILITY, 2, UNIT, 10, PSI, 15, DRONE, 6, HURRY, 75, POPULATION, -3, MINDCONTROL, 0
+  Future Society, Thought Control, EFFIC
+  Future Society, Eudaimonic, nil
+  Gebazzan, Gebazz.
+  Nikrik, Drammuk, Wrak
+  Xantha, Grand, insect, unflinching, grotesgue, 
+  vermin
+  gather resources
+  gather resources
+  harvesting us as food for his larvae
+  reducing us to animals to feed upon
+  devour the human population of this world
+  infesting this planet
+  infesting this planet
+  crimes against our people
+  infestations, M1
+  swarms, M2
+  swarms, M2
+  token, M1
+  gathering food elsewhere
+  the swarm
+  the Scrolls of Krymjem
+
+#BASES
+Wrak
+Cheokre
+Xuknu
+Iklu
+Innuhu
+Pebessu
+Wamak
+Cagla
+Bruna
+Dreg
+Uttu
+Xueda
+Ekru
+Madak
+Gogrua
+Ruek
+Zuss
+Zutjyyd
+Keppo
+Peyg
+Toar
+Zhaz
+Gneug
+Zhas
+Nokri
+Baky
+Zhasj
+#END
+
+#WATERBASES
+Nebbiog
+Knuzha
+Jiar
+Agnoe
+Zhag
+Annok
+Zhin
+Gnigua
+#END
+
+#BLURB
+Some say arrival accident, perhaps not; friends have we found;
+and food. Yet stay not long for the Queen awaits our return...
+^
+^        -- Xantha Zhisku,
+^           "Scrolls of Krymjem"
+
+#DATALINKS1
+^LEADER: {Xantha Zhisku}
+^BACKGROUND: {Gebazzu Recon Vessel Captain}
+^AGENDA: {To gather enough resources to escape Planet}
+^TECH: {Doctrine; Loyalty}
+^
+
+#DATALINKS2
+^-3 ECONOMY: {Other factions abhor the Gebazzu}
+^+1 POLICE: {Regimented citizens}
+^+1 EFFICIENCY: {Fastidious overseers}
+^+1 SUPPORT: {Excellent chain of command}
+^+15% PSI COMBAT: {Similar Thought patterns to Planet wildlife}
+^75% HURRY: {Tireless workforce}
+^IMMUNE TO MIND CONTROL: {Insectoid brain patterns}
+^+3 POPULATION LIMITS: {Insectoid living conditions}
+^FREE FACILITY: {Childrens Creche (Larval Cells)}
+^FREE UNIT: {Locusts of Chiron allies}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"You are strong, $NAME1, truce is necessary."
+
+"Correct. Blood Truce is most wise $NAME3."
+"You must think me mad $NAME3, your flesh devouring horrors will be exterminated."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your species is powerful. We will refrain from
+eating your kind if you do not attack us."
+
+"As you wish. The Gebazzu are not to be trifled with."
+"No. Your swarms have terrorized me too long."
+
+
+# ; This line must remain at end of file

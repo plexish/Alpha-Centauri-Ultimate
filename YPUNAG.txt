@@ -1,0 +1,126 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Ypunag
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.civgaming.net/citizens/networknode/
+; email networknode@lycos.com
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; To use this Faction file select load from 
+; faction select in the game and write... ypunag
+;
+
+#YPUNAG
+The Ypunag, Ypunag, Ypunag, M, 1, Klessske, M, 1, 1, 0, 0, 0, 
+  TECH, Brain, ROBUST, MORALE, SOCIAL, +++POLICE, PENALTY, ECONOMY, SOCIAL, --RESEARCH, FACILITY, 23, PSI, 5, MINDCONTROL, 0, FANATIC, 0
+  Future Society, Thought Control, POLICE
+  Politics, Democratic, nil
+  The Reptillian, The Re.
+  Sssya, Myozue, Kopsssuni
+  Broodmaster, Allmighty, fiend, feared, unwholesome, 
+  venomous
+  rule Planet
+  rule Planet
+  conquering us all
+  conquering Planet
+  spread the parasitic Jyseu vermin
+  spreading the parasitic Jyseu
+  spreading the parasitic Jyseu
+  outright barbarity
+  Brood, M1
+  Jyssseu Masters, M2
+  Broods fortunes, M1
+  gift, M1
+  dessstroying the unworthy
+  the Brood
+  the Brood Lawsss
+
+#BASES
+Khopsssuni
+Sssian
+Djaob
+Dagoe
+Elluk
+Juzai
+Jagne
+Ghidda
+Unisss
+Klossu
+Fnable
+Pobosss
+Sssnatoe
+Fassshe
+Wuutu
+Epsssno
+Zosssmaf
+Cresssi
+Ljoh
+Illal
+Droad
+Ignhuua
+Wrukko
+Tresssyu
+Puad
+#END
+
+#WATERBASES
+Uruk
+Leasssio
+Yrrua
+Zhagga
+Amaysss
+Essskek
+Nepasss
+Zussu
+#END
+
+#BLURB
+Like usss humansss prisssoner now here. Help or conquer, my brood
+isss divided. The Massstersss think new hossstsss they make,
+yet ssstrong do the Jyssseu make the Ypunag, I will not ssshare
+thisss power.
+^
+^   -- Klessske  Fysssue
+^      "A Study of the Ypunag"
+^
+^
+
+#DATALINKS1
+^LEADER: {Klessske  Fysssue}
+^BACKGROUND: {Broodmaster IV Generation}
+^AGENDA: {Conquest}
+^TECH: {Secrets of the Human Brain}
+^
+
+#DATALINKS2
+^ROBUST (MORALE): {Hosts to the powerful Jysue mind parsite}
+^+3 POLICE: {Brutal Regime}
+^PENALTY (ECONOMY): {Others fear the Ypunag & Jysue}
+^-2 RESEARCH: {The Ypunag are impatient}
+^PSI BONUS: {5% Psi attack Bonus}
+^FANATICS: {+25 to Attack}
+^{Immune to MIND CONTROL, the Jyseu already control them}
+^{May NOT use Democracy}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"War makesss usss weak asss the othersss grow ssstronger. We call
+Truce?"
+
+"Agreed Broodmaster."
+"no...the Jyseu are vermin to be destroyed."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"A treaty will ssserve usss both yesss?"
+
+"Agreed $NAME3"
+"I don't think my people are prepared to become hosts to such abominations"
+
+
+# ; This line must remain at end of file

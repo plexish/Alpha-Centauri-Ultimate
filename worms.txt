@@ -1,0 +1,130 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#WORMS
+The Mindworms, The Natives, Worms, M, 2, Lumbricus, M, 1, 1, 0, 0, 1, 
+FACILITY, 35, FUNGNUTRIENT, 1, FUNGMINERALS, 1, FUNGENERGY, 1, UNIT, 19, DEFENSE, 5, OFFENSE, 5, SOCIAL, ++PLANET, WORMPOLICE, 0, PSI, 3900, TECHCOST, 125, 
+Economics, Green, GROWTH, 
+Politics, Democratic, nil, 
+Worms, Worms
+larvae, boil, Cha Dawn's Birthplace
+Listener, listener of The Voice, murderous, teeming mass, devouring, 
+evil
+feed
+implant larvae in my enemies' brains
+devouring us all
+devouring us all
+exterminate the human population
+devouring human flesh
+devouring human flesh
+burrowing into human skulls
+mind attacks, M1
+reproduction cycle, M2
+reproduction cycle, M2
+fee, M1
+not feasting on your brains while you suffer a slow, agonizing death
+The Voice
+The Voice
+
+#BASES
+The Voice
+Worm Husk
+The Slithering
+Teeming Spawn
+Fungus Among Us
+Mind Tricks
+As the Feeding Continues
+Bad Brains
+You Have Something in Your Ear
+Worms Worms Worms
+Delicious and Nutritious
+Centauri Zoo
+The Psi Chamber
+Xenofungus
+Empath Training
+The Trance
+Phi Omega Psi
+Divide and Conquer
+Centauri Nexus
+I'm Locust Man
+Chiron Nest
+Shooting Spores
+Uncooked Meat
+Spore Launcher Platform
+Parasite Might
+Cha Dawn's Birthplace
+Attack of the Killer Worms
+The Lifecycle
+Demon Boils
+Planet Rising
+NewFung Biology Lab
+#END
+
+#WATERBASES
+Isle of the Deep
+Deep Spawn
+Sea Worms
+Sea Spawn
+Lurker Reef
+Raw Sushi
+#END
+
+#BLURB
+Delicious. 
+^
+^        -- Lumbricus mens mentis,
+^           "The Taste of Human Flesh"
+
+#DATALINKS1
+^LEADER: {Lumbricus mens mentis}
+^BACKGROUND: {unknown}
+^AGENDA: {To feed}
+^
+
+#DATALINKS2
+^+2 PLANET: {Worms are native lifeforms}
+^+1 Nutrients/Minerals/Energy in fungus squares
+^+100% Psi combat modifier: {Worms are adept at psi combat}
+^Mind Worms do double police duty: {Worms are native lifeforms}
+^-95% Offensive combat: {Unable to field conventional forces}
+^-95% Deffensive combat: {Unable to field conventional forces}
+^{May not use Democratic politics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME1, your childern's brains have made excellent breeding grounds for our larvae, but our reproduction cycle is complete and we have no need of fresh corpses right now. Would you like to sign a Blood Truce?"
+
+"Very well, but one day you'll pay for your crimes against us."
+"Enjoy our empath rovers, you alien cockroaches."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, The Voice has decided you are not an immediate threat. Do you wish to allay any fears she has of you and sign a Treaty of Friendship?"
+
+"Yes."
+"To tell you the truth, I'd rather see your species exterminated."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+"Your needs: truth: not same. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my philosophies would seem to make
+me the only natural ally for you from among these warring human
+factions. Can't we sign a Treaty of Friendship and coexist in peace?
+
+"Worms: safe ally. Treaty: admirable idea."
+"Worms: control: too important. Ally: dangerous. Answer: no."
+
+# ; This line must remain at end of file

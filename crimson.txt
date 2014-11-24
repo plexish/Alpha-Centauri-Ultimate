@@ -1,0 +1,141 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#CRIMSON
+Crimson Comrades, The Revolutionary, Crimson Comrades, M, 2, Vazheli Vatzev, M, 0, 0, 0, 1, 1, 
+TECH, Ecology, SOCIAL, +++SUPPORT, SOCIAL, -ECONOMY, SOCIAL, -PROBE, SOCIAL, +MORALE, IMPUNITY, Planned, PENALTY, Free Market, MORALE, 1, 
+Future Society, Eudaimonic, SUPPORT, 
+Economics, Free Market, nil, 
+Crimson, Crimson
+Tatyana, Ignatius Canaan, Irongrad
+Comrade, Stern, Stubborn, Persistent, Stubborn, 
+Brash fool
+liberate the proletariat
+to found a society on the principles of Communism and equity
+pursuing a failed ideal
+pursuing a failed ideal
+march your army around in the name of communism
+living in a failed society
+living in a failed society
+being a stubborn diehard
+joke of an ideal, M1
+fight in liberating the proletariat, M2
+revolutionary tendencies, M2
+public donation for the war effort, M1
+fighting for the liberation of Planet's people
+my fellow comrades
+the people's will
+
+#BASES
+The Red Revolution
+Irongrad
+Proletariat Rising
+Varshavianka
+The Final Battle
+Marxist Dreams
+The People's Anvil
+Rise of the Worker
+Mankind's March
+Power to the People
+Communal Consensus
+Internationale
+People's Paradise
+Community of Comrades
+Equal Share
+Equity et Community
+Polyushka Poyle
+Workers Unite
+New World Order
+Dirty Red Redoubt
+Proletarian Victory
+Fortress Freedom
+Broken Shackles
+The People's Mario
+Vigilant Front
+Outer Heaven
+Stronghold of Socialism
+War of the Working Man
+Class Struggle
+Brothers in Arms
+Tachanka
+Labour of Love
+The People's Holdout
+Red Dawn
+United Workforce
+Bombs, Booze and Spirit!Fall of Tyranny
+Fall of Tyranny
+Hammer and Sickle
+#END
+
+#WATERBASES
+The Red Tide
+Red October
+Revolutionary Point
+People's Port
+The Rising Tide
+Workers Water
+Farewell of Slavankia
+#END
+
+#BLURB
+Life is an eternal struggle for survival, but the chains
+of slavery are not eternal. We will not bend our knees
+to those who wish to be our king and master, and we
+will stand - as equals, and fight the final battle!
+To Arms!
+^
+^ Comrade Vazheli Vatzev
+^ The first battle against the Manifold Usurpers
+
+#DATALINKS1
+^LEADER: {Vazheli Vatzev}
+^BACKGROUND: {Russian Commonwealth, Unity Chief Janitor}
+^AGENDA: {Communist Communal Society}
+^TECH: {Centauri Ecology}
+
+#DATALINKS2
+^+3 SUPPORT:   {Resources are willingly shared}
+^+1 MORALE: {Diehard revolutionaries}
+^-1 ECONOMY:  {Rejection of free enterprise and capitalism}
+^-1 PROBE: {Information is also shared, vulnerability}
+^Free Formers {Janitor access to unity storage}
+^{May not use Free Market in Social Engineering}
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"There is no need for unnecessary bloodshed, $NAME1,
+a pledge of Blood Truce seems like a good idea."
+
+"Affirmative. A blood truce would be agreeable."
+"I'd rather let you topple like a pile of bricks."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, you seem to be a fair sort, and your faction and ours can benefit from a cooperative agreement. Would you care to be our comrade in arms?
+
+"Certainly, the Crimson Comrades are commendable enough."
+"I'm afraid not, your hostility to the free flow of commerce is stifling, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"There is no need for this needless bloodshed between our people, $NAME1, lets end it peacefully and agree to a truce."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+"Your needs: truth: not same. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, Our humble faction poses no threat to you, and it would be most beneficial for us to cooperate, show that two species can be true equals. Would you join us in cooperation?
+
+"Crimson Comrades: ardent workers. Treaty: admirable idea."
+"Crimson Comrades: revolution: unstable. Ally: dangerous. Answer: no."
+
+# ; This line must remain at end of file

@@ -1,0 +1,130 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Enron Corporation
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from
+; faction select in the game and write... ene
+;
+
+#ENE
+The Enron Corporation, The Power Company, Enrons, M, 2, Chris Skilling, M, 
+-1, 0, 0, 0, 0,
+  TECH, IndAuto, SOCIAL, +ECONOMY, SOCIAL, --EFFIC, SOCIAL, -POLICE, 
+IMPUNITY, Wealth, FACILITY, 7, ENERGY, 250
+  Values, Wealth, ECONOMY
+  Politics, Police State, nil
+  Power Company, Power .
+  Frances, Kenneth Lay, Frances
+  CEO, energy-wise, monopolistic, energetic, penniless,
+  Bankrupt
+  corner the energy market
+  supply power to all users
+  monopolizing all our energy
+  monopolizing all our energy
+  seek ultimate domination of the energy market
+  counting his ill-gotten energy tokens
+  counting his ill-gotten energy tokens
+  plotting to take over the energy market
+  energy monopoly, M1
+  energy monopolies, M2
+  energy generators, M2
+  energy payment, M1
+  securing the energy grid
+  lawyers
+  the Energy Monopoly
+
+#BASES
+Enron Corporate HQ
+Enron Energy Monopoly
+Enron Energy Grid
+Enron Support Grid
+Enron Fission Plant
+Enron Thermal Generator
+Enron Backup Grid
+Enron Backup Generator
+Enron Support Generator
+Enron Resonance Plant
+Enron Feedback Plant
+Enron Conductor Grid
+Enron Energy Conductor
+Enron Volcanic Tap
+Enron Solar Fields
+Enron Solar Generator
+Enron Microwave Cells
+Enron Power Supply
+Enron Fuel Cell Factory
+Enron Thermal Borehole
+Enron Transnational Relay
+Enron Ion Junction
+Enron Energy Switch
+Enron Main Transformer
+Enron Storage Bank
+Enron Charging Station
+Enron Secondary Grid
+#END
+
+#WATERBASES
+Enron Geothermal Plant
+Enron Tidal Generator
+Enron Sea Monopoly
+Enron Oceanic Plant
+Transoceanic Trunkline
+Enron Oceanic Generator
+Enron Ocean Grid
+Enron Oceanic Power
+#END
+
+#BLURB
+And when at last it is time for the transition from megacorporation
+to planetary government, from entrepreneur to emperor, it is
+then that the true genius of our strategy shall become apparent,
+for energy is the lifeblood of this society and when the chips
+are down he who controls the energy supply controls Planet.
+In former times the energy monopoly was called "The Power Company";
+we intend to give this name an entirely new meaning.
+^
+^
+^        -- CEO Chris Skilling,
+^        "The Centauri Energy Monopoly"
+
+#DATALINKS1
+^LEADER: {CEO Ken Skilling}
+^BACKGROUND: {United States, Inheritor of the Enron Corporation}
+^AGENDA: {Energy Monopoly}
+^TECH: {Industrial Automation}
+^
+
+#DATALINKS2
+^+1 ECONOMY: {Energy corporation}
+^-2 EFFICIENCY: {The Enron Scandal}
+^-1 POLICE: {High suspicion for police investigators due to the Enron 
+Scandal}
+^IMPUNITY to Wealth values: {The Energy 
+Monopoly}
+^The Energy Monopoly: {Free Energy Bank at every base}
+^250 Energy Credits at Start: {Energy corporation}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"War is bad for business, and is extremely draining to the energy
+grid. A Blood Truce is therefore in order, yes?"
+
+"Sure, but you will have to cease your monopolistic ways."
+"No, I will get rid of your filthy energy monopoly with extreme prejudice."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, we can produce much more energy if we tie our
+power grids to each other's. Let us make Treaty and reap the
+benefits of mutual energy sharing."
+
+"Very well, $NAME3."
+"No, I don't want you to extend your energy monopoly to my energy networks."
+
+
+# ; This line must remain at end of file

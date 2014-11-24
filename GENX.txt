@@ -1,0 +1,149 @@
+; -III GEN-X III-
+;
+; A faction genetically enhanced humans who are in pefect harmony with both halves of their brain, and where research is the top, top priority.
+; leader pic by Min from the site <http://www.nintendoland.com/zelda/>
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+; Text by Aalogin <<Aalogin@aol.com>> 
+; Faction Graphics Copyright c2001 NetworkNode M.Dunk
+; For more factions visit http://networknode.org
+; email networknode@lycos.com
+;
+
+#GENX
+Ninth Generation, The Brain, Neuro-Gen, M, 2, Vorlan, M, 0, 0, 1, 1, 1, 
+TECH, Brain, TECH, Physic, SOCIAL, +++RESEARCH, SOCIAL, -MORALE, SOCIAL, --PROBE, IMPUNITY, Knowledge, PENALTY, Fundamentalist, UNIT, 0, SHARETECH, 0, RESEARCH, 2, POPULATION, -2, TECHCOST, 75, TECHSHARE, 3, 
+Future Society, Cybernetic, RESEARCH, 
+nil, nil, nil, 
+Gen-X, Gen-X
+Masage, Odunya, Tower of Masage
+System: IX, brilliant, inhuman, brilliant, inhuman, 
+Techno-Fanatic
+correct the impurities of the mind
+heal the troubled human mind through pure knowlege
+sucking us all into his horrid little network of conciousness
+sucking us all into your horrid little network of conciousness
+change the population of this planet into one huge database
+polishing his beloved computer cores while his REAL followers suffer
+polishing your computer equipment while your followers suffer
+destroying the human parts of my followers
+research output, M1
+technological endeavors, M2
+technological endeavors, M2
+allotment, M1
+training your top researchers
+Neuro-Gen Police
+Neuro-Gen protocal
+
+#BASES
+Omega Proxturi
+Teko Proximaty
+Collective Conciousness
+Neural Maze
+Starcraft Refinery
+Burdened Forge
+Sario Industry
+Tri-Teek Towers
+Cybros Hall
+Onyx Fortess
+Tower of Stone
+Force to be Reckoned
+Torrental Thought
+Colletive Mind
+Society's Firing
+Ogamno Passages
+Sorco's Plane
+Jade Tower
+The Centurion
+Talent Harboring
+The Quadredelian
+Mir Piramid
+Scarnoc Tornias
+Myxtyplex
+Scars of Redemption
+Walls of Planet
+Serinity Hall
+Nuel-Zell-Vacros
+Furlough Nanat
+Galvinic Network
+#END
+
+#WATERBASES
+Auquatic Neulan
+Deep Arising
+Marine Horizon
+Yealan Wharf
+Razorshark Point
+Sealurk Dapens
+Mariannas Island
+Kaapain Deep
+#END
+
+#BLURB
+^ There is always conflict within the flawed human mind.
+Right and wrong, good and bad, true or false. These
+are a result of the impurities of the human conciousness.
+And purifying of the mind is not through removal of
+emotions, as Aki believes, but through the removal of
+all conflict in the conscience. 
+^
+^        -- System:IX Corro Vorlan,
+^           "Neuro-Gen First Protocol"
+
+#DATALINKS1
+^LEADER: {System:IX Corro Vorlan}
+^BACKGROUND: {Secondary function of Conciousness Protocol}
+^AGENDA: {To correct the human mind through technology}
+^TECH: {Secrets of the Human Brain, Applied Physics}
+
+#DATALINKS2
+^+3! RESEARCH: {Neurally Enhanced Population}
+^-2 PROBE: {Open networks vulnerable to infiltration}
+^-1 MORALE:  {Cybernetic soldiers difficult to train}
+^PENALTY: fundamentalist
+^Free COLONY POD at start of game
+^Aquires any TECH known to three other factions.
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"All of our systems are suffering from this war, $TITLE0
+$NAME1, so I think a blood truce is clearly in order."
+Yes, I believe a truce is our best choice."
+
+"Yes, I believe a truce is our best choice."
+"No, your days of hot waxing computers a numbered!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, we trust that you will not betray our
+secrets and are therefore a worthy ally. Would you mind
+signing this treaty of friendship?"
+
+"But of course. Your research secrets are safe with us."
+"No, your research power makes me somewhat nervous."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, all of our systems suffer from this
+illogical vendetta. A treaty would therefore be in order."
+
+"Progenitor: logic valued. $TITLE0: much wisdom. Treaty: truce."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, we believe in curing the imperfections
+in all conciousness. That would benefit even you. Would
+you like to ally with us?"
+
+"Assumtion: correct. Progentitor: benefit. Response:
+where sign?"
+
+# ; This line must remain at end of file

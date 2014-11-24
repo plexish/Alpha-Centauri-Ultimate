@@ -1,0 +1,122 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Shinra INC
+;
+; Made with ACEdit (c)1999 ANX  at http://www.acedit.8m.com
+;
+; Created by Michael Johnson
+; E mail: MJ605715@pol.net
+; Web Site: http://www.geocities.com/Hollywood/Chateau/2658/CivEmpire
+; 
+; For use this Faction file select load from 
+; faction select in the game and write... Shinra
+;
+
+#SHINRA
+Shinra INC, The Mogul, Shinra, M, 2, Rufus, M, 1, 1, 0, 1, 0, 
+  TECH, Indust, TECH, IndEcon, SOCIAL, ++ECONOMY, SOCIAL, ++POLICE, SOCIAL, ++INDUSTRY, SOCIAL, --PLANET, MORALE, no, INTEREST, non
+  Values, Power, INDUSTRY
+  Economics, Green, nil
+  Shinra, Shinra
+  Scarlett, Hojo, Jenova Project
+  President, shrewd, monopolistic, wealthy, bloated, 
+  filthy money grubber
+  dominate Planet's economy
+  to reap the rightful rewards of skillful investment and planning
+  achieving total monopolistic control of all of Planet's resources
+  achieving total monopolistic control of all of Planet's resources
+  grab every drop of Planet's wealth for yourself
+  counting his ill-gotten energy tokens
+  counting your ill-gotten energy tokens
+  monopolistic grasping, M1
+  monopolistic grasping, M1
+  business plans, M2
+  corporate empire-building, M1
+  investment, M1
+  exploiting Planet's natural wealth
+  Corporate Security
+  Shinra corporate policy
+
+#BASES
+Midgar
+Junon
+Kalm
+Sector 1
+Sector 2
+Sector 3
+Sector 4
+Sector 6
+Sector 7
+Sector 8
+Wutai
+New Midgar
+Costa Del Sol
+Gold Saucer
+Corel
+Gongaga
+Nibelheim
+Rocket Town
+Icicle Inn
+Mideel
+Shinra Aerodynamics
+Shinra Robotics
+Shinra Studios
+Shinra Gravitonics
+Reactor 10
+Reactor 45
+#END
+
+#WATERBASES
+Underwater Reactor
+Atlantis
+Sea Midgar
+Shinra Sea Platform
+Shinra Dock
+Shinra Hydrochemical
+Shinra Waterworld
+#END
+
+#BLURB
+We will find the promised land. 
+   
+^
+^        —President Shinra
+^          Stating his plans... before he died.
+^
+
+
+
+#DATALINKS1
+^LEADER: {CEO Rufus Shinra}
+^BACKGROUND: {Former VP now president of Shinra Inc.}
+^AGENDA: {Pro-Industry, Global Domination}
+^TECH: {Industrial Base.  Industrial Economics}
+^
+
+#DATALINKS2
+^+2 ECONOMY: {Industrial conglomerate}
+^+2 POLICE: {Super Security Force}
+^COMMERCE: {bonus increases value of treaties, pacts, loans}
+^+2 INDUSTRY: {Industrial Giant}
+^-2 PLANET: {MAKO energy drains the planet's life force.}
+^{May not use Green Economics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Vendetta is bad for business, $NAME1. Pledge Blood Truce, or I will wipe out each and every individual of your miserable faction."
+
+"Fair enough. I shall order hostilities to cease."
+"I don't think so, $NAME3, your empty threats of genocide don't scare me."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Friend $NAME1, I can offer lucrative trading arrangements if you will agree to a Treaty of Friendship. Shall we become business partners?"
+
+"By all means. Let us prosper together in peace."
+"No. All of the profit would find its way into your pocket."
+
+
+# ; This line must remain at end of file

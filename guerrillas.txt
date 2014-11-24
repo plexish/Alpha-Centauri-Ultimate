@@ -1,0 +1,134 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#GUERRILLAS
+Planet Insurgency, The Guerrillas, Insurgency, F, 1, Kel, F, 1, 1, 0, 0, 0, 
+FREEABIL, 2, FREEABIL, 1, FREEABIL, 23, OFFENSE, 175, DEFENSE, 25, FACILITY, 33, SOCIAL, -INDUSTRY, 
+Values, Power, MORALE, 
+Future Society, Thought Control, nil, 
+Insurgency, Insurgency
+Carlos Ominapi, Andres Bello, Right to Bear Arms
+Spartan, revolutionary, rebellious, freedom loving, anarchists, 
+terrorist
+properly control our followers
+to liberate the people of Planet
+spreading anarchy and wreaking havoc
+spreading anarchy and wreaking havoc
+reduce the human population of this world into mindless slavery
+planning new and more dangerous ambushes
+planning new and more dangerous ambushes
+of terrorizing the people of Planet
+anarchist ways, M1
+liberation plans, M2
+revolution, M2
+payment, M1
+watching over your colony pods, and not destroying them
+my troops in position
+the Planet Liberation Code
+
+#BASES
+Planet Insurgency
+You Can't See Me
+I'm Right Behind You
+By the Time You See Them
+Camouflage Center
+Don't Make a Sound
+*Thump
+I Shot the Sheriff
+But I Did Not Kill the Deputy
+Machete
+Noreaga's Rest
+Remember Contra
+Don't Get Caught
+Stay Down
+Back of the Skull
+The Revolution
+Base Camp
+Free at Last
+Right to Bear Arms
+Calm Down
+Get Back
+#END
+
+#WATERBASES
+Swamp Fox
+Ocean Ambush
+Water War
+Under the Sea
+Coral Reef Base
+Geothermal Sub Base
+#END
+
+#BLURB
+If I determine the enemy's disposition of forces while
+I have no perceptible form, I can concentrate my forces
+while the enemy is fragmented. The pinnacle of military
+deployment approaches the formless: if it is formless,
+then even the deepest spy cannot discern it nor the
+wise make plans against it. 
+^
+^        -- Sun Tzu,
+^           "The Art of War"
+
+#DATALINKS1
+^LEADER: {Spartan Kel}
+^BACKGROUND: {Lieutenant, Spartan Special Forces}
+^AGENDA: {Guerrilla warfare}
+^
+
+#DATALINKS2
+^-1 ECONOMY:   {All available monies put toward better training}
+^-1 INDUSTRY: {Bases little more than ambush sites}
+^+75% Offensive combat: {Exquisitely planned ambushes}
+^-75% Defensive combat: {Poorly armored troops}
+^Cloaking Device FREE for all units upon discovery: {Masters of stealth}
+^Deep Radar FREE for all units upon discovery: {Vital to discover enemy before he discovers you}
+^Dissociative Wave FREE for all units upon discovery: {Special abilities ineffective against small, superior force}
+^Free PSI GATE at each base: {Highly mobile army}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME1, your bases are at my mercy. However, I have
+no desire to see this war continue. Will you sign a
+Blood Truce?"
+
+"Agreed. This blood bath has gone on long enough."
+"Go to hell."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, think of how advantageous a Treaty
+of Friendship between us could be. We could supply the
+troops, and you could supply the targets."
+
+"You know,  Miriam's been annoying me again..."
+"No thanks, we don't deal with terrorists."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement:
+truce."
+"Your needs: truth: not same. Continued conflict: beneficial
+to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my philosophies would seem to make
+me the only natural ally for you from among these warring
+human factions. Can't we sign a Treaty of Friendship
+and coexist in peace?
+
+"Insurgency: safe ally. Treaty: admirable idea."
+"Insurgency: control: too important. Ally: dangerous.
+Answer: no."
+
+# ; This line must remain at end of file

@@ -1,0 +1,134 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: IV Commonwealth
+;
+; version 0.6
+;
+; Made partialy with ACEdit (c)1999 ANX at ; http://www.sidgames.com/acedit
+; 
+; For use this Faction file select load from 
+; faction select in the game and write... poles
+;
+; Files and concept (c) by Nicholas "LoD" Koziarkiewicz
+;
+; Distribution without explicit permission of the author disallowed.
+;
+
+#POLES
+IV Commonwealth, The Poles, Poles, M, 2, Kowalski, M, 0, 0, 1, 0, 0, 
+  SOCIAL, -ECONOMY, SOCIAL, +MORALE, SOCIAL, -POLICE, FACILITY, 22, FANATIC, 0
+  Politics, Democratic, GROWTH
+  Politics, Police State, nil
+  Pole, Pole
+  Nowak, Malinowski, Nowakowo
+  Mr, just, intellectually limited, patriotic, mindless, 
+  permanently drunk
+  preserve our nation
+  preserve our nation
+  taking over this Planet
+  taking over this Planet
+  are executing your nationalistic agenda
+  drinking insane quantities of alcohol
+  drinking insane quantities of alcohol
+  telling "Polish" jokes
+  nationalistic policies, M2
+  preservation efforts, M2
+  preservation efforts, M2
+  national preservation fee, M1
+  building a new Motherland
+  my national guard
+  Polish Codec of Laws
+
+#BASES
+Gniezno
+Warszawa - Warsaw
+Kraków - Cracow
+Lódz
+Wroclaw
+Leszno
+Katowice
+Legnica
+Kielce
+Lublin
+Rzeszów
+Bialystok
+Olsztyn
+Poznan
+Bydgoszcz
+Cedynia
+Grunwald
+Iganie
+Wizna
+Raclawice
+Wawer
+Czestochowa
+Polaniec
+Lipno
+Radom
+Lomianki
+Nowy Dwór Mazowiecki
+Zabki
+#END
+
+#WATERBASES
+Gdansk
+Szczecin
+Gdynia
+Kolobrzeg
+Sopot
+Swinoujscie
+Hel
+Leba
+Ustka
+#END
+
+#BLURB
+Jeszcze Polska nie zginela,
+^Póki my zyjemy!
+^Co nam obca przemoc wziela,
+^Szabla odbierzemy!
+^****
+^Poland has not perished,
+^Until we live!
+^What has the foreign power taken from us,
+^we will reclaim by the sword!
+^****
+^        —PART OF THE Polish National Anthem,
+^           DATALINKS
+
+#DATALINKS1
+^LEADER: {Mister Kowalski}
+^BACKGROUND: {Warszawa, Poland}
+^AGENDA: {Create a new Commonwealth}
+^TECH: {NONE}
+^
+
+#DATALINKS2
+^+1 MORALE: {Very patriotic.}
+^+25% Attack Bonus: {Extremely motivated in combat.}
+^-1 POLICE: {Very hard to control and prone to disagreements.}
+^-1 ECONOMY: {Have problems organizing an effective economical system.}
+^Free GENEJACK FACTORY at every base.: {Huge, sprawling cheap wine industry.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, we should reconsider this war. It is nothing but
+thousands of people killed in the fields of battle. Let us stop
+the violence now!"
+
+"Agreed!"
+"You mean {your} people! Prepare to be exterminated!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, our factions would benefit greatly from a Treaty
+of Friendship. Let us sign it and live in peace!"
+
+"You speak truly!"
+"No. I have no need for such a worthless document."
+
+
+# ; This line must remain at end of file

@@ -1,0 +1,134 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Hellborn
+;
+; Copyright (c) 2001 by Jambeaux at jambeaux61@hotmail.com
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#HELL
+Hellborn, The Hellborn, Hellborn, M, 1, Abaddon, M,  0,  1, 0, 0, 1,
+  TECH, DocLoy, FACILITY, 4, SOCIAL, ++GROWTH, SOCIAL, --ECONOMY, ROBUST, EFFIC, DRONE, 4, POPULATION, -2, UNIT, 1
+  Politics, Police State, GROWTH
+  Politics, Democratic, nil
+  Hellborn, Hellborn,
+  Jezabel, Charletan, Gamorra's Fall
+  Lord, ruthless, cruel, unquestioning, mindless,
+  Inhuman Monster
+  properly control our followers
+  to found a society on the principles of security and control
+  reducing us all to mindless servants of his diabolical schemes
+  reducing us all to mindless servants of your diabolical schemes
+  reduce the human population of this world into mindless slavery
+  torturing the wretched fools who chose to follow him
+  torturing the wretched fools who chose to follow you
+  preaching brutal nihilism
+  brutal nihilism, M1
+  social experiments, M2
+  mind control experiments, M2
+  fee, M1
+  keeping an eye on the mindless minions
+  The Hellborn
+  Hellborn Law
+
+#BASES
+Hellborn Castle
+Demons Nest
+Ghoul's Rest
+Mummie's Wrap
+Drac's Castle
+Horror Hill
+Hell House
+Burning Fields
+Torture Chamber
+Hall of Imps
+House of Horrors
+Den of Thieves
+The Labyrinth
+Roach's Swarming
+Doom's Lair
+Lord Foul's Bane
+Cat-O-Nine-Tails
+Thumbscrew's Tavern
+Dark Reasoning
+Orgy of Blood
+Lycanthropes Lair
+Vampires Roost
+Black Cat
+Witches Brew
+Eye of Newt
+Bats in the Bellfry
+Halloween Hall
+Harvest Moon
+Chamber of Pain
+Hellborn Horde
+Abaddon's Burrow
+Nightmare Passage
+Fields of Death
+Skullduggery
+Tower of Terror
+Goblin's Creche
+Troll's Essence
+#END
+
+#WATERBASES
+Blood N' Water
+Sea of Death
+Ghostship Shallows
+Tidal Rage
+Nightmare Deep
+The Isle of the Deep
+Isle of Bones
+#END
+
+#BLURB
+^  Learn to overcome the good side of your nature, embrace the dark side
+that is in all of us.  Let it loose to roam the corridors of yourself and 
+let it control you.  Only then will you know your true self, and only then
+can I control You........
+^
+^        -- Lord Abaddon,
+^           "Dark Side of the Soul"
+
+#DATALINKS1
+^LEADER: {Lord Abaddon}
+^BACKGROUND: {Hellborn, Unity Psychiatrist}
+^AGENDA: {Atheist Police State}
+^TECH: {Doctrine: Loyalty}
+^
+
+#DATALINKS2
+^+2 GROWTH:  {Rapid population growth}
+^-2 ECONOMY:  {Little political freedom}
+^Disciplined followers: {Efficiency penalties halved}
+^Underground bunkers: {Free PERIMETER DEFENSE at each base}
+^Close habitation: {May exceed hab restrictions by 2}
+^Hardship: {Extra drone for every four citizens}
+^{May not use Democratic politics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order."
+
+"Indeed. Blood Truce would be most satisfactory."
+"Never! I plan to put an end to your scheming once and for all!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your ideals are admirable if a bit misguided and
+your faction need not pose a threat to the Hellborn. Shall we sign
+a Treaty of Friendship to formalize our symbiotic relationship?
+
+"As you wish. The Hive seems a valuable friend."
+"No. Your social experiments are a bit too bizarre for me, $NAME3."
+
+
+# ; This line must remain at end of file
+

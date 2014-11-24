@@ -1,0 +1,106 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#BREE
+Bree, Daughter, Bree, F, 2, Bre Ata, F, -1, 0, 0, 0, 1, 
+FUNGNUTRIENT, 1, FUNGMINERALS, 2, SOCIAL, +++PLANET, SOCIAL, --GROWTH, TECH, CentEmp, FACILITY, 0,  MINDCONTROL, 0, AQUATIC, 0, ALIEN, 0, WORMPOLICE, 0, 
+Future Society, Cybernetic, GROWTH, 
+Economics, Free Market, nil, 
+Bree, Bree
+Bre Anna, Bre Sien, Eruncare
+Daughter, hybrid, half breed, Flowering, Abomination, 
+weed
+strive tward Planet Flowering
+with planet
+spreading her halfling spawn across Planet
+spreading your halfling spawn across Planet
+multiply like an engineered plague
+in subterranean fungal whoredoms
+in subterranean fungal whoredoms
+being an unholy abomination
+genetic abomination, M1
+garden, M2
+gardening projects, M2
+Planet fee, M1
+securing the well being of Planet
+Bre Sein
+"Planet" Mission Statement
+
+#BASES
+Robur
+Eruncare
+Herba
+Ramus
+Flos
+Femina
+Stemma
+Floridus
+Mamma
+Muliebris
+Anima
+Pars
+Scindi
+Genus
+Alere
+Fetura
+Hortus
+Gignire
+Olitor
+Intueri
+#END
+
+#WATERBASES
+Lilium
+Pontus
+Aequor Pars
+Mandare
+#END
+
+#BLURB
+In early attempts to understand the human presence on
+planet, the Usurpers began inhumane "projects". The
+Bree are the result. Human with Planet DNA spliced in.
+It is {said} that this amazon sisterhood breed with
+the mind worms themselves, but little is {known}. 
+^
+^        -- excerpt from Prokhor Zakharov's,
+^           "Strange Beginnings"
+
+#DATALINKS1
+^LEADER: {Bre Alta}
+^BACKGROUND: {Usurper experiment escapee}
+^AGENDA: {Fungal Harmony}
+^TECH: {Centauri Empathy}
+
+#DATALINKS2
+^Aquatic Alien faction
+^+3 PLANET: {Fungal Sisterhood}
+^+1 Nutrients & +2 Minerals in fungus squares {Fungal Farming}
+^-2 Growth {Which does not fully compensate for their startling growth}
+^Immunity to mind control {Unable to understand "bribery"}
+^Mind Worms do double police duty: {Harmony with and reverence for native life}
+^{May not use Free Market economies.}
+^{Start the game with an Isle of the Deep}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"I see you wish no harm to the Worm, will you truce
+with me?"
+
+"May your Fungus multiply, Agreed!"
+"$NAME3 you will not spread your spore upon my borders!or
+ all!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1? Let us live in the riches of this planet
+together. Will you sign a treaty with us?"
+
+"Agreed. let us reap the fruits of planet  $NAME3?"ts,
+$NAME3. Let's sign that Treaty."
+
+# ; This line must remain at end of file

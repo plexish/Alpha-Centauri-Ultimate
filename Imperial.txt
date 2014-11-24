@@ -1,0 +1,121 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The New British Empire
+;
+; Made with ACEdit (c)1999 ANX  at http://www.acedit.8m.com
+;
+; For use this Faction file select load from 
+; faction select in the game and write... Imperial
+;
+
+#Imperial
+The New British Empire, The Imperialists, Imperialists, M, 2, Scott, M, 1, 1, 1, 1, 1, 
+  TECH, DocFlex, TECH, DocInit, SOCIAL, +++++MORALE, SOCIAL, +++++ECONOMY, SOCIAL, +++++INDUSTRY, FACILITY, 28, FANATIC, 0, FREEPROTO, 0
+  Values, Power, MORALE
+  none, none, nil
+  Imperially, Imperi.
+  Voki, Bonaventura, Voki's Price
+  Field Marshal, Imperial, paranoid, cautious, sociopathic, 
+  Right-Wing Lunatic
+  exercise our rights to keep and bear arms
+  to to promote the sovereignty of the New British Empire
+  controlling the planets under the Union Jack
+  equipping your private army to seize control of Planet under the Union Jack 
+  imperialistically take the planet with your 'sovereign'
+  writing Imperial poetry to his beloved theme of war
+  writing Imperial poetry to your beloved theme of war
+  of wanting to size imperial control of the planet
+  imperial might, M2
+  your imperial army, M2
+  march to complete imperial power, M2
+  tribute, M1
+  controlling the planet under the imperial rule of the New British Empire
+  1st army of the New British Empire
+  the law according to the sovereign rule of the New British Empire
+
+#BASES
+New London
+New Cardiff
+New Edinburgh
+New Belfast
+Camborne
+Dartmourth
+Minehead
+Bournmouth
+Wincheaster
+Selborne
+Nourthhampton
+Tonbridge
+Ashford
+Canterbury
+Bristol
+Bath
+Salisbury
+Wincheaster
+Reading
+Rocheaster
+Chelmsford
+MilfordHaven
+Haverfordwest
+Carmarthan
+Swansea
+Swindon
+Oxford
+#END
+
+#WATERBASES
+Port Isaac
+Plymouth
+Exeter
+Weymouth
+Southhampton
+Brighton
+New Heaven
+Hastings
+#END
+
+#BLURB
+^  To quote (summery) Churchill 
+^  we shall fight them on the land we shall
+^  fight them on the waves will shall fight them in  
+the air" 1939  We shall fight 
+to the best of our ability we may to unit the new planet in a modle and 
+improment of the great British Empire. Under the New British Empire 
+^
+^        --l Filed Marshal Scott
+^           "The soveriegn Pledege of the 
+^             New British Empire "
+
+#DATALINKS1
+^LEADER: {Field Marshal Scott}
+^BACKGROUND: {Imperialist, Previous prime minister of Great Britain}
+^AGENDA: {The complete sovereign control of the New British Empire over Chiron}
+^TECH: {Doctrine: Flexibility + Doctrine: Initiative}
+^
+
+#DATALINKS2
+^+5 MORALE: {The ideal of a New imperial Britain Spurs them on}
+^+5 ECONOMY: {The economic knowledge of the old Britain guides them on}
+^+5 INDUSTRY: {As the old Britain they are used to putting outsiders to slavery}
+^{Prototype units do not cost extra minerals}
+^{+25% Attack}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"You cannot hope to stand against me, $NAME1. Pledge Blood Truce now and submit your Faction to the rule of the New British Empire or face total destruction."
+
+"Truce it is, then. I thank you."
+"Bluffing will get you nowhere, $NAME3. Prepare to be obliterated!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1 I give you a choice submit to our rule or be destroyed by the Imperial might of the New British Empire."
+
+"Fair enough, but I shall guard my borders carefully."
+"Hardly. A faction armed to the teeth hardly seems friendly to me."
+
+
+# ; This line must remain at end of file

@@ -1,0 +1,137 @@
+;
+; 
+;
+; Blackband's Pirates
+; Very quickly thrown together version for SMAX
+; by Kilkakon
+;
+
+#BLACKBAND
+Blackband's Pirates, The Buccaneer, Pirates, M, 2, Jack, M, 0, 1, 0, 0, 1,
+TECH, Ecology, TECH, DocFlex, SOCIAL, -GROWTH, SOCIAL, -INDUSTRY, AQUATIC, 0, SOCIAL, +MORALE
+Values, Power, SUPPORT
+nil, nil, nil
+Pirate, Pirate
+Keira, Willis, Keira's Locker
+Captain, heroic, bloodthirsty, bold, barbarous, 
+Waterboy
+steal from the others
+to take what I can and give nothing back
+stealing everybody's hard earnt money
+stealing everybody's hard earnt money
+go around blowing up every ship you can see
+shelling every coastal city he can find
+shelling every coastal city you can find
+inconsiderate thievery
+inconsiderate thievery, M1
+expeditions, M2
+piracy, M1
+shipping protection tax, M1
+keeping the unfair people out of the ocean
+my privateers
+the Pirate Code
+
+#BASES
+Missed The Ocean
+Haunted Shipwreck
+X Marks The Spot
+Doomed Voyage
+Buried Treasure
+Sunny Oasis
+Land Lock
+Crossbone Way
+Sailor's Warning
+Jack's Hideaway
+Skull Crossroads
+Plunder Cache
+Treasure Cavern
+Dry Dock
+Pirate Retreat
+Keira's Stash
+#END
+
+#WATERBASES
+Port Blackband
+The Revenge
+Sharpedo Bluff
+Ghost Ship
+Pirate Cove
+Floating Graveyard
+Booty Bay
+Crow's Nest
+Harbinger of Death
+Privateer Quay
+Great Cannonade
+Hidden Shipyard
+Treasure Ship
+Black Sails
+Ghastly Galley
+Derelict Vessel
+Fleet Resupply
+Scurvy
+Parley
+#END
+
+#BLURB
+^With cannons aglow,
+^and swords drawn;
+^we will steal the prize you hold,
+^and take it for our own.
+^
+^        -- Captain Jack Blackband, 
+^           "Collecting the Coins"
+
+#DATALINKS1
+^LEADER: {Captain Jack Blackband}
+^SPECIES: {Male Scrafty}
+^AGENDA: {Stealing what he can and giving nothing back}
+^TECH: {Centauri Ecology, Doctrine: Flexibility}
+^
+
+#DATALINKS2
+^Aquatic faction
+^+1 MORALE: {Society ready to take on the world}
+^-1 GROWTH: {Babies can die due to harsh conditions}
+^-1 INDUSTRY: {Spends far too much time out pillaging enemies}
+^Improvements may be built in ocean and trench squares.
+^+1 Minerals from ocean shelf squares.
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"I know when I'm beaten $NAME1. Let's call this Vendetta off and get back
+to more important things."
+
+"Agreed. Do not test my wrath again."
+"Never! Prepare to be sunk, permamently!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your land-based forces are impressive, and together with 
+my navy would be invulnerable! Let's sign a Treaty of Friendship and split 
+the loot 50/50!"
+
+"I like the sound of invulnerability $NAME3. Let's sign that Treaty."
+"No thanks. I want to keep everything that I will find."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"I know when I'm beaten $NAME1. Let's call this Vendetta off and get back
+to more important things."
+
+"Progenitor: sees no point to conflict. Mutual agreement: truce."
+"Progentior: sees no reason for truce. War: continues!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your land-based forces are impressive, and together with 
+my navy would be invulnerable! Let's sign a Treaty of Friendship and split 
+the loot 50/50!"
+
+"$NAME3: safe ally. Treaty: admirable idea."
+"Progenitor: not agree: your concept. Rejection."
+
+# ; This line must remain at end of file

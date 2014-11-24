@@ -1,0 +1,117 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Jeodrra
+;
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.civgaming.net/citizens/networknode/
+; email networknode@lycos.com
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; To use this Faction file select load from 
+; faction select in the game and write... jeoddra
+;
+
+#JEODDRA
+Jeodrra, The Slaves, Jeodrran, M, 2, Krad Terr, M, 1, 0, 0, 0, 1, 
+  TECH, Indust, ROBUST, INDUSTRY, SOCIAL, ---RESEARCH, SOCIAL, ---POLICE, PENALTY, PLANET, FACILITY, 4, UNIT, 5, TECHCOST, 200
+  Politics, Democratic, MORALE
+  Politics, Police State, nil
+  Jeodrran, Jeodrr.
+  Ulau, Roaf, Clafa
+  Zhah, free, dogmatic, emancipated, misguided, 
+  foolish
+  ensure the defeat of tyranny
+  to free my kind
+  causing friction amongst the Aliens
+  causing friction amongst the Aliens
+  fomenting trouble between the Aliens
+  fomenting trouble between the Aliens
+  fomenting trouble between the Aliens
+  causing friction amongst the Aliens
+  Jeoddran empire, M1
+  struggle for freedom, M2
+  fight for freedom, M1
+  stipend, M1
+  destroying slavery
+  thr Jeoddran militia
+  Jeoddran Morality
+
+#BASES
+Clafa
+Ulommo
+Sias
+Xiflem
+Knan
+Shap Mimu
+Panu Jedd
+Mophel
+Bishez
+Tevet
+Decho
+Pobe
+Zull Mani
+Hjoll Stom
+Fobbi Joul
+Hure Tess
+Heda Zhas
+#END
+
+#WATERBASES
+Zanabo
+Triw Pest
+Zemi Ra
+Wrimnis Quo
+Zecklim Hurij
+Igro Don
+Treop Liun
+Grakli
+#END
+
+#BLURB
+No more will Jeoddra kind serve other masters, now Jeoddra mining
+for own kinds again, leave Jeodrra in peace.
+^
+^
+^   -- Krad Terr
+^      "Last transmission from Usurper mining facility Final Honour"
+^
+^
+
+#DATALINKS1
+^LEADER: {Krad Terr}
+^BACKGROUND: {Usurper Mining Slave}
+^AGENDA: {To free his his fellow mining slaves}
+^TECH: {Industrial Base}
+^
+
+#DATALINKS2
+^-3 RESEARCH: {Intellectually Stifled}
+^-3 POLICE: {Freedom will not be compromised}
+^PENALTY-PLANET: {Ignorant of Planets ecological needs}
+^FREE FACILITY: {Perimeter Defense, Underground Cities}
+^200% RESEARCH COSTS: {Science is a forgotten artform}
+^{MAY NOT use POLICE STATE}
+^{Player should NEVER ally with the Aliens}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"The Jeoddra seek no more waste of its kind. We only protect our
+freedom. A truce will heal this."
+
+"Wise words $NAME3, I concur"
+"Too little too late, your petty Empire is doomed"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Teaty, this serves both kinds well?"
+
+"Agreed, $NAME3"
+"I want no association with your hopeless cause, $NAME3"
+
+
+# ; This line must remain at end of file

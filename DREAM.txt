@@ -1,0 +1,128 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Dreams of Earth
+;
+; The Dreams of Earth Faction Copyright c2001 by Jambeaux
+; email jambeaux61@hotmail.com
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; To use this Faction file select load from the 
+; faction menu and type... Dream
+;
+
+#DREAM
+Dreams of Earth, The Amerind, Dreamers, F, 2, Celeste, F, -1, 0, 0, 1, 1, 
+  TECH, Ecology, SOCIAL, -PLANET, SOCIAL, -INDUSTRY, SOCIAL, ++MORALE, SOCIAL, --POLICE, FACILITY, 14, UNIT, 1, UNIT, 1, TERRAFORM, 0
+  Economics, Planned, MORALE
+  Economics, Green, nil
+  Dreamers, Dreamers
+  White Owl, Desert Fox, Anatasi City
+  Chief, lovely, bleeding heart, hardy, callous, 
+  backward
+  return Chiron to an Earth like Paradise
+  cultivate Planet as Earth once was
+  cultivating an Earth only biosphere
+  cultivating an Earth only biosphere
+  destroy all the Natural Wonders of Planet
+  terraforming at random
+  destroying Planets Natural Order
+  destroying Planets Natural Order
+  Council, F1
+  agriculture, M2
+  terraforming, M1
+  land tax, M1
+  terraforming
+  the Dream Brigade
+  the Earth First Law
+
+#BASES
+Dreamcatcher
+Waves of Grain
+Forrested Hills
+Dreamers Path
+Upland Meadows
+Picnic Pass
+Enchanted Woods
+Fields of Home
+Wilderness Tamed
+White Owl Inn
+Apache Crossing
+Comanche Trails
+Pawnee Prairie
+Buffalo Ranch
+Earth Dreams
+Medicine Wheel
+Sacred Circles
+Two Feathers
+Two Rivers
+Honcho's Trading Post
+Field of Dreams
+Turtle Rattle
+White Buffalo
+Tipi Plains
+Custer's Last Stand
+Black Kettle
+Geronimo
+#END
+
+#WATERBASES
+Huron Pond
+Medicine Sea
+Totem Pole
+Waterfalls
+Dolphin's Leap
+Seahorse Tavern
+Seaweed Central
+Canoe Crossing
+#END
+
+#BLURB
+We intend to cultivate this world into the wilderness paradise
+that Earth once was, to have again that which our ancestors had
+and dwell in peace upon fertile fields, to hunt the wild animals
+we brought from our homeland once we have a large enough population.
+We will indeed, live as our ancestors once did.
+^
+^
+^   -- Celeste White Elk
+^      "Dreams of Earth"
+^
+^
+
+#DATALINKS1
+^LEADER: {Chief Celeste White Elk}
+^BACKGROUND: {Amerind Council, Terraforming Engineer}
+^AGENDA: {To terraform Planet for future generations}
+^TECH: {Centauri Ecology}
+^
+
+#DATALINKS2
+^-PLANET: {Large scale Terraforming ecologically disruptive}
+^-INDUSTRY: {Industry ruined Earths biosphere}
+^+2MORALE: {Fiercely protective of homelands}
+^-2POLICE: {Independant and generally peaceful people}
+^FREE FACILITY: {Hybrid Forest at each base due to terraforming skill}
+^FREE UNITS: {2 free Terraformers}
+^{Terraforming costs HALVED}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This war only allows the fungus to spread, lets sign a Truce and be
+done with it."
+
+"Straightforward as ever. I agree."
+"No. You have angered me for the the last time."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Let us sign a treaty of Peace $TITLE0 $NAME1"
+
+"As you will it, $NAME3"
+"I think not, your backward ideaologies do not appeal to me."
+
+
+# ; This line must remain at end of file

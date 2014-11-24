@@ -1,0 +1,130 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Artisans v1.0
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.networknode.org
+; email networknode@lycos.com
+;
+; To use this Faction file select load from 
+; faction select in the game and write... artisan
+;
+
+#ARTISAN
+The Artisans, The Engineers, Artisan, M, 2, Archimedes, M, -1, 0, 1, 0, 0, 
+  TECH, EthCalc, TECH, Physic, IMMUNITY, EFFIC, SOCIAL, +RESEARCH, SOCIAL, +INDUSTRY, PENALTY, PLANET, UNIT, 5, DRONE, 4
+  Economics, Planned, EFFIC
+  Economics, Green, nil
+  Artisan, Artisan
+  Djyk, Osmal, Itroa
+  Principal, pragmatic, foolish, masterful, frivolous, 
+  dim-witted
+  engineer this Planet
+  engineer this planet
+  bending Panet to his will
+  ruining Planets riches
+  repeat the mistakes of Earth
+  deviously changing the natural laws of Planet
+  deviously changing the natural laws of Planet
+  unsafe practices
+  engineering follies, M1
+  enginnering projects, M2
+  engineering projects, M1
+  expense account, M1
+  enginnering this Planet to suit our needs
+  Assault Division
+  the Artisan Principia
+
+#BASES
+Itroa
+Haru
+Hidra
+Lido
+Canne
+Phiola
+Jett
+Osso
+Iona
+Rule
+Psom
+Apses
+Freatte
+Chesse
+Maro
+Tome
+Barret
+Kora
+Zhoru
+Lekilo
+Feora
+Iddaen
+Izna
+Komjii
+Dais
+Pekarra
+Lego
+#END
+
+#WATERBASES
+Errayk
+Ark
+Kneos
+Ennio
+Deshino
+Floid
+Corrif
+Mecano
+#END
+
+#BLURB
+Engineering is the fundamental science of the human psyche. All
+our instincts lead to it or stem from the practical, logical
+and conceptual benefits of the science. Every facet of our lives
+is thus subject to the rules of this precise, yet beautiful
+science and its laws.
+^
+^
+^   -- Aklu  Archimedes
+^      "Artisan Principia - Introduction"
+^
+^
+^
+
+#DATALINKS1
+^LEADER: {Aklu  Archimedes}
+^BACKGROUND: {Conceptual Engineer}
+^AGENDA: {To nullify Chaos}
+^TECH: {Ethical Calculus, Applied Physics}
+^
+
+#DATALINKS2
+^IMMUNITY (EFFIC): {Hyper efficient practices}
+^+1 RESEARCH: {Excellent educational standards}
+^+1 INDUSTRY: {Practical business initiatives}
+^PENALTY (PLANET): {Ecologically insensitive}
+^EXTRA DRONE: {Per 5 Citizens. Social abandonment of non intellectual citizens.}
+^AVERSION: {May NOT use GREEN Economy}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"War hampers our Engineering Projects. Shall we dispense with hostilities
+and call a Truce?"
+
+"So be it."
+"Never. Prepare your forces."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Peace will benefit us both $TITLE0 $NAME1. A treaty should be
+drafted between us."
+
+"Excellent, I agree, $NAME3"
+"not at all, your goals worry me."
+
+
+# ; This line must remain at end of file

@@ -1,0 +1,122 @@
+; -III THE GAURDIANS OF MORALITY III-
+;
+; Text by Pentalarc 
+; portrait from the DC Comic "Preacher" artist Glenn Fabry <http://www.preachersdivinity.com/>
+; For more factions visit http://networknode.org
+; email networknode@lycos.com
+
+#GUAR
+Guardians of Morality, Guardians, Guardians, M, 2, Robert Rydell, M, 1, 1, 0, 0, 0, 
+  SOCIAL, +INDUSTRY, SOCIAL, +SUPPORT, SOCIAL, +++POLICE, SOCIAL, --GROWTH, SOCIAL, --RESEARCH, SOCIAL, -PROBE, SOCIAL, -TALENT, FACILITY, 22, POPULATION, -1, FANATIC, 0
+  Future Society, Thought Control, POLICE
+  Future Society, Eudaimonic, nil
+  Guardian, Guardi.
+  Forstin, Kerber, Forstin's Memorial
+  Brother, moral, tyrannical, moral, mindless, 
+  brutal lunatic
+  put this planet on the right path
+  destroy immorality
+  completely eliminating freedom of thought and choice
+  completely eliminating freedom of thought and choice
+  brutally destroy this planet
+  ranting, raving and emotionally tormenting his followers
+  ranting, raving and emotionally tormenting his followers
+  insane brutality and intolerance
+  brainwashed troops, M1
+  social purification, M2
+  social purification initiatives, M1
+  reperation of guilt, M1
+  protecting your people from temptation and immorality
+  Moral Forces
+  the code of ultimate purity
+
+#BASES
+The Light of Morality
+Simplicity
+Purity
+Flawless River
+Chastity
+Mount Perfection
+Humbleness
+Bresshard Retraining Base
+Meekness
+Foutan Retraining Base
+Obedience
+Harrier Retraining Base
+Modesty
+Charity
+Humility
+Donations to the Cause
+Decency
+Dedication
+Moderation
+Glory of the Absolute
+Propriety
+Burning Words of Truth
+Mount Immaculate
+Place of Example
+Unsullied
+Kerrod Prison
+Virtue
+#END
+
+#WATERBASES
+Pure Water
+Cleansing Waves
+Permasso Retraining Base
+Solitude
+Sadir High Security Prions
+Discipline
+Island of Chastisement
+Place of Correction
+#END
+
+#BLURB
+Immorality and licentiousness were the doom of Earth.  The permissiveness
+and lack of absolutes made the people weak.  That mistake will
+not be made again.  But people have gotten used to the lax attitude
+of Earth.  They think it's right.  And first, their thoughts
+must be corrected.
+^
+^     Brother Robert Rydell
+^     "Moral Ethics"
+^
+^
+^
+
+#DATALINKS1
+^LEADER: {Brother Robert Rydell}
+^BACKGROUND: {Parsanna, Montana Free State, Unity Assistant Psych Chaplain (court martialed)}
+^AGENDA: {destruction of "immorality"}
+^TECH: {none}
+^
+
+#DATALINKS2
+^+3 POLICE: {ironfisted rule}
+^+1 INDUSTRY: {Forced Labor}
+^+1 SUPPORT: {dedication to war effort}
+^-2 RESEARCH: {many subjects forbidden}
+^-1 PROBE: {distrust computers}
+^-2 GROWTH: {personal relationships controlled, many people escape or die trying}
+^free genejack factory at each base: {may not use eudaimoniac // +25% attack {fanatic}}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"We see no reason to continue the conflict at this time. The proper
+thing to do is to sign a truce."
+
+"Yes, hostilities should be suspended"
+"No, I'm going to free planet from the clutches of your influence and madness once and for all"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"I believe at this time we can work together.  I have a treaty
+prepared."
+
+"Yes,  $NAME3 everything seems in order, we will sign"
+"I don't even like speaking to the likes of you, no deal."
+
+
+# ; This line must remain at end of file

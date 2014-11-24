@@ -1,0 +1,133 @@
+; by theoneandonlyrob
+; Sid Meier's Alpha Centauri
+; Faction Editor
+; For more factions visit http://networknode.org
+; email networknode@lycos.com
+;
+
+#SLAYERS
+Vampire Slayers, The Slayers, Slayers, F, 2, Buffy, F, 1, 1, 1, 0, 0, 
+SOCIAL, -RESEARCH, SOCIAL, ++MORALE, SOCIAL, +SUPPORT, SOCIAL, -INDUSTRY, SOCIAL, -EFFIC, FACILITY, 27, SOCIAL, -ECONOMY, 
+Values, Power, MORALE, 
+Values, Wealth, nil, 
+Vampire Slaying, Vampire Slaying
+Xander, Willow, Xander's Heights
+Vampire Slayer, cool, arrogant, slaying, violent, 
+violent bitch
+exercise our rights to maim and slay the undead
+to exercise freely the God-given right to keep and bear stakes
+equipping a private army of psychopaths to seize control of Planet
+equipping your private army of psychopaths to seize control of Planet
+equip a private army and seize control of this world
+sharpening her beloved stakes
+sharpening your beloved stakes
+having an unhealthy obsession with staking people through the heart
+fancy kung fu moves, M1
+vampires slaying preparations, M2
+vampire slaying methods, M2
+stipend, M1
+controlling the undead population
+the Slayers
+the Slayers Circle Code
+
+#BASES
+Sunnydale central
+Buffy Base
+Buffy's Armoury
+Xander's retreat
+Xander's Folly
+Memories of Angel
+Willow's Lair
+Willow's Spell
+Faith's Lair
+Slayer's redoubt
+Spike's Cave
+Spike's Folly
+Giles's Library
+Giles's retreat
+Buffy's Courage
+Buffy's Honour
+Fort Xander
+Fort Giles
+Sunnydale High School
+Memories of Buffy's Mom
+Memories of Dawn
+Memories of Riley
+Riley's Retreat
+Terra Base
+Slayer's Solstice
+Slayer's Lair
+Fort Slayer
+Slayer City
+Anya's waypoint
+#END
+
+#WATERBASES
+Willow's Island
+Buffy's Island
+Xander's Island
+Spike's Island
+Port Buffy
+Port Stake
+Port Slayer
+#END
+
+#BLURB
+Come on, we fight monsters, this is what we do. They
+show up, they scare us, I beat them up, and they go
+away. 
+^
+^        -- Vampire Slayer Buffy,
+^           "Battlefield quote"
+
+#DATALINKS1
+^LEADER: {Slayer Buffy Sumers}
+^BACKGROUND: {Student, Sunnydale High School}
+^AGENDA: {killing creatures of the night}
+^TECH: {Doctrine: Mobility}
+
+#DATALINKS2
+^+2 MORALE:  {Well-armed slayers movement}
+^+1 SUPPORT:  {Highly skilled soldiers need minimal weaponry}
+^-1 INDUSTRY:  {Extravagant weapons are costly}
+^-1 ECONOMY: (slaying way of life not economically viable)
+^{May not use Wealth value in Social Engineering.}
+^-1 Efficiency (Slaying way of life not ecnonmically viable)
+^Free Command Centre in every base
+^-1 Research (lack of interest in high tech weaponry)
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"You cannot hope to stand against me, $NAME1. Pledge
+Blood Truce now or face total destruction."
+
+"Truce it is, then. I thank you."
+"Bluffing will get you nowhere, $NAME3. Truce refused"orr
+all!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1. My vampire slaying followers are content to guard their homes against vampires in armed peace. I suggest we sign a Treaty of Friendship and stay out of each others' way."
+
+"Fair enough, but I shall guard my borders carefully."
+"Hardly. A faction armed to the teeth hardly seems friendly to me."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"You cannot hope to stand against me, $NAME1. Pledge Blood Truce now or face total destruction."
+
+"Destruction: to be avoided. Truce: agreed."
+"You winning: why do you offer peace? Conclusion: you: losing! Rejection!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, clearly your aims and ours are mutual: survival on this harsh world we've come upon. With you as Treaty partner, I will be less of a target for the others, and therefore my people will not suffer."
+
+"Right to defend: important. Treaty: agreeable."
+"Weaponry: belies soft words. Treaty: not advisable."
+
+# ; This line must remain at end of file

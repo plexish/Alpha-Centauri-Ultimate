@@ -1,0 +1,140 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#EMPIRE
+Imperial Guard, The Fascist, Empire, M, 1, Garcia, M, 1, 1, 0, 0, 0, 
+TECH, Mobile, FACILITY, 27, TECH, DocLoy, SOCIAL, ++POLICE, SOCIAL, +SUPPORT, SOCIAL, -EFFIC, SOCIAL, -ECONOMY, IMPUNITY, Police State
+Future Society, Thought Control, POLICE, 
+Politics, Democratic, nil, 
+Imperial, Empire
+Rodreguez, Salazar, Rodriguez's fortress
+Commander, strong, dangerous, powerful, jackbooted, 
+thug
+weed out the weaker factions
+to found a society on the principles of strength and power
+conquering us all
+conquering us all
+build your forces and destroy all we have worked for
+creating new attack plans
+creating new attack plans
+only caring about power
+desire for power, M1
+military strength, M2
+wars of conquest, M2
+imperial tribute, M1
+ensuring society's security
+Empire enforcement
+Imperial decree
+
+#BASES
+Patriot City
+Iron Fist
+Domination
+Motherland
+Soldier's March
+Fasces
+Tank Treads
+Drill
+Martial Spirit
+Mass Mobilization
+Glorious Sacrifice
+Authority and Loyalty
+Vigorous Nation
+Fatherland
+Strength of Unity
+Unstoppable Force
+Purity of Nation
+Crush the Weak
+Victorious Combat
+Caesar's Triumph
+Imperial March
+Symbols of Power
+Great Purge
+War Machine
+Great General
+Expansion Base
+#END
+
+#WATERBASES
+Empire at Sea
+Shark of the Sea
+Navy's Victory
+Sea Base
+Sink or Swim
+#END
+
+#BLURB
+No nation or ideology survives long without loyalty.
+It is the foundation of armies, whether bought by promises
+of wealth and power, or by victory of some idea.  Without
+a core cadre of loyal followers, no cause can hope to
+survive, for they shall be defeated by a faction willing
+to sacrifice. 
+^
+^        -- Commander Antonio Garcia,
+^           "Foundations of the State"
+
+#DATALINKS1
+^LEADER: {Antonio Garcia}
+^BACKGROUND: {Phillipines, Security Training Officer}
+^AGENDA: {Thought control}
+^TECH: {Doctrine: Loyalty}, {Doctrine: Mobility}
+^
+
+#DATALINKS2
+^+2 Police: {Strong state security apparatus}
+^+1 Support: {Militaristic faction}
+^-1 Efficiency: {Military focus reduces administrative skill}
+^-1 Economy: {more focus on conquering than trade}
+^{May not use Democratic politics.}
+^Free Command Center in every base
+^No penalty for Police State
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"War is noth worthwhile for me at this time, $NAME1,
+and a pledge of Blood Truce would seem in order."
+
+"Indeed. Blood Truce would be most satisfactory."
+"Never! Your militaristic faction is a danger to the
+rest of Chiron."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, You faction is powerful, and worthy
+of an alliance with the imperial Guard.  A treaty of
+friendship would be an excellent idea for our factions."
+lize our symbiotic relationship?
+
+"As you wish.  Better friends with the empire than enemies."
+"No. I will not provide more resources to your dreams
+of conquest."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"War is not worthwhile for me at this time, $NAME1,
+and a pledge of Blood Truce would seem in order."
+
+"Progenitor: Seek other goals.  Truce: Agreed"
+"Faction: Dangerous.  Leader: unstable.  Safety: empire
+defeat required."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, As the most powerful of the human factions,
+and the one most likely to dominate the others, wouldn't
+you agree that a treaty would be most beneficial to
+your faction?"
+
+"Empire: Strong military, treaty useful.  Answer: yes."
+"Empire:  Obsessed: conquering and domination.  Answer:
+no."
+
+# ; This line must remain at end of file

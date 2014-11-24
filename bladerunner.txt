@@ -1,0 +1,125 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Rep Detect Unit
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... bladerunner
+;
+
+#BLADERUNNER
+Rep Detect Unit, The Survivalist, Rep Detects, M, 1, Deckard, M, 0, 1, 0, 0, 0, 
+  TECH, Mobile, SOCIAL, ++GROWTH, SOCIAL, +POLICE, SOCIAL, --PLANET, SOCIAL, -ECONOMY, FACILITY, 24
+  Values, Power, GROWTH
+  Economics, Green, nil
+  Rep Detecting, Rep De.
+  Rachel, J.F. Sebastian, Off World
+  Mr, hard worker, workoholic, obedient, brain washed, 
+  Grubby, Smelly Human Killing Bastard
+  eliminate all the replicants that pollute this world
+  save mankind from all these reps
+  colonising this world with androids
+  colonising this world with androids
+  destroy mankind for your own good
+  discussing how robots will one day take over this planet
+  discussing how robots will one day take over this planet
+  mass producing replicants
+  paranoid delusions, M1
+  status on this planet, M2
+  cheap, crazy, stupid robots, M2
+  amount of cash, M1
+  eliminating the replicants that plague this planet
+  my blade runners
+  the LAPD law
+
+#BASES
+Los Angeles
+Metropolis
+Holden's Cave
+Hasan's Snake Pit
+Megalopolis
+Rep Centre
+Skin Job Factory
+Police Depo
+Batty Base
+Crystal Steele Ground
+Rachel Studios
+Westwood Parade
+Fort November
+Base 2019
+Early Q Fort
+World of Spinners
+Trenchcoat Overhaul
+Sushi China Bar
+Neon Dragon
+Taffy Lewis Bar
+Tyrell Corp.
+Eldon Base #2
+Chew's Freezer
+Bradbury Hotel
+Hawker's Circle
+Animoid Row
+Hysteria Hall
+#END
+
+#WATERBASES
+Water H. Ford
+LL Lab
+Moonbus Landing
+Sea Leon
+Eye Works
+Yukon Hotel
+Floating DNA Row
+Zhora's Shower
+#END
+
+#BLURB
+^'Bad haircut, stupid coat - the other guy,' he nodded. What other
+guy? Maybe he was talking about Deckard. That vet blade runner
+had been all over the city today, almost always one step ahead
+of me. I just wished that he'd slow down sometimes to let me
+get ahead.
+^
+^     -- Agent Crystal Steele,
+^         "LAPD Report, 11AM Shift, 4/11/2019"
+^
+^
+
+#DATALINKS1
+^LEADER: {Mr Rick Deckard}
+^BACKGROUND: {Blade Runner, Los Angeles Police Department (LAPD)}
+^AGENDA: {Save The Human Race And Retire Replicants}
+^TECH: {Doctrine: Mobility}
+^
+
+#DATALINKS2
+^+2 GROWTH: {More people move in cities creating a metropolis}
+^+1 POLICE: {Highly disciplined followers}
+^-2 PLANET: {Killing skin jobs has a negative affect on the planet}
+^-1 ECONOMY: {Too much money is spent on expanding the cities}
+^Free HAB COMPLEX at each base: {To cater for the ever expanding city}
+^{May not use Green value in Social Engineering.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"You cannot hope to stand against me, $NAME1. Pledge Blood Truce
+now or the watch the human race be wiped out."
+
+"Truce it is, then. I thank you."
+"Bluffing will get you nowhere, $NAME3. Prepare to be annihilated!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1. My survivalist followers are content to continue
+living their own lives the way it is. I suggest we sign a Treaty
+of Friendship and stay out of each others' way."
+
+"Sounds fair enough, but I suggest you do not interfere with my blade runners."
+"You must be joking. A faction with a powerful industry can never be trusted."
+
+
+# ; This line must remain at end of file

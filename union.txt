@@ -1,0 +1,132 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#UNION
+The Feminine Union, The Union, Union, F, 1, Spears, F, 0, 1, 1, 1, 1, 
+TECH, Biogen, FACILITY, 8, FACILITY, 9, FACILITY, 7, SOCIAL, ++GROWTH, SOCIAL, +++RESEARCH, SOCIAL, --PLANET, IMPUNITY, Power, COMMFREQ, 0, MINDCONTROL, 0, FREEPROTO, 0, TECHSTEAL, 0, MORALE, 5, PSI, 50, RESEARCH, 8, TALENT, 8, ENERGY, 500, INTEREST, 50, COMMERCE, 8, POPULATION, 5, TECH, 8, 
+Values, Power, EFFIC, 
+Future Society, Thought Control, nil, 
+Hive, Hive
+Cat Deeley, Liz Hurley, Feminine Robust
+Archon, sexy, psychopathic, sexy, pathetic, 
+Sexist Dog
+learn that females should be respected
+to create perfect females and base a society on their superiority.
+reducing us all to mindless servants of his diabolical schemes
+reducing us all to mindless servants of your diabolical schemes
+reduce the human population of this world into mindless slavery
+torturing the wretched fools who chose to follow him
+torturing the wretched fools who chose to follow you
+being a descriminative sexist
+mad genetic plan, M1
+plans for feminine superiority, M2
+sexist ways, M2
+charge, M1
+keeping an eye on your drones
+Union Security
+Union Law
+
+#BASES
+Age of the Female
+Feminine Robust
+Bio Paradise
+Feminine Superiority
+Feminine Endevour
+Perfection
+Exploit our Enemies
+Spears Central
+Deeley Gardens
+Union City
+Union Base
+Hurley Nexus
+Hurley Network
+Femininus Superius
+Deeley Nexus
+Spears Nexus
+Spears Gardens
+Feminine Gathering
+Union Gardens
+Feminine Endevour
+Hurley Central
+Deeley Centre
+Female Era
+Union Triumph
+Union's Eye
+Union Hold
+Spears Mine
+Enhanced Thought
+Spears Paradise
+#END
+
+#WATERBASES
+Union Port
+Feminine Collective
+Greater Goal
+Port Spears
+Deeley Drift
+Union Core
+Hurley Retreat
+#END
+
+#BLURB
+^  For too long the human race has been dominated by
+the males. Now, using Biogenetic technology, we shall
+create perfect females, just like me. No man will be
+able to resist. 
+^
+^        -- Archon Britney Spears,
+^           "It is the Age of the Female"
+
+#DATALINKS1
+^LEADER: {Britney Spears}
+^BACKGROUND: {Visually perfect woman}
+^AGENDA: {Feminine Superiority}
+^TECH: {Biogenetics}
+
+#DATALINKS2
+^+2 GROWTH:   {Males fall before our perfection}
+^-3 PLANET: {Lack of Respect for Others}
+^+3 RESEARCH:  {Creating perfect females}
+^Perfect Females: {Free BIOLOGY LAB at each base}
+^Female Conservativeness: {Free ENERGY BANK at every base}
+^Emphasis on Reserach: {Free NETWORK NODE at each base}
+^{May not use Thought Control Policies}
+^IMMUNE TO ILL EFFECTS OF POWER SOCIAL CHOICE
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"I see no need for this waste of life to continue, $NAME1,
+a pledge of Blood Truce would seem in order."
+
+"Indeed. A Blood Truce would be most welcome."
+"Never! I plan to put an end to your madness once and
+for all!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your ideals are admirable if a bit misguided and your faction need not pose a threat to Union policy. Shall we sign a Treaty of Friendship to formalize our relationship?
+
+"As you wish. The Union seems a valuable friend."
+"No. Your social experiments are a bit too bizarre for me, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1, a pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+"Your needs: truth: not same. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my noninterference philosophies would seem to make me the only natural ally for you from among these warring human factions. Can't we sign a Treaty of Friendship and coexist in peace?
+
+"Hive: safe ally. Treaty: admirable idea."
+"Hive: control: too important. Ally: dangerous. Answer: no."
+
+# ; This line must remain at end of file

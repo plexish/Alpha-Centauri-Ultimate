@@ -1,0 +1,148 @@
+; -III THE AARDOM FEDERATION III-
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+; Text by Aalogin <Aalogin@aol.com> 
+; Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.networknode.org
+; email networknode@lycos.com
+;  
+; Sid Meier's Alpha Centauri
+; Faction Editor
+; NetworkNode - removed  FREEFAC, 6, TERRAFORM, 0,  RESEARCH, 1,  POPULATION, -3, in interests of game balance
+
+#AARDOM
+Aardom Federation, The Free, Aardomites, M, 1, Aardom 723, M, -1, 0, 1, 1, 1, 
+SOCIAL, +RESEARCH, SOCIAL, --POLICE, SOCIAL, IMPUNITY, Eudaimonic, UNIT, 0, UNIT, 1, TALENT, 4, TECHCOST, 85, TECH, 1 
+Future Society, Eudaimonic, GROWTH, 
+Politics, Police State, nil, 
+Aardomite, Aardomite
+Niechol 376, Phillip 161, Area 376
+Keeper, friendly, ambitious, kind, unled, 
+Ambitious Fool
+bring peace to our colonies
+to found a free society of peace and enlightenment
+using all the resources of this planet for his blind ambition
+using all the resources of this planet for your blind ambition
+hoard all the resources on this planet for your foolish missions
+planning ways to confiscate the resouces of this planet for his blind ambitions
+furthering your ambitions with the use of this planets valuable resources
+wasting our resources
+"efficent" Talents, M1
+social experiments, M2
+social ambitions, M2
+contribution, M1
+making sure that your workers reach their potential
+Federation Security
+Federation Policy
+
+#BASES
+Federation H.Q.
+Peoples Rest
+Artist's Thought
+Talent's Ideal
+Colony's People
+Worker's Den
+Freedom's Rest
+Peace for the People
+Human Unity
+Earth Memories
+Sociality Warrens
+Rec Tower
+Eve of Planet
+Chiron Worlds
+Tower of Insparation
+Aardom's Wish
+Peoples Hope
+Eden's Garden
+Worker's Paradise
+Mechanical Strength
+Drone's Aide
+Teaching Center
+Ecology Studies
+Talent's Hold
+Fellowship Towers
+New Luxembourg
+Gold Pearl Refinery
+Garden of Earth
+Diamond Glistening
+Nessus Elipse
+#END
+
+#WATERBASES
+Sea Federation
+Community of the Sea
+Aardom Port
+Wavecrest
+People's Sea
+Ocean Eden
+Port of People's Peace
+Endless Blue
+#END
+
+#BLURB
+War; is there anything more pointless in this life than
+destroying other life? Sure, the Spartans preach "the
+right to take up arms," and the Believers talk about
+war "in God's name." But we have been collected from
+all over planet and know of the pain of war. From the
+brainwashing chambers of New Jeruselam to Deirdre's
+nitrogen experiments, they have seen the bad side of
+even the most peaceful faction. And we are determined
+to avoid the mistakes of Earth as well as the mistakes
+of the present. 
+^
+^  -- Keeper Aardom 723
+^     "Critique of Enlightenment"
+
+#DATALINKS1
+^LEADER: {Aardom 723}
+^BACKGROUND: {Luxembourg, Unity Chief Engineer}
+^AGENDA: {Enlightened society}
+^TECH: {Choose 1}
+
+#DATALINKS2
+^+1 RESEARCH : {Brilliant talents.}
+^-2 POLICE: {freedom loving}
+^+1 TALENT per 4 citizens:  {Well educated workers}
+^Free {Colony Pod} at start of game
+^Impunity Eudiamonic
+^Chose one tech as start
+^Cannot use Police State Politics
+^85% Techcost {Elite researchers from varied backgrounds}
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Our people suffer more than we do in this Vendetta,
+$NAME1, so let's end it with a blood truce.
+
+"Agreed. Our people should not have to suffer."
+"Never! Your ambitions end NOW!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, Our followers hold a common bond. Lets join forces in a Treaty of Friendship."
+
+"Yes, our followers should come first."
+"No. your blind Ambition disturbs me, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"I find no percievable benifit of this war for either of our races. Let's end the pointless blood shed."
+
+"Progenitor: not need war. Truce: benificial."
+"War: has purpose. Purpose: to dispose of planet scum. Example: you!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, we both want what is right for our followers, be they human of Progenitor. Let's secure our beliefs with a Treaty of Friendship."
+
+"Aardom 723: wise. Treaty: much use. Answer: yes."
+"Aardomites: foolish. Ambitions: too great. Alliance: unstable. "
+
+# ; This line must remain at end of file

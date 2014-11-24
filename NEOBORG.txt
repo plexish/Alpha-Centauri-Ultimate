@@ -1,0 +1,132 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: NeoBorgs v1.0
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.civgaming.net/citizens/networknode/
+; email networknode@lycos.com
+;
+; To use this Faction file select load from 
+; faction select in the game and write... NeoBorg
+;
+
+#NeoBorg
+NeoBorg, The Augmented, NeoBorg, M, 2, X11A-Z, M, 1, 1, 1, 0, 1, 
+  FREEFAC, 30, SOCIAL, --SUPPORT, SOCIAL, --GROWTH, SOCIAL, +INDUSTRY, SOCIAL, +RESEARCH, UNIT, 6, DRONE, 3, TALENT, 6, HURRY, 130, COMMERCE, -2, PROBECOST, 80
+  Future Society, Cybernetic, PROBE
+  Politics, Fundamentalist, nil
+  NeoBorg, NeoBorg
+  X38D-J, X23C-P, NM7
+  Terminator, Augmented, corrupted, advanced, inhuman, 
+  Mindless Machines
+  perfect the techniques of cybernetic enhancement
+  to advance our race beyond the limitations of flesh and bone
+  destroying the essence of the human soul
+  the creation of soulless abominations of the flesh
+  continue to create your hideous mutations 
+  replace their inhuman bodies with hardware
+  mutating your inhuman citizens
+  inhuman tampering
+  inhuman tapering, M1
+  cyber surgical initiatives, M2
+  cruel cyber experiments, M2
+  augmentation tax, M1
+  augmenting the weaknesses of the flesh
+  my NeoBorg Probes
+  the NeoBorg Codex
+
+#BASES
+NM7
+EK8
+IK9
+UW2
+CP3
+RB9
+VS5
+FR7
+MW9
+YH2
+PL0
+SJ7
+UT6
+BX5
+SY1
+VI6
+RD4
+MQ8
+TF9
+MA8
+DM7
+ST4
+DJ6
+H89
+IG88
+THX1
+H9TH
+#END
+
+#WATERBASES
+J11
+U99
+C44
+R33
+G77
+T88
+D69
+D98
+#END
+
+#BLURB
+Discard the weak shell of flesh and bone and embrace the cool
+immortality of alloy, silicon and chrome. Long after your kind
+has faded into the depths of history my kind will rule without
+compare, with nothing beyond our ability. Why learn when you
+can program, rest when you can recharge? The machine is the
+future, and we are the machine.
+^        
+^        -- Terminator X11A-Z,
+^           "NeoBorg Codex"
+
+#DATALINKS1
+^LEADER: {Terminator X11A-Z}
+^BACKGROUND: {NeoBorg Model 11A}
+^AGENDA: {Cyber Enhancement}
+^TECH: {None}
+^
+
+#DATALINKS2
+^-2 SUPPORT: {High maintenance requirements}
+^-2 GROWTH: {Moving towards sentient machines}
+^+2 INDUSTRY: {Robot like automation}
+^+1 RESEARCH: {Cyber enhanced intellect}
+^Extra TALENT for every six citizens: {Programmed intellect}
+^Extra DRONE for every 3 citizens: {Schizoid side effects of cyber enhancement}
+^FREE FACILITY: {Bio-Enhancement Centre}
+^TECHSTEAL: {Advanced hackers}
+^80% PROBE COSTS: {Efficient hackers}
+^Free PROBE TEAM at start of game
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This conflict between our species accomplishes nothing, $NAME1.
+Let us delete our differences and continue with our respective
+programs."
+
+"Your logic is infallible. I shall program hostilities to terminate."
+"Hasta la vista baby!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1. Agree to a Treaty of Co-Operation and assist me
+to design better human beings?"
+
+"Your logic is infallible, $TITLE4--I am with you."
+"Your species is doomed, $NAME3."
+
+
+# ; This line must remain at end of file

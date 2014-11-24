@@ -1,0 +1,109 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#RONIN
+Edo Empire, The Samurai, Samurai, M, 2, Edo, M, 1, 1, 1, 0, 0, 
+TECH, Physic, SOCIAL, ++SUPPORT, SOCIAL, +PROBE, SOCIAL, -INDUSTRY, IMPUNITY, Power, FREEPROTO, 0, 
+Values, Power, SUPPORT, 
+Politics, Democratic, nil, 
+Ronin, Ronin
+Azumi, Akira, Azumi Tower
+Shogun, strategic, uncivilized, honorable, violent, 
+Nationalist Fiend
+exercise our rights to practice the art of war
+to exercise our birth-right to wage war
+equipping a private army to commit planet-wide genocide
+equipping your private army to commit planet-wide genocide
+equip a private army and commit planet-wide genocide
+sharpening his swords
+sharpening your swords
+uncivil behavior
+barbaric behavior, M1
+strategic plans, M2
+strategic plans, M2
+offering, M1
+ensuring our borders are properly defended
+my samurai
+the Bushido
+
+#BASES
+Edo Command
+Azumi Towers
+Shogun Fortress
+Ashigaru Base
+Neo-Tokyo
+Daimyo Base
+Geisha Base
+Emperor's Rest
+#END
+
+#WATERBASES
+No-Dachi Base
+Katana Base
+Wakazashi Base
+Tanto Base
+Naginata Base
+Bushido Base
+Aikido Base
+Kendo Base
+#END
+
+#BLURB
+War is fought on the battlefield, but won in the mind. 
+^
+^        -- Shogun Kenzo Edo,
+^           "The Art of Modern Warfare"
+
+#DATALINKS1
+^LEADER: {Shogun Kenzo Edo}
+^BACKGROUND: {Strategist, Spartan General}
+^AGENDA: {Perfect the Art of War}
+^TECH: {Applied Physics}
+^
+
+#DATALINKS2
+^+2 SUPPORT:  {Self-sufficient troops}
+^+1 PROBE:  {Extremely loyal citizens}
+^-1 INDUSTRY:  {Advanced weaponry is expensive}
+^Prototype units do not cost extra minerals.
+^{May not use DEMOCRACY value in Social Engineering.}
+^{No penalties for using POWER value in Social Engineering}
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"You cannot hope to stand against me, $NAME1. Pledge
+Blood Truce now or face total destruction."
+
+"Truce it is, then. I thank you."
+"You are without honor, $NAME3. I will leave no rock unturned until i find you."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1. My warriors are content to battle other foes. I suggest we sign a Treaty of Friendship."
+
+"Fair enough, but I shall keep my troops on standby."
+"I don't think i'm just going to let destroy the others."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"You cannot hope to stand against me, $NAME1. Pledge Blood Truce now or face total destruction."
+
+"Destruction: to be avoided. Truce: agreed."
+"You winning: why do you offer peace? Conclusion: you: losing! Rejection!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, clearly your aims and ours are mutual: survival on this harsh world we've come upon. With you as Treaty partner, I will be less of a target for the others, and therefore my people will not suffer."
+
+"Right to defend: important. Treaty: agreeable."
+"Weaponry: belies soft words. Treaty: not advisable."
+
+# ; This line must remain at end of file

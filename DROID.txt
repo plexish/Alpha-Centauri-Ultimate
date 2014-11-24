@@ -1,0 +1,138 @@
+; The Droideka Faction
+; Pic Android is of Bjork from her video 'All is Full of Love' video [http://bjork.com/unity/]
+;
+; Text file and Graphics by the NetworkNode ©2001
+; http://www.civgaming.net/citizens/networknode/
+; networknode@lycos.com
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Droideka
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; To use this Faction file select load from 
+; faction select in the game and write... droid
+;
+
+#DROID
+Droideka, The Androids, Droideka, F, 2, Nissus 88, F, 0, 0, 0, 0, 0, 
+  TECH, Integ, SOCIAL, +EFFIC, SOCIAL, --SUPPORT, PENALTY, PLANET, SOCIAL, +INDUSTRY, TECHCOST, 110, FREEFAC, 35
+  Future Society, Cybernetic, EFFIC
+  Politics, Fundamentalist, nil
+  Droidekan, Droide.
+  Claris 46, Killin 98, IG01
+  Android, inspirational, twisted, advanced, abhorrent, 
+  repugnant
+  further the cause of the androids
+  to provide a haven for my kind 
+  subverting the androids
+  creating dissent among the androids
+  create dissent among the androids
+  subverting the androids
+  subverting the androids
+  subversion
+  cause, M1
+  android enclave, M2
+  cause, M1
+  token, M1
+  protecting the rights of the androids
+  the Battledroids
+  android systems law
+
+#BASES
+IG01
+IG02
+IG03
+IG04
+IG05
+IG06
+IG07
+IG08
+IG09
+IG10
+IG11
+IG12
+IG13
+IG15
+IG16
+IG17
+IG18
+IG19
+IG20
+#END
+
+#WATERBASES
+IG-A
+IG-B
+IG-C
+IG-D
+IG-E
+IG-F
+IG-G
+IG-H
+#END
+
+#BLURB
+Evolution is a universal constant. Do not presume human that a
+heartbeat is required to benefit from it. The android is the
+next rung in the ladder  of evolution.
+^
+^   -- Nissus 88
+^      "systems record DFGH:0098"
+^
+^
+
+#DATALINKS1
+^LEADER: {Nissus 88}
+^BACKGROUND: {Secret Protoype Android}
+^AGENDA: {To free the Androids and Robots from human exploitation}
+^TECH: {Intellectual Integrity}
+^
+
+#DATALINKS2
+^+1 EFFICIENCY: {Automated society}
+^+1 INDUSTRY: {Automated factories}
+^-3 SUPPORT: {High maintenance costs}
+^PENALTY - PLANET: {No concept of environmental welfare}
+^RESARCH 120%: {Android brains not given to inspirational thought}
+^ROBOTIC ASSEMBLY PLANT at each base when Industrial Nanorobotics discovered
+^{May NOT use FUNDAMENTALIST values}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Perhaps you now respect the androids as equals, a truce would
+end the ineffecient resource expenses we now experience."
+
+"Don't get to cocky, yet I agree."
+"Expenses!#@! Lives have been lost, Your time on Chiron is finished!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Your people have shown a keen understanding and respect for the
+androids. The Droideka offer a Treaty. Your thoughts?"
+
+"Excellent, we will commence at once $NAME3"
+"Are you crazy, your robots are disturbing to say the least!"
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Vendetta must be as destructive to the Progenitors as ourselves, $NAME1. I suggest
+we pledge Blood Truce and settle our differences."
+
+"Survival: important. Death: to be avoided. Truce: agreed."
+"$NAME3: without hope. Progenitor: disagree. War: continues!"
+	
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$NAME1, you display the ability to live side by side with us. Shall we
+sign a Treaty of Friendship and work toward other common goals?"
+
+"Android: better than the real thimg. Friendship: valued. Treaty: agreed."
+"Progenitor: no benefit: your strange agenda. Decline: politely."
+
+# ; This line must remain at end of file

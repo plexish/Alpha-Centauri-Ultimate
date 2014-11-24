@@ -1,0 +1,125 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Children of the Light
+; By Grigger
+; 
+; To use:
+; 1. start a game in alpha centauri
+; 2. when choosing a faction select load on the faction you want to replace
+; 3. type in children (for children of the light)
+;
+; If you have pictures which would complement this faction
+; I would like to see them.
+; e-mail to Saryon4102@aol.com
+
+#CHILDREN
+The Children of the Light, The Fanatic, Whitecloaks, M, 2, Pedron Niall, M, 1, 1, 0, 0, 0, 
+  TECH, Physic, SOCIAL, -RESEARCH, SOCIAL, +POLICE, SOCIAL, -EFFIC, SOCIAL, ++SUPPORT, MINDCONTROL, 0
+  Politics, Fundamentalist, PROBE
+  Politics, Democratic, nil
+  Whitecloak, Whitec.
+  Lothair, Mantelar, Lothair's Crusade
+  Lord Captain Commander, inquisitive, fanatic, glorious, meddlesome, 
+  Over-zealous Despot
+  rid the world of darkfriends
+  to rid the world of darkfriends
+  putting everyone to the question
+  putting everyone to the question
+  dispose of the whole world on this delusionary crusade
+  ruining people's lives and reputations
+  ruining people's lives and reputations
+  demanding insane confessions
+  fanaticism, M1
+  noble quest, M1
+  insane confessions, M2
+  gift, M1
+  bringing darkfriends to justice
+  my Inquisitors
+  Creator's work
+
+#BASES
+Amador
+New Amadicia
+Ailron's Seat
+Creator's Strength
+The Great Purging
+Whitecloak Station
+The Shepard's Crook
+Inquisitor's Truth
+Golden Sunburst
+Galad's Triumph
+Sheltered by the Light
+Defeat of the Witches
+Gandren
+Eternal Rebirth
+Confession of All
+Waystation 1
+Waystation 2
+Waystation 3
+Waystation 4
+Endless Crusade
+Red Hot Tongs
+Free of the Taint
+Breaking the Dragon
+Battle Flag
+Burning of the Ajahs
+The Spear of Justice
+Forbidden Words
+#END
+
+#WATERBASES
+The Shadow Coast
+Glorious Voyage
+Tremalking
+Riverrunner
+Qaim
+Windbiter's Finger
+Great Refuge
+#END
+
+#BLURB
+In the Last Battle, The Dark One will send his hordes of Trollocs
+and Shadowlords upon the world. Pedron Niall will be there with
+the world united behind him ready to do battle.
+^
+^        -- Lord Captain Commander Pedron Niall,
+^           Speech to the Children of the Light
+
+#DATALINKS1
+^LEADER: {Lord Captain Commander Pedron Niall}
+^BACKGROUND: {Amadicia, Unity Inquisitor}
+^AGENDA: {Defeat of Darkfriends}
+^TECH: {Applied Physics}
+^
+
+#DATALINKS2
+^{Unsusceptible to mind control, from strength of convictions}
+^+2 SUPPORT: {Citizens eager to hunt darkfriends}
+^+1 POLICE: {Strict laws enforced by regular patrols}
+^-1 RESEARCH: {Contempt for sciences}
+^-1 EFFICIENCY: {Flawed hierarchical system}
+^{May not use Democratic Politics}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Too many darkfriends are corrupting the world while we fight.
+I suggest a Blood Truce between us so that I can concentrate
+on bringing the real villains to justice."
+
+"I will leave you alone. Truce pledged."
+"You're the only real darkfriend, you megalomaniac! Vendetta!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"After careful inspection, I am led to believe that you take shelter
+in the Light, $TITLE0 $NAME1. We must sign a Treaty of Friendship
+to promote values that the darkfriend vermin lack."
+
+"I will sign, that we may uproot the evil presence among us."
+"I'm afraid not, $NAME3. The Light is to bright for me."
+
+
+# ; This line must remain at end of file

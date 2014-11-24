@@ -1,0 +1,108 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#EDEN
+Eden Project, The Ecologist, Ecologists, F, 1, Seldon, F, 1, 1, 1, 0, 0, 
+TECH, Ecology, SOCIAL, ++MORALE, SOCIAL, --INDUSTRY, FACILITY, 13, SOCIAL, +RESEARCH, SOCIAL, --GROWTH, IMPUNITY, Green, TERRAFORM, 0, TALENT, 1, 
+Economics, Green, RESEARCH, 
+Politics, Fundamentalist, nil, 
+Gaian, Gaian
+Sarah, Adam, Terra Project
+Dr, eco-concious, eco-terrorist, ecologically protective, insane, 
+Terrorist
+change Planet's environment
+to create an Earthlike paradise this planet
+halting out all industrial progress on this planet
+halting out all industrial progress on this planet
+stop all industrial development
+plotting amongst her plants
+plotting amongst your plants
+attacking all human development
+extremist approach, M1
+ecological research, M2
+ecological experiments, M2
+research grant, M1
+taming this planet
+my Forest Rangers
+the Eden Project Guidelines
+
+#BASES
+Eden Project
+Terra Project
+Terra 1
+Terra 2
+Terra 3
+Terra 4
+#END
+
+#WATERBASES
+Atlantis Project
+Atlantis 1
+Atlantis 2
+Atlantis 3
+Atlantis 4
+#END
+
+#BLURB
+We have been given a second chance; possibly we are
+in time to save this new world from the same fate that
+enveloped Earth. 
+^
+^        -- Dr. Eve Seldon,
+^           "Second Chance"
+
+#DATALINKS1
+^LEADER: {Eve Seldon}
+^BACKGROUND: {International Eco-Terrorism, Eden Project Army}
+^AGENDA: {Green Research}
+^TECH: {Centauri Ecology}
+^
+
+#DATALINKS2
+^+2 Morale: {Fanatical Eco-Warriors}
+^+1 TALENT Per Base: {Content Society}
+^-2 INDUSTRY: {No Large Industrial Sectors}
+^Free Tree Farms: {Biodome Bases}
+^+1 RESEARCH: {Attracts Ecological Experts}
+^-2 GROWTH: {Unwilling to Damage Ecological Balance}
+^{No penalties for using Green social choice}
+^{May not use Fundamentalist social choice}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This senseless destruction will surely cause irreparable
+harm to Planet's ecology. I urge we mend our differences
+and pledge Blood Truce."
+
+"It is as you say. This violence must end."
+"Hah! Your rocks and plants won't save you now, $NAME3!"r
+all!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"I sense you are a friend of Planet, $TITLE0 $NAME1. I suggest we sign a Treaty of Friendship, that our peoples may live side by side in peace."
+
+"Agreed. Walk with Planet, $NAME3."
+"No. This 'Friend of Planet' stuff gives me the creeps."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This senseless destruction will surely cause irreparable harm to Planet's ecology. I urge we mend our differences and pledge Blood Truce."
+
+"Destruction of Manifold Six: to be avoided. Agreement."
+"Manifold Six: tougher than you, $NAME3. Destruction: prepare!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, clearly you and your kind know more of Planet than we humans ever shall. Cannot we sign a Treaty of Friendship, that we may learn at your ... uh ... knee?"
+
+"Manifold Six: sacrosanct. Aims: similar. Treaty: fine idea."
+"Your understanding of Manifold Six: feeble. Treaty: not at this time."
+
+# ; This line must remain at end of file

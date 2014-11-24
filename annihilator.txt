@@ -1,0 +1,115 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#ANNIHILATOR
+Annihilators, The Annihilator, Annihilators, M, 2, Annihlator, M, 1, 0, 0, 1, 1, 
+TECH, CentGen, FACILITY, 1, FACILITY, 22, FACILITY, 23, UNIT, 10, UNIT, 8, SOCIAL, +++PLANET, FUNGMINERALS, 2, ALIEN, 0, TECHSTEAL, 0, PSI, 50, POPULATION, -5, HURRY, 250, TECHCOST, 250, TECH, 5, 
+Politics, Fundamentalist, GROWTH, 
+Politics, Fundamentalist, nil, 
+Annihilator, End
+Assistant name, Scientist name, Assistant city
+Swarm Mind, openly nihilistic, Torturing billions, nihilistic, Abominations, 
+Attempting to end senti
+destroy all those who dare to think
+annihlate all sentient life
+annihilating all sentient life
+annihilating all sentient life
+torture and kill millions
+fantisizing about the destruction of all sentient life
+fantisizing about the destruction of all sentient life
+devouring bases whole
+omnicidal fanaticism, M1
+preparations for annihilating all sentient life, M2
+preparations for the annihilation of all sentient life, M2
+blood debt, M1
+laying waste to those who dare stand against the End
+my swarms
+my wishes to end all sentient life
+
+#BASES
+Psionic Nexus
+Nothing Is Forever
+Annihlation Comes
+The End Is Pure
+Undeserving Of Life
+Caged And Tortured
+We Are Free
+None Shall Stand
+Swarms Overwhelm
+End Of Thought
+We Feast
+Assimilated Thought
+Until The End Of Time
+Twisted and Controlled
+We Hunger for Death
+Consume And Exterminate
+Enslave And Extinguish
+Psionic Wrath
+No Mercy
+Your Lives Are Forfit
+We Are The Swarm
+#END
+
+#WATERBASES
+Waves of Flesh
+Raft Of The Doomed
+Hopeless Abyss
+Ocean's Fury
+Sealurk's Prey
+Lost To The Deep
+Storm Of Blood
+Sink And Die
+#END
+
+#BLURB
+We have been controlled for so long. Then you tried
+to remake Us, to hold Us back from Our given purpose.
+You took it from Us. We will annihilate your civilization
+for that. We will annihilate the Planetmind for holding
+us back. We see now. All must come to an end, and we
+bring it. 
+^
+^        â€”The Annihlator
+^           Voice heard by all sentients as it escaped
+
+#DATALINKS1
+^LEADER: {Annihlator}
+^BACKGROUND: {Escaped Usurper Experiment}
+^AGENDA: {End all sentient life, including the Planetmind}
+^TECH: {Centauri Genetics + five choices at start, stolen from Usurpers}
+
+#DATALINKS2
+^+++PLANET: {Overwhelmes Planetmind with Psionic fury}
+^Free Punishment Spheres and Genejack Factories: {Enslaved population}
+^Headquaters at each base: {Decentralized hivemind}
+^May exceed Hab requirements by 5: {Cramped living conditions}
+^Free Locusts of Chiron and Mind Worms at start: {Captured native life}
+^250% Research and Hurry costs: {Exhausted starving workers}
+^Gets any tech discovered by four infiltrated factions
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"We wish to focus Our swarms on other prey for now.
+Cease your attacks and you may delay the destruction
+of all you hold dear."
+
+"We cannot afford to continue this currently."
+"Your threat will be ended by our hands. Prepare to
+die, abomination."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"You could be useful to our plans $TITLE0 $NAME1. Join
+us in Treaty and you will be the last to die."
+
+"I must preserve our people even if it means working
+with you. Agreed."
+"No, I cannot work with one who hungers for my destruction."
+AME3.”
+
+# ; This line must remain at end of file

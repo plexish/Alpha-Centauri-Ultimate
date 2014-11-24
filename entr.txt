@@ -1,0 +1,128 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Worshippers of Entropy
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; Text by Pentalarc 
+; Faction Graphics Copyright c2000 networknode M.Dunk
+; For more factions visit http://networknode.org
+; email networknode@lycos.com
+;
+
+#ENTR
+Worshippers of Entropy, Entropics, Entropics, M, 2, Ravenna Parrish, F, 1, 1, 0, 0, 0, 
+  SOCIAL, ---PLANET, SOCIAL, ++MORALE, SOCIAL, ---POLICE, SOCIAL, +INDUSTRY, PSI, 1, RESEARCH, 1, DRONE, 1, TALENT, 1, ENERGY, 1, HURRY, 60, MINDCONTROL, 0, FANATIC, 0, FREEPROTO, 0, TERRAFORM, 0
+  Values, Power, INDUSTRY
+  Economics, Green, nil
+  Entropic, Entrop.
+  Norvelli, Blassherd, Norvelli's Ashes
+  High Entrope, practical, nihlistic, entropic, nihlistic, 
+  unbalanced psychotic
+  revel in the power of entropy
+  give entropy unfettered reign
+  watching planet collapse into a ball of dust
+  watching planet collapse into a ball of dust
+  utterly destroy all shred of civilization
+  randomly breaking household  objects, setting things on fire, and smashing up rovers
+  randomly breaking household objects, setting things on fire, and smashing up rovers
+  bizarre nihlism
+  power of entropy, M1
+  entropic designs, M2
+  experimenst in entropy, M1
+  gift, M1
+  providing combat support
+  shock troops
+  the laws of entropy
+
+#BASES
+Temple of Entropy
+Fort Walther
+Thermodynamics
+Fort Amherst
+Glory of Entropy
+Fort Isaacs
+Ashes to Ashes
+Torad Superfort
+Dust to Dust
+The Ripping
+Disaster Gulch
+Blasted Landscape
+Place of Shattering
+Initiation
+Crushed Stone
+Sennark
+Clash of Swords
+Esparsos
+Increase of Chaos
+Natural Path
+Beauty of Disorder
+Final Destiny
+Scorched Ground
+Static State
+Oil Creek
+Big Bang
+Scar of the Land
+#END
+
+#WATERBASES
+Entropy of the Sea
+Destroyer Fleet
+Black Ocean
+Hook
+Oilsheen Waves
+Line
+Small Craft Advisory
+Sinker
+#END
+
+#BLURB
+We try to keep things pristine, perfect, pure, undamaged, exactly
+as if they were new.  And every time, we are defeated by the
+movement of time itself.  Did you ever stop to think that perhaps
+time is right, or even that we get more power by going with
+it to its logical conclusion, than in struggling vainly against
+the flow?
+^
+^            High Entrope Ravenna Parrish
+^                  "In Praise of Entropy"
+^
+
+#DATALINKS1
+^LEADER: {High Entrope Ravenna Parrish}
+^BACKGROUND: {Vacherie, New American Republic, Unity Security Officer}
+^AGENDA: {unfettered entropy}
+^TECH: {none}
+^
+
+#DATALINKS2
+^-3 PLANET: {believe things are supposed to fall apart}
+^-3 POLICE: {hatred of order}
+^+2 MORALE: {great enjoyment of conflict and destruction}
+^+1 INDUSTRY: {weaponsmakers}
+^60% Hurry costs: {do not mind a rushjob}
+^+25% attack: {fanatic // Immune to mind control}
+^free prototypes/{will try any weapon}: {//Terraform Costs halved (do not care about side effects) // May not use Green}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"We grow tired of this particular combat, I'm sure we both have
+more inviting targets elsewhere.  Shall we call a truce for
+now?"
+
+"Yes, these battles have become rather boring"
+"Grown scared of defeat, more likely.  Prepare your forces"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"You seem to understand the power of entropy, shall we sign of
+treaty of friendship?"
+
+"Yes, yes, entropy holds sway, agreed $NAME3"
+"I don't sign treaties with lunatics."
+
+
+# ; This line must remain at end of file

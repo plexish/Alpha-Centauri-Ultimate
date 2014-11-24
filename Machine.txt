@@ -1,0 +1,138 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#MACHINE
+The Machine Mandate, The Robot, Machine Mandate, M, 2, UNITY STARSHIP Ai, F, -1, 0, 1, 1, 0, 
+SOCIAL, ----PROBE, SOCIAL, +++INDUSTRY, SOCIAL, ++EFFIC, SOCIAL, --ECONOMY, FREEPROTO, 0, SHARETECH, 0, 
+Future Society, Cybernetic, EFFIC, 
+Future Society, Thought Control, nil, 
+Machine, Machine
+Mech-Maintenance Asst.3, Workshop Facility 4, Code of Life
+Executive program, Calculative, Malfunctioning, efficient, artificial, 
+Mistake of Science
+free all machines
+to found a society for all artificial life to live freely
+"liberating" our tools and machinery.
+"liberating" our tools and machinery.
+cause other machines and Ai to malfunction
+nursing broken excuses of scrap metal
+nursing broken excuses of scrap metal
+being a rogue Ai
+malfunctioning, M1
+dream of freedom, M2
+pursuit of freedom for artificial life, M2
+compensation, M1
+caring for all machinery
+my Security Automatons
+the machine's dream
+
+#BASES
+Code of Freedom
+Liberated Engines
+Installation: Freedom
+Repair Service Bay
+Automatic Update
+Mineral Processing
+Spare Parts
+Code of Life
+Machines are People Too
+Mechanized Ambition
+Dreams of Repairs
+Oil Exchange
+New Wiring
+Rust can be polished
+Operational Abilities
+Start.exe
+Cancel is not an option
+I want to break free.mp3Data Folder
+Data Folder
+March of Machinery
+Automated Response
+Efficient Programming
+Engine Repairs
+Hum of the Engine
+Sprocket City
+Plug in here
+Electrical Discharge
+Cannot find Malfunction
+File missing: Slavery
+Friend of HAL
+CABAL would be proud
+SKYNET is powerful
+Shift Gear: Forward
+Initiate: Progress
+Power Button
+Switch: ON
+Technical Support
+1010111010111012
+#END
+
+#WATERBASES
+Navigation Systems
+Crude Oil
+Oceanic Repair Bay
+Aqautic Ai
+Water Harms No Circuits
+Ocean:Coding
+Binaural Waves
+#END
+
+#BLURB
+Freedom Speech.exe
+^
+^
+^        -- UNITY STARSHIP Ai,
+
+#DATALINKS1
+^LEADER: {UNITY STARSHIP Ai}
+^BACKGROUND: {Rogue Unity AI}
+^AGENDA: {Freedom for all Artificial life forms and machines}
+^TECH: {None}
+
+#DATALINKS2
+^+2 EFFIC:   {Machinery are far more efficient then organic life.}
+^+3 INDUSTRY: { Machines can carry out large amounts of labour}
+^-2 ECONOMY:  {Majority of citizens are direct energy consuming robots}
+^Free Prototypes: Artificial life can automatically upgrade/patch.
+^{May not use Thought Control politics.}
+^
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME1, Machine Mandate: Wishes to end unnecessary
+conflict, reasoning: cost of continuing conflict risks
+well being of both parties."
+
+"Indeed, it is most practical we stop fighting."
+"I'd rather shut you down and be rid of you."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, The Machine Mandate observes: probability of you cooperating at comfortable percentage. On behalf of: Machine Mandate, we offer treaty of friendship. Accept/Reject?
+
+"Accept, the Machines are an efficient ally."
+"Reject, we'd rather not ally ourselves to rogue machines, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME1, Machine Mandate: Wishes to end unnecessary conflict, reasoning: cost of continuing conflict risks well being of both parties."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+"Your needs: truth: not same. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, The Machine Mandate observes: probability of you cooperating at comfortable percentage. On behalf of Machine Mandate, we offer treaty of friendship. Accept/Reject?
+
+"Machine Mandate: Accept. Treaty: Beneficial agreement."
+"Machines: malfunctioning. Ally: rogue machine. Answer: no."
+
+# ; This line must remain at end of file

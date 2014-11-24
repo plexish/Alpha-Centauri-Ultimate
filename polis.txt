@@ -1,0 +1,128 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Polis of the Elite
+;
+; created by ariete
+;
+
+#POLIS
+Polis of the Elite, The Coordinator, Elite, F, 2, Lalym, M,  1,  1, 1, 1, 1,
+  TALENT, 5, SOCIAL, +EFFIC, SOCIAL, +MORALE
+  Politics, Democratic, MORALE
+  nil, nil, nil
+  Elite, Elite,
+  Sarita, Kakani, Sarita's Memorial
+  Commissioner, vigilant, paranoid, cautious, sociopathic,
+  Right-Wing Lunatic
+  defend the principles of our original mission
+  to defend the principles of our original mission
+  setting himself up as the only 'legitimate' authority on Planet
+  setting yourself up as the only 'legitimate' authority on Planet
+  make yourself into some kind of self-appointed benevolent dictator
+  kissing up to his precious Polis Charter
+  kissing up to your precious Polis Charter
+  having paranoid delusions
+  paranoid delusions, M1
+  unification initiatives, M2
+  social programs, M2
+  contribution, M1
+  providing a legitimate government for this Planet
+  my forces
+  the Polis Charter
+
+#BASES
+Sparta
+Tebe
+Corinto
+Megara
+Survival Base
+Commander's Keep
+War Outpost
+Militia Station
+Fort Legion
+Janissary Rock
+Blast Rifle Crag
+Hawk of Chiron
+Assassin's Redoubt
+Centurion Cave
+Bunker 118
+Hommel's Citadel
+Training Camp
+Defiance Freehold
+Hero's Waypoint
+Fort Liberty
+Ironholm
+Fort Survivalist
+Fort Superiority
+Halls of Discipline
+Parade Ground
+#END
+
+#WATERBASES
+Fleet Anchorage
+Admiralty Base
+Hydrodock
+Fleet Base
+Sea Outpost
+#END
+
+#BLURB
+^ Spartan sended a space-ship expedition to colonize a new planet of 
+Centauri system. There were on board officers of the different spheres
+ compose the glorious Spartan Federation. But happen what happened to 
+Unity so the mission split in 5 human faction and 2 aliens. The Polis 
+of the Elite borned to reunify this mission.
+
+#DATALINKS1
+^LEADER: {Commissioner Nwabudike Lalym}
+^BACKGROUND: {Unity II Ship's Staff Coordinator}
+^AGENDA: {State-City Aggregation}
+^
+
+#DATALINKS2
+^+1 EFFICIENCY: {decentralized government}
+^+1 MORALE:  {well trained troops}
+^Extra TALENT for every four citizens: {attracts intellectual elite}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This squabbling amongst ourselves accomplishes nothing, $NAME1.
+Let us forswear our differences and refocus our efforts on the
+goals of this mission."
+
+"Fair enough. I shall order hostilities to cease."
+"Hah! I shall enjoy watching your bases burn!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"The fragmentation of this mission has been a disaster, $TITLE0
+$NAME1. Won't you sign a Treaty of Friendship and help me
+to reunite the others?"
+
+"A lofty goal, $TITLE4--I am with you."
+"No. What's done is done, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This squabbling amongst ourselves accomplishes nothing, $NAME1.
+Let us forswear our differences and refocus our efforts on survival."
+
+"Survival: paramount. Truce: agreed."
+"Concept: 'ourselves': humans. Your destruction: will continue."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"The fragmentation of our mission means you must deal with
+each individual human faction, $TITLE0 $NAME1. Won't you
+sign a Treaty of Friendship and help me create a unified human nation?"
+
+"Much better: one human nation. Your goal: agreed."
+"$NAME3: seems to forget: talking to Progenitor. Offer: rejected."
+
+
+# ; This line must remain at end of file

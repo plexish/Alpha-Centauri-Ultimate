@@ -1,0 +1,127 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Free Companies League
+;
+; created by ariete
+;
+
+#FREE
+Free Companies League, The Mercenary, Free Companies, F, 2, Sorbjesk, M, 1, 1, 0, 1, 0,
+  TECH, AdapDoc, TECH, BioEng, SOCIAL, -EFFIC, SOCIAL, +SUPPORT, SOCIAL, +MORALE, SOCIAL, -GROWTH, SOCIAL, +PLANET, SOCIAL, -PROBE
+  Values, Power, SUPPORT
+  nil, nil, nil
+  Free Companies, Free Companies.
+  Roskov, Karim, Roskov's Cove
+  Warlord, heroic, bloodthirsty, intrepid, barbarous, 
+  Outmoded Misfit
+  seize the riches of the enemy factions
+  to seize the riches of the enemy factions
+  equipping a free companies coalition to seize control of Planet
+  equipping your free companies coalition to seize control of Planet
+  join the wars just for the own thirst of wealth
+  joining the wars by side of who raising more
+  joining the wars by side of who raising more
+  brazen thievery
+  brazen thievery, M1
+  riches control ambitions, M2
+  latest war campaigns, M2
+  reward, M1
+  protecting you from your enemies
+  my free soldiers
+  the Coalition Treaty
+
+#BASES
+Coalition Command
+Clans Reunion
+Free Soldiers Capitol
+Horde City
+Mercenaries Refuge
+Drug Town
+Tribal Chant
+Warning Zone
+Robbers Camp
+Native Reserve
+II Comp. Base
+VI Comp. Base
+XI Comp. Base
+XVI Comp. Base
+XX Comp. Base
+XXII Comp. Base
+LCXI Comp. Base
+#END
+
+#WATERBASES
+Port Crossbone
+Privateer Anchorage
+Barbary Quay
+Pirates Fleet
+IV Comp. Docks
+XVI Comp. Docks
+XXI Comp. Docks
+LCII Comp. Docks
+#END
+
+#BLURB
+Spartan sent a space-ship expedition to colonize a new planet of 
+Centauri system. There were on board officers of the different spheres
+ compose the glorious Spartan Federation. But happen what happened to 
+Unity so the mission split in 5 human faction and 2 aliens. The free 
+companies take the own way and was reunited by a Warlord in a coalition,
+ but the differences between the clans remained.
+
+#DATALINKS1
+^LEADER: {Warlord Vladimir Sorbjesk}
+^BACKGROUND: {Unity II Contractor}
+^AGENDA: {Coalition - League}
+^TECH: {Adaptive Doctrine, Bio-Engineering}
+^
+
+#DATALINKS2
+^-1 EFFICIENCY {feudal organization opposed to central organization}
+^+1 SUPPORT {each free soldiers have their own free company}
+^+1 MORALE {free soldiers often join war campaigns}
+^-1 GROWTH {different tribal cultures often flow into internal conflicts between the Clans}
+^+1 PLANET {native life form slavery}
+^-1 PROBE {society easily corruptible}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Planet offers far greater adventures for us than this tedious conflict. 
+Let us pledge Blood Truce and return to our explorations!"
+
+"Agreed. Forth to adventure!"
+"There is no greater adventure than the defeat of a meddlesome foe. Prepare to be annihilated!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Your ambitions seem to lie outside our sphere of influence, $TITLE0 $NAME1. 
+We'd like to sign a Treaty of Friendship to cement our common bonds."
+
+"We would never think of encroaching on your interests, $NAME3. Let's sign that Treaty."
+"We'd like to reserve judgement. Our expansion plans may yet come into conflict."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Planet offers far greater adventures for us than this tedious conflict. 
+Let us pledge Blood Truce and return to our explorations!"
+
+"Exploration of Manifold Six: much more important. Agreement!"
+"Already familiar: Manifold Six. Best adventure: your destruction!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"You don't seem very interested to our riches, $TITLE0 $NAME1. Though you are
+alien to us, it seems that among all the human factions, I am your logical
+ally, since our spheres of influence are different. Let's sign a Treaty of
+Friendship and formalize what is already manifest."
+
+"Land: Progenitor. Sea: $NAME3. Treaty: agreed."
+"All Manifold Six: possible conflict. Treaty: unwise at this time."
+
+
+# ; This line must remain at end of file

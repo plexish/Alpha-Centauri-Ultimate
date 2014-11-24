@@ -1,0 +1,51 @@
+version 1.0 (auteur Torvald Normann, illustrations Robin Pirez)
+
+Les Nomades de Chiron constituent une faction personnalisée pour le jeu Sid Meier's Alpha Centauri (TM), également appelé SMAC. Afin de l'utiliser dans le jeu, les quatre fichiers (Nomades.txt, Nomades.pcx, Nomades2.pcx et Nomades3.pcx) doivent être placés dans le répertoire "Sid Meier's Alpha Centauri" de votre disque dur.
+
+Lors du choix de la faction à incarner pendant une partie de SMAC, cliquez sur la faction que vous voulez remplacer par les Nomades (ne vous inquiétez pas; ce remplacement ne sera pas définitif), choisissez l'option "charger" puis tapez "Nomades".
+
+Voilà !
+
+Adressez toutes vos questions, remarques ou commentaires à tnormann@iname.com
+
+
+Informations sur la faction :
+
+Dirigeant                Ahto Ilmar
+Curriculum               membre des commandos d'élite de
+                         l'armée unifiée de Scandinavie
+Rang                     Capitaine
+Poste                    Officier de Marines Coloniaux de l'Unity
+Pays d'origine           Laponie, Finlande
+Date de naissance        23 décembre 2015
+Taille                   192 cm
+Poids                    98 kg
+Ordre du jour            Symbiose avec Planète
+Attitude                 Erratique
+Priorités                Explorer, Découvrir
+Choix                    Economie Verte
+Aversions                Economie Planifiée
+Technologie de départ    Doctrine Flexibilité
+
+bonus d'attaque +25%     experts en stratégie et connaissance parfaite du terrain
++1 en Planète            expérience et techniques de survie en milieux hostiles
++2 en Efficacité         don d'improvisation, maîtrise des technologies de communication
+-1 en Police             soif de liberté
+-1 en Repérage           structure éparpillée de la société
+limite population -2     vie de nomades
+droïde suppl./4 cit.     appel du voyage
+
+
+Oyez, oyez braves Guetteurs !
+
+N'entendez vous pas au loin le grondement sourd d'une colonne de magnétoglisseurs? Vos éclaireurs font état de caravanes sans fin qui sillonnent les plaines immenses, et de flottes d'exploration qui naviguent sur toutes les mers.
+
+Un nouveau peuple est né sur Planète : Les Nomades de Chiron !
+
+Leur objectif? Explorer tous les recoins de ces terres sauvages, et poursuivre, en symbiose avec l'environnement, leur quête du Secret d'Alpha Centauri.
+
+A leur tête, Ahto Ilmar, officier des marines coloniaux de l'Unity, originaire des steppes glacées de Laponie et formé à l'art de la guerre dans les steppes.
+
+Son arme de prédilection? La surprise et une connaissance parfaite du terrain, qui confèrent à ses Rangers un bonus d'attaque de 25%. Cet avantage considérable, couplé à des techniques de survie en milieu hostile (+1 en Planète) et à un investissement soutenu en technologies de communication (+2 en Efficacité) en font des adversaires redoutables, et des explorateurs dignes de leurs lointains ancêtres, les Vikings.
+
+Ils établissent leurs campements par monts et par vaux, mais ne restent jamais longtemps au même endroit (complexes d'habitation nécessaires au-delà d'une population de 5). Quand bien même ils sont forcés à prendre racine, l'appel du voyage les rend profondément malheureux (droïde supplémentaire tous les 4 citoyens), et leur milice a bien du mal à contenir cette soif de liberté (-1 en Police). Autre faiblesse de cette vie de pélerins? La structure éparpillé de leur domaine, et le recul incessant des frontières de la société, rendent diffile le contrôle des infiltrations ennemies (-1 en repérage).

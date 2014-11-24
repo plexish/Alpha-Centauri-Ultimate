@@ -1,0 +1,129 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; DOSSIER FACTION : Faction France
+;
+; File Created by EPHACK (ephack@libertysurf.fr)
+; You can purchase the original file (in french of course) at the following URL: www.home.nordnet.fr/~rpirez/smac
+;
+; To install, place this file and the 3 image files into your SMAC folder.
+; Then when you're selecting a faction, hit the load button and type in FRANCE.
+; This will temporarily replace one of the factions with this one.
+;
+; Alternate method:
+; To permanently install this faction, open the file alpha.txt, go to the section
+; marked "#FACTIONS" and select one of the original factions to replace. Then
+; type the following in its place:
+; FRANCE, FRANCE
+;
+; Copyright (c) 1997, 1998 par Firaxis Games, Inc.
+;
+; Lors du démarrage, ALPHA CENTAURI lit les règles du jeu à partir de ce
+; fichier. Vous pouvez essayer d'éditer ce fichier à vos risques et périls.
+; Nous vous recommandons de faire auparavant une copie de sauvegarde.
+;
+
+#FRANCE
+Parisians For A Strong France, The French, French, M, 2, De Gaulle, M,  0,  0, 0, 1, 1,
+  TECH, Physic, TALENT, 4, SOCIAL, --EFFIC, SOCIAL, -PROBE, SOCIAL, ++MORALE, TECHCOST, 125, FUNGNUTRIENT, 2
+  Politics, Democratic, GROWTH
+  Politics, Fundamentalist, nil
+  Great France, Great France
+  J.Moulin, Leclerc, Memorial of J.Moulin
+  General, talented, proud, fair, whimpering,
+  unbounded chauvinist
+  restore the greatness of the France
+  to restore the independance and the greatness of the France
+  imposing his so-called 'Great France'
+  imposing your so-called 'Great France'
+  transform yourself into a kind of kindly dictator
+  delivering speeches about the greatness of the France
+  delivering speeches about the greatness of the France
+  acute chauvinism
+  acute chauvinism, M1
+  Great France, F1
+  construction of an independant state, F1
+  contribution, F1
+  holding up France in a leading position
+  ma garde républicaine
+  la Déclaration Universelle des Droits de l'Homme
+
+#BASES
+New Lutèce, F1
+Massilia, F1
+Lionne, F1
+Vineyard, F1
+Fertile Plain, F1
+Alphabourg, F1
+Centaurouen, F1
+New France, F1
+Tray of cheese, M1
+Hapiness of the Farmer, M1
+Health of the miner, F1
+Pretty Normandy, F1
+Milch-Cow, F1
+Cultural Radiance, M1
+Provencale Garrigue, F1
+Independance, F1
+Factory of tires, F1
+Reserves of mustard, F2
+Police Court, M1
+Sports Ground, M1
+Barracks of CRS, F1
+Laboratory of the CNRS, M1
+Biological Farm, M1
+#END
+
+#WATERBASES
+L'île, F1
+Collect of the Fishman, F1
+Wet Breton, M1
+Port of La Rochelle, M1
+Equinoctial Tide, F1
+#END
+
+#BLURB
+  "There is a twenty century-old pact between the greatness of the France
+and the liberty of the world."
+^
+^        -- General De Gaulle,
+^           Speech in London of the 1st march 1941
+
+#DATALINKS1
+^LEADER: {General De Gaulle}
+^BACKGROUND: {President of the french republic}
+^AGENDA: {To restore the greatness of the France}
+^TECH: {Applied Physics}
+^
+
+#DATALINKS2
+^-2 EFFICIENCY: {Slowness and complexity of the administration}
+^-1 PROBE: {Spy not very cautious}
+^+2 MORAL: {Persuaded of beeing superiors to the others}
+^+1 TALENT for four citizens {Attract the intellectual elite}
+^-25% in science {Hesitating research}
+^+2 NUTRIENTS in each fongus square {Performant agriculture}
+^{May not use Fundamentalist politics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Our conflict is useless, $NAME1.
+Let us forgot our differences and build together a strong faction".
+
+"It seems to be a good idea. I call a cease fire".
+"Ah ! It will be great to see your bases burning !"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"The magnanimity is part of the Great France, $TITLE0 $NAME1.
+My faction is ready to sign a Treaty of Friendship."
+
+"That's OK, $TITLE4. Let us sign peace".
+"So much the worse, you proud person. I refuse."
+
+
+# ; This line must remain at end of file
+
+

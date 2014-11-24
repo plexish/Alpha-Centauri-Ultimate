@@ -1,0 +1,136 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Energists
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from
+; faction select in the game and write... energists
+;
+
+#ENERGISTS
+The Energists, The Energistic, Energists, M, 2, Pulse, M, 0, 0, 0, 1, 0,
+  TECH, SentEco, SOCIAL, +++ECONOMY, SOCIAL, +++++GROWTH, SOCIAL, --POLICE, FACILITY, 7, ENERGY, 150, INTEREST, 15, MINDCONTROL, 0
+  Values, Wealth, ECONOMY
+  Politics, Democratic, nil
+  Energistic, Energi.
+  Pulse #4892, Pulse #50948, Pulse #890542
+  Prime, bright, dim, bright, dim,
+  dark
+  multiply our energy flow
+  to expand my own energy pulse
+  cashing in on our human souls
+  cashing in on our human souls
+  convert human life to energy pulses
+  counting his own pulse-beats
+  counting your own pulse-beats
+  blowing out fuses
+  dim ramblings, M1
+  energistic expansion, M2
+  energistic ways, M2
+  energy fee, M1
+  continuing the expansion of energy
+  my pulsory army
+  The Energistic Way
+
+#BASES
+Prime Pulse
+Pulse #5468153
+Pulse #8976541
+Pulse #145154
+Pulse #864651
+Pulse #251
+Pulse #897982621
+Pulse #54
+Pulse #894
+Pulse #645981
+Pulse #984212315416
+Pulse #451651
+Pulse #876851
+Pulse #46511
+Pulse #9876512
+Pulse #4565
+Pulse #74874
+Pulse #5746554
+Pulse #79846531
+Pulse #1512
+Pulse #47654
+Pulse #46435
+Pulse #4512
+Pulse #87654351
+Pulse #8465
+Pulse #8798453
+Pulse #8732123
+#END
+
+#WATERBASES
+Pulse #23357
+Pulse #1235466
+Pulse #47894
+Pulse #87684
+Pulse #7957353
+Pulse #214237
+Pulse #35798
+Pulse #789462
+#END
+
+#BLURB
+Energy growth and expansion will inevitably control Planet.
+^
+^        -- Prime Pulse,
+^           "The Energistic Way"
+
+#DATALINKS1
+^LEADER: {Prime Pulse}
+^BACKGROUND: {Energy scientist-turned energy}
+^AGENDA: {Energistic expansion}
+^TECH: {Sentient Econometrics}
+^
+
+#DATALINKS2
+^+3 ECONOMY: {Made of energy}
+^+5 GROWTH: {Expansion is easy when made of pure energy}
+^-2 POLICE: {It's hard to keep track of every energy pulse}
+^{15% energy interest}
+^{Free Energy Bank at every base}
+^{Mind control immunity}
+^{150 free energy at start}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This war expends too much energy, $TITLE0. Let us regenerate and pledge
+Blood Truce."
+
+"Yes, let us conserve energy."
+"Sorry $NAME3, but I'm going to put your lights out!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Our pulses beat similarly, $TITLE0 $NAME1. Let us sign a Treaty
+of Friendship."
+
+"Yes, let us beat together, $NAME3."
+"Sorry $NAME3, my beat comes from a heart."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This war expends too much energy, $TITLE0. Let us regenerate and pledge
+Blood Truce."
+
+"Progenitor: wishes to conserve energy also. Mutual agreement: truce."
+"Your energy: dim. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Your resonance and my pulse beat similarly, $TITLE0 $NAME1. Let us sign a Treaty
+of Friendship."
+
+"Energists: true: similar resonance. Treaty: good idea."
+"Energists: expansion: too dangerous. Ally: bad idea. Answer: no."
+
+# ; This line must remain at end of file

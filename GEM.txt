@@ -1,0 +1,128 @@
+; 
+; by "Emperor Benjamin Horvath" <horvath@mandalmotors.zzn.com>
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Gemini Empire
+;
+; leader pic from [http://www.garrickhagon.com/] Garrick Hagon as Biggs from Star Wars © Lucasfilms
+; other graphics by networknode, except base pics by Jambeaux
+;
+; For more factions visit [www.networknode.org]
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... gem
+;
+
+#GEM
+Gemini Empire, The Imperialists, Geminis, M, 2, Horvath, M, 1, 1, 1, 0, 0, 
+  TECH, Physic, SOCIAL, ++MORALE, SOCIAL, +SUPPORT, SOCIAL, --GROWTH, SOCIAL, -PLANET, PSI, 1, RESEARCH, 1, DRONE, 1, TALENT, 1, ENERGY, 1, HURRY, 75
+  Values, Power, MORALE
+  Economics, Free Market, nil
+  Gemini, Gemini
+  Assistant name, Scientist name, Assistant city
+  Emperor, superlative, arrogant, imperial, puny, 
+  power hungery tyrant
+  expand the Gemini Empire to Planet
+  to expand Gemini influence to Planet 
+  conquering Planet
+  complete Planetary copnquest
+  conquer Planet just as you did earth
+  plotting to take over Planet
+  plotting to take over Planet
+  expanding the Gemini Empire to cover all of Planet
+  cravings for power, M1
+  expansion, M2
+  expansion, M1
+  insurance tax, M1
+  conquering your enemies
+  my Imperial Shock Troops
+  the Horvath Doctrine
+
+#BASES
+Gemini Command
+Omniopolis
+Eliterra
+Emperor's Keep
+Conquest Base
+Imperial City
+Imperial Industries
+Imperial University
+Coszamul
+Sparta
+Metrocaia
+Fort Power
+Monument City
+Powermatrix
+Imperialopolis
+Monarchia
+Power Junction
+Coruscant
+Dominatia
+Crescentopolis
+Superiorville
+Utopia City
+Commando Base
+Salton City
+Exotica Markets
+Atlantica City
+Chiron Palace
+#END
+
+#WATERBASES
+Imperial Bay
+Imperial City
+Port Gold
+Jewel Of the Sea
+Naval Base
+Zenith Cove
+Crimson Harbor
+Yatch Moorings
+#END
+
+#BLURB
+Gemini growth and expansion will inevitably control this Planet
+^
+^
+^   -- Emperor Horvath
+^      "The Horvath Doctrine"
+^
+^
+
+#DATALINKS1
+^LEADER: {Emperor Horvath}
+^BACKGROUND: {Leader of the Gemini Empire (2032-2060 A.D.)}
+^AGENDA: {To expand Gemini influence to Planet}
+^TECH: {Applied Physcis}
+^
+
+#DATALINKS2
+^+2 MORALE: {Highly trained military troops}
+^+1 SUPPORT: {Highly trained troops require little support}
+^-1 PLANET: {War causes eco-damage}
+^-2 GROWTH: {Cramped living conditions in the barracks}
+^{75% Hurry Costs}
+^{May NOT use Free Market economics}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"War consumes resources we could both use to expand our factions.
+I insist that you sign this Blood Truce now or be destroyed!"
+
+"Ok."
+"No...I plan to rule this world alone!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Our goal is to spread the Gemini Empire's influence to Planet,
+not conquer it. You may benefit from this, the first step is
+to sign this treaty."
+
+"The Geminis are too powerful. Where do I sign?"
+"I'm not sure if I can trust you to honor this treaty."
+
+
+# ; This line must remain at end of file

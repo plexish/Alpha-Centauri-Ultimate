@@ -1,0 +1,118 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Planet Productions
+;
+; Done with ACFEdit (c)1999 ANX 
+;
+; For use this Faction file select load from 
+; faction select in the game and write PROD
+;
+
+#PROD
+Planet Productions, The Entertainment Elite, Studio, M, 2, Gordon "Babe" Silver, M, 1, 1, 0, 1, 0, 
+  SOCIAL, ++TALENT, SOCIAL, +INDUSTRY, SOCIAL, ++ECONOMY, TECH, InfNet, TALENT, 5, ENERGY, 500, MORALE, 1, COMMFREQ, 0
+  Values, Wealth, ECONOMY
+  Politics, Police State, nil
+  Studio, Studio
+  Hollywood, Boulevard, Mann's Chinese Theater
+  Macher, mench, meshugge, shlemiel, shlep, 
+  Topper of Tinsel Town
+  make beautiful music together
+  to rule the entertainment idustry
+  achieving complete creative control of Planet's entertainment industry
+  monopolizing Planet's entertainment industry
+  grab up all of Planet's A-List talent
+  pouring over his gross points
+  pouring over your gross points
+  turning out Flavor of the Month properties
+  chutzpah, M1
+  studio system, M1
+  schmoozing and networking, M1
+  studio grant, M1
+  expanding our artistic horizons
+  Studio Enforcement
+  Studio Policy
+
+#BASES
+Hollywood
+Universal Planet Studio
+Indie Prod Studio
+Planet F/X  Studio
+Animation Studio
+Betty Ford Center
+Silicon Hills
+Planet Cosmetic Surgury Center
+Howard Stern Radio Station
+Chason's Late Night
+Planet Cable
+Planet Communications
+Planet Amusements
+Planet Recording Studio
+Shecky Sheckelstein's Ha Ha Club
+Nous Cigar
+Planet Martini Lounge
+Planet Scores
+Planetworks SKG
+Planet Film Development Center
+Planet Looping Studio
+Planet Arena
+Planet Records
+Planet TV
+Planet Holographic
+Planet Cryogenics
+Planet Gas
+#END
+
+#WATERBASES
+Planet Waterworks
+Planet Water Amusements
+Planet Resort
+Planet Mud Baths
+Planet Cetacean Inst.
+Planet Studios Dockworks
+Planet Studios H20
+Planet Studios Color & Sound
+#END
+
+#BLURB
+In Hollywood, anything can happen.  Anything at all.
+^
+^   --Raymond Chandler
+^      "The Long Goodbye" 1953 AD
+
+#DATALINKS1
+^LEADER: {President Gordon "Babe" Silver}
+^BACKGROUND: {Hollywood Studio Mogul, Studio Production Manager}
+^AGENDA: {Wealth, Economics}
+^TECH: {Information Networks}
+^
+
+#DATALINKS2
+^+2 ECONOMY
+^+2 TALENT, +1 Talent for every 5 citizens: {Talent}
+^+1 INDUSTRY: {Hard Working}
+^+1 Morale modifier
+^500 bonus starting energy
+^Bonus Comm frequency
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Ix-Nay, $NAME1.  Let's take a meeting re: a Blood Truce, so that I can get back to my dailies."
+
+"I've decided to green light the calling off of hostilities."
+"Sorry, $NAME3, but I think your nothing more than a flavor of the month.  I will have to take creative control of your government."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$NAME1, I can offer some positive points as a trade, plus a first look deal if you will agree to a Treaty of Friendship.  Shall we do lunch?"
+
+"Buby, I believe we can do this."
+"Oi, gevald!!  I will not go along with a Pay or Play deal."
+
+
+# ; This line must remain at end of file

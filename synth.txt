@@ -1,0 +1,123 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Assembly of the Synthetic
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+; http://www.networknode.org
+; For use this Faction file select load from 
+; faction select in the game and write... synthsoc
+;
+
+#SYNTH
+Assembly of the Synthetic, progressive, Assembly, M, 1, Ravallier, M, 0, 0, 1, 0, 0, 
+  TECH, Biogen, SOCIAL, +++GROWTH, SOCIAL, +++RESEARCH, SOCIAL, ---PROBE, SOCIAL, -EFFIC, FACILITY, 2, FACILITY, 4, ENERGY, 1, FUNGNUTRIENT, 1
+  Values, Knowledge, GROWTH
+  Politics, Fundamentalist, nil
+  Synthetic, Synthe.
+  Antella, Merzla'an, Antella's Rest
+  Assembly Leader, Providing, Controlling, perfected, immoral, 
+  Complete lunatic
+  build a new age of dark perfection
+  to advance freedom, knowledge, and pleasure
+  reducing us all to blank eyed fools of his insane kingdom
+  reducing us all to blank eyed fools of your insane kingdom
+  destroy the sanity, morality, and work ethic of this world.
+  engaged in self-serving pursuits and dangerous knowledge
+  wasting the resources of your people on your selfish needs
+  utter madness
+  insane ranting, M1
+  social modification, M2
+  internal conspiracies, M2
+  compensation, M1
+  improving morale and infrastructure
+  The Assembly Guard
+  The Grand Assembly
+
+#BASES
+Assembly Throne
+Girdessa's Tower
+Gift of Knowledge
+The Smiling Crowd
+Window to the World
+Synthetic Mark
+Warrior's Retreat
+Lap of Luxury
+Star of Belief
+Simple Pleasure
+Place of Joining
+Dorvon's Tome
+Paradox Rock
+Paradise of the Synthetic Age
+Palace of the Mind
+River of Dreams
+Golden Cup
+Joyous Warmth
+Laughing Palace
+Grand Building
+Selwan Hall
+Assembly Provides
+Sea of Humanity
+Kiris Hall
+Eye of Pleasure
+Leisure
+The Warm Cavern
+#END
+
+#WATERBASES
+Sea Assembly
+White Sands
+Refreshing Waves
+Golden Port
+Baradi's Beach
+Sun on Water
+Deep Eye
+#END
+
+#BLURB
+If you can provide everything that someone desires, simply tell
+him whom he must hate to recieve it. Society, like anything
+else can be created synthetically, and humans are simply self-replicating
+machines used to produce the raw materials of society. Give
+someone thier simple vices, and you have them forever. Problems
+exist only because we say they do.
+^
+^          Jean-Paul Ravollier 
+^          "Socio-Philosophy of a Synthetic Society"
+
+#DATALINKS1
+^LEADER: {Jean-Paul Ravollier}
+^BACKGROUND: {Paris, N.U.E.  Unity Sociology and Philosophy professor}
+^AGENDA: {Controlled Pleasure Society}
+^TECH: {Biogenetics}
+^
+
+#DATALINKS2
+^+3 GROWTH: {Rapid population growth}
+^+3 RESEARCH: {Uncontrolled Research}
+^+1 Fungus Nutrient: {synthetic food}
+^Underground bunkers: {Free PERIMETER DEFENSE at each base}
+^{May not use Fundamentalist politics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this horendous Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order to end this absurd
+war."
+
+"Indeed. Blood Truce must bring us back to blessed peace."
+"Never! Your subtle tyrrany has signed your death warrent in your own blood!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, You will agree with me that peace must be preserved?
+Then let us sign a treaty to that effect, and preserve peace,
+freedom, and knowledge"
+
+"As you wish. The Assembly seems a valuable friend."
+"No. Your social experiments are a bit too bizarre for me, $NAME3."
+
+
+# ; This line must remain at end of file

@@ -1,0 +1,124 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#ENGINEERS
+Planet Mechanics, The Engineers, Mechanics, M, 1, Reynolds, M, 0, 0, 1, 0, 0, 
+TECH, Metal, SOCIAL, --PROBE, FREEFAC, 27, FREEFAC, 28, UNIT, 16, MORALE, -2, 
+Values, Knowledge, RESEARCH, 
+Politics, Police State, nil, 
+Mechanics, Mechanics
+Wallace, Meier, Gaskets
+Archon, inquisitive, prying, ingenious, meddling, 
+Tampering
+tinker with our toys
+discover new technologies and optimize them
+using superior technology to overtake us
+using superior technology to overtake us
+you pay me no respect. You build your carriers, your submarines, your repair bays. You should let me wet my beak
+tinkering up new weapons of unimaginable strength
+tinkering up new weapons of unimaginable strength
+being a not so popular mechanic
+technological advances, M1
+repair labs, M2
+repair methods, M2
+fee, M1
+in repairing your rovers
+the Planet Mechanics
+your repair bill
+
+#BASES
+Repair Bay
+Mufflers
+Engine Parts
+Transmission Parts
+Suspension Parts
+Brake Parts
+Synthetic Fossil Fuel Change
+Gaskets
+Interior Parts
+Environmental Control Parts
+Spark Plugs
+Manifold Intakes
+Brake Shoes
+Fuel Station
+Alternators
+Batteries
+Oxygen Tanks
+Nuts
+Bolts
+Screws
+#END
+
+#WATERBASES
+Sub Pen
+Carrier Replenishment
+Torpedos
+Propulsion Systems
+Cavitation Station
+#END
+
+#BLURB
+Technological advance is an inherently iterative process.
+One does not simply take sand from the beach and produce a Dataprobe.
+We use crude tools to fashion better tools, and then our better
+tools to fashion more precise tools, and so on. Each minor refinement
+is a step in the process, and all of the steps must be taken.
+^
+^        -- Chairman Sheng-ji Yang,
+^           "Looking God in the Eye"
+
+#DATALINKS1
+^LEADER: {James Reynolds}
+^BACKGROUND: {UN Unity, Logistics Officer}
+^AGENDA: {Research, conservation of available materials}
+^TECH: {Nanometallurgy}
+^
+
+#DATALINKS2
+^-2 PROBE:   {information sharing leads to lack of security}
+^-2 MORALE: {LOVE tinkering. Actual warfare, not so much}
+^Free COMMAND CENTER with discovery of Doctrine: Loyalty: {Skilled machinists}
+^Free NAVAL YARD with discovery of Doctrine: Initiative: {Skilled  machinists}
+^{May not use Police State politics.}
+^
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME1, you simply cannot build units faster than we can repair ours. In other words, this war is a stalemate. Would you like to sign a Blood Truce?"
+
+"You are correct, Blood Truce would be most prudent."
+"You broke my heart $NAME3. You're nothing to me now."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, we've noticed you have been having trouble fighting off the other factions. Would you like to sign a repair contract (Treaty of Friendsip) with us?"
+
+"Yes, that sounds quite helpful."
+"Maybe if you slide that Nanometalurgy[E8] tech over here first."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+"Your needs: truth: not same. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my philosophies would seem to make
+me the only natural ally for you from among these warring human
+factions. Can't we sign a Treaty of Friendship and coexist in peace?
+
+"Mechanics: safe ally. Treaty: admirable idea."
+"Mechanics: control: too important. Ally: dangerous. Answer: no."
+
+# ; This line must remain at end of file

@@ -1,0 +1,129 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Damned
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... damned
+;
+
+#DAMNED
+The Damned, The Damned, Damned, M, 2, Ezrek, M, 1, 1, 0, 0, 0, 
+  SOCIAL, ++++MORALE, SOCIAL, ---PLANET, PENALTY, RESEARCH, SOCIAL, --EFFIC, FACILITY, 23, UNIT, 11, PSI, -50, HURRY, 150, MORALE, 0, POPULATION, -4, MINDCONTROL, 0, FANATIC, 0
+  Values, Power, MORALE
+  Politics, Fundamentalist, nil
+  damned, damned
+  Infara, Onhcet, Ezreain
+  Archdemon, evil, unholy, delightfully destructive, bloodthirsty, 
+  thrice-cursed
+  insure the destruction of the human race.
+  to wipe all traces of mankind from this fungus-ridden ball of rock
+  destroying everything we hold dear
+  eliminating the human race, whatever the cost
+  attempt to stave the blood-ride tide of your imminent annihilation
+  planning new methods of slowly executing our fellow humans
+  feasting on the entrails of innocents
+  seeking humankind's demise
+  threats of genocide, M1
+  plans for controlling this laughable planet, M2
+  unholy quest, M1
+  offering, M2
+  hunting the pathetic humans
+  my swarming hordes
+  my dark anti-commandments
+
+#BASES
+Gates of Hell
+Dante's Keep
+Pain
+Extermination
+Death
+Destruction
+Obliteration
+Elimination
+Anihilation
+Disembowlment
+Homicide
+Suicide
+Genocide
+Evil
+Entrail
+Plague
+Kill
+Termination
+Sizzling Flesh
+Internment
+Torment
+Sloth
+Gluttony
+Covetousness
+Decapitation
+Defenestration
+Law School
+#END
+
+#WATERBASES
+Unholy Water
+Castration
+Lust
+Torture
+Fleecing
+Envy
+Greed
+Gilligan's Island
+#END
+
+#BLURB
+As the final days of mankind's infernal fate drew to a close,
+our mindless hordes gleefully tightened their talons on Earth's
+bountiful harvest of freshly slain souls.  But several piddling
+factions have fled our final masterpiece, spreading the disease
+of humankind outside our fiery grasp.  We shall remedy their
+pathetic attempts at escaping our reach, and in doing so insure
+the demonic legions' ultimate superiority in this quadrant of
+the galaxy.
+^
+^   -- Archdemon Ezrek
+^      Speech to assembled demonics
+
+#DATALINKS1
+^LEADER: {Ezrek}
+^BACKGROUND: {Ruler of ninth circle of Hell for seven millenia}
+^AGENDA: {Wipe humankind from Alpha Centauri}
+^TECH: {None}
+^
+
+#DATALINKS2
+^--- Planet: {Despise this pathetic excuse for a planet}
+^-- Efficiency: {Followers tend to fight amongst themselves}
+^++++ Morale: {Insanely devoted followers}
+^{Weak to psionic attacks, but +25% to all attacks}
+^{Very aggressive, loves power}
+^{Immune to mind control, All bases start with Punishment Sphere}
+^{Increased costs to hurry, reduced research ability}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Should you agree to a temporary ceasefire, we shall choose far
+less... "unpleasant" methods for your imminent demise.  Come
+forth, and with our mingling lifeblood let us pledge truce!"
+
+"All hail the Archdemon!"
+"You must think me a fool to participate in the destruction of my own species!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"I have delighted in hearing of your sinister exploits.  Perhaps,
+should you pledge your allegiance to the dark powers, I can
+even spare your measly life.  Simply ink your name in blood
+on this unholy treaty, and may the demons reign supreme!"
+
+"We shall watch mankind dwindle and be snuffed out together, $NAME3."
+"Slavery?  I think not.  I shall never sign my soul for such measly assistance."
+
+
+# ; This line must remain at end of file

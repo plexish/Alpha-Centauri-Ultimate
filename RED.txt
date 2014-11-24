@@ -1,0 +1,125 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#RED
+The Red Unit, The Cyborg, RUnit, F, 2, Dostya, F, -1, 1, 1, 0, 0, 
+TECH, InfNet, FACILITY, 4, SOCIAL, +RESEARCH, SOCIAL, +MORALE, SOCIAL, --ECONOMY, MINDCONTROL, 0, MORALE, 1, HURRY, 50, 
+Values, Knowledge, RESEARCH, 
+Values, Power, nil, 
+RUnit, RUnit
+Lenna Trot, Brackman, Lenna Reactor
+Web-Leader, networked, cruel, cyborg, mindless, 
+Self-hating Cyborg
+benefit from the web
+to let us all benefit from a networked existence
+reducing us all to mindless servants of her diabolical schemes
+reducing us all to mindless servants of your diabolical schemes
+reduce the human population of this world into mindless slavery
+losing herself and your followers in the web
+losing yourself and your followers in the web
+enslaving people to the web
+datalink addiction, M1
+web infrastructure, M2
+mind control experiments, M2
+connection fee, M1
+maintaining the web
+Red Security
+Red Law
+
+#BASES
+Command Web
+Firewall Base
+Hawk-Dove
+Cyborg Rights
+Thought and Action
+Networked Decision
+One and All
+Turing Complex
+Lovelace Central
+New Arpanet
+Database Dijkstra
+Convergence Point
+#END
+
+#WATERBASES
+Sea Web
+Wave Function
+Aquatic Connection
+Cyclades v2
+#END
+
+
+#BLURB
+^  Although all citizens of The Red Unit are connected
+to the Command Web, they can function without it. Like
+those on Earth who invented the first atom bombs, there
+is more than one "key" to the Web, and many control
+it. We have made it unhackable.
+^
+^        -- Web Leader Ivana Dostya,
+^           "Inside the Web"
+
+#DATALINKS1
+^LEADER: {Ivana Dostya}
+^BACKGROUND: {Russian Commonwealth, Unity researcher}
+^AGENDA: {Freedom for all Cyborgs}
+^TECH: {Information Networks}
+
+#DATALINKS2
+^+1 RESEARCH:   {Better focus}
+^+1 MORALE: {This is the norm for combat-mode}
+^-2 ECONOMY:  {Uninterested in trade}
+^Underground bunkers: {Free PERIMETER DEFENSE at each base}
+^{Anti-Ideology against power}
+^
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As our simulations suggest that nothing can be gained
+from this conflict, a pledge of Blood Truce would
+seem sensible."
+
+"Indeed. Blood Truce would be most satisfactory."
+"Never! I plan to put you offline for good!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, I feel you would greatly benefit from
+the web. Shall we sign a Treaty of Friendship and I'll
+give you drone-level access codes?
+
+"I'm interested. But I want citizen-level at least."
+"No. You are not someone we wish to ally with, $NAME3."
+
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As our simulations suggest that nothing can be gained
+from this conflict, a pledge of Blood Truce would
+seem sensible."
+
+"Progenitor: perceive no point either. Mutual agreement:
+truce."
+"Your needs: truth: not same. Continued conflict: beneficial
+to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, the web might not be designed to
+accommodate Progenitor minds, but we have much in
+common nonetheless. Could we sign a Treaty
+of Friendship and coexist in peace?
+
+"RUnit: safe ally. Treaty: admirable idea."
+"RUnit: web: not understood. Ally: dangerous. Answer:
+no."
+
+# ; This line must remain at end of file

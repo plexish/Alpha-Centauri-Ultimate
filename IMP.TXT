@@ -1,0 +1,137 @@
+; -III THE IMPERIALISTS III-
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+; Text by Jerry Ralph <chironforce@yahoo.com>
+; Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.civgaming.net/citizens/networknode/
+; email networknode@lycos.com
+;
+; Originally called The Eliteists, changed due to a file submitted earlier with the same name!
+; Amends by NetworkNode to the file,removed some modifiers, exceeded 8 allowed variables
+; removed SOCIAL, +RESEARCH, ROBUST, TALENT, TERRAFORM, 0, MINDCONTROL, 0, FREEPROTO, 0, RESEARCH, 1, TALENT, 1, MORALE, 0 made some minor text changes
+; reduced credits at start to 100, added base size limit of 3 without HAB COMPLEX, PEN rather than - to PLANET for game balance
+;
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Imperialists
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; To use this Faction file select load from 
+; faction select in the game and write... imp
+;
+
+#IMP
+The Imperialists, The Imperialists, Imperialists, M, 2, Throckman, M, 1, 1, 1, 0, 0, 
+  TECH, Biogen, PENALTY, PLANET, SOCIAL, +ECONOMY, SOCIAL, +INDUSTRY, SOCIAL, -GROWTH, UNIT, 2, ENERGY, 100, POPULATION, 4
+  Values, Power, ECONOMY
+  Politics, Fundamentalist, nil
+  Imperialist, Imperi.
+  Paige, Zachi, Paige City
+  Governer, mighty, power hungry, superior, snooty, 
+  greedy tyrant
+  build a superior humanity
+  to found a society without poverty and suffering
+  making us servants of his disgusting empire
+  turning us into servants of your disgusting empire
+  take from the needy and give to the rich
+  building forces to destroy us all
+  building an empire that wil devastate humanity
+  undermining our economy
+  greedy empire, M1
+  prosperous followers, M2
+  empire building, M2
+  fee, M1
+  keeping an eye on the poor and destitute
+  Imperial Security Forces
+  Imperialist Doctrine
+
+#BASES
+Imperial City
+Omniopolis
+Eliterra
+Throckman Estate
+Merrida Resort
+Neo Princeton
+Imperial University
+Imperial Industries
+Coszamul
+Glittman City
+Metrocaia
+Fort Prosperity
+Monument City
+Powermatrix
+Imperialopolis
+Monarchia
+Power Junction
+Dominatia
+Superiorville
+Crescentopolis
+Utopia City
+Commando Base
+Salton City
+Exotica Markets
+Imperial Tech
+Cosmopolita
+Chiron Palace
+#END
+
+#WATERBASES
+Imperator Bay
+Merchantman Harbor
+Port Silver
+Jewel Of The Sea
+Trade Harbor
+Crimson Harbor
+Zenith Cove
+Yacht Moorings
+#END
+
+#BLURB
+Earth had become an abomination of a planet. Poverty had spread
+throughout the world, and overpopulation lead to more poverty.
+The Imperialists have survived and made it to Chiron. Here we
+will build a new humanity, without the mistakes of Earth.
+^
+^        -- Governor Jay Throckman IV,
+^           "Histories Folly"
+
+#DATALINKS1
+^LEADER: {Jay Throckman IV}
+^BACKGROUND: {The Throckman Estate, Unity Executive}
+^AGENDA: {Imperialism, Power and Glory}
+^TECH: {Biogenetics}
+^
+
+#DATALINKS2
+^+1 ECONOMY: {Best merchants and bankers}
+^+1 INDUSTRY: {Skilled workers are rewarded well}
+^PENALTY for PLANET: {No remorse for natural resources}
+^-1 GROWTH: {Large families are costly}
+^FREE SCOUT UNIT: {Lower class citizens eager for rewards}
+^EXTRA 100 energy credits at start: {Rich families}
+^Need HAB COMPLEX to exceed base size 3: {Refusal to live in cramped conditions}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Its time to pledge a Blood Truce, $NAME1, so I can get back to
+more important matters."
+
+"Indeed. Blood Truce would be most satisfactory."
+"Never! I plan exterminate you and your followers!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your ideals are satisfactory and you do not pose
+a threat to the Imperialists. Shall we sign a Treaty of Friendship
+to formalize our relationship?""
+
+"Agreed. We both can benefit from a treaty."
+"No. I will not allow my people to become your personal property."
+
+
+# ; This line must remain at end of file

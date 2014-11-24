@@ -1,0 +1,123 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Acolytes of the Flame
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; text by pentalarc
+; graphics by networknode
+; www.networknode.org
+;
+
+#ACOL
+Acolytes of the Flame, the Magicians, Acolytes, M, 2, Eliana Silvera, F, 0, 0, 1, 1, 0, 
+  SOCIAL, +PLANET, SOCIAL, -RESEARCH, SOCIAL, +MORALE, SOCIAL, -SUPPORT, PSI, 25, HURRY, 120, POPULATION, 1
+  Economics, Green, PLANET
+  Politics, Fundamentalist, nil
+  Acolyte, Acolyte
+  Flameshadow, Davanian, Flameshadow's Gate
+  High Sorceress, gifted, deluded, mystic, bizarre, 
+  spell-mumbling
+  explore the mystic wonders of this world
+  advance the power of magick across this land
+  having us all chant invocations over dusty scrolls
+  having us all chant invocations over dusty scrolls
+  distract us from science and truth
+  chanting bizarre spells in incense-filled rooms
+  chanting bizarre spells in incense-filled rooms
+  babbling incoherent gibberish
+  "magic magic", M1
+  mystical research, M2
+  magic classes, M1
+  contribution, M1
+  erecting walls of mystical protection
+  army of magickians
+  mage's code of honor
+
+#BASES
+Tower of the Flame
+Light of Magick
+Inner Force
+Spirit's Den
+Center of the World
+Prophesy
+Shining Dreams
+Mother Planet
+Familiar Spirit
+Dubrekkes Loch
+Pirenia
+Genius
+Faralia
+Crystal Mines
+Magewarrior's Courage
+Power of Will
+New Reality
+Odavos
+Morvaos
+Adanium
+Silvermoon
+Goldensun
+Ghosthart's Hooves
+Adonia
+Rowen
+Verbena
+Zali
+#END
+
+#WATERBASES
+Depths of Meditation
+Water Magick
+Call of the Sea
+Sesiri
+Falar
+Maso
+Brilliant Port
+Sea Spray
+#END
+
+#BLURB
+I apply my will to reality, and it bends , like wax that has been
+heated.  If it remains undirected, it melts into formlessness.
+But with my conscious direction, it is perfectly sculpted into...anything.
+^
+^   --High Sorceress Eliana Silvera
+^     "Personal Grimoire"
+^
+
+#DATALINKS1
+^LEADER: {High Sorceress Eliana Silvera}
+^BACKGROUND: {Elederic Free State, Unity Document Officer}
+^AGENDA: {perform and explore magic(k)}
+^TECH: {none}
+^
+
+#DATALINKS2
+^+PLANET: {psychic connection to Planet}
+^-RESEARCH: {clouded by magic theory}
+^+MORALE: {believe themselves to be magically protected}
+^-SUPPORT: {expensive, elaborate, and ornate equipment}
+^+25% psi: {strengthening of mind}
+^120% hurry costs: {involved rituals when building}
+^one fewer population limit: {elaborate living conditions}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"The spirits have declared this war to be fruitless.  Let us cease
+our vain hostilities and get on with our respective quests."
+
+"Ah, yes, the spirits speak truly."
+"Your spirits won't protect you from my very real weapons, prepare to defend yourself."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Let us continue in this path, and sign a treaty of friendship,
+with the spirits to witness."
+
+"I agree, the spirits are wise, $NAME3"
+"I don't know what makes you crazier, talking to your imaginary friends, or thinking I'll sign a treaty with you."
+
+
+# ; This line must remain at end of file

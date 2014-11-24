@@ -1,0 +1,117 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#CRECHE
+Creche Union, The Youth, Creche, M, 1, Ron, M, -1, 0, 1, 0, 0, 
+TECH, Chaos, FACILITY, 2, SOCIAL, -GROWTH, SOCIAL, ++RESEARCH, SOCIAL, --MORALE, SOCIAL, +PROBE, COMMFREQ, 0, MORALE, 0, 
+Values, Knowledge, TALENT, 
+Future Society, Thought Control, nil, 
+Creche, Creche
+Lacey Fuller, Jackson, Lacey's HQ
+Head Designer, intelligent, inexperienced, researcher, stubborn, 
+script kiddie
+research new technology
+to found a society where you can choose your age and education is a necessity
+becoming king of the kindergarten
+ignoring the value of maturity and exalting childishness
+sideline experienced adults in favor of snot nosed kids
+indulging in childish whims
+indulging in childish whims
+being a script kiddie
+creche of script kiddies, M1
+research, M2
+research and design projects, M2
+research grant, M1
+providing you with research data
+Creche Security
+Creche Regulations
+
+#BASES
+The Creche
+Coder's Nook
+Design Labs
+Drone Rehab Center
+The Warehouse
+Movment Entertainment
+Geo-Games Inc.
+Design University
+Fawai Software
+#END
+
+#WATERBASES
+Youth's Sea Academy
+Fullerton Platform
+Pine Rock
+Ethernet Port
+#END
+
+#BLURB
+^ It is the right of every human to decide their destiny.
+In the labs and workshops of the Creche, we are engineers.
+Aging has many flaws, and we have chosen our destiny.
+The goal in life for us is to innovate, and secure a
+better future. 
+^
+^        -- Head Designer Ron Fuller
+^           "Surface - A Study of Social Structures"
+
+#DATALINKS1
+^LEADER: {Ron Fuller}
+^BACKGROUND: {New USA,Unity Colonist}
+^AGENDA: {Invention}
+^TECH: {Nonlinear Mathematics}
+
+#DATALINKS2
+^+2 RESEARCH: {Many academies}
+^+1 PROBE: {Computer enthusiasts, enemy adult probe teams are conspicuous}
+^-1 GROWTH: {Too young for reproduction}
+^-2 MORALE: {Children are not soldiers}
+^Creche Union: {Free CHILDRENS CRECHE at every base}
+^{May not use Thought Control policies.}
+^
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"We are brilliant scientists and designers, but we are also children. We wish to swear Blood Truce."
+
+
+"I suppose it isn't nice to beat up someone much smaller than me. Blood Truce it is."
+
+"Your youthfulness does not inspire my pity. Throw a temper tantrum if you want, but this war continues."
+
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your ideals are admirable if a bit misguided. A Treaty of Friendship would benefit us both.
+
+
+"Certainly. Children are the future."
+"No. You should be quiet while adults are talking, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"We are merely children, $NAME1. Surely you have more serious things to deal with than us. Let us swear Blood Truce and move on.
+
+
+
+"Hatchlings: Harmless for now. Mutual agreement: truce."
+
+"Hatchlings: Also dangerous. Truce: No."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my youth society is eager to learn about your alien ways. Can't we sign a Treaty of Friendship and coexist in peace?
+
+"Creche: safe ally. Treaty: admirable idea."
+"Creche: too unpredictable. Ally: dangerous. Answer: no."
+
+
+# ; This line must remain at end of file

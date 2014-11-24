@@ -1,0 +1,139 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#ARCOLOGY MOVEMENT
+Arcology Movement, The City Planner, Arco, F, 1, Satriyo, F, 0, 0, 0, 1, 0, 
+TECH, Indust, SOCIAL, --SUPPORT, SOCIAL, -MORALE, IMPUNITY, Planned, NODRONE, 3, POPULATION, -3, HURRY, 50, 
+Economics, Planned, TALENT, 
+nil, nil, nil, 
+Arco, Arco
+Andreas, Ibrahim, Andreas's City
+Supramayor, Organized, Timid, Organized, Sardine Packed, 
+Enslaver
+build well designed colonies
+to build a society based on effecient and well planned use of resources
+trapping us all in an endlless maze of colony tubes
+trapping us all in an endless maze of colony tubes
+turn us all into hive minded drones
+further removing the freedoms of her followers
+further removing the freedoms of your followers
+wishing to trap humanity in a large city maze
+drone like, M1
+city building, M2
+efficient colony building, M2
+municipal service charge, M1
+keeping the colonies running
+Arco Municipal Enforcement
+Arco Municipal Code
+
+#BASES
+Central Metropolis
+Skyscraper City
+Skywalk
+Green City
+Apartment Complex
+Walkability
+Urban Conglomerate
+Skyline
+Efficient Colony
+Elevator Shafts
+Self Sufficiency
+Arcologia
+High Density
+Tight Packing
+Green Space
+Mass Transit
+Mixed Use
+Steel and Glass
+Lightwell
+Hallway Maze
+Stairwells
+Cubicle
+Infrastructure
+Central Conditioning
+Forest of Steel
+Packed Tower
+Street Level
+#END
+
+#WATERBASES
+Floating Metropolis
+Watery Hive
+Platform City
+Seaborne Arcologies
+Underwater View
+Submarine City
+Superhull
+#END
+
+#BLURB
+The Habitation complex is truly a marvel of social
+and technical engineering.  With skilled planning, such
+a complex can support thousands in an area 1/4 the size
+of traditional housing, yet the population reports no
+unhappiness or lack of space compared to what existed
+before. 
+^
+^        -- Supramayor Marta Satriyo
+^           "Cities of Chiron"
+
+#DATALINKS1
+^LEADER: {Marta Satriyo}
+^BACKGROUND: {Indonesia, Unity colony building designer}
+^AGENDA: {Well planned and efficient cities}
+^TECH: {Industrial Base}
+^
+
+#DATALINKS2
+^-2 Support {Faction unfocused on expansion}
+^-1 Morale {Tightly packed population socializes against aggression}
+^May exceed hab complex requirements by 3 {Society prefers high density cities}
+^Number of drones reduced by 3 {Members of society less sensitive to overcrowding}
+^No penalty for planned economics {society already relies heavily on planning}
+^50% rush buy costs {Followers are well organized}
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order."
+
+"Indeed. Blood Truce would be most satisfactory."
+"Never! Your ant-like vision for humanity is too horrible to let
+continue!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, The arcology commune is always looking for 
+diplomatic and trade partners.  Will you sign a treaty of
+friendship?"
+
+"Yes. The Arcology Movement seems a valuable friend."
+"No. Your limiting desires for humanity does not match
+me, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order."
+
+"Progenitor: Resources needed elsewhere.  Truce: Agreed"
+"Passive soldiers: weak defenses: Rish targets.  Arco: conquer."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, The arcology commune is always looking for 
+diplomatic and trade partners.  Will you sign a treaty of
+friendship?"
+
+"Arco: good resource exchange, productive.  Treaty: Advantageous.  Agreement"
+"Arco: Strange followers. Treaty:  null"
+
+# ; This line must remain at end of file

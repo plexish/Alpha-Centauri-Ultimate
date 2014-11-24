@@ -1,0 +1,137 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The United Federation of Planets
+;
+; File Created by: Jacob Lee
+; Images Created by: Dragonheart
+;
+;
+; To install place this file and the 3 image files into your SMAC folder.
+; Then when you're selecting a faction, hit the load button and type in FEDERATE.
+; This will temporarily replace one of the factions with this one.
+;
+; Alternate method:
+; To permanently install this faction, open the file alpha.txt, go to the section
+; marked "#FACTIONS" and select one of the original fractions to replace. Then
+; type the following in its place:
+; FEDERATE,  FEDERATE
+;
+; ===============
+; Do you have a custom faction? Send it in to:
+; Jacob Lee
+; evil_conquerer@yahoo.com
+; Co-webmaster of The Arrival
+; http://ac.strategy-gaming.com/
+; ===============
+;
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#FEDERATED
+United Federation of Planets, The Admiral, Federation, M, 1, Picard, M,  0,  0, 1, 0, 1,
+  TECH, InfNet, SOCIAL, ++GROWTH, SOCIAL, --POLICE, SOCIAL, +ECONOMY, SOCIAL, -EFFIC
+  Politics, Democracy, GROWTH
+  Politics, Police State, nil
+  Federation, Federation,
+  Barclay, Soran, Barclay Lab
+  Captain, expansionist, imperialist, talented, reckless
+  Imperialist
+  pursue galactic peace
+  to form a stable and benevolent galactic empire
+  taking over the galaxy
+  taking over the galaxy
+  plot to take over the galaxy with your evil empire
+  plotting to take over the galaxy
+  plotting to take over the galaxy
+  shady motives
+  shady motives, M2
+  humanitarian goals, M1
+  galactic domination, M1
+  protection fee, M1
+  enforcing galactic peace
+  the Federation armada
+  the Prime Directive
+
+#BASES
+Sol System
+Alpha Centauri A
+Alpha Centauri B
+Barnard's Star
+Sigma Draconis
+Wolf 359
+Sirius
+Bajor
+Vega
+Polaris
+Deneb
+Betelgeuse
+Arcturus
+Rigel
+Procyon
+Vulcan
+Capella
+Antares
+Algol
+Acrux
+Arena
+Spacedock
+Deep Space 9
+Canopus
+Markab
+#END
+
+#WATERBASES
+Underwater Outpost
+Hydroponic Testing Lab
+Water Salvage Ops
+Fish Farming Grounds
+#END
+
+#BLURB
+These are the voyages of the Starship Enterprise. Its
+continuing mission: to explore strange new worlds, to
+seek out new life and new civilizations, and to boldly
+go where no one has gone before.
+^
+^        -- Star Trek,
+^            Opening Sequence
+
+#DATALINKS1
+^LEADER: {Captain Picard}
+^BACKGROUND: {United Federation of Planets, Captain}
+^AGENDA: {Expansion, benevolent galactic empire}
+^TECH: {Information Networks}
+^
+
+#DATALINKS2
+^+2 GROWTH:  {Rapid Expansion}
+^-2 POLICE:  {Benevolent Empire}
+^-1 EFFICIENCY: {Large Bureaucracy}
+^+1 ECONOMY: {Very strong, well-managed economy}
+^{May not use Police State Politics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Order back your ships, $NAME1. I am ready to pledge Blood Truce
+if you will leave me to run my empire in peace."
+
+"Very well, but do not provoke me further."
+"Too bad, $NAME3. Your "galactic empire" shall soon fall."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"We are peaceful researchers, $TITLE0 $NAME1. Will you sign
+a Treaty of Friendship and leave us to study in peace?"
+
+"Of course. We must certainly strive for a peaceful galaxy."
+"No. Your "benevolent empire" makes me laugh, $NAME3."
+
+
+
+# ; This line must remain at end of file

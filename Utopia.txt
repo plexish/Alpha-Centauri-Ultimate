@@ -1,0 +1,126 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Utopia
+;
+; Done with ACFEdit (c)1999 ANX 
+;
+; For use this Faction file select load from 
+; faction select in the game and write Utopia
+;
+
+#UTOPIA
+The Utopia, The Idealist, Utoptia, M, 1, David Wang, M, 1, 0, 1, 1, 1, 
+  SOCIAL, ++ECONOMY, SOCIAL, ++RESEARCH, SOCIAL, ++PLANET, SOCIAL, ++INDUSTRY, TECH, Indust, TECH, Ecology, TECH, Mobile, TECH, InfNet,  UNIT, 2, PSI, 10, FACILITY, 4, RESEARCH, 10, TALENT, 3, ENERGY, 100, HURRY, 90, TECHCOST, 90, SHARETECH, 3, TERRAFORM
+  Politics, Democratic, TALENT
+  none, none, nil
+  Utopia, Utopia
+  Laria Liu, Wagner, Mind of The Utopian
+  Philospher, wonderful, unquestioning, unquestioning, mindless, 
+  foolish idealist
+  construct a Utopia
+  to found a society perfect in every way
+  reducing us to pawns in his mindless scheme
+  reducing us to pawns in your mindless scheme
+  reduce us to nothing but pawns in your mindless scheme
+  torturing his people with his numerous social experiments
+  torturing your people with your numerous social experiments
+  putting constructing a make-believe Utopia in front of protecting your people
+  ruthless nihilism, M1
+  social experiments, M2
+  Faction, M1
+  fee, M1
+  making better faction files
+  The Keepers of Utopia
+  Human Destiny
+
+#BASES
+Utopia
+David Wang Base
+Worker's Nest
+People's Teeming
+Great Clustering
+The Colony
+Industrial Crawling
+Manufacturing Warrens
+Discipline Tubes
+Laborer's Throng
+Unification Cavern
+Social Engineering Den
+The Labyrinth
+Paradise Swarming
+Communal Nexus
+Social Artery
+Factory Maze
+Unity Lair
+Society Grid
+Great Collective
+Proletarian Knot
+Socialism Tunnels
+The Drone Mound
+Plex Anthill
+Watcher's Eye
+Working Man Hold
+Huddling of the People
+Wang Mine
+Seat of Proper Thought
+The Leader's Horde
+Chairman's Burrow
+Labor Network
+Deep Passages
+Fellowship City
+People's Endeavor
+Fecundity Tower
+Hole of Aspiration
+#END
+
+#WATERBASES
+Sea Collective
+Deep Community
+Sea Hive
+Port Wang
+Factory Drift
+Ocean Core
+Deep Clustering
+#END
+
+#BLURB
+^ Overcome the shortfalls of man, by strengthening man's strengths. The weakness and flaws of man in both yourself and your peers will attempt to stop you but never let them get the better of you, always be strong, or perish.
+ ^
+ ^
+ ^ Philospher David Wang,
+ ^ "Flesh, Bone, and Mind", circa 1999 AD
+ ^
+
+
+#DATALINKS1
+^LEADER: {Philospher David Wang}
+^BACKGROUND: {1630 SW Clay St. Narionality: China}
+^AGENDA: {Create Utopia}
+^TECH: {Industrial base, Centauri Ecology, Doctrine Mobility, Information Networks}
+^
+
+#DATALINKS2
+^+2 ECONOMY: {Perfectness requires a strong Economy}
+^+2 INDUSTRY: {Perfectness needs a strong Industry to thrive.}
+^+2 RESEARCH: {Perfectness needs Tech to build things}
+^+2 PLANET: {The Utopian regard for perfectness requires them to respect Planet}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"It is our race's destiny to create Utopia, why don't you give up now, as I see no need to destroy you right now, $NAME1, a pledge of Blood Truce would seem in order."
+
+"Indeed. Blood Truce would be most satisfactory."
+"Never! I plan to put an end to your scheming once and for all!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your ideals are admirable if a bit misguided and your faction need not pose a threat to our perfectness. Shall we sign a Treaty of Friendship to formalize our symbiotic relationship"
+
+"As you wish. The Utopia seems a valuable friend."
+"No. Your social experiments are a bit too bizarre for me, $NAME3."
+
+
+# ; This line must remain at end of file

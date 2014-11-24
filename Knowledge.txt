@@ -1,0 +1,136 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Pursuers of Knowledge
+;
+;	Designed By: Xyrex - 1999
+;
+;	To use this faction -
+;		Load SMAC, in the 'Select Faction' menu select your replacement faction (I recommend the University),
+;		select 'Load' and type 'Knowledge' (no quotes)	
+;
+;
+;	This faction is part of a series of factions which I plan to release over the next few months
+;
+;		This faction is an extreme and adjusted version of the University. They have a high research
+;		and probe rating (secrecy), and poor efficiency and police ratings: to represent their 
+;		lack of ethics, trading and their insufferable superiority complex. (I was going to give them 
+;		a +2 Morale rating due to this as well :), maybe later)
+;
+;
+;	I would appreciate any comments, especially one's relating to how I might improve this file, send them to -
+;		xyrex2001@hotmail.com
+;
+;	Patially made with ACEdit (c)1999 ANX  at http://www.acedit.8m.com
+;
+;	You can freely distribute the 'Pursuers' collection under the condition that you keep all the files together
+;
+
+#KNOWLEDGE
+Pursuers of Knowledge, The Isolationist, Knowledge, M, 2, Ordulann, M, 1, 0, 1, 0, 0, 
+  TECH, InfNet, SOCIAL, ++RESEARCH, SOCIAL, ++PROBE, SOCIAL, --EFFIC, SOCIAL, --POLICE, FACILITY, 8, FACILITY, 9, DRONE, 3, MINDCONTROL, 0, IMPUNITY, KNOWLEDGE	
+  Values, Knowledge, RESEARCH
+  Politics, Fundamentalist, nil
+  Pursued, Pursued
+  Annya, Braddon, Annya Central
+  Science Miester, genius, brilliant, perfectionist, obsessive, 
+  isolationist
+  learn this universes innermost secret's
+  to learn this universes secret's, and to shield them from those of 'incorrect' alignment
+  conducting all manner of unethical, immoral, and evil research
+  conducting all manner of unethical, immoral, and evil research
+  remove knowledge from all people but yourself
+  deciding how best to prevent our free thought
+  deciding how best to prevent our free thought
+  conducting unethical research
+  pitiful ideals, M1
+  research, M2
+  'research', M1
+  grant, M1
+  preventing ideas from falling into the wrong hands
+  Ideology Forces
+  Knowledge Idealism Code 5783
+
+#BASES
+Knowledge Landing
+Ethical Pursuits
+Protection of Knowledge
+Sanctuary of the Mind
+Prevention of The Spread
+Neural Node 34
+Repairation Base 73
+Of Knowledge
+Climactic Research
+Node of Hope
+Saddening Hate
+BioToxin Lab
+Genetic Lab
+Neural Grafting Centre
+Achillies Institute
+Placement of Ideals
+Polymorphic Armour Centre
+Software Encryption Area
+Field of Minds
+Defence of Thought
+Prevention Centre
+Free Thought
+Never Think
+Waste Removal
+Idea Reprocessing
+Thought Mesh 386
+Biela Central
+#END
+
+#WATERBASES
+Oceanographic Lab
+The Marine Institute
+Carbon Dumping
+Water Waste Placement
+Water Flow Node
+Obsession - For Minds
+Mind Camp 8634
+WaterBase 36
+#END
+
+#BLURB
+Without knowledge we are nothing, knowledge is, of course, 
+power, and power must be held by the righteous and kept from 
+the cruel and despotic. We shall perform this task.
+^ 
+^        —Science Miester Ordulann
+^          Speech to U.N. Comittee M.Y. 2101
+
+#DATALINKS1
+^LEADER: {Science Miester Ordulann}
+^BACKGROUND: {Leader of the 'Science Expansion Committee'}
+^AGENDA: {complete and total knowledge}
+^TECH: {Information Networks}
+^
+
+#DATALINKS2
+^+2 Research: {Scientific Pursuits}
+^+2 Probe: {Very secretive}
+^-2 Efficiency: {Vast amounts of resources spent on secrecy}
+^-2 Police: {Superiority complex removes cooperation}
+^Free {Network Node} each base
+^Free {Biology Lab} each base
+^{Extra DRONE for every three citizens}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Remove your immoral and unthinking hordes from my territory, $NAME1. I shall sign a Blood Truce with you in return."
+
+"Very well, but do not pester me further."
+"Never, you shall be eliminated and your research spread through-out this planet"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"We are peaceful researchers, $TITLE0 $NAME1. Will you sign a Treaty of Friendship and leave us to study in peace?"
+
+"Of course. We must certainly strive to increase our knowledge."
+"No. I don't trust your isolationist approach to research, $NAME3."
+
+
+# ; This line must remain at end of file

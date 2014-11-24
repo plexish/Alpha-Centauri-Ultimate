@@ -1,0 +1,150 @@
+;
+;
+; Sid Meier's Alpha Centauri
+; 
+; Apollo Industries
+; 
+; Custom Faction Sig2013-05
+; Text by Sigma
+; Special thanks to BUncle, JarlWolf and ete (AC2) for balance suggestions
+;
+;
+
+#APOLLO
+Apollo Industries, The Industrialist, Olympians, M, 2, Roark, M, 1, 1, 0, 1, 0, 
+TECH, Indust, SOCIAL, +INDUSTRY, SOCIAL, -EFFIC, UNIT, 5, DRONE, 4, HURRY, 85, RESEARCH, 2,
+Economics, Free Market, INDUSTRY, 
+Economics, Green, nil, 
+Olympian, Olympic,
+Elizabeth, Louis, Northern Foundry
+Architect, inspiring, egotistical, industrious, grandiose, 
+Rampant Egotist
+usher humanity into a new Golden Age of productivity and industrial wonders
+to build a society of free industry, unfettered by petty regulations
+feeding his own ego at the expense of his clueless disciples
+feeding your own ego at the expense of your clueless disciples
+reduce Planet into a vast monument to your imagined greatness
+delivering interminable speeches extolling the virtues of greed and selfishness
+delivering interminable speeches extolling the virtues of greed and selfishness
+conducting unsavory industrial practices
+industrial malpractice, M1
+building projects, M2
+"New Golden Age", M1
+payment, M1
+maintaining Planet's industrial infrastructure
+my Industrial Security Force
+Planetary Bill of Worker's Rights
+
+#BASES
+Olympus Heights
+Worker's Wage
+Prize of Labor
+Architect's Pride
+Atlas University
+Gleaming Gulch
+Phaeton's Folly
+Sweat of Your Brow
+Burden of Greatness
+Duty to Achieve
+Farpoint Foundry
+New World Industries
+Advance of Humanity
+Vulcan's Forge
+Bolshevik Barrack
+Act of Will
+Sun God City
+Draftsman's Delight
+Hammer and Anvil
+Mechanic's Marvel
+Wonder of the World
+Constructor Colony
+Factory Central
+Virtue of Self
+Bane of the Parasite
+Apollo Transcontinental
+Apollo Technologies
+Apollo Metalworks
+Apollo Construction
+Apollo Enterprises
+#END
+
+#WATERBASES
+Fountainhead
+Mercury Sea
+Apollo Naval Works
+Shipwright's Succor
+Mariner's Might
+Oceanic Ventures
+Deep Sea Factory
+#END
+
+#BLURB
+^We were born into a world where those with the ability
+to create were hamstrung by the narrow visions of those
+who could not, and where the worker was denied his dues by the 
+social parasites who profited from his toil. But we have been
+given a chance to forge a new society free of such inequities,
+where the laborer who sweats under this foreign sun will 
+receive in full the fruits of his activity.
+^
+^        -- Architect Henry Roark,
+^           "The Builder's Burden"
+
+#DATALINKS1
+^LEADER: {Henry Roark}
+^BACKGROUND: {Union of American Commonwealths, Unity Construction Overseer}
+^AGENDA: {Free Industrial Society}
+^TECH: {Industrial Base}
+
+#DATALINKS2
+^+1 INDUSTRY:   {Well motivated work force}
+^-1 EFFICIENCY:  {Internal economic competition}
+^Free Supply Crawler at Planetfall
+^Extra Labs per Base {Unregulated Research}
+^Extra Drone per 4 Citizens: {No social safety net}
+^85% Hurry Costs: {Fully staffed factories}
+^{May not choose Green Economics}
+
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This Vendetta is a disgusting waste of resources and
+manpower, $NAME1. A Blood Truce is the only sensible 
+decision to make for both of us."
+
+"Of course, let's put an end to this senseless waste."
+"There's no price too high for wiping your gutless ideology off the face of Planet!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your respect for industrial rights and
+ceaseless quest for greatness rivals only my own. A Treaty
+of Friendship would only serve to enhance both of our 
+endeavors."
+
+"Certainly! Our people will work side by side to create a bright future."
+"I'd rather sacrifice my people to the mindworms than to your ego, $NAME3. At least the mindworms are quick about it."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Even you must realize that this war has been a huge waste of 
+resources, $NAME1. You must agree to a Blood Truce."
+
+"Waste: undesirable. War: must end. Agreement: Truce."
+"Cause: justifies resource expenditure. $NAME3: begging: unsuccessful."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, though our races are different we both seek to create 
+a strong, prosperous civilization on this world. My workforce would be 
+a valuable asset in your ventures. A Treaty of Friendship would make 
+such an arrangement official."
+
+"Human laborers: beneficial to Progenitor. Treaty: confirmed."
+"$NAME3: personality: self-interested. Treaty: inadvisable."
+
+# ; This line must remain at end of file

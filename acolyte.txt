@@ -1,0 +1,143 @@
+;
+; Gaian Acolytes Faction
+; By Kilkakon
+;
+; kilkakon.com
+;
+
+#ACOLYTE
+The Gaian Acolytes, The Empath, Acolytes, F, 2, Lindly, F, -1, 0, 1, 0, 1,
+TECH, Ecology, IMMUNITY, SUPPORT, SOCIAL, +PROBE, SOCIAL, -MORALE, COMMFREQ, 0, COMMFREQ, 0
+Future Society, Thought Control, EFFIC
+Economics, Free Market, nil
+Acolyte, Acolyte,
+Genova, Kaxx, Genova's Repose
+Empath, beautiful, faceless, sympathetic, mentally invasive,
+Inescapable Nightmare
+expand our mental capabilities
+to bring all people together in both mind and soul
+eliminating important parts of who we are as humans, creativity and free will, 
+eliminating important parts of who we are as humans, creativity and free will, 
+send all inhabitants of this planet insane
+indulging in mental fantasies that don't really exist
+daydreaming about strange fantasies that would scare any normal person
+planting nightmares in the minds of my enemies
+mindgames, M2
+brain training, M1
+illusions of grandeur, M2
+physical manifestation of a pleasant thought, M1
+freeing humanity's thoughts
+the Empath Guild
+our expectations of you
+
+#BASES
+Lindly's Rebirth
+Gaia's Promise
+Dreams of Earth
+Empath Unto Eternity
+Togetherness
+Unity
+As One
+With One Voice
+Acolyte's Call
+Temple of Planet
+Gaia's Revenge
+Broken Hill
+Future Visions
+Mind Over Matter
+Overmind Nexus
+One Mind Planet
+Mental Freedom
+Temple of Thought
+Gaia Manifest
+Dreams Beyond Our Own
+Build A Better World
+Secrets of Paradise
+Brain Vault
+Telepathic Matrix
+Empath Council
+Mass Ponder
+Soul Exchange
+Transcendent Thought
+#END
+
+#WATERBASES
+Voice of the Deep
+Well of Souls
+Think Like Fish
+Isolated Empathi
+Thoughts of a Seabreeze
+#END
+
+#BLURB
+Symbols are the key to telepathy. The mind wraps its
+secrets in symbols; when we discover the symbols that shape
+our enemy's thought, we can penetrate the vault of his mind.
+^
+^        -- Lady Deirdre Skye,
+^           "Our Secret War"
+
+#DATALINKS1
+^LEADER: {Empath Lindly}
+^BACKGROUND: {Aide to Deirdre Skye, Gaian Acolyte}
+^AGENDA: {Telepathic society}
+^TECH: {Centauri Ecology}
+^
+
+#DATALINKS2
+^+1 PROBE: {Dedicated to emotional communication and manipulation}
+^-1 INDUSTRY: {Populace preoccupied with mental development}
+^-1 MORALE: {Prefers to unify rather than destroy}
+^Immune to negative SUPPORT modifiers.
+^Begins with two random commlink frequencies.
+^{May not use Free Market economics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, our war has disrupted clear concentration and 
+thought. Rather than we focusing on caring for the needs of our 
+own respective people, we are instead ignoring them and throwing 
+them towards our enemies. This is madness, $NAME1. Surely you must 
+share my thoughts and agree that this must end, for the good of 
+our people."
+
+"I agree, $NAME3. This mad war must end, right now."
+"My concentration is far from confused. You must fall $NAME3!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"I am a person of thought and compassion, $TITLE0 $NAME1. I propose 
+that we formalize the experiences we have had together with a Treaty 
+of Friendship, so that our peoples may walk together in peace and in 
+unity."
+
+"Why not, $NAME3. Let's sign that treaty."
+"No. I would like to leave your 'thoughts' at a safe distance."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, our war has disrupted clear concentration and 
+thought. Rather than we focusing on caring for the needs of our 
+own respective people, we are instead ignoring them and throwing 
+them towards our enemies. This is madness, $NAME1. Surely you must 
+share my thoughts and agree that this must end, for the good of 
+our people."
+
+"Confusion: to be avoided. Agreement."
+"Progenitors: tougher than you, $NAME3. Destruction: prepare!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"I am a person of thought and compassion, $TITLE0 $NAME1. I propose 
+that we formalize the experiences we have had together with a Treaty 
+of Friendship, so that our peoples may walk together in peace and in 
+unity."
+
+"Experiences: many. Treaty: accepted."
+"Recent memories of $NAME3: unpleasant. Treaty: not at this time."
+
+# ; This line must remain at end of file

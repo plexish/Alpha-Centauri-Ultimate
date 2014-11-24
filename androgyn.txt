@@ -1,0 +1,167 @@
+;
+; Sid Meier's Alien Crossfire
+; Faction Editor
+;
+; Created August 2000 by Sysiyö using the Faction Editor.
+; All graphics by Sysiyö, except diplomacy photographs by Waterlily.
+; (C) 2000, 2001 Sysiyö. All reproduction, downloads and changes fully
+; allowed.
+; For any suggestions, E-mail me at sysiyo@teenagewildlife.com
+; 
+; "Strangers When We Meet" is the best song from David Bowie's 1995 album
+; 1. Outside. David Bowie is a god, and great inspiration for this
+; faction. Buy at least one of his albums and listen to it when playing
+; with this faction (recommended: Low, "Heroes", Scary Monsters,
+; Christiane F, 1. Outside, All Saints). Thank You for your time.
+;
+; WARNING! Contains pro homo- and pro bisexual material. Caution is 
+; adviced, especially for highly religious and/or american users.
+;
+; http://www.networknode.org
+;
+
+#ANDROGYN
+The Androgynous Community, The Multi-Sexual, Androgynous, F, 2, Sysiyo, M, -1, 0, 1, 1, 0, 
+TECH, Biogen, IMMUNITY, GROWTH, SOCIAL, -MORALE, SOCIAL, --POLICE, SOCIAL, +GROWTH, SOCIAL, +RESEARCH, 
+Future Society, Eudaimonic, PLANET, 
+Politics, Police State, nil, 
+Androgynous, Androgyn
+Aladdin Sane, Adler, Aladdin Sane (1913-1938-227?)
+Bowie, 'letric eyed, horrible freak, sexually free, mutant, 
+Sexually Disturbed
+remove sexual barriers
+to let everyone become one with their true sexual nature
+turning all of us into androgynous mutants
+turning all of us into androgynous mutants
+make everyone on the planet hermaphrodite
+allways crashing in the same car
+waiting for the gift of sound and vision
+engaging in horrible crimes against natures plans
+'revolutionary genetic techniques', M1
+biogenetic experiments, M2
+biogenetic experiments, M2
+amount of 'lectric money, M1
+keeping your people free of genetic viruses
+my Spiders From Mars
+the Sexual Freedom Act
+
+#BASES
+Cygnet Committee
+Space Oddity
+D.J.
+StationToStation
+Moss Garden
+Glass Spider
+Crystal Japan
+The Golden Years
+TVC15
+"Heroes"
+Zeroes
+City of the Silent Age
+Blackout
+Neuköln
+Scary Monsters
+Super Creeps
+Kether
+Melkuth
+Never Let Me Down
+V-2 Schneider
+Black Tie White Noise
+Diamond Dogs
+New Career In New Town
+Low
+Serious Moonlight
+Warzawa
+Weeping Wall
+1. Outside
+2. Contamination
+3. Afrikaan
+Eart hl i ng
+Sound + Vision
+Teenage Wildlife
+Young Americans
+Tin Machine
+Suffragette City
+Loving The Alien
+#END
+
+#WATERBASES
+Red Sails
+Sysiyo Reef
+Sense of Doubt
+Art Decade
+Subterraneans
+Thunder Oceans
+Zahra-Zahra Island
+Kingdom Comes
+Nite Flights
+#END
+
+#BLURB
+^Freedom is a funny thing. Many say they fight for freedom and strive
+to protect it, but when a simple man like me becomes multi-sexual, they'll
+say s/he is unnatural. They'll say that hir transformation is the work
+of the devil. Is it really so unnatural to be simply what you wan't to be?
+^
+^        -- Bowie Sysiyo,
+^           "A New Career In A New World"
+
+#DATALINKS1
+^LEADER: {Sysiyo}
+^BACKGROUND: {Finnish Commonwealth, Assistant to Dreidre Skye}
+^AGENDA: {Sexual freeing of all humans by Multi-Sexualization}
+^TECH: {Biogenetics}
+
+#DATALINKS2
+^-1 MORALE: {Moral decadence}
+^-2 POLICE: {Freedom-loving extrimists}
+^+1 GROWTH: {Sexual freedom}
+^+1 RESEARCH: {Continuous reseach on Genetic engineering}
+^{Immune to negative Growth penalties}
+^{May not make Police State choice in social engineering}
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This conflict interferes with the freedom of our people,
+and my plans for sexual liberation. Will you sign a
+blood truce to end this horrible Vendetta?"
+
+"Freedom is an important thing indeed. I'll sing your truce, $NAME3."
+"No. I won't let you destroy humanity with your genetic experiments. Your Multi-sexual Mutants won't protect you now, $NAME3!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"You are a wise leader, $TITLE0 $NAME1, and understand the
+basic need of all humans: to be what they want to be. A Treaty
+of friendship would benifit both our quests for perfection, don't
+you think?"
+
+"I agree with what you are saying, $NAME3. Let us both quest in friedship."
+"You, on the other hand, know nothing of wisdom, $NAME3. I won't sign a Treaty of Friendship with a Mutant."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This conflict serves no purpose in my plans for sexual
+freedom. Can't we sign a Blood Truce?"
+
+"Progenitor: willing: find other targets. Truce: Agreed."
+"Multi-sexuality: not convinient: with Progenitor plans. Ansver to unnatural $NAME3: No."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, the fact that were from different planets
+doesn't mean we can't prosper together. Couldn't both
+of us sign a Treaty of Friendship for benifit of both
+our people?"
+
+"$NAME3 speaks: words of truth. Birthplace: irrelevant. Treaty: Progenitor: Androgyn. Agreement."
+"Progenitor: only true: intelligense. Conclusion: $NAME3: lower being. $NAME3 also: unnatural Multi-Sexual being. No Treaty."
+
+
+# ; This line must remain at end of file

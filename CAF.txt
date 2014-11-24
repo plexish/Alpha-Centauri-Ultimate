@@ -1,0 +1,131 @@
+; -III THE CONFEDERATION III-
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+; Text & Graphics by Alex Mandez 
+; Please check out the Alpha Conflict Section of 
+; http://wakarimasu.javagamz.com for more info on the CAF.
+;
+; For more factions visit http://networknode.org
+; email networknode@lycos.com
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Confederation
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... caf
+;
+
+#CAF
+The Confederation, The Unitarian, Confederates, M, 2, Wesson, M, 1, 1, 0, 0, 0, 
+  TECH, Indust, SOCIAL, --PLANET, SOCIAL, -GROWTH, SOCIAL, +ECONOMY, SOCIAL, ++POLICE, DRONE, 12, TALENT, 13, ENERGY, 50, HURRY, 110, COMMERCE, 2, FUNGENERGY, 1, INTEREST, 0.05
+  Economics, Free Market, ECONOMY
+  Economics, Green, nil
+  Republic, Republ.
+  Alicia, Harvardi Lars, Mandez Memorial
+  Representative, intuitive, slimy, faithful, fat, 
+  manipulative
+  allow the economy to flourish, and provide a strong millitary
+  to establish a strong economy and republic
+  converting all the drones to drooling morons
+  total domination
+  restrict economic growth and potential
+  worried about the many pointless things in life
+  traipsing across Alpha Centauri, looking for Fungus spores to cash in
+  blunders and mistakes
+  short-sightedness, M1
+  economic future, M2
+  over-blown economic preachings, M1
+  "Insurance Fee", M1
+  establishing a trading network
+  the CAF
+  Confederation RC 15.376.1, Paragraph Six
+
+#BASES
+Republic's Founding
+Sparrow 6
+Kitterie 2
+Iece
+Zeta 4
+Hawkson
+Earth Memorial
+Yama Jyu Roku
+Centauri Triad
+Adjunct 42
+Atrox Humanitis
+Glass Dream
+Centauri Duo
+Centauri Mono
+Matrix 4
+Upload Adjunct
+Landing Memorial
+Free Port
+Trade Station
+CAF Ops Station
+CAF Aerospace Plant
+CASF Boot Camp
+CASF Special Ops
+New Ending
+Pillar Shard
+Base Camp
+Uncharted Future
+#END
+
+#WATERBASES
+Blue Bay
+Silver Bay
+Black Bay
+Coastal Drift
+CAF Naval Manufacturing
+Nova
+Mizu Base
+Yama no Mizu
+#END
+
+#BLURB
+Only by sacrificing the past and its traditions, can a society
+make advancements that will lead to a glorious future.  Any
+other goals will lead to damning anachronisms.  But this structure
+cannot simply rest upon faith that people will do the "right
+thing", as the socialists did upon Earth.  Structure has been
+found in the universe, and we part of that universe.
+^
+^   -- Officer John Wesson
+^      "The New Ending"
+
+#DATALINKS1
+^LEADER: {John Wesson}
+^BACKGROUND: {Former Director of North American Operations}
+^AGENDA: {A free-market where the Confederation gains a small bonus, and a large military, the CAF.}
+^TECH: {Industrial Base}
+^
+
+#DATALINKS2
+^--PLANET: {"Clean machines are inefficient."}
+^-GROWTH: {Little support for families and elderly.}
+^+ECONOMY: {Few tariffs, sanctions, or taxes.}
+^++POLICE: {Military makes up more than 3/4th of the government.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"To increase future earnings for both sides, and save our large
+reserve army any trouble, we offically offer a Blood Truce."
+
+"You're right, it is more efficient at this point to end the conflict."
+"And let the CAF and CASF grow prepared?  Prepare for the void!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"You seem to have deeper social plans than we anticipated, $TITLE0
+$NAME1.  Our Republic would care to offer up a Peace Treaty."
+
+"Not only does it sound good, $NAME3, but we look forward to trading."
+"Our Armed Forces are too occupied at this point to bother with peace."
+
+
+# ; This line must remain at end of file

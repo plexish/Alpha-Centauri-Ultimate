@@ -1,0 +1,123 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Ancients League
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... ancients
+;
+
+#ANCIENTS
+The Ancients League, The Ancients, Ancients, M, 2, Dimitri, M, 0, 1, 0, 0, 0, 
+  TECH, PlaNets, TECH, Poly, SOCIAL, +++PROBE, SOCIAL, +RESEARCH, SOCIAL, --MORALE, UNIT, 6, UNIT, 6, PSI, 1, RESEARCH, 1, DRONE, 1, TALENT, 1, ENERGY, 50, COMMERCE, 1, VOTES, -2, MINDCONTROL, 0
+  Future Society, Thought Control, PROBE
+  none, none, nil
+  Ancient, Ancient
+  Annie, Vladimir, Lothlorien
+  Commander, all-seeing, dodgy, well informed, snooping, 
+  paranoid
+  coordinate our efforts towards our mutual benefit.
+  open the datalinks to the free flow of information.
+  discovering all our secrets
+  knowing everything about everyone.
+  compile an intelligence file on every single citizen of Planet
+  peering at us all through his telescopes
+  peering at us all through your telescopes
+  unrepentant voyerism
+  voyeristic tendancies, M1
+  intelligence gathering, M2
+  "investigations", M1
+  finders fee, M1
+  keeping you informed
+  my agents
+  the Freedom of Information Act
+
+#BASES
+Lothlorien
+Gilead
+Nordmaar
+Ar'rakeen
+Silago
+Thorobardin
+Thimhalla
+Sharakon
+Zith'el
+Baeron
+Amadicia
+Haevin
+Eldrenes
+Bandar Eban
+Maradon
+Ebou Dar
+Jehannah
+Lugard
+Aringill
+Mayene
+Tremalking
+Paerish Swar
+Kintara
+Caralain
+Arinelle
+Aile Dashar
+Quaim
+#END
+
+#WATERBASES
+Sittang
+Tobal
+Alakol
+Amu  Darya
+Betsiboka
+Ebinur
+Ganges
+Okhotsk
+#END
+
+#BLURB
+Information is the key to victory.  Always knowing exactly when
+and where to place your strength will tip the scale and give
+the edge to even a much weaker force.  Furthermore, when utilized
+in a more balanced situation, superior intelligence will render
+the enemy powerless.
+^
+^       -- Commander Dimitri
+^          "Declassified report to subcommand"
+^
+^
+
+#DATALINKS1
+^LEADER: {Commander Dimitri}
+^BACKGROUND: {Suspected KGB / CIA double agent}
+^AGENDA: {Intelligence Information Aquisition}
+^TECH: {Planetary Networks, Polymorphic Software}
+^
+
+#DATALINKS2
+^+++Probe: {Unsurpassed intelligence network}
+^+Research: {Keeps an eye on others labs}
+^--Morale: {Unwillingness to commit to a stand-up fight}
+^-%50 Votes: {Viewed as untrustworthy.  Receives %50 less votes in elections for Planetary Governer and  Supreme Leader.}
+^{Starts game with two well-trained probe teams.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"I know the exact state of you forces, $NAME1.  Truce is your only
+hope for survival ..."
+
+"Very well, but from now on keep your nose out of my business."
+"Never!  I won't stop until every one of your snooping spies are executed!!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"It appears that our interests coincide, let us sign a Treaty of
+Friendship and share our prosperity"
+
+"Agreed, I am with you $NAME3"
+"No.  I highly doubt your "agents" would respect my borders."
+
+
+# ; This line must remain at end of file

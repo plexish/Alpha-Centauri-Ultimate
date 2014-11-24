@@ -1,0 +1,143 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; The Advent Pilgrimage
+;
+; Custom Faction Sig2013-02
+; Text by Sigma
+; Special thanks to ete, BUncle and Jarlwolf (AC2) for balance suggestions
+; 
+;
+
+#PILGRIMS
+The Advent Pilgrimage, The Faith, Pilgrims, M, 2, Joaquin, M, 1, 1, 0, 0, 1,
+  TECH, Ecology, SOCIAL, +PLANET, FREEABIL, 11, IMPUNITY, Fundamentalist, SOCIAL, -INDUSTRY, FUNGMINERALS, 1,
+  Politics, Fundamentalist, PLANET
+  Economics, Free Market, nil
+  Pilgrim, Pilgrim,
+  Fatima, Dini, The Hermitage
+  Brother, zealous, dogmatic, faithful, radical,
+  Would-Be Messiah
+  walk side-by-side through this promised land
+  to seek new spiritual understanding
+  endangering everyone on Planet with his insane crusade
+  endangering everyone on Planet with your insane crusade
+  erase all human progress on Planet for the sake of your pointless jihad
+  preaching to his brainwashed minions
+  preaching to your brainwashed minions
+  holding unorthodox beliefs
+  Messianic dogma, M1
+  pilgrimage, M1
+  quest for enlightenment, M1
+  contribution, M1
+  presiding over Planet's spiritual wellbeing
+  my devout Vanguard
+  Advent doctrine
+
+#BASES
+City of the Advent
+The Pilgrim's Progress
+Harbinger's Call
+Place of Cleansing
+Advent Academy
+Distant Mecca
+City of Refuge
+Rock of Salvation
+House of Souls
+House of Peace
+Tower to the Heavens
+House of Humility
+Sojourner's Waypoint
+The Last Mission
+Great Congregation
+House of Virtue
+Salem on High
+Crown of Melchizedek
+Cavalry Hill
+Prodigal's Haven
+The Watcher's Tower
+Vigil Grounds
+House of Faith
+Advent Dawn
+Advent Library
+The Pulpit
+Gates of Righteousness
+Folly of Reason
+House of Truth
+The Pilgrim's Crossing
+#END
+
+#WATERBASES
+Fountain of Wisdom
+Blue Haven
+Pharos of the Soul
+Reflecting Pool
+Cleansing Water
+#END
+
+#BLURB
+^We found a new world under new stars, yet through space we carried out old demons.
+But this world and its enigmas extends a hope to us: that we may be made over on 
+this alien soil and be freed from the chains that bind us to the darkness we escaped.
+^
+^        -- Brother Joaquin Al'Kadiz,
+^           "Centauri Advent"
+
+#DATALINKS1
+^LEADER: {Joaquin Al'Kadiz}
+^BACKGROUND: {Free Afghanistan, Unity Planetary Ecologist}
+^AGENDA: {Spiritual enlightenment}
+^TECH: {Centauri Ecology}
+^
+
+#DATALINKS2
+^+1 PLANET:  {Believe that Planet must be protected}
+^-1 INDUSTRY: {Weak industrial base}
+^+1 minerals in fungus squares
+^All units gain Hypnotic Trance ability upon discovery of Secrets of the Human Brain
+^Does not suffer negative social effects from Fundamentalist Politics: {Modern religious movement}
+^{May not use Free Market Economics in Social Engineering.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME1, this conflict has cost us both dearly and has
+brought suffering upon both our followers. In the name of 
+peace and goodwill, we must call for a Blood Truce"
+
+"I agree. Enough blood has been shed."
+"You are the only one who will suffer here, $NAME3."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, we are both children of the Advent which
+brought us to this world. Let us join as one congregation
+in a Treaty of Friendship."
+
+"Your faith has inspired me, $NAME3. A Treaty it is"
+"I can't trust someone with a Messiah complex like yours, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"By pursing this Vendetta we have spilt innocent blood on this world, our
+promised land. You must see reason and pledge Blood Truce!"
+
+"$NAME3: insightful: understands importance of Manifold. Truce: yes."
+"$NAME3: mistaken. This world: your grave."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"We have both travelled far and long to reach this remarkable world, 
+$TITLE0 $NAME1. Would you sign a Treaty of Friendship with us so that
+we may both seek enlightenment upon its soil?"
+
+"Progenitor journey: long indeed. Treaty: bring necessary peace."
+"Religion: strange human idiom: misguided. Treaty: pointless."
+
+
+
+# ; This line must remain at end of file
+

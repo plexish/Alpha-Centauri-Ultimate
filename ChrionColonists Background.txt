@@ -1,0 +1,72 @@
+Chiron colonists:  
+
+A growth oriented faction.  The Chiron colonists see their goal as to expand throughout the new centauran planet.  They do not directly espouse a particular ideology, their followers come from many backgrounds, and in general see centaurus as a chance for adventure or a new life opportunity for themselves.  Unfortunately, these desires often are pursued at the expense of planet’s environment.
+
+Faction characteristics:
+
++2 growth:  The faction wishes to settle and develop centaurus, leading to a high growth rate.
+
++1 efficiency:  The followers are pragmatic as a whole, and are good workers, leading to higher efficiency.
+
+Free former, cheaper raise/lower terrain:  many of the colonists are skilled at resource extraction and other such developments, plus the faction’s wish to use the wealth of centaurus.
+
+-1 police;  The Chiron colonists do not wish to be controlled in general, and many are escaping violence or other such conditions, and will not accept them on the new world.
+
+-2 planet:  Follower’s wish to develop centaurus often ignores potential ecological damage.  
+
+Prefers wealth:  Followers wish to build wealth for themselves from the planet.
+
+Cannot use green:  Followers are not concerned about ecological issues.
+
+
+Faction leader profile:  
+Name: Pedro Silva
+Position:  Head builder/colony infrastructure supervisor, unity mission
+Country of Origin:  Brazil
+Birth:  05-14-2010
+
+
+Born 2010 in Sao Paulo, Brazil.  Does not have a college education, instead, worked a number of construction jobs in Sao Paulo before being hired as an ironworker in the Amazonia Natural Gas piping system in 2030.  Silva’s determination and drive, combined with a shortage of workers in the remote regions of pipeline construction, resulted in his quick advance to project management, and led to the pipeline’s completion a year ahead of predictions.  Silva’s experience and skill made him highly desired by many groups seeking to develop the amazon region, and he soon accumulated a record of project completions, from mining to roads to oil and gas production, all ahead of schedule and cheaper than expected.
+
+Unlike other “quick and dirty” operations, Silva’s projects have been built well above safety and other construction standards, with little chemical leakage and no large accidents, however, environmental groups have reported significant losses of biodiversity and tree density surrounding projects, as well as soil erosion, leaching, generalized forest destruction, and a host of other environmental damages.  Silva is deeply unpopular with environmental groups and indigenous groups, and has often received death threats and protests when working on projects.
+
+Silva’s experience in quickly and efficiently building infrastructure in hostile terrain provides obvious benefits for a colony on another planet, and at the beginning of the unity project Silva was approached for a role on the unity mission.
+
+
+Psych profile:  Developer
+
+Silva has extraordinary drive and determination, and is a highly skilled problem solver; generally developing a strong focus on whatever problems he needs to solve to reach a particular end.  Though a quick learner, Silva does not focus on expertise in particular areas of knowledge, rather, he learns as much as is needed to oversee or perform his part in a project, and relies on others to explain and handle important details.  Silva’s focus on results and on end goals often leads him to ignore potentially problematic side effects, or other elements he cannot control, and values or other human concerns are often given secondary importance compared to more measurable or technical goals.
+
+Silva’s questionable environmental and indigenous relations records may cause frictions with other crew members on the unity, but it is believed that proper supervision can overcome this.  The destination planet itself is not expected to have indigenous sentient beings, and superior officers will also ensure that Silva’s projects include environmental preservation as a goal.  Silva’s positive leadership and management qualities are expected to be a great boon to a mission, and the drive and determination will set a good example for other members of the crew. 
+
+
+Quotes:
+
+Tree Farm (or possibly ecological engineering):
+
+“Perhaps our greatest tool for taming the centauran system is a properly engineered forest.  With the proper mix of trees, such a forest proves highly resilient, and supplies vital food and raw materials, while requiring little maintenance once grown.  Such a forest will also push back the dangerous xenofungus from our cities, and defensive cover if war breaks out.  Forests have proven their worth over and over, and with development,  will prove useful far into the future”   --The development of Chiron
+
+Advanced ecological engineering:
+
+“Our mastery over planet has reached a point our terran ancestors could only dream and speculate about.  With a simple change of height here, and nutrients there, we can change the weather of entire continents, bring deserts to life, turn barrens lands into green and growing fields.  With such power in our grasp, there is no part of centaurus that humanity cannot go.”  --Terraformer’s Journal
+
+
+Habitation dome:
+
+“After several centuries of development, our societies are no longer frontier societies.  Like all societies, we have changed our focus from rapid expansion to concerns of crime, industry, efficiency, and other concerns more suited to a static society.”  -- Colonist’s Journey  
+
+
+Punishment sphere:
+
+“A whole world to colonize, a chance to start anew, and yet already the grasp of tyrants is felt upon this world.  Not content with typical police methods, they now punish all ambition, all disagreement, all that makes a man strong, is punished and destroyed in the electric shocks of the punishment sphere.  It is, without doubt, our most horrifying and misconceived invention on the new world”   --Planet of opportunity
+
+
+
+
+My personal notes:
+
+Faction seems somewhat overpowered in this state.  I’ve included two versions, one with a free former, one with super former as a free ability.  (I would have preferred cheaper terraformers in production terms as a special ability, but do not know how to actually do this.)
+
+This faction was originally created for a couple of reasons: to cover wealth (one of two social engineering choices not preferred by factions already in the game), and to create a growth oriented faction (Which is one of the only social engineering choices without a +2 faction).
+
+Since I don’t actually know that much about Brazil, most of the city names use U.S. style pioneer imagery.  (Brazil was chosen to continue the trend of “faction leaders come from all over the world”, but original alpha centauri and alien crossfire do not cover some regions.)

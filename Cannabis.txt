@@ -1,0 +1,125 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Cannabis League
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#CANNABIS
+Cannabis League, The Stoned, Cannabis League, M, 2, Shaggy, M, -1, 0, 1, 1, 1,
+  TECH, Ecology, TECH, Biogen, SOCIAL, +MORALE, FACILITY, 3, TALENT, 4, SOCIAL, -EFFIC, SOCIAL, --POLICE, SOCIAL, --PROBE, SOCIAL, +PLANET, FUNGNUTRIENT, 2, FUNGMINERALS, 1, FUNGENERGY, 1, IMMUNITY, MORALE, IMPUNITY, Green
+  Economics, Green, PLANET
+  Politics, Police State, nil
+  Cannabis League, Cannabis League,
+  Stoner, Cheech, Scooby's Rest
+  Stoner, high, pot smoking, free thinking, drugged,
+  Reefer Addict
+  smoke lots of weed
+  to smoke the world into mental oblivion
+  making the entire planet drug using hippies
+  making the entire planet drug using hippies
+  spread your drug induced laziness across the planet
+  toking from the bong
+  toking from the bong
+  smoking too much pot
+  drug induced ramblings, M2
+  marijuana cultivation, M1
+  smoke sessions, M2
+  dime bag tax, M1
+  getting everyone nicely baked
+  my dealers
+  the High Life Code
+
+#BASES
+New Amsterdam
+New Bong City
+Cannabis County
+Children of the Pot
+Bunker 420
+Vale of Weed
+Pot Pass
+Bodegas
+Munchie Madness
+The Joint
+Shotgun City
+Hot Box
+Hooka Heaven
+Shroomfest
+Bud Palace
+Bluntville
+Resin Rise
+Dime Bag
+Stash Can City
+Smokey Paradise
+Tweedtown
+Puffington
+Herb-A-Rama
+Tokeytown
+Sweet Sweet Cheeba
+Stonermania
+Big Bowl
+#END
+
+#WATERBASES
+Bong Water
+Thirst Quencher
+Gatorade Goodness
+Water Pipe
+Urinal Fresh
+Liquid Refreshment
+Sea Weed
+Wet Spot
+#END
+
+#BLURB
+Give me liberty or give me pizza pie.
+^
+^        -- Stoner Shaggy,
+^           "Dr. Strangepot or How I Learned to Stop Worrying and Love the Herb"
+
+#DATALINKS1
+^LEADER: {Shaggy}
+^BACKGROUND: {Amsterdam, Unity Stoner}
+^AGENDA: {Green Democracy}
+^TECH: {Centauri Ecology, Biogenetics}
+^
+
+#DATALINKS2
+^+1 PLANET: {Knowledgable in 'agriculture'}
+^-1 EFFICIENCY: {Pot Induced Laziness}
+^+1 MORALE: {Permanently Happy}
+^-2 POLICE: {The Man!}
+^-2 PROBE: {Always talking about things}
+^+2 Nutrients in fungus squares: {Shrooms}
+^+1 Minerals in fungus squares: {Shrooms}
+^+1 Energy in fungus squares: {Shrooms}
+^Efficient Cannabis Cultivation Facilities: {Free RECYCLING TANKS at each base}
+^{May not use Police State politics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This senseless destruction will surely cause irreparable harm
+to my latest crop of herb. I urge we mend our differences and
+pledge Blood Truce."
+
+"It is as you say. This violence must end or the buds may have less resin."
+"Hah! Your hookas won't save you now, $NAME3!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"I sense you are a smoker of Pot, $TITLE0 $NAME1. I suggest
+we sign a Treaty of Friendship, that our peoples may toke together in peace."
+
+"Agreed. Take a hit, $NAME3."
+"No. This 'Drug Dependency' stuff is bad for my health."
+
+
+# ; This line must remain at end of file
+

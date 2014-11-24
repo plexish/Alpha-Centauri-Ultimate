@@ -1,0 +1,133 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Navy Federation
+;
+; created by ariete
+;
+
+#NAVY
+Navy Federation, The Seaman, Navy, F, 1, Svanzkuffer, F, 1, 1, 1, 1, 0,
+  TECH, AdapDoc, TECH, DocFlex, TECH, DocInit, TECH, Metal, SOCIAL, +ECONOMY, SOCIAL, SOCIAL, +MORALE, SOCIAL, +INDUSTRY, AQUATIC, 0
+  Values, Power, MORALE
+  nil, nil, nil
+  Navy, Navy.
+  Ensign Hones, Luftkas, Hones Navy Port
+  Admiral, heroic, bloodthirsty, intrepid, barbarous, 
+  Outmoded Misfit
+  exploit the riches of the sea
+  to harness the vast potential of the oceans
+  equipping a private war fleet to seize control of the seas
+  equipping your private war fleet to seize control of the seas
+  equip a private war fleet and seize control of the seas
+  washing the decks of his cruisers with our blood
+  washing the decks of your cruisers with our blood
+  having strange desires
+  strange desires, M2
+  aquatic ambitions, M2
+  latest expeditions, M2
+  tariff, M1
+  protecting your shipping from undeserving brigands
+  my war fleets
+  the Law of the Sea
+
+#BASES
+18 Navy Coast
+23 Navy Coast
+45 Navy Coast
+78 Navy Coast
+154 Navy Coast
+279 Navy Coast
+356 Navy Coast
+487 Navy Coast
+596 Navy Coast
+678 Navy Coast
+763 Navy Coast
+829 Navy Coast
+914 Navy Coast
+#END
+
+#WATERBASES
+Admiralty Base
+19 Navy Anchorage
+27 Navy Anchorage
+38 Navy Anchorage
+47 Navy Anchorage
+59 Navy Anchorage
+63 Navy Anchorage
+77 Navy Anchorage
+87 Navy Anchorage
+147 Navy Anchorage
+256 Navy Anchorage
+378 Navy Anchorage
+496 Navy Anchorage
+512 Navy Anchorage
+632 Navy Anchorage
+789 Navy Anchorage
+834 Navy Anchorage
+962 Navy Anchorage
+#END
+
+#BLURB
+^ Spartan sended a space-ship expedition to colonize a new planet of 
+Centauri system. There were on board officers of the different spheres
+ compose the glorious Spartan Federation. But happen what happened to 
+Unity so the mission split in 5 human faction and 2 aliens. The navy 
+machinery focused his colonization on the vast sea of the Planet and 
+founded a society based on the exploration and study of this element.
+
+#DATALINKS1
+^LEADER: {Admiral Karma Svanzkuffer}
+^BACKGROUND: {Unity II Navy Officer}
+^AGENDA: {Acquatic Faction}
+^TECH: {Adptive Doctrine, Doctrine: Flexibility, Doctrine: Initiative, Nanometallurgy}
+^
+
+#DATALINKS2
+^+1 ECONOMY {portual activity increase commercial exchanges}
+^+1 MORALE {well trained troops}
+^+1 INDUSTRY {naval yards activities increase industrial production}
+^Enhancements may be built in ocean and trench squares with the discovery of Advanced Ecological Engineering: {Trained for life at sea}
+^Sea colony pod & sea former prototypes FREE: {Advanced oceanic technology}
+^Bonus mineral from ocean shelf squares: {Culture and technology adapted for the ocean}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Planet offers far greater adventures for us than this tedious conflict. 
+Let us pledge Blood Truce and return to our explorations!"
+
+"Agreed. Forth to adventure!"
+"There is no greater adventure than the defeat of a meddlesome foe. Prepare to be annihilated!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Your ambitions seem to lie outside our sphere of influence, $TITLE0 $NAME1. 
+We'd like to sign a Treaty of Friendship to cement our common bonds."
+
+"We would never think of encroaching on your interests, $NAME3. Let's sign that Treaty."
+"We'd like to reserve judgement. Our expansion plans may yet come into conflict."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Planet offers far greater adventures for us than this tedious conflict. 
+Let us pledge Blood Truce and return to our explorations!"
+
+"Exploration of Manifold Six: much more important. Agreement!"
+"Already familiar: Manifold Six. Best adventure: your destruction!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"You don't seem very interested in the sea, $TITLE0 $NAME1. Though you are
+alien to us, it seems that among all the human factions, I am your logical
+ally, since our spheres of influence are different. Let's sign a Treaty of
+Friendship and formalize what is already manifest."
+
+"Land: Progenitor. Sea: $NAME3. Treaty: agreed."
+"All Manifold Six: possible conflict. Treaty: unwise at this time."
+
+
+# ; This line must remain at end of file

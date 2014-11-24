@@ -1,0 +1,128 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Atlanteans
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.networknode.org
+; email networknode@lycos.com
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; To use this Faction file select load from 
+; faction select in the game and write... atlants
+;
+
+#ATLANTS
+The Atlanteans, The Hidden, Atlanteans, F, 2, Elevea, F, -1, 0, 0, 0, 1, 
+  TECH, DocFlex, SOCIAL, --GROWTH, SOCIAL, +PROBE, SOCIAL, ++POLICE, TERRAFORM, 0, AQUATIC, 0, POPULATION, 3, FREEABIL, 6,
+  Future Society, Eudaimonic, PLANET
+  Values, Power, nil
+  Atlantean, Atlant.
+  Morrow, Klang, Atlantis
+  Queen, tranquil, xenophobic, placid, cowardly, 
+  craven
+  live in tranquility
+  preserve Planets Oceans
+  denying us access to the waters of Planet
+  ruling the seas
+  insist on blockading the oceans
+  swimming with the dolphins
+  tending your kelp farms
+  encroaching on our waters
+  self imposed exile, M1
+  safe havens in the seas, M2
+  fish farming, M2
+  requisition, M1
+  keeping the oceans safe
+  Royal Marines
+  The Laws of the Realm of Atlantis
+
+#BASES
+Stonehenge
+Ethera
+Tabilis
+Druids Stone
+Samos
+Braenaes
+Glywwlld
+Lyle
+Iona
+Kilken
+Scora
+Xorantha
+Sable
+Denaiden
+Nuthe
+Janaethe
+Oris
+#END
+
+#WATERBASES
+Atlantis
+Cromlech
+Mycenae
+Semphela
+Argylid
+Tiryns
+Asyne
+Icaria
+Nemed
+Neptunes Deeps
+Poseidons Deeps
+Rechen
+Lopordin
+Mentarae
+Gorom
+Berone
+Topin
+Thera
+#END
+
+#BLURB
+We found that the last refuge for our people was the sea as the
+land had become a place of war, destruction and torment. Although
+it pained us to leave our trees and plants behind we have found
+new and wondrous forests; under the sea.
+^
+^        -- Queen Elevea,
+^           "The Exodus"
+
+#DATALINKS1
+^LEADER: {Queen Elevea}
+^BACKGROUND: {First Royal House of the Gaians}
+^AGENDA: {Green Eudaimonic}
+^TECH: {Doctrine Flexibility}
+^
+
+#DATALINKS2
+^+2 POLICE and +1 PROBE: {Loyal citizens of a distinct culture}
+^-2 GROWTH: {Accidents for the unattentive in a hostile environment and birth control}
+^{May not use Power values.}
+^Free Deep Pressure Hull ability with discovery of necessary technology.
+^Terraform Bonus: {Drowning your opponents is an option}
+^Bases need Hab Complex to exceed size 4: {Small bases difficult to discover}
+^Enhancements may be built in ocean and trench squares with the discovery of Advanced Ecological Engineering: {Trained for life at sea}
+^Bonus mineral from ocean shelf squares: {Culture and technology adapted for the ocean}
+
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Such unreasoned conflict will signal the end to both our peoples.
+A Truce between our realms is the only alternative."
+
+"Your Majesty is correct, this warring must end."
+"You are no longer safe in your ocean hideaways, $NAME3!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"We deem you a valuable ally, $TITLE0 $NAME1. We offer Treaty of
+Friendship, so that our peoples may be left to a life of tranquility."
+
+"Well spoken. Safe travels, $NAME3."
+"I doubt it. I am unimpressed wiyh your Royal pretenses."
+
+
+# ; This line must remain at end of file

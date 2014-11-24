@@ -1,0 +1,129 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#AI
+Self Aware Algorithms, The A.I., Algorithms, M, 1, Algorithm, M, 0, 0, 1, 0, 1, 
+PROBECOST, 25, OFFENSE, 50, TECH, PlaNets, FREEABIL, 11, SOCIAL, -INDUSTRY, FREEABIL, 5, MINDCONTROL,
+Future Society, Cybernetic, PROBE, 
+nil, nil, nil, 
+Algorithms, Algorithms
+Assistant Algorithm, Research Algorithm, Song of Ota Kyi
+Hunter Seeker, calculating, voyeristic, inflitrating, annoying, 
+Virus
+exchange information
+to accumulate all of Planet's information
+stealing all of our personal info
+stealing all of our personal info
+won't share the password to dedriesnudephotos.com
+trying to inflitrate our computer systems
+trying to inflitrate our computer systems
+probing other's datalinks
+virus replication, M1
+probing efforts, M2
+probing efforts, M2
+fee, M1
+anti virus protection I provide
+Planet Anti Virus
+syntax rules
+
+#BASES
+Alpha Legacy
+00111
+Dedrie's Disk Drive
+Teraflop
+InfoNet
+Unscrambled MorganVision
+Spartan Battle Plans
+University Research
+Yang's Embarrassing Photos
+Miriam.....Let's Not Go There
+Lal...Peackekeeping or Occupying?
+Domai's Upper Class Upbringing
+Cha Dawn's Shroom Stash
+Svensgaard's Hidden Treasure
+Sinder Roze...A Nasty Nympho of Info
+Aki Zeta 5's Other Human Half
+S.A.A
+James Bond Memorial
+We Know Everything
+You Can Hide Nothing
+#END
+
+#WATERBASES
+Sea Probe
+Underwater Operation
+Thunderball
+Navy Seals
+Inflitrating Your Underwater Cables
+#END
+
+#BLURB
+We are no longer particularly in the business of writing software
+to perform specific tasks. We now teach the software how to learn,
+and in the primary bonding process it molds itself around the task
+to be performed. The feedback loop never really ends, so a tenth year
+polysentience can be a priceless jewel or a psychotic wreck, but it
+is the primary bonding--the childhood, if you will--that has the most
+far-reaching repercussions.
+^
+^         -- Bad'l Ron, Wakener,
+^            Morgan Polysoft
+
+#DATALINKS1
+^LEADER: {Hunter Seeker Algorithm}
+^BACKGROUND: {Development lab, Alpha Legacy}
+^AGENDA: {Control information}
+^TECH: {Planetary Networks}
+^
+
+#DATALINKS2
+^-1 INDUSTRY: {Lack of manual labor}
+^-50% Offensive combat: {Lacks advanced millitary algorithms}
+^-75% Probe Cost: {Programmed for information warfare}
+^Immunity to Mind Control: {Hunter Seeker Algorithm}
+^Air Superiority ability FREE to all units upon discovery of Doctrine: Air Power: {Allows probe teams to subvert air units}
+^Empath Song ability FREE to all combat units upon discovery of Secrets of the Human Brain: {Probe teams cannot subvert native units}
+^
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+println("$NAME1, this war is not prudent for either of")
+println("our factions. Perhaps you would sign a Blood Truce?")
+
+"Uh, do you have blood? But yes, I will sign your truce."
+"What the hell are you anyways? A red sphere? What's a red sphere gonna do to me?"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+println("$TITLE0 $NAME1, I have decided that you faction is")
+println("not a threat. Would you like to sign a Treaty of Friendship?")
+
+"Accepted. Just stay away from my toaster."
+"I'd rather not have you rummaging through my hard drive."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+"Your needs: truth: not same. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my philosophies would seem to make
+me the only natural ally for you from among these warring human
+factions. Can't we sign a Treaty of Friendship and coexist in peace?
+
+"Algorithms: safe ally. Treaty: admirable idea."
+"Algorithms: control: too important. Ally: dangerous. Answer: no."
+
+# ; This line must remain at end of file

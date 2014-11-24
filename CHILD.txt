@@ -1,0 +1,131 @@
+; Aalogin
+; Sid Meier's Alpha Centauri
+; http://www.networknode.org
+;
+
+#CHILD
+Children's Alliance, The Young, Children's Alliance, M, 1, James and Karri, M, -1, 0, 1, 1, 1, 
+TECH, Biogen, TECH, Mobile, SOCIAL, --GROWTH, SOCIAL, ++RESEARCH, SOCIAL, +PLANET, UNIT, 11, FACILITY, 2, SOCIAL, --MORALE, TALENT, 5, TECHCOST, 75, 
+Future Society, Eudaimonic, nil, 
+Values, Power, nil, 
+Children's Alliance, Children's Alliance
+Gene, Samantha, Gene's Star
+Twin Guides, exhubriant, defiant, youthful, defiant, 
+Inexperienced Fools
+usher in an era of enlightenment and youth
+give youths the power to controll their own futures
+depriving responsible adults of all their rightful possitions
+depriving we responsible adults of all our rightful possitions
+hand all the power of the planet to your immature minions
+plotting to dethrone all the ruling adults from our rightful possitions
+plotting to dethrone all the ruling adults from our rightful possitions
+encouraging children to rebel against authority
+youthful endevors, M1
+youthful endevors, M2
+educational projects, M2
+sum, M1
+preparing your children for the future
+our defenses
+children's rights
+
+#BASES
+Children's Alliance
+Youthful Quest
+First Commencment
+Child's Mind
+Future Vision
+Son's Colony
+Bankes Park
+The Hope Chest
+Eagle's Hideaway
+Memories of Home
+Unity Housing
+Tower of Peace
+Flowering Child
+Fledgling Community
+Karri's Garden
+Hearth Fire
+Earthen Collective
+Great Aide
+Prelude To Light
+Bolero To Fire
+Minuet of Forest
+Requiem of Spirt
+Rhapsody To Peace
+Oath to Order
+Sonata Of Awakening
+#END
+
+#WATERBASES
+Children's Bay
+Serenade To Water
+New Wave Bossa Nova
+Great Bay
+Youth's Shore
+Joyous Isle
+Seacrest Wharf
+#END
+
+#BLURB
+^  Adults say that we are the future. But barring that,
+what place in present society do we have? 
+^
+^        -- Jim Bankes,
+^           "Journals"
+
+#DATALINKS1
+^LEADER: {Twin Guides James and Karri Bankes}
+^BACKGROUND: {Succedants from the Anarchists}
+^AGENDA: {Eudaimonic Population}
+^TECH: {Doctrine: Mobility, Biogenics}
+
+#DATALINKS2
+^-2 GROWTH:   {Most citizens too young to reproduce}
+^+1 PLANET: {Concerned with the environment}
+^+2 RESEARCH:  {Efficient schools}
+^Educational facilities: {Free CHILDRENS CRECHE at each base}
+^-2 MORALE: {Inexperienced fighters}
+^Free UNITY ROVER at start of game
+^{Cannot use Power Value choice.}
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"We know that there is no benefit from this Vendetta,
+for either of us. A blood truce is therefore in order."
+
+"Indeed. Blood Truce would be most satisfactory."
+"You are merely foolish children with no respect"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME0, we are aware of your ideals and we
+find them welcome to our society. Though we may be young,
+we guarantee that your trusts would not be misplaced.
+A Treaty is therefore appropriate?"
+
+"We are able to see past your youth. I'd say that
+a treaty would be most welcome."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"We know that no good can come out of this war, for
+either of us. Therefore, a Blood Truce is the best alternative."
+
+"Young ones: wisdom transcends age. War: unbeneficial. Agree: truce."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, we may be young but we hope you
+can see past that insignificant factor. And likewise,
+we wish to be able to see through your frightening appearances.
+A treaty would give us both a better view."
+
+"New perception: needed. Solution: Treaty of Friendship."
+"Youths: not responsible enough. Response: no."
+
+# ; This line must remain at end of file

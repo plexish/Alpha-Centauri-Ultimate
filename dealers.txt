@@ -1,0 +1,107 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Weapons R'US Syndicate
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... dealers
+;
+
+#DEALERS
+Weapons R'US Syndicate, the Trader, Death Dealers, M, 1, Smith, M, -1, 0, 1, 1, 0, 
+  TECH, Physic, SOCIAL, ----MORALE, SOCIAL, ---POLICE, SOCIAL, ++INDUSTRY, SOCIAL, ++RESEARCH, UNIT, 12, FREEPROTO, 0
+  Politics, Democratic, ECONOMY
+  Values, Power, nil
+  Syndicate, Syndic.
+  Edwards, Kinley, Kinley's Market
+  Director, unorthodox, unscrupulous, inventive, death-dealing, 
+  wicked
+  pursue wealth by any means possible
+  pursue wealth by any means possible
+  changing this Planet into a sea of blood and tears
+  changing this Planet into a sea of blood and tears
+  conduct suspicious trading operations
+  counting her blood-stained money
+  counting her blood-stained money
+  denying the Right of Free Trade
+  wicked ways, M2
+  commerce efforts, M2
+  commerce efforts, M1
+  maintenance payment, M1
+  providing you with adequate toys
+  security squads
+  Free Trade Codex
+
+#BASES
+Syndicate Headquarters
+High Energy Laboratory
+Projectile Weapons Complex
+Testing Ground 13
+Military Propulsion Lab
+Hand Weapons Manufacture
+The Distribution Center
+Auxiliary Distribution
+Sales and Marketing
+Corporate Recreation
+Restricted Area 6
+Fossil Fuel Refinery
+Hydroponic Farms
+Targeting Systems Division
+Bio-Weapons Compound
+Uranium Utilization Compound
+Chem-Ind.
+#END
+
+#WATERBASES
+Naval Weaponry Lab
+Sea Transit Nexus
+Submersion Chamber
+Torpedo Silos
+Destroyer Yard
+Undersea Recreation
+#END
+
+#BLURB
+Trade is trade. Goods are goods. Why do some people, using the
+shield of so called "morality", pretend that it is different?
+^
+^---Director Conrad Smith,
+^Datalinks
+
+#DATALINKS1
+^LEADER: {Director Smith}
+^BACKGROUND: {Arms-dealing syndicate of Old Earth}
+^AGENDA: {Gain wealth through selling of armament}
+^TECH: {Applied Physics}
+^
+
+#DATALINKS2
+^-4 MORALE: {dislike fighting with their own weapons}
+^-3 POLICE: {aware of the dark side of war}
+^+2 INDUSTRY: {manufacture armament for sale}
+^+2 RESEARCH: {have to keep up with the tech edge to stay on top}
+^Prototype units do not cost extra minerals.
+^{May not use Power value in Social Engineering.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This war is hurting our trade. Let us sign a Blood Truce to prevent
+such squandering of our reserves."
+
+"Yes. We must not allow ourselves to get behind the other factions."
+"No! I will no longer let you conduct your wicked death-dealing commerce, $NAME1! Now you die!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"A Treaty of Friendship would benefit our greatly, increasing our
+net commerce. Do you wish to sign it?"
+
+"Why not. The more energy, the merrier."
+"No. I despise your definition of "free trade", $NAME3."
+
+
+# ; This line must remain at end of file

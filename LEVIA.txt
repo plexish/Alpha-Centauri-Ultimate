@@ -1,0 +1,151 @@
+; Sid Meier's Alpha Centauri
+;
+; The Genome Syndicate
+;
+; Custom Faction Sig2013-06
+; Text by Sigma
+; Special thanks to ete (AC2) for balance suggestions
+; 
+
+#LEVIA
+Leviathan Body, The Populist, Leviathan, M, 1, Omar, M, 0, 0, 1, 0, 1, 
+TECH, Psych, SOCIAL, +GROWTH, SOCIAL, --POLICE, FANATIC, 0, POPULATION, -2, MINDCONTROL, 0, PENALTY, FREE MARKET, 
+Politics, Democratic, GROWTH, 
+Politics, Police State, nil, 
+Leviathan, Leviathan,
+Sharla, Johann, Freedom's March
+Proctor, noble, radical, revolutionary, anarchistic, 
+Unhinged Anarchist
+secure the rights and ongoing freedom of our followers
+bring equality and freedom to every colonist on Planet
+inciting mob violence to overthrow Planet's legitimate governments
+incite mob violence to overthrow Planet's legitimate governments
+your pestilent horde tears down every last vestige of law and order on Planet 
+stirring his minions into a fervor over imagined injustices
+stirring your minions into a fervor over imagined injustices
+promoting anarchy
+anarchist tendencies, M2
+social rights movement, M1
+crusade for social justice, M1
+kickstart, M1
+protecting the rights and freedoms of Planet's people
+our Freedom Task Force
+the Decree of Universal People's Rights
+
+#BASES
+Voice of the People
+Huddled Masses
+Slaves No Longer
+Tooth and Nail
+Unity Unchained
+Declaration of Will
+Farpoint Freehold
+Freeman's Colony
+Free City Zero
+Rabble In Arms
+Judgment of the People
+Common Man's Battlefield
+The Fallen Wall
+Sic Semper Tyrannis
+King's End Court
+Working Class Hero
+Price of Liberty
+Equality Village
+Shout and Be Heard
+Heart of the Leviathan
+Protest Quarters
+Drumbeat of Humanity
+Hall of Comradery
+Just Cause
+Men of the Earth
+Call to Arms
+Resistance Capitol
+Speaker for the Masses
+Sons of Men
+Justice for All
+Tribulation Square
+Social Wellness Clinic
+People's Dovecote
+The Despot's Demise
+Proletariat's Pride
+Freedom University
+#END
+
+#WATERBASES
+Sea of Humanity
+Leviathan Cove
+Tides of Change
+Defiance Wharf
+Port Revolution
+Two if by Sea
+The Rebel's Haven
+Sink the Dictator
+Surging Currents
+#END
+
+#BLURB
+^The proctor is neither a leader nor a commander. He is a speaker for
+the teeming masses whose voice boils within their hardened prison, 
+whose jailers once called themselves their representatives. He does not
+speak of his own originality, but so that through him what was 
+silenced may be heard and never again quieted.
+^
+^        -- Proctor Omar van Blum,
+^           "Can You Hear the People Sing?"
+
+#DATALINKS1
+^LEADER: {Omar van Blum}
+^BACKGROUND: {Republic of South Africa, Unity Passenger}
+^AGENDA: {Universal Human Rights}
+^TECH: {Social Psych}
+
+#DATALINKS2
+^+1 Growth:   {Populist movement gathers supporters}
+^-2 POLICE:  {Distrust of law enforcement}
+^+25% Offense: {Activists willing to fight for cause}
+^Can exceed Hab Complex requirements by 2
+^Bases and Units cannot be Mind Controlled: {Strong willed followers}
+^Suffers double penalties from Free Market Economics
+^{May not choose Police State Politics}
+
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This Vendetta has brought pain and suffering to our people, $NAME1.
+They yearn for a Blood Truce to end this pointless violence!"
+
+"Our people must come first. I agree to your Truce."
+"Ha! Your people may be whining, but my followers are loyal to the end!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, you have proven yourself a friend to the people and
+an opponent to their oppression and subjugation. Won't you consider a
+Treaty of Friendship so that our people may both prosper in unity?"
+
+"$NAME3, our citizens will celebrate the day this Treaty was signed."
+"You'd have me deposed and thrown into the Punishment Sphere within the week, $NAME3. That isn't my definition of Friendship."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Your people cry out for peace, $NAME1! You must heed their voice or
+you'll fall at their hands."
+
+"Progenitor: hear followers call. Listen: desire Blood Truce"
+"Voice: calls for death of $NAME3. Response: most convincing."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your people and mine are from different worlds, but 
+have common desires and needs, and both suffer the same injustices and
+inequalities. As different as we are, we would welcome you as allies
+with a Treaty of Friendship."
+
+"Human: Progenitor: alike in many ways. Friendship: possible."
+"Humans: do not understand Progenitor. Friendship: impossible."
+
+# ; This line must remain at end of file

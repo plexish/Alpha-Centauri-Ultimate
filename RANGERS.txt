@@ -1,0 +1,127 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Rangers of Chiron v1.0
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.civgaming.net/citizens/networknode/
+; email networknode@lycos.com
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; To use this Faction file select load from 
+; faction select in the game and write... rangers
+;
+
+#RANGERS
+The Rangers of Chiron, The Rangers, Rangers, F, 2, Ajela Tam, F, 1, 1, 0, 0, 1, 
+  TECH, Ecology, SOCIAL, +++PLANET, SOCIAL, ---INDUSTRY, SOCIAL, ---RESEARCH, SOCIAL, ++MORALE, FACILITY, 31, UNIT, 2, UNIT, 2, HURRY, 150, COMMERCE, -3, MORALE, 0
+  Economics, Green, PLANET
+  Economics, Free Market, nil
+  Ranger, Ranger
+  Altair, Ceta, Eridani
+  Pathfinder, Vigilant, gaurded, protective, foolish, 
+  ridiculous
+  guard Chirons natural wonders
+  to guard the natural wonders of Chiron
+  preventing the development of Planet
+  hampering any major development of Planet
+  attempt to destroy us all
+  tendinging fungus
+  trying to prevent us moving forward
+  placing Planet's lifeforms above humanity
+  hopeless parkbuilding, M1
+  Protection of Chiron, M1
+  fungus tending, M2
+  Preservation donation, M1
+  protecting Chirons natural wonders
+  elite Ranger Guerillas
+  Mother Chirons Natural Law
+
+#BASES
+Eridani
+Kultis
+Association
+Sirius
+Procyon
+Dorsai
+Mara
+Nansuno
+Malachi
+Noyes
+Bleys
+Wilten
+Ahrens
+Torre
+Obediah
+Exotica
+High Preserve
+Chirons Hope
+Neru
+Olyn
+Pilom
+Ragna
+Donal
+Helma
+Rukh Nar
+Gardual
+Gerndaj
+#END
+
+#WATERBASES
+Salis
+Oporna
+Kensie
+Foralie
+Harmon
+Kolinna
+Laoen
+Dorom
+#END
+
+#BLURB
+Chiron is a world of majestic proportions and grand beauty. We
+will strive to protect her treasures in the face of any adversity,
+and brook no interference in the task at hand. 
+^
+^        -- Strider Ajela Tam,
+^           "Chronicles of the Preservation"
+
+#DATALINKS1
+^LEADER: {Strider Ajela Tam}
+^BACKGROUND: {Green Peace, National Parks Warden}
+^AGENDA: {Protection of Chirons Natural Wonders}
+^TECH: {Centauri Ecology}
+^
+
+#DATALINKS2
+^CENTAURI PRESERVE: {Free facility at each base}
+^+3 PLANET: {Spiritual symbiosis with Chiron}
+^-3 INDUSTRY: {Industry poisons Chiron}
+^-3 RESEARCH: {Technology destroys Chiron}
+^+2 MORALE: {The Rangers are fiercely passionate for their cause}
+^-15% ENERGY INTEREST: {Abhorrence of Energy creating facilities}
+^-3 COMMERCE: {Self sufficient populace}
+^150% HURRY: {Poor Industrial facilities
+{May NOT use FREE MARKET}
+{2 Free SCOUTS}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME1, Chirons flora and fauna suffer badly in this conflict,
+let us cease these hostilities at once."
+
+"As Mother Chiron wills it. Truce pledged."
+"To hell with your protagonism, $NAME3."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"I see hope in your outlook, $TITLE0 $NAME1. Chiron needs us to
+co-operate in harmony and peace."
+
+"$NAME3. Chiron is well served."
+"Never. Your Rangers infuriate me, $NAME3."
+
+
+# ; This line must remain at end of file

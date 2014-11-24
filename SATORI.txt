@@ -1,0 +1,138 @@
+; Sid Meier's Alpha Centauri
+;
+; House Satori
+;
+; Custom Faction Sig2013-03
+; Text by Sigma
+; Special thanks to ete (AC2) for balance suggestions
+; 
+
+#SATORI
+House Satori, The Merchant, Satori, F, 2, Atsumi, F,  -1, 0, 1, 1, 0,
+  TECH, 1, PROBECOST, 75, COMMERCE, 3, INTEREST, 2, OFFENSE, 90, DEFENSE, 90, SOCIAL, ++PROBE,
+  Values, Wealth, ECONOMY
+  Economics, Planned, nil
+  Satori, Satori,
+  Hana, Park, New Edo
+  Madam, elegant, scheming, noble, criminal
+  Thieving Leech
+  extend our prosperity across all of Planet
+  to seek out new economic ventures for our chivalrous organization
+  expanding her criminal empire until she controls every last credit on Planet
+  expanding your criminal empire until you control every last credit on Planet
+  bring the Planet's economy to its knees
+  counting her credits
+  counting your credits
+  criminal business practices
+  criminal business practices, M2
+  research and development, M2
+  future enterprises, M2
+  tariff, M1
+  strengthening and enriching Planet's trade
+  House Satori's Repossession Specialists
+  Planetary Trade Regulations
+
+#BASES
+Satori Palace
+Guildhall
+Invisible Hand
+Wealth of Nations
+Trade Depot
+Bank of Planet
+Marketplace
+Enigma Vault
+Amity and Influence
+Data Haven
+Cryptopolis
+Shadow Market
+Bank of Secrets
+Cloaked Bazaar
+Hidden Horde
+Gilded Roadway
+Diamond Castle
+Spycraft Base
+Unseen Archive
+Credit Alley
+Chiron Casino
+Satori Legacy
+Path to Riches
+New World Enterprise
+#END
+
+#WATERBASES
+Bonanza
+New Edo Bay
+Deep Vault
+Shadow Sea
+Currency Base
+Sea of Prosperity
+#END
+
+#BLURB
+One would be led to believe that life on another world requires
+new rules be written for every aspect of human endeavor, and in
+most areas they would be correct. Most areas, save for commerce.
+It is in that this area alone that Planet's fungal ravines are
+no different from the streets of Tokyo or Berlin.
+^
+^        -- Madam Atsumi Satori,
+^           "The Colonist's Economic Primer"
+
+#DATALINKS1
+^LEADER: {Atsumi Satori}
+^BACKGROUND: {Japan, Unity Financial Consultant}
+^AGENDA: {Economic Expansion}
+^TECH: {Select 1}
+
+
+#DATALINKS2
+^+2 PROBE: {Extensive espionage network}
+^-25% cost for Probe Actions 
+^Energy reserves gain +2% interest per turn
+^Incresed commerce rate: {Experienced traders and merchants}
+^-10% Offense and Defense in Conventional Warfare {Averse to direct combat}
+^{May not use Planned Economics}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This war has cost us both dearly and has returned no profit, $NAME1. 
+I'm prepared to call it off so we can both go about our business."
+
+"I was thinking the same, $NAME3. A Blood Truce it is."
+"As if I care about the condition of your coffers, $NAME3."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, our factions have both prospered on this alien world, but
+if we strethened our trade relations we could be even wealthier. A Treaty
+of Friendship would profit us both immensely."
+
+"Then let's sign the paperwork and watch the credits flow in."
+"No deal, $NAME3. I wouldn't buy a cup of synthetic coffee from your peddlers."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"War is an impediment to our business ventures, $NAME1. If you pledge a 
+Blood Truce with me then we can both get back to what we're really on this
+planet to do."
+
+"$NAME3: good judgment. Truce: will sign."
+"$NAME3: priorities: poorly chosen. Vendetta: will proceed."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"AS different as our people are,$TITLE0 $NAME1, surely you also
+can benefit from the economic windfall that House Satori intends to
+bring to this planet. If you sign a Treaty of Friendship, I can ensure
+a return on your investment!"
+
+"Satori: persuasive argument. Treaty: profittable."
+"Progenitors: commerce: obsolete. Treaty: no advantage."
+
+
+# ; This line must remain at end of file
+

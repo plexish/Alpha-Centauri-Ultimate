@@ -1,0 +1,136 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+; MANIFOLD SEEKERS
+; Created 2000 by Sysiyš using the Faction Editor.
+; Updated April 2001 by Sysiyo for the NetworkNode.
+; (C) 2000, 2001 Sysiyš. All reproduction, downloads and changes fully
+; allowed. For any suggestions, E-mail me at sysiyo@teenagewildlife.com
+;
+
+#SEEK
+Manifold Seekers, The Isolationist, Seekers, M, 1, Jaon, M, 0, 1, 0, 0, 1, 
+SOCIAL, -ECONOMY, FREEFAC, 3, SOCIAL, ++PROBE, TECH, Biogen, TECH, Ecology, TECH, PrPsych, TECH, FldMod, ALIEN, 0, PSI, 25, IMPUNITY, Fundamentalist,
+Politics, Fundamentalist, PROBE, 
+Economics, Free Market, nil, 
+Seeker, Seeker
+Fre'an, Gorol, Fre'an : Rememberance
+Messager, mysterious, self-important, unknown, self-centered, 
+Dusted Book Worshipper
+seek the truth of ancient Texts
+to reveal true nature of Manifold Six
+subduing all of us on the basis of his 'ancient texts'
+isolating all of us from your ancient knowledge
+call for unimagioned powers of ancient ghosts
+reading his Ancient Texts to his pet mind worms
+readign your ancient texts to your pet mind worms
+isolating my follers from outside world on the basis of my Ancient Texts
+boasts on secrets of your Texts, M1
+quest for the revealation of true nature of the Manifolds, M2
+quest for life to the letter of your Ancient Text, M2
+energy amount, M1
+Protecting you form terrible mistakes made against the Ancient Texts
+the Seeker Protection Force
+the Writings of Tau Ceti
+
+#BASES
+Manifold : Seeker
+Letter of Text
+Manifold : Mysteries
+Ray : Light
+Outsiders : None
+Words of Ancients
+Icaros IV : Tragedy
+Darkness : Protection
+Recieve : View
+Wings of Wax
+Eye of the Text
+Resonance : Seeker
+Fragment of Truth
+Ancients : Meaning
+Harmony of the Text
+Be'my : Predecessor
+City of Falling Water
+Progenitor : Misstake
+Alterations of Future
+Mystery : Darkness
+Carry on : Texts
+Resonance of the Text
+Ancient : Truth
+Resistence : Futile
+Truth: Seeker
+Jotain
+Truth : Out There
+Ancients : Light
+Light : Darkness
+Future : Unknown
+#END
+
+#WATERBASES
+Manifold Veins
+Seeker Over Water
+Truth : Here
+Ancients Dome
+Sea : Seeker
+Sealurk : Confession
+Surface : Deep
+Fire : Water
+Ocean : Under
+Sky : Over
+Tau Ceti : Reef
+#END
+
+#BLURB
+^ I stood at: the ashes of: Tau Ceti. There I found: the ancient texts:
+of Be'my. These text reveal: true nature of: Manifold Six.
+^ Usurper and Caretaker: both wrong: in their interpretations. True nature
+of Manifolds: can be only found: by seeking. Not Usurping: or Caretaking.
+^
+^       -- Messager Sco'an Jaon
+^          "Progenitor: Seeker"
+
+#DATALINKS1
+^LEADER: {Messager Sco'an Jaon}
+^BACKGROUND: {Unknown, member of either Usurper or Caretaker vessel's crew.}
+^AGENDA: {To seek out true nature of the manifolds in accordance to ancient Progenitor texts}
+^TECH: {Progenitor Psych, Centauri Ecology, Field Modulation, Biogenetics}
+
+#DATALINKS2
+^-1 ECONOMY: {Low interest in such petty thigs things}
+^+2 PROBE:   {Strong minds with resonance control}
+^All prototype combat units have 2-square sighting radius (Resonance sensitivity)              
+^Free RECYCLING TANKS at every base
+^"Energy Grid" at each base: {Increased infrastructure generates additional energy}
+^Begin game with a Mk I Battle Ogre and extra Colony Pod
+^Can direct research efforts (rediscovering technology & infrastructure)
+^Possess a physical scan of Planet's surface
+^May not make Free Market Economy choice
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Seeker: no desire to continue: conflict. Reason:
+Conflict not helping: in Seeker cause. $TITLE0 $NAME1:
+please make: Blood Truce."
+
+"This war certainly is a waste of good people and resources, $NAME3. 
+I must allso admit that I'm curious about your cause. Truce signed and sworn."
+"I don't know about your cause, but I'm not going to stand here 
+and wait for them to be realised. This Vendetta shall continue! 
+Prepare for destruction, $NAME3!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Human: desiring more information: on Seeker cause.
+Seeker: nothing against human. Logical result: $NAME3:
+$NAME1: Treaty of Friendship."
+
+"Admitted, I'm quite curious, and I think on some level you are 
+curious about us as well. I think we can coexist nicely together, $NAME3."
+"You have shown no intent of releasing that information in the past, 
+and I don't like your means, whatever your cause is. Do you really 
+think I'll trust you, $NAME3?"
+
+# ; This line must remain at end of file

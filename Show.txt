@@ -1,0 +1,141 @@
+;  by CyberGod
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Showbiz Enterprises
+;
+; Copyright (c) 1997, 1998 by Firaxis Games, Inc.
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#SHOW
+The Showbiz Enterprises, The Celebrity, Showbiz, M, 1, Titania, F, 0, 0, 0, 1, 1,
+  TECH, IndEcon, FACILITY, 11, COMMERCE, 2, SOCIAL, +POLICE, SOCIAL, -PLANET, PENALTY, PLANET, INTEREST, 2
+  Values, Wealth, ECONOMY
+  Economics, Green, nil
+  Showbiz, Showbiz
+  Kathy, Leo, Kathy's Studios
+  Superstar, glamorous, pushy, entertaining, dramatic,
+  Money-Bloated Super Gizmo
+  make Planet a Holywood style experience
+  to establish a new Holywood on this dull world
+  establishing a money-run, propaganding and immoral empire
+  establishing a money-run, propaganding and immoral empire
+  poison my people's minds
+  creating sci-fi movies with her as the Queen of Planet
+  creating sci-fi movies with you as the Queen of Planet
+  propaganding my over-boasting enterprises
+  propaganda, M1
+  showbusiness, M1
+  demoralisation of the world, M1
+  movie investment, M1
+  making the everyday life on Planet less boring and more motivating
+  Showbiz Agents
+  The Showbiz Statutory Rights
+
+#BASES
+New Holywood
+Reviews Exclusive!
+Backstage Extra!
+Showbiz Weekly
+The Goss!
+"Bedazzled"
+"Star Wars"
+"Starship Troopers"
+"Final Destination"
+"The Faculty"
+"Muppets Go To Planet"
+"Deep Impact"
+"Unbreakable"
+"Along Came A Sealurk"
+"Worm Who Shagged Me"
+"Die Hard"
+"Gladiator"
+"Stargate and Planet"
+"Babylon 5"
+"Contact"
+"Picture Perfect"
+"Total Recall"
+"Rookie"
+"Lethal Weapon"
+"Devil's Advocate"
+"The Godfather"
+"Planet Is Not Enouth"
+"Mission: Impossible"
+"Alien"
+#END
+
+#WATERBASES
+Waterworld Studios
+"Titanic"
+"The Sphere"
+"The Rock"
+"Eye of the Storm"
+"Deep Blue Sea"
+"Under Siege"
+"Pearl Harbour"
+#END
+
+#BLURB
+"Ah... that Showbiz!"
+^
+^        -- Fozzie Bear,
+^           upon joining the Showbiz faction
+
+#DATALINKS1
+^LEADER: {Superstar Titania Crafter}
+^BACKGROUND: {Holywood Movie Mission to film Planet, separate starship}
+^AGENDA: {Making life on Planet more exciting}
+^TECH: {Industrial Economics}
+^
+
+#DATALINKS2
+^+1 POLICE: {Followers regulary brain-washed}
+^-1 PLANET: {Not interested in the Planetmind}
+^+2 COMMERCE: {bonus increases value of treaties, pacts, loans}
+^PENALTY for other negative PLANET ratings
+^Free HOLOGRAM THEATRES at each base: {Great movie industry}
+^Interest rates of +2%: {Accumulates lots of wealth easily}
+^{May not use Green Economics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Why do we have to waste time and money on this stupid war $NAME1?
+I see a Blood Truce should be in order."
+
+"Agreed. I shall order hostilities to cease."
+"You forgot to mention life. Now I shall waste yours!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"I sense you are my potential customer, $TITLE0 $NAME1. I can also
+see that we can both profit from a Treaty of Friendship between our
+people."
+
+"It is so. Lets earn the most of it."
+"No. All of the profit would find its way into your pocket."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Why do we have to waste time and money on this stupid war $NAME1?
+I see a Blood Truce should be in order."
+
+"Money: important. Death: to be avoided. Truce: agreed."
+"$NAME3: cherishes money more than life. Progenitor: disgusted!"
+	
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, I see my money-making businesses would come in handy
+to Progenitor enterprises too. Shall we sign a Peace Treaty so both
+of our people enjoy this human wonder?"
+
+"Human entertainment: superb. Treaty: most positively."
+"Progenitor: disgusted by Titania's manipulations. Treaty: no."
+
+# ; This line must remain at end of file

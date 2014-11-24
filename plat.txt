@@ -1,0 +1,143 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Plato's Republic
+;
+; Created April 2001 by Sysiyö using the ACEdit.
+; Graphics:
+; Leader picture: David Bowie from the movie Zoolander.
+; Base images: prototypes by Sysiyo.
+; (C) 2001 Sysiyö. All reproduction, downloads and changes fully allowed.
+; For any suggestions, hit me with E-mail: sysiyo@teenagewildlife.com
+;
+; Anyone who knows a real Plato quote that would work for the blurp,
+; please, please let me know... mails to the adress above. Thank You.
+;
+
+#PLAT
+Plato's Republic, The Totalitarian, Platonians, M, 2, Kratylos, M, 0, 0, 1, 0, 1, 
+  TECH, InfNet, TECH, Psych, SOCIAL, +POLICE, SOCIAL, +RESEARCH, SOCIAL, --EFFIC, DRONE, 4,
+  Values, Knowledge, RESEARCH
+  Politics, Democratic, nil
+  Platonian, Platon.
+  Dion, Democritos, Dionia
+  Filosofer, knowledge-loving, dictatoristic, well-guided, misguided, 
+  The Man Who Loves Knowledge More Than People
+  ensure that your followers are well led
+  to establish a faction in Plato's principles
+  making us all mindless workers
+  turning us all into mindless drones
+  spread tolitarism all over Planet
+  inventing new laws for the 'good' of his people
+  inventing new laws for the 'good' of your people
+  caring more for knowledge than people
+  totalitarism, M1
+  quest for absolute truth, M2
+  social experiments, M1
+  silver tax, M1
+  guiding your followers
+  my Phalanxes
+  the Republic
+
+#BASES
+New Athens
+Stoa
+Idea of Good
+Idea of Beaty
+The Academy
+Absolute Knowledge
+Absolute Good
+Ideas Dome
+Kratylonia
+Kratylos Dome
+The Good Of The People
+The Cave
+Shadowy Wall
+Debate Dome
+New Stoa
+Platoania
+Platonic Love
+For The People
+Hume Base
+Kant Dome
+Descartes Grounds
+Aristotele Road
+Academy Hall
+Idea of Knowledge
+Knowledge Dome
+#END
+
+#WATERBASES
+New Naxos
+Idea of Water
+Idea of Fish
+Absolute Seas
+Deep Thought Nine
+#END
+
+#BLURB
+^History is full of flaws of democracy. The message of history
+is clear: the peole do not recognise their own good. They need
+the wise to rule them for their own protection... only those
+who {know} the absolut truth and wiseness are fit to rule a
+people.
+^
+^   -- Filosofer Kratylos
+^      "The Right"
+
+#DATALINKS1
+^LEADER: {Filosofer Stefania Kratylos}
+^BACKGROUND: {Mediterranean States, University Lab Assistant}
+^AGENDA: {found a faction based on Plato's ideas}
+^TECH: {Information Networks, Social Psych}
+^
+
+#DATALINKS2
+^+1 POLICE: {All that is done is for the good of the people}
+^+1 RESEARCH: {Strive to archive "absolute knowledge"}
+^-2 EFFICIENCY: {Highly centralized system is inefficient}
+^Extra DRONE for every four citizens: {Many feel that their leader is lying}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, I feel that for the good of my people, who look to me
+for guidance, I should end this useless Vendetta before any harm is
+done to them."
+
+"I want this Vendetta to end as much as you do, $NAME3."
+"You just want to save your sorry arse, $NAME3! I will not stop until all of your people are freed!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, if under a Treaty of Friendship, our societies could
+better enchange ideas and come a bit closer to discovering the Absolute
+Truth. This could be best archieved under a Treaty Of Frienship... what
+do you say?"
+
+"Discovering the absolute knowledge is important indeed, $NAME3. I would be more than glad to aid you in such endeavour."
+"I do not feel your ideology is at all compatible with ours, $NAME3. A Treaty Of Friendship would only confuse both our followers."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME1, I feel that for the good of my people, who look to me
+for guidance, I should end this useless Vendetta before any harm is
+done to them... I trust even you are familiar with the idea of Honor."
+
+"$NAME3: must act for good of: his followers. So must: Progenitor. Truce: Agreed."
+"Honor: only to be found: by destroying: $NAME3. Vendetta: continues."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, if under a Treaty of Friendship, our races could
+better enchange ideas and come a bit closer to discovering the Absolute
+Truth. This could be best archieved under a Treaty Of Frienship... what
+do you say?"
+
+"Absolute Truth: unknown even: to Progenitor. Treaty: eagerly accepted."
+"$NAME3: doomed to fail: in his quest. Progenitor: not wishing to: be  part of such fairlure."
+
+# ; This line must remain at end of file

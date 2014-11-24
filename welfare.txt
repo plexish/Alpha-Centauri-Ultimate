@@ -1,0 +1,118 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Social Welfare Utopia
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... welfare
+;
+
+#WELFARE
+Social Welfare Utopia, The Welfare State, socialists, M, 1, Mei Jing, F, 0, 0, 0, 0, 0, 
+  TECH, Psych, SOCIAL, -ECONOMY, SOCIAL, ---EFFIC, SOCIAL, -INDUSTRY, SOCIAL, -PROBE, FACILITY, 6, FACILITY, 2, FACILITY, 17, RESEARCH, 1, TALENT, 5, ENERGY, 50, HURRY, 120, MORALE, 1, POPULATION, -2, FREEPROTO, 0, TERRAFORM, 0
+  Future Society, Eudaimonic, TALENT
+  Values, Wealth, nil
+  socialist, social.
+  Woo Ming, Joe Jones, Community Center
+  Mother Empress, hospitable, beauracratic, welcoming, lazy, 
+  mentally unstable
+  facilitate humanoid perfection through cybernetic integration
+  to provide needed services to the whole population
+  tying up the world in red tape
+  tying up the world in red tape
+  grind the workings of society to a halt in a mass of red tape
+  fleecing welfare checks
+  distributing welfare checks
+  horrendous inefficiency and beuraucracy.
+  socialist utopia, F1
+  Social Security program, M2
+  public works projects, M2
+  Social Security Tax, M1
+  futhering social welfare
+  my public works corps
+  red tape.
+
+#BASES
+Utopia Base
+Welfare City
+First Ward
+Second Ward
+Third Ward
+New Deal Town
+Public Works Project 1
+Public Works Project 2
+Public Works Project 4
+Public Works Project 3
+Public Works Project 5
+Public Works Project 5.23
+Mei Jing City
+Happytown
+Happyville
+Happyopolis
+Happyburg
+Independence Community
+Liberty Community
+Progress Community
+Memorial Community
+Freedom Community
+Communal Community
+Cooperation Community
+23rd Ward
+Hospitality Community
+Public Works Project 89
+#END
+
+#WATERBASES
+Water Works
+Water Ward
+Water Base
+Seaside Community
+Ocean Community
+Hydraulic Community
+Aquatic Community
+Swimming Hole
+#END
+
+#BLURB
+^  We cannot ignore the needs of the populace.
+^
+^        -- Mei Jing
+^
+
+#DATALINKS1
+^LEADER: {Mother Empress Mei Jing}
+^BACKGROUND: {Beauracratic, big-gov't, pork barrel supporter. Lots of gov-run welfare programs.}
+^AGENDA: {The Welfare State}
+^TECH: {Social Psych}
+^
+
+#DATALINKS2
+^-1 INDUSTRY: {Big industry is discouraged}
+^-3 EFFIC: {Miles and Miles of Red Tape.  Fortuneately, Children's Creche (auto built to every base) offsets this to -1.}
+^-1 ECONOMY: {High tax rate uses up income for other purposes}
+^Big Gov. programs: {Extra talent for every 5 citizens. Free prototypes.  Free recreation commons, research hospital and childrens creche at every base, base may have up to 9 citizens before need for Hab. Terraform half cost (PWA)}
+^Big Gov. taxes: {Slightly higher costs for research and hurry jobs.  Flip side is 50 starting energy, which will be used up quickly for maintaining free facilities.}
+^{May not use Wealth as a policy}
+^-1 PROBE: {Big Gov. has Big Loopholes.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME1, let us stop this fighting for our common good."
+
+"Very well, it's about time we think of our common interests"
+"This planet isn't big enough for the both of us, $NAME3. Good-bye!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, it is my pleasure to offer you to join our community
+to work together for the a brighter tomorrow."
+
+"Good idea.  We'll cut the ribbon right away."
+"No. Your socialist daydreams do not impress me."
+
+
+# ; This line must remain at end of file

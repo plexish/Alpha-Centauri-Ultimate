@@ -1,0 +1,141 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#TRADERS
+Planet Freight, The Merchants, Freight, M, 1, Ocean Commitee, M, -1, 0, 0, 1, 1, 
+FREEABIL, 3, TECH, DocInit, PENALTY, Democratic, SOCIAL, -ECONOMY, SOCIAL, -SUPPORT, AQUATIC, 0, COMMERCE, 3, 
+Values, Wealth, ECONOMY, 
+Values, Power, nil, 
+Planet Freight, Planet Freight.
+Ensign Jones, Lukas, Jones' Locker
+Planet Freight, shrewd, glutonous, mercantile, edacious, 
+Money Grubbing
+expediate free trade
+to harness the vast potential of the oceans
+monopolizing the ocean's trade routes
+monopolizing the ocean's trade routes
+openly violate interfactional laws in the name of free trade
+arguing amongst themselves about who has the nicest sub
+arguing amongst themselves about who has the nicest sub
+blatant greed
+blantant greed, M1
+new trade routes, M2
+new trade routes, M2
+tariff, M1
+providing you with valuable trade income
+my privateers
+the Law of the Sea
+
+#BASES
+Shore Leave
+It's So Dry
+Discount Base
+50% Off
+Buy One
+Get One Free
+MSRP
+24 Hour Sale Channel
+Tommorow Only
+13 Turn Sale
+2 for 1 Credit
+Music to Our Ears
+Money Money Money
+Moneyyyyyyyyyyy
+The O'Jays Base
+Sales Tag
+Shop Here Please
+Tourist Trap
+Clearence Rack
+#END
+
+#WATERBASES
+Freight Hub
+Special Delivery
+Planet Express
+Frye's Hold
+You Can't Sea Me
+Salt Mine
+Watershed
+Men of the Sea
+Ocean Bank
+Tidal Forces
+Under the Ice
+Planet Kelp
+Water is Wet
+Numero Uno Trade Route
+Sea Economic Power
+Ocean Monopoly
+Storm Energy
+Trader's Point
+Numero Dos Trade Route
+Let's do Business
+Smugglers? Not Us.....
+.....Or Are We?
+The Trunkline
+#END
+
+#BLURB
+The Morgans fear what may not be purchased, for a trader
+cannot comprehend a thing that is priceless. By the
+way, how much would a column of impact rovers cost us?
+600 credits you say? Well, now they fear something that
+CAN be purchased! 
+^
+^        -- Sister Miriam Godwinson,
+^           "The Collected Sermons(Unabridged)"
+
+#DATALINKS1
+^LEADER: {Planet Freight Board of Trustees, Ocean Division}
+^BACKGROUND: {Spinoff IPO, Morgan Hydrochemical}
+^AGENDA: {Free trade}
+^TECH: {Doctrine: Initiative}
+^
+
+#DATALINKS2
+^-1 SUPPORT {Extra resources required for sea colonies}
+^-1 ECONOMY {Lack of tarrifs lead to trade deficit}
+^+3 Bonus Commerce Rate {highly skilled traders}
+^Amphibious Pods ability FREE to all units upon prototyping
+^Penalty to Democratic Politics: {Extra resources required for sea colonies}
+^
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME1, we offer you the chance to end this war with a Blood Truce. Act now, and we won't blow your brains out!"
+
+"Does that come with a waranty?"
+"You're pointing that gun the wrong way."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, We offer your citzens the chance to experience awesome, legendary factions all much nicer than their own. All of this for a Treaty of Friendship, and at a fraction of Morgan's prices."
+
+"25 credits for overnight delivery? Sign us up!"
+"Wait a minute, what do you mean, nicer than their own!?"
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+"Your needs: truth: not same. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my philosophies would seem to make
+me the only natural ally for you from among these warring human
+factions. Can't we sign a Treaty of Friendship and coexist in peace?
+
+"Freight: safe ally. Treaty: admirable idea."
+"Freight: control: too important. Ally: dangerous. Answer: no."
+
+# ; This line must remain at end of file

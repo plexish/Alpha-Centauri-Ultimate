@@ -1,0 +1,138 @@
+;
+; Sid Meier's Alpha Centauri
+; 
+; faction by Aalogin. Based on Animorphs series by KA Applegate
+; www.networknode.org, networknode@lycos.com
+;
+
+#YEER
+The Yeerk Empire, The Parasites, Yeerk, M, 1, Garoff of One, M, 1, 1, 0, 0, 1, 
+TECH, Physic, TECH, DocLoy, SOCIAL, +GROWTH, SOCIAL, ++PROBE, SOCIAL, ---EFFIC, SOCIAL, --RESEARCH, FACILITY, 35, UNIT, 8, MINDCONTROL, 0, ALIEN, 0, 
+Future Society, Thought Control, POLICE, 
+Future Society, Eudaimonic, nil, 
+Yeerk, Yeerk
+Counciler Yalir, Counciler Taio, Yalir's Dwelling
+Counciler, powerful, vile, glorious, parasitic, 
+Disgusting Slug
+usher in a new era of glory
+bring power and welth to our empire
+reducing the population to mindless slavery
+destroying all traces of humanity on this planet
+destroy all traces of humanity on this planet
+torturing then infesting his hapless prisoners
+torturing then infesting your hapless prisoners
+torture and war crimes
+long list of war crimes, M1
+mass infestation, M2
+global infestation, M2
+security fund, M1
+keeping your enemies in line
+my fellow Councilers
+the Empire bilaws
+
+#BASES
+The Council
+Parasite's Eve
+Schism of Mind
+Steel Resound
+Dracon Outpost
+The Strength Pool
+Full Force
+Jagged Ravine
+Society Falter
+Thought Control
+Yeerk Hearth
+Kandrona's Shining
+Counciler's Thrown
+Yeerk Nexus
+Parasite's Stronghold
+The Cataclysm
+Kandroplex
+Visser's Fleet
+Scorpion Styng
+Gedd
+Taxxon
+Hork-Bajir
+Mak
+Sstram
+Andalite
+Garatron
+Garoff's Seat
+#END
+
+#WATERBASES
+Counciler's Sea
+Dracon Port
+Leeran
+Garoff's Drift
+Deep Force
+Born of Pools
+Paracrest
+#END
+
+#BLURB
+^  We as parasites have the universal right of all species
+to follow our natural instincts. Whether that is to
+live with or infest others is dissregarded. So tell
+us: how would you like to live as a blind and deaf slug
+for your whole life? 
+^
+^        -- Counciler Garoff of One,
+^           "Parasite's World"
+
+#DATALINKS1
+^LEADER: {Garoff of One}
+^BACKGROUND: {Planet Yeerk, Leader of Empire}
+^AGENDA: {Galactic supremacy}
+^TECH: {Doctrine: Loyalty, Applied Physics}
+
+#DATALINKS2
+^+1 GROWTH: {Rapid infestation program}
+^+2 PROBE: {Yeerks in other life forms can infiltrate any system}
+^-2 RESEARCH: {More used to stealing than discovering}
+^-2 EFFICIENCY: {Host can rebel and cause loss of diplomatic strength.}
+^Yeerk pools: {Free BROOD PIT at all bases}
+^Free MINDWORM unit at start of game
+^Immunity to MIND CONTROL {citizens already are under control}
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This Vendetta is not going as anyone would like. A
+truce would end the unneccesary blood shed and loss
+of hosts."
+
+"Hmm, yes, this has gone on far enough."
+"Ho, ho! I'd say this war is going quite to my liking."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your faction poses little threat to
+the Empire's inititives. A treaty of friendship would
+secure our relationship.
+
+"Maybe you Yeerks aren't as bad as you seem. Where do I sign?"
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+
+"This war only gives our enemies more time to plot against us. 
+We need a truce to even out the playing field."
+
+"$NAME3: much foresight. Truce: Yes.
+"Other enemies: less threatening than $NAME3. War: continue"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+
+"$TITLE0 $NAME1, the Yeerk wars are expensive and tiring.
+We need a Treaty, even one beyond our race."
+
+"Yeerks: dangerous. Treaty: yes."
+"Yeerks: are weak. Treaty: no"
+
+# ; This line must remain at end of file

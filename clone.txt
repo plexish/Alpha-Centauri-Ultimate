@@ -1,0 +1,130 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Multitude of Faces
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from
+; faction select in the game and write... clones
+;
+
+#CLONE
+The Multitude of Faces, The Clone, Clones, M, 2, Robinson, M, 1, 1, 0, 0, 1,
+  TECH, BioMac, SOCIAL, +INDUSTRY, SOCIAL, ++GROWTH, SOCIAL, --ECONOMY, 
+FACILITY, 22, DRONE, 3
+  Economics, Planned, GROWTH
+  Politics, Democratic, nil
+  Clone, Clone
+  Aiah, Ryan, Aiah's Genejack Factory
+  Clonemaster, unethical, unethical, united, swarming,
+  Inhuman Monster
+  cultivate armies of clones
+  to cultivate an army of clones
+  throwing lives away uselessly in human wave attacks
+  throwing lives away uselessly in human wave attacks
+  bury us in a pile of clones
+  squinted over a microscope
+  squinted over a microscope
+  developing a top-secret genetic research program
+  Cloning Cylinders, M2
+  clones, M2
+  genetic experiments, M2
+  Cloning Grant, M1
+  separating the strong from the weak
+  my Genetechs
+  my Cloning Experiments
+
+#BASES
+Clone Power
+Army of Clones
+Cloning Vat Alpha
+Cloning Vat Beta
+Cloning Vat Delta
+Cloning Vat Gamma
+Clone Factory
+Genejack Factory
+Clone Warfare
+Multitudes of Minds
+Stem Cell Factory
+Genejack Mine
+Cloning Complex
+Genejack Plexus
+Clone Habidome
+Genejack Anthill
+Swarm of Clones
+Genejack Industry
+Genejack Tubes
+Genejack Pool
+Genetic Vault
+Genetic Reservoir
+Genetic Pool
+DNA Dome
+Assembler Tubes
+Regeneration Cylinders
+Cloning Vat Omega
+#END
+
+#WATERBASES
+Cloned Navy
+Naval Genejacks
+Gentech Shipyards
+Gentech Naval Yards
+Gentech OceanBase
+Gentech Reserves
+Gentech Research
+Gentech Enhancer
+#END
+
+#BLURB
+Clones. The ultimate in modern military and industrial technology.
+With these we can revolutionize infrastructure with dedicated
+genejack workers and increase military manpower tenfold. With
+clones we can forge a new and indomitable whole; we can create
+a mighty warmachine based on the achievements of a single individual,
+an entire army blessed with the same gift that the most advanced
+individuals have. With clones we shall prevail!
+^
+^
+^   -- Clonemaster Daryll Robinson No. 2450
+^      "Army of Same Faces"
+^
+^
+
+#DATALINKS1
+^LEADER: {Daryll Robinson}
+^BACKGROUND: {Genentech Labs, San Francisco, USA; Unity Biochemist}
+^AGENDA: {Army of Clones}
+^TECH: {Biomachinery}
+^
+
+#DATALINKS2
+^+2 GROWTH: {Massive cloning operations}
+^+1 INDUSTRY: {Powerful genejack industry}
+^- 2 ECONOMY: {Extremely taxing to economy}
+^Free Genejack Factory at every base: {Cloning vats}
+^1 Extra Drone for every 3 Citizens: {Unethical methods}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This Vendetta wastes precious life and resources, and it is pointless
+to waste more lives throwing our soldiers pointlessly at each
+other's Perimeter Defenses. A truce is therefore in order."
+
+"Very well, but do not cross me again."
+"No you Unethical Twit!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1 make peace with me. Eventually you will find that
+I am a man of reason and that my cloning projects are meant
+to enhance the lives of citizens."
+
+"All hail the clones, $NAME3"
+"Go away you Inhuman Monster!"
+
+
+# ; This line must remain at end of file
+

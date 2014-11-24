@@ -1,0 +1,141 @@
+; 
+; A Faction for SMAC
+;  by Orinsul
+; Orinsul@gmail.com
+
+#UNIFASCIST
+United Fascist State, The Nationalist, Fascist, M, 2, G. Rutha-Orman, M, 1, 1, 1, 1, 0, 
+TECH, Indust, SOCIAL, +EFFIC, SOCIAL, +INDUSTRY, SOCIAL, +ECONOMY, TECH, DocLoy, SOCIAL, -GROWTH, MINDCONTROL, 0
+Politics, Police State, POLICE, 
+Politics, Democratic, nil, 
+Hive, Hive
+James Mosley, Thompson, Memorial of the Fallen
+Leader, strong, dictatorial, united, mindlessly loyal, 
+Totalitarian
+Unite the scattered people on this planet and bring about Humanities Rebirth
+to bring about an age of Unity, that which we were sent to achieve
+reducing us all to mindless workers of the Fascist State
+reducing us all to mindless servants of the Fascist State
+reduce the human population of this world into mindless slavery
+cultivating his image and propelling his followers to believe him a god
+planning and preaching dreams and policy with no relevance to the world around you
+totalitarian tendencies
+united state, M1
+strives to unity, M2
+state affairs, M2
+D.C.T., M1
+Uniting the people
+the Blackshirts
+Fascist Policy
+
+#BASES
+Unity
+New London
+National Struggle
+N.F.U. Collective
+Bailey Court
+United Network
+Strength though Unity
+Fort Unification
+B.F.C.
+N.F.C.
+Unification City
+Struggles End
+International Threat
+Memorial of the Lost
+Rotha-Orman City
+Dyfrig
+Fabian City
+King George VII
+N.C.C.
+United Collective
+Planet Union
+Unity Tunnels
+United Drones
+Valentine Cross
+Tilbury
+Fifth Column
+Memory of Britain
+Triumph of Unity
+Cult of the Leader
+Fasces
+Banners Wave
+Faith in our Leader
+Greatness of State
+Fellowship City
+Great Union City
+#END
+
+#WATERBASES
+Unification of the Water
+Union Port
+Union Port
+New Brighton
+Port Fasces
+Dover
+#END
+
+#BLURB
+Struggles we have had, and will have, blows we have
+taken and will again, Victories we have we had and will
+have again, Yes, Greater Victories than even Britions
+have even known. 
+^
+^        -- Sir Oswald Mosley,
+^           "Comrades in Struggle"
+
+#DATALINKS1
+^LEADER: {Gregory M. Rutha-Orman}
+^BACKGROUND: {England, leader of the British Union Party}
+^AGENDA: {International Peace and Prosperity though National Unity}
+^TECH: {Doctrine: Loyalty}
+^
+
+#DATALINKS2
+^+1 Efficency: {Though National Unity the people work for the good of the nation over personal aims}
+^+1 INDUSTRY: {Efficent and structured industrial system}
+^+1 ECONOMY: {Economy run though the corporate state}
+^-1 GROWTH: {Encouragement of the one child family and infidelity illegalised.)
+^Immunity to Mind Control: {Raised with heavy propaganda and conditioned to beleive in the message of the State.}
+^
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+War is Division, Unity is Strength."
+
+"Indeed. Blood Truce would be most satisfactory."
+"Never! I plan to put an end to your scheming once andliterated!""$TITLE0"$TITLE0"$TITLE0
+$NAME1, your ideals are admirable if a bit misguided
+and your faction need not pose a threat to National
+Unity. Shall we sign a Treaty of Friendship and strive
+for inter-nation Unity of mankind?
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your ideals are admirable if a bit misguided and your faction need not pose a threat to National Unity. Shall we sign a Treaty of Friendship and strive for inter-nation Unity of mankind?
+
+"As you wish. Unity was the mission of endeavor after all."
+"No. I fear not, your attempts to destroy individualism and imagination are too much for the likes of us, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1, a pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+"Your needs: truth: not same. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my noninterference philosophies would seem to make me the only natural ally for you from among these warring human factions. Can't we sign a Treaty of Friendship and coexist in peace?
+
+"Hive: safe ally. Treaty: admirable idea."
+"Hive: control: too important. Ally: dangerous. Answer: no."
+
+# ; This line must remain at end of file

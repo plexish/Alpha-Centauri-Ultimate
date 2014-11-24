@@ -1,0 +1,117 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#EXTERMINATUS
+The Exterminatus, The Cleanser, Exterminatus, M, 2, E'xitus, M, 1, 1, 0, 0, 1, 
+TECH, Physic, TECH, Indust, SOCIAL, +++INDUSTRY, SOCIAL, -GROWTH, SOCIAL, +++MORALE, SOCIAL, -----PLANET, FACILITY, 19, IMPUNITY, Fundamentalist, FANATIC, 0, ALIEN, 0, PSI, 50, TECH, 2, 
+Politics, Fundamentalist, POLICE, 
+Future Society, Eudaimonic, nil, 
+Exterminatus, Exterminatus
+E'xtor, E'xter, Hymn of the Void
+Harbinger, Godlike, sociopathic, destructive, sociopathic, 
+Crazed Monster
+destroy all existance
+bring death and void to all
+flourishing on this planet
+flourishing on this planet
+demolish everything in your path
+abusing human life and spirit
+abusing human life and spirit
+wanting to end all existance including the universe itself
+army, M1
+overall survival, M2
+erradication of everything, M2
+tithe for ignoring, M1
+in destroyindall meddlesome life
+the Extermination Squads
+of not being dead yet
+
+#BASES
+Exterminatus : Begin
+Umbral : Blot
+Extermination : Inevity
+Planet : Gone
+Human : Extict
+Adaption : Duty
+Suffering : Begun
+Nexus : Ending
+Seed : Doom
+Nonexistance : Host
+Host : Nothingness
+Void : Power
+Planet : Dust
+Evolution : Selection
+All : Culling
+#END
+
+#WATERBASES
+Ocean: Dry
+Death :Tears
+Isledeep: Husk
+Savior : Corpse
+Decay : Imminent
+Wrath : Peaceful
+Dark : Void
+Sea : Last
+#END
+
+#BLURB
+Evolution of our species : Must continue. To sustain
+evolution : must cleanse all impurities to create :
+perfection. 
+^
+^        -- Sagar E'xitar
+^
+
+#DATALINKS1
+^LEADER: {E'xitus}
+^BACKGROUND: {Progenitor Evolution Cult}
+^AGENDA: {Culling of any impure, including Planet}
+^TECH: {Applied Physics, Industrial Base plus 2 free techs}
+
+#DATALINKS2
+^-5 PLANET: {Even Planet senses dark intent and will attempt to stop the Cleansing}
+^+3 INDUSTRY: {The machines of destruction turn.}
+^+3 MORALE: { Zealous followers who exist only to exterminate}
+^-1 GROWTH {Constant destruction leaves little time for procreation)
+^Free Robotic Assembly Plant each base: {The machines of destruction}
+^Impunity to Fundamentalism  penalties
+^+25 % attack, +50% to PSI combat: (Zealous devotion to the purge)
+^{May not use Future Society :Eudimanic}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Destruction : cease?"
+
+"Good.  End of Planet: Not begin with you."
+"I, $TITLE0 $NAME1, shall never let monsters like you
+for all!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Destruction : Yours Delayed , $TITLE0 $NAME1. I suggest: Treaty of Friendship. Our species: aid in eventual destruction of everything"
+
+#ALIENFACTIONTRUCE
+#xs 440
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+#ALIENFACTIONTRUCE #xs 440 #caption $CAPTION7 #ALIENFACTIONTRUCE #xs 440 #caption $CAPTION7 #ALIENFACTIONTRUCE #xs 440 #caption $CAPTION7 #ALIENFACTIONTRUCE #xs 440 #caption $CAPTION7 #ALIENFACTIONTRUCE #xs 440 #caption $CAPTION7 "Your eventual nonexistance: delay . A Truce: please concur"
+
+"Agreement."
+"$NAME3. Destruction: prepare!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, clearly you are one with the extermination. Treaty of Friendship: teach me more of my potential"
+
+"Welcome back: prodigy. Aims: similar. Treaty: fine idea."
+"Your understanding of your inevitable nonexistance : feeble. Treaty: not at this time."
+
+# ; This line must remain at end of file

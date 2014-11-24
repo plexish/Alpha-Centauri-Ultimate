@@ -1,0 +1,141 @@
+; -III MANIFOLD CHAMBER OF SECRETS III-
+; (short - MCS)
+; Sid Meier's Alpha Centauri
+; Made with MYBRAIN.net ;>
+;
+; The MCS - text & graphics created by Cybergod
+; 
+; For more factions visit http://www.networknode.org/
+; email networknode@lycos.com
+; 
+; In an Usurper experiment into human robotics and digital technology,
+; a test subject wentunder a program error. This 'uploaded' his mind
+; onto the network. The test subject, Canq, gradualy overtook his
+; homebase with help from fellow rebel progenitor AND new allies -
+; humans. There is a story to follow this faction, so visit the
+; Network Node site soon!
+;
+; The MCS agenda is to establish a peaceful cybernetic civilization
+; in which humans and progenitor could live together side by side.
+; Theit hidden agenda seems to be spanning their covert ops all over
+; Planet, thus making them even more bent on probe than Data Angels.
+;
+; Cybergod
+;
+
+#MCS
+Manifold Chamber of Secrets, The Hybrid, MCS, M, 1, Canq, M, 0, 0, 1, 0, 1,
+  ALIEN, 0, SOCIAL, +PROBE, SOCIAL, --ECONOMY, FACILITY, 30, TECH, Psych, FREEABIL, 9, MINDCONTROL, 0, FREEPROTO, 0, POPULATION, 2
+  Future Society, Cybernetic, PROBE
+  Politics, Police State, nil
+  Politics, Democratic, nil
+  Politics, Fundamentalist, nil
+  MCS, MCS
+  Ka, Q, Fires of Ka
+  Main Artery, intelligent, bizzare, intreaging, mindless, 
+  Diseased Crossbreed
+  profiltrate the treacherous Manifold Six
+  to investigate, explore and expand across the Manifold Six
+  imposing his soulless rule upon the whole Planet
+  imposing your soulless rule upon the whole Planet
+  drain all that is left for humanity's survival
+  propaganding his 'hopes' for a better future
+  propaganding your 'hopes' for a better future
+  draining humanity of it's last resort
+  'expansionism', M1
+  Manifold Secrets, M1
+  profiltration of Planet, M1
+  trespassing fee, M1
+  keeping the wrong people off the Progenitor world
+  MCS Secret Service
+  the MCS Mandatory Objectives
+
+#BASES
+MCS: Homeland
+High Reaches
+High Hopes
+Desert Rose
+Cyberama
+Mistika
+Resonance: Prestige
+Knowledge: Power
+Grails of Unionship
+MCS Colony
+Canq's Revenge
+Canq's Hideaway
+Progenitor Virtualis
+Maximus Ultimus
+Red Skies
+Manifold Oasis
+MCS: The Survivors
+Last Resort
+Six: Satanic Number
+Maria: Unforgotten
+MCS Preservatory
+Human Allies
+Base of Arteries
+Manifold Backbone
+Progenitor Nightmares
+Fire: For Eternity
+Enernity: Not So Long
+End: New Beginning
+#END
+
+#WATERBASES
+MCS Underwater
+Coasts: Doomed
+Water Complexity
+Floating City
+Abundance: Danger
+Q's Escape
+Canq's Well
+Shallows of Secrets
+#END
+
+#BLURB
+After Progenitor experiment: Canq see the truth. Usurpers: brutal and greedy.
+Caretakers: too backward and fungus-loving. Humans: barbarious but unique.
+Manifold Six: treacherous but full of gifts. MCS: need to harness the
+potential of Progenitor experiment. This to be done: not in Marr's or Hmee's
+way. Human allies: gladly appreciated.
+^
+^       -- Main Artery Canq,
+^          "MCS: Objectives"
+
+
+#DATALINKS1
+^LEADER: {Main Artery Canq}
+^BACKGROUND: {Progenitor Cyborg, takes human appearance}
+^AGENDA: {Secret profiltration of Manifold Six}
+^TECH: {Progenitor Psych, Field Modulation and Social Psychology}
+^
+
+#DATALINKS2
+^+1 PROBE: {Like to get their nose into where they shouldn't}
+^-2 ECONOMY: {Dissapproves of greed}
+^Immunity to mindcontrol: {Troops controlled by a huge cyborg mind}
+^Free Prototypes: {Sufficient cybernetic designs}
+^Free BIOENHANCEMENT CENTRE at each base
+^{ECM Comm Jammer} ability FREE to all units upon discovery of Subatomic Theory
+^Need HAB COMPLEX for bases to exceed size 5: {Tries to consolidate both humans & progenitor}
+^Receives alien faction bonuses and penalties
+^{May not run any advanced Political System apart from Simple Politics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"War: barbarious thing to do. MCS: know humans can do better. Truce: requested."
+
+"We humans can surely do better than destroy weak innocents."
+"I don't much care for your pleads, $NAME3. We reject your pathetic request!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Ultimate MCS goal: defeating idiotic Usurpers and Caretakers. Humans: welcome 
+as allies. I: also value friendship between our species. Treaty of Frienship: please?"
+
+"We welcome allies against other problems. Frienship is very improtant too. Deal!"
+"I know that you have another agenda up your sleve. We fear you are not trustworthy."
+
+# ; This line must remain at end of file

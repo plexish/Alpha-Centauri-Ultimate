@@ -1,0 +1,141 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#FASCIST
+The Iron Regime, The Fascists, Fascist, M, 1, Richard Warrick, M, 1, 1, 0, 0, 0, 
+IMPUNITY, Power, SOCIAL, +MORALE, SOCIAL, --TALENT, SOCIAL, ++EFFIC, SOCIAL, ++++POLICE, TECH, DocLoy, SOCIAL, -GROWTH, PENALTY, Democratic, MORALE, 1, 
+Values, Power, POLICE, 
+Values, Knowledge, nil, 
+Fascist, Fascist
+Danya, Dr.Hans Zimmler, Falcon Reach
+Leader, ambitious, blood thirsty, patriotic, genocidal, 
+Genocidal maniac
+improve our great nationstates
+to found a society on the principles of nationalism with fascist tendencies
+exterminating us all for his "national plan"
+exterminating us all for your "national plan"
+subvert and kill anyone not of your nation's dogma!
+purging innocent people in his society
+purging innocent people in your society
+performing genocide
+fascist dogma, M1
+national plans, M2
+national endevours, M2
+inferiority tax, M1
+keeping the world pure of zionism
+National Guardsmen
+Regime law
+
+#BASES
+Rising Power
+Consolidated Effort
+Strength Through Unity
+Together we are Strong
+National Pride
+Iron Strength
+Master People
+Soldier's Salute
+Patriots Posting
+National Barrier
+Flying Flag
+Falcon Reach
+Premise of Power
+Love of One Country
+Rally Point
+Cheer of Conformity
+Desired Characteristics
+Seat of Power
+Tower of Pride
+Routine Regime
+National Attraction
+Lustful Pride
+Intolerant of Cowardice
+National Reserve
+Survelliance Outpost
+Obedience
+National Duty
+Think For Your Country
+Proper Premise
+Clean Society
+Perfect People
+Pure Power
+Patrol of Patriots
+Oath of Fealty
+Pledge of Allegiance
+Nationalist Victory
+Birth of a Nation
+#END
+
+#WATERBASES
+Patriot Port
+National Waters
+Trembling Waves
+Strength in Our Sea's
+Vigilant Point
+Proud Navy
+Remove Kebab
+#END
+
+#BLURB
+^ "It is necessary that the individual should finally
+come to realize that his own ego is of no importance
+in comparison with the existance of the nation, that
+the position of the individual is conditioned solely
+by the interests of the nation as a whole" 
+^
+^        -- Adolf Hitler,
+^           "Quotes on Fascism"
+
+#DATALINKS1
+^LEADER: {Richard Warrick}
+^BACKGROUND: {Nationstate of England, Unity Survelliance Officer}
+^AGENDA: {Fascist NationState}
+^TECH: {Doctrine: Loyalty}
+
+#DATALINKS2
+^-1 GROWTH:   {Constant purging kills off population}
+^+1 MORALE: {Patriotic soldiers}
+^-2 TALENT:  {Purging of undesirables stifles cultural development}
+^4+ POLICE: { Extreme measures of security and survelliance}
+^2+ EFFIC: [ Well organized economy}
+^{May not use Knowledge politics}
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Our government has no need for this conflict, $NAME1,
+a ceasefire seems most appropriate."
+
+"Yes. A ceasefire seems prudent."
+"You have been designated as an undesirable, and must
+be eradicated."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your followers seem to be rather useful and your group is not an affront to our supremacy. We offer an agreement of friendship for our mutual interests."
+
+"Certainly, though we will be watching our borders with caution."
+"No, your prejeduice and ultra nationalism frightens me, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1, a pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+"Your needs: truth: not same. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your species is not an affront to our existance currently, and we can cooperate with non-human civilizations such as yours."
+
+"Fascists: strong ally. Treaty: admirable idea."
+"Fascists: pride: too important. Ally: dangerous. Answer: no."
+
+# ; This line must remain at end of file

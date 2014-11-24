@@ -1,0 +1,122 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Empath
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.civgaming.net/citizens/networknode/
+; email networknode@lycos.com
+;
+; To use this Faction file select load from 
+; faction select in the game and write... empath
+;
+
+#EMPATH
+Empath, the Telepath, Empaths, M, 1, Omega, M, 0, 0, 1, 0, 0, 
+  TECH, Brain, SOCIAL, +RESEARCH, SOCIAL, +MORALE, SOCIAL, --INDUSTRY, PENALTY, ECONOMY, PSI, 25, TALENT, 3, HURRY, 130, MINDCONTROL, 0
+  Future Society, Eudaimonic, TALENT
+  Values, Wealth, nil
+  Empath, Empath
+  Kudlin, Ophelia, Murghom
+  Telepath, insightful, intrusive, enlightened, twisted, 
+  abomination
+  enlighten the human race
+  enlighten the human race
+  twisting the subconcious will of our people
+  breaking our will
+  subvert my free will
+  invading our minds
+  invading our minds
+  brainwashing our people
+  Empath ideals, M1
+  intellectual enlightenment, M2
+  telepathic prowess, M1
+  reward, M1
+  protecting the minds of your people
+  Empath Shock Forces
+  Empath Consensus
+
+#BASES
+Murghom
+Nate
+Jutt
+Memi
+Ofna
+Esatt
+Ippe
+Nuttava
+Pell
+Knal
+Klavruu
+Glan
+Enue
+Ihem
+Maglut
+Naeki
+Oddos
+Sekno
+Ukru
+Flax
+#END
+
+#WATERBASES
+Issi
+Knejo
+Suak
+Nukenue
+Feas
+Obbati
+Chett
+Biolle
+#END
+
+#BLURB
+The mind is the window to the soul, the empath are the stones
+that break the glass.
+^
+^
+^   -- Matir Omega
+^      "Window to the Soul"
+^
+^
+
+#DATALINKS1
+^LEADER: {Matir Omega}
+^BACKGROUND: {Cyborg "test subject"}
+^AGENDA: {To achieve a mass conciousness}
+^TECH: {Secrets of the Human Brain}
+^
+
+#DATALINKS2
+^+RESEARCH: {Gifted Citizens}
+^+MORALE: {Elitist ideals}
+^--INDUSTRY: {Impractical people who dislike manual tasks}
+^PENALTY-ECONOMY: {Poor industrial base has its consequences}
+^+25% PSI COMBAT: {Telepathic attacks}
+^EXTRA TALENT: {Per 3 citizens}
+^130% HURRY: {Understaffed factories}
+^{Immune to mind Control}
+^{MAY NOT USE WEALTH}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"War is the enemy of the tranquility needed to perform our art.
+I see a truce as the only alternative."
+
+"Wise words $NAME3, I agree"
+"You are doomed...prepare your defenses"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"A treaty would benefit us both immensely, I sense you agree, do
+you not?"
+
+"We are in consensus $NAME3"
+"never, your telepathic mutations are repulsive $NAME3"
+
+
+# ; This line must remain at end of file

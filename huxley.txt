@@ -1,0 +1,134 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Brave New World
+; originally posted on Alpha Centauri World
+; <http://perso.wanadoo.fr/eric.gauthier/Astuces/Astuces.html>
+;
+; Created by: Matthew Belcher
+; e-mail: saint@ufl.edu
+; web site: http://www.afn.org/~afn07474/
+;
+; Thanks to NBC for the diplomacy city graphic 
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+; For more factions visit http://networknode.org
+; email networknode@lycos.com
+;
+; To use this Faction file select load from 
+; faction select in the game and write Huxley
+;
+
+#HUXLEY
+Brave New World, The "Utopia", Civilized, M, 1, Mustapha Mond, M, 0, 0, 0, 0, 1, 
+  TECH, Biogen, SOCIAL, ++GROWTH, SOCIAL, +INDUSTRY, SOCIAL, -RESEARCH, SOCIAL, -EFFIC, FACILITY, 2, MORALE, no, POPULATION, 0, INTEREST, non
+  Future Society, Eudaimonic, GROWTH
+  Future Society, Cybernetic, nil
+  Civilized, Civili.
+  Watson, Helmholtz, Watson's Isle
+  World Controller, fordly, close-minded, growth-oriented, efficient, 
+  Delusional Idiot
+  encourage growth and stability
+  to encourage stability and happiness for all humanity
+  creating a society devoid of poetry, God, and sin
+  creating a society devoid of poetry, God, and sin
+  create a race of mindless clones
+  playing Centrifugal Bumble-puppy
+  playing Centrifugal Bumble-puppy
+  spouting meaningless acronyms
+  hypnopaedic platitude, M1
+  community, M2
+  initiatives, M2
+  stability fee, M1
+  providing happiness at any cost
+  my Gamma Riot Squads
+  the laws of Our Ford
+
+#BASES
+City of Our Ford
+London
+Lambeth Palace
+Detroit
+Hounslow Feely Studio
+Television Corporation
+Mombasa
+Canterbury
+Singapore
+Charing-T Tower
+Golders Green
+Shepherd's Bush
+Notting Hill
+Willesden
+Brentford
+Aurora Bora Palace
+Savage Reservation
+Malpais
+Enchanted Mesa
+Ojo Caliente
+Zuni
+Cibola
+Laguna
+Acoma
+Cochiti
+Nambe
+Picuris
+#END
+
+#WATERBASES
+Marine Biology Center
+Iceland
+Cyprus
+Aruba
+Jamaica
+Puerto Rico
+Samoa
+New Guinea
+#END
+
+#BLURB
+My dear young friend, civilization has absolutely 
+no need of nobility or heroism. These things 
+are symptoms of  political inefficiency. 
+In a properly organized society like ours, 
+nobody has the opportunity. Conditions have
+got to be thoroughly unstable before the occasion 
+can arise.
+ ^
+ ^        -- Mustapha Mond,
+ ^           "Discourse to the Savage"
+
+#DATALINKS1
+^LEADER: {Mustapha Mond}
+^BACKGROUND: {Alpha-double-plus, unorthodox scientist turned World Controller}
+^AGENDA: {"Community, Identity, Stability"}
+^TECH: {Biogenetics}
+^
+
+#DATALINKS2
+^+2 GROWTH: {Hatcheries allow dramatic birth rates.}
+^+1 INDUSTRY: {Bokanovsky sets work uniformly}
+^-1 RESEARCH: {"Every discovery in pure science is potentially subversive"}
+^-1 EFFIC: {High consumption rate}
+^{Free Children's Creche (Hatchery)
+
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This needless fighting is causing discontent and instability. Let us end it now in the name of Progress."
+
+"Agreed. In the name of stability."
+"HA! I'll see you and all your fordlings are destroyed!, $NAME3!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Your rate of Consumption would be a benefit to our industry, $TITLE0 $NAME1. I suggest we sign a Treaty of Friendship, that we might mutually grow in stability."
+
+"Agreed. Hail Our Ford, $NAME3."
+"No. I'm claiming the right to be unhappy."
+
+
+# ; This line must remain at end of file

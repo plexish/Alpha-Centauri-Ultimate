@@ -1,0 +1,123 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Path v1.0
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.civgaming.net/citizens/networknode/
+; email networknode@lycos.com
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; To use this Faction file select load from 
+; faction select in the game and write... path
+;
+
+#PATH
+The Path, The Monastic, Path, M, 1, Yingling, M, -1, 0, 1, 0, 0, 
+  TECH, Integ, IMMUNITY, MORALE, ROBUST, POLICE, SOCIAL, --GROWTH
+  Politics, Fundamentalist, TALENT
+  Values, Wealth, nil
+  Path, Path
+  Jittu, Jenna, Dreass
+  Grand Master, Honourable, deluded, holy, foolish, 
+  deranged
+  further the Way of the Path
+  to further the Way of the Path
+  propagating this cult
+  propagating this cult
+  propagate this sick cult
+  propagating this cult
+  propagating this unholy cult
+  propagating this cult
+  cult, M1
+  Monasteries, M2
+  teachings, M1
+  donation, M1
+  furthering the Way of the Path
+  Sohei Warrior Monks
+  the Scriptures
+
+#BASES
+Dreass
+Saeb
+Yhorri
+Geagu
+Mosse
+Ummo
+Gjir
+Juri
+Osse
+Ibiom
+Poroki
+Ehjo
+Kiuppo
+Roppu
+Epha
+Esso
+Niak
+Genui
+Rifna
+Zhas
+Mobu
+Jung
+Fnung
+Dofna
+Pshage
+Skaeh
+Drassi
+#END
+
+#WATERBASES
+Naqea
+Craib
+Psatte
+Enef
+Ysta
+Pima
+Praku
+Poul
+#END
+
+#BLURB
+Materialism and wealth will be the end of us all, we must free
+our minds and bodies and enter a new age of self enlightenment.
+Follow the Way of the Path and achieve all these!
+^
+^   -- Grand Master Yingling
+^      "Scriptures of the Path"
+^
+^
+
+#DATALINKS1
+^LEADER: {Grand Master Yingling}
+^BACKGROUND: {Master of Martial Arts. Monastic Leader.}
+^AGENDA: {To spread the Way of the Path}
+^TECH: {Intellectual Integrity}
+^
+
+#DATALINKS2
+^IMMUNITY MORALE: {Strong willed followers}
+^ROBUST POLICE: {Self discipline a premium asset}
+^-2 GROWTH: {Monastic lifestyle}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"War is in contravention to the Scriptures, let there be Peace
+between us."
+
+"This is true, a Truce betwwen us then."
+"No, your beliefs threaten our way of life."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Let us declare peace between us $TITLE0 $NAME1. I have prepared
+atreaty for us."
+
+"I will sign $NAME3"
+"Never, cults are dangerous things."
+
+
+# ; This line must remain at end of file

@@ -1,0 +1,124 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Jedi Knights
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... jedi
+;
+
+#JEDI
+The Jedi Knights, Jedi, Jedi, M, 1, Yoda, M, 1, 0, 1, 0, 0, 
+  TECH, Ecology, TECH, Physic, SOCIAL, +MORALE, SOCIAL, -POLICE, SOCIAL, +++PLANET, SOCIAL, ++SUPPORT, FACILITY, 27, PSI, 50, HURRY, 110, COMMERCE, 1, MINDCONTROL, 0
+  Values, Knowledge, PLANET
+  Politics, Police State, nil
+  Jedi, Jedi
+  Ashley, Morley, Jedi Morley
+  Master, Peaceful, Protective, Masters of Justice, Wise, 
+  Good
+  bring peace
+  to protect all living souls
+  Keeping peace and justice
+  Keeping peace and justice
+  are keeping peace and justice
+  worshiping the Force
+  worshiping the Force
+  spreading the Force
+  Powers, M1
+  Jedi's, M1
+  Force worshiping, M1
+  tax, M1
+  Protecting peace and justice
+  the Jedi's
+  the Jedi Code
+
+#BASES
+Coruscant
+Yavin
+Hoth 
+Endor
+Bespin
+Jedi Temple
+Jedi Medition Centre
+Dagobah 
+Skywalker Jedi Training Centre
+Temple of Yoda
+Temple of Obi-Wan Kenobi
+Temple of Qui-Gon Jinn
+Temple of Luke Skywalker
+Temple of Mace Windu
+Tatooine
+Ghorman
+Dantooine
+The Place of the Force
+Temple of the Sith
+Temple of the Force
+Temple of  Vodo-Siosk Baas
+Yoda's Training Centre
+Eco Base 1
+Eco Base 2
+Eco Base 3
+Eco Base 4
+Eco Base 5
+#END
+
+#WATERBASES
+Mon Calamari
+Remote Jedi Training Centre
+Jedi Sea Defence
+Da Soocha
+Jedi Sea Temple
+Jedi Justice Centre
+Old Jedi Retreat
+Jedi Research Centre
+#END
+
+#BLURB
+Do or do not, there is no try. My ally is the Force. And a powerful
+ally it is. Life creates it,makes it grow. Its energy surrounds
+and binds us.
+^
+^
+^   -- Master Yoda
+^      "The Force"
+^
+^
+
+#DATALINKS1
+^LEADER: {Master Yoda}
+^BACKGROUND: {Jedi Master}
+^AGENDA: {Peace and Justice to all}
+^TECH: {Centauri Ecology}
+^
+
+#DATALINKS2
+^+1 MORALE: {Troops are happy}
+^-1 POLICE: {Jedi hate injustice}
+^+3 PLANET: {Protect the value of life}
+^+2 SUPPORT: {Citizens love and respect the Jedi}
+^110% Hurry Costs: {Pay workers fairly for overtime}
+^+50% Psi Combat: {In tune to the force}
+^+1 Commerce Rate: {Good relations with other factions}
+^Free Command Center, immune to mind control
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This war is against the Force and the Jedi code."
+
+"Of course. This war is pointless and against the code."
+"HA! You shall be crushed by the Dark side of the Force."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Our factions should make peace and prosper using the Force, $TITLE0
+$NAME1, do you agree with my offering?"
+
+"Yes, we can prosper under the Force, $NAME3"
+"Certainly not! You are just stupid magicians"
+
+
+# ; This line must remain at end of file

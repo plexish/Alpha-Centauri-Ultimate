@@ -1,0 +1,132 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#FORMER
+Society of Terraformers, The Terraformer, Terraformer, M, 2, Grey, M, -1, 0, 0, 1, 0, 
+TECH, Ecology, TECH, EcoEng, TECH, EcoEng2, FREEFAC, 3, SOCIAL, ++EFFIC, SOCIAL, --MORALE, SOCIAL, -PLANET, UNIT, 1, TERRAFORM, 0, DRONE, 4, 
+Economics, Planned, EFFIC, 
+Economics, Green, nil, 
+Terraformer, Terraf.
+Julia, Peter, Julia's Factory
+Supreme Former, Experienced, Strict, Efficient, Overly Stressed, 
+Obsessed
+terraform Planet to perfection
+to terraform Planet to suite our needs
+reshaping all of Planet
+reshaping all of Planet
+over-form Planet beyond all realistic limits
+creating useless and unpractical terrain enhancements
+creating useless and unpractical terrain enhancements
+over-forming Planet
+terraforming, M1
+terraformer experiments, M2
+endeavors in terraforming, M2
+Terraforming Tax, M1
+terraforming Planet to our needs
+my Terraformers
+Former Law 31 Paragraph 6
+
+#BASES
+Really Big Factory
+Farm Plant
+Condenser Plant
+Mining Station
+Soil Enricher Plant
+Sensor Factory
+Airbase
+Bunker
+Borehole Facility
+Really Big Tree Farm
+Centauri Preserve
+Nanoreplicator
+Super Former Factory
+Fungicide Tank Factory
+Recycling Tanks
+Chiron Research Facility
+Echelon Mirror Factory
+Solar Collector
+Aquifer Facility
+Mantel Research Facility
+Core Research Facility
+Uranium Facility
+Terran Memorial
+Former Construction
+Fungicidal Research
+The Hybrid Forest
+Kinda Small Factory
+#END
+
+#WATERBASES
+Sea Former's Base
+Crazy Kelp Co.
+Mining Platform Factory
+Moderate Tidal Harness
+Sea Research Facility
+Geothermal Facility
+Large Sea Factory
+Tsunami-Land
+#END
+
+#BLURB
+^  Planet's atmosphere, though a gasping death to humans
+and most animals, is paradise for Earth plants. The
+high nitrate content of the soil and the rich yellow
+sunlight bring an abundant harvest wherever adjustments
+can be made for the unusual soil conditions. 
+^
+^        -- Lady Deirdre Skye,
+^           "A Comparative Biology of Planet"
+
+#DATALINKS1
+^LEADER: {Supreme Former Austin Grey}
+^BACKGROUND: {U.N. Farmers Society, Unity Terraforming Director}
+^AGENDA: {Terraform Planet into a more hospitable place}
+^TECH: {Centauri Ecology, Ecological Engineering, Adv. Ecological Engineering}
+^
+
+#DATALINKS2
+^Terraforming costs halved for Raise/Lower Terrain
+^+2 EFFICIENCY: {Streamlined production facilities}
+^-2 MORALE: {Manic depression caused by over-working}
+^-1 PLANET: {Obsessive Terraforming of Planet causes ecological disruption}
+^Free RECYCLING TANKS at every base after the discovery of {Biogenetics}
+^Starts game with a free Former Unit
+^{May not use GREEN economic social choice.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order. That broken 
+Condenser still needs fixing..."
+
+"Indeed. Blood Truce would be most satisfactory. Sorry about the Condenser."
+"Never! I plan to put an end to your terraforming once and for all!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your ideals are admirable if a bit misguided and your faction need not pose a threat to Former policy. Shall we sign a Treaty of Friendship to formalize our symbiotic relationship, so as we may terraform in peace?
+
+"As you wish. The Terraformers seems a valuable friend."
+"No. Your Forming experiments are a bit too bizarre for me, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1, a pledge of Blood Truce would seem in order.I still need to fix that Farm you destroyed..."
+
+"Progenitor: perceive no point either. Mutual agreement: truce. Apologies: about Farm."
+"Your needs: truth: not same. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your ideals are admirable if a bit misguided and your faction need not pose a threat to Former policy. Shall we sign a Treaty of Friendship to formalize our symbiotic relationship, so as we may terraform in peace?
+
+"Formers: safe ally. Treaty: admirable idea."
+"Formers: terraforming: too important. Ally: dangerous. Answer: no."
+
+# ; This line must remain at end of file

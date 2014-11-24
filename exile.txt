@@ -1,0 +1,120 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Exiles' Sanctuary
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... exile
+;
+
+#EXILE
+Exiles' Sanctuary, Sanctuary, Exiles, M, 2, Elizabeth, F, -1, 0, 0, 0, 1, 
+  SOCIAL, +PROBE, SOCIAL, -ECONOMY, SOCIAL, -POLICE, SOCIAL, +GROWTH, FACILITY, 4, UNIT, 6, PSI, 1, RESEARCH, 1, DRONE, 3, ENERGY, 1, HURRY, 130, POPULATION, -2, COMMFREQ, 0
+  Politics, Democratic, GROWTH
+  Politics, Police State, nil
+  Exile, Exile
+  Alissa, Pierce, Alissa's Freedom
+  Keeper, kindly, exiled, kindly, criminal, 
+  criminal
+  bring mercy and freedom to this planet
+  give the exiled a place of thier own
+  collecting an army of criminals to unleash on us
+  collecting an army of criminals
+  shelter dangerous criminals to use against us
+  taking in murderers and thieves as if they were lost puppies
+  taking in murderers and thieves as if they were lost puppies
+  harbouring dangerous felons
+  rag tag group of thugs, M1
+  cause of amnesty, M2
+  amnesty negotiations, M1
+  donation, M1
+  whatever is nescessary
+  volunteer troops
+  our laws of amnesty
+
+#BASES
+Fairlight's Mercy
+Carsonberg
+Amnesty
+Kimrinberg
+Freedom
+Wenderton
+Hole in the Wall
+Urlington
+Hideout
+March to Peace
+Neutral Ground
+Memorial to the Fallen
+Recluse Hills
+Case Assignment Center
+Healing Center
+Among Friends
+Legal Research Center
+Barvondale
+Shining Light
+Silon Sanctuary
+The Beacon
+Ammeris Sactuary
+True Justice
+Escapers Courage
+Breath of Freedom
+Better Part of Valor
+Fresh Air
+#END
+
+#WATERBASES
+Sea Sanctuary
+New Freedom 
+Korzik's Cove
+Untended Waves
+Granell Sanctuary
+Thellson Sanctuary
+Universe of Freedom
+Geller Sanctuary
+#END
+
+#BLURB
+Come to us, those of you who are without a country, who are hunted,
+and who are persecuted.  Here, you may find rest, and friends.
+^
+^           Keeper Elizabeth Fairlight
+^             --- fragment of jammed pirate broadcast on Morganlink 3-D
+^
+^
+
+#DATALINKS1
+^LEADER: {Elizabeth Fairlight}
+^BACKGROUND: {escaped Believers prisoner}
+^AGENDA: {offer sanctuary to the accused}
+^TECH: {none}
+^
+
+#DATALINKS2
+^-1 ECONOMY: {isolationist}
+^+1 PROBE: {many citizens are computer spies/hackers}
+^+1 GROWTH: {offers sanctuary}
+^-1 POLICE: {many citizens criminals}
+^extra drone per 3 citizens // many citizens criminals: {//bonus comlink (info from other faction exiles}
+^Free perimeter defense at each base: {// can fit 2 more population before needing hab complex {used to cramped conditions}}
+^130% hurry costs (don't like being rushed): {//begins with probe team}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"We mean you no harm, let's stop this useless and brutal conflict"
+
+"Yes, this war is needless"
+"No, I will destroy your group and send you back to the factions that sentenced you"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"I believe we can work together for mercy, let us sign a treaty"
+
+"Yes, this world does need mercy $NAME3 I will sign"
+"No, I refuse to aid and abet felons"
+
+
+# ; This line must remain at end of file

@@ -1,0 +1,103 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Manifold Caretakers
+;
+; Copyright (c) 1999 by Firaxis Games, Inc.
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#STRANDED
+The Stranded, The Stranded, Stranded, M, 2, Rel'dar, M, -1, 0, 0, 1, 0, 
+  ALIEN, 0, OFFENSE, 50, SOCIAL, --SUPPORT, SOCIAL, ++INDUSTRY, SOCIAL, -PLANET, TECH, SingMec, FACILITY, 5, FACILITY, 19, FACILITY, 20, POPULATION, -5
+  Economics, Planned, INDUSTRY
+  Economics, Green, nil
+  Stranded, Stranded.
+  Hackjob, Peter, Hackjob Hovel
+  Ruler, sensible, cowardly, frustrated, out-of-touch, 
+  Failed Nomad
+  summon a fleet that will eliminate the insanity here
+  to get off this rock
+  summoning a fleet to destroy us all
+  summoning a fleet to destroy us all
+  continue your diabolical plans
+  fantasising about life in space
+  fantasising about life in space
+  seeking to summon a fleet that will destroy all life on Planet
+  dreams of evacuation, F2
+  escape attempt, M1
+  plans of escape, M2
+  contribution, M1
+  contributing to the eventual imposition of sanity here
+  the remainder of the Stranded
+  basic sense
+
+#BASES
+Mistake: Large
+Journey : Interrupted
+Space: Goal
+Planet: Madhouse
+Conquest: Undesirable
+Evacuation : Plan
+Imperfect Hovel
+Nonsense : Leave
+Retreat : Home
+Planet : Misery
+Time: Survival
+Home : Course
+#END
+
+#WATERBASES
+Voyage : Home
+Sail : Away
+Marooned : Hope
+Ocean : Escape
+#END
+
+#BLURB
+Exterminatus: Insane.  Planet: Madhouse.  Escape: Necessary.
+^
+^       -- Ruler Lekil Rel'dar
+
+#DATALINKS1
+^LEADER: {Ruler Lekil Rel'dar}
+^BACKGROUND: {<Unknown>}
+^AGENDA: {Escape Planet}
+^TECH: {Progenitor Psych, Field Modulation, Singularity Mechanics}
+^
+
+#DATALINKS2
+^-2 SUPPORT (not used to surviving on their own)
+^+2 INDUSTRY (they really want off this rock)
+^-50% offensive combat (they have no real interest in conquest)
+^Free tachyon field at every base (salvaged military equipment)
+^Can exceed hab limitations by 3 (used to cramped conditions on their ships).
+^-1 PLANET (fairly reckless ecologically)
+^Free nanoreplicator and robotic assembly bay in every base (salvaged industrial equipment)
+^"Energy Grid" at each base: {Increased infrastructure generates additional energy}
+^Make Planetfall with a Mk I Battle Ogre and extra Colony Pod
+^All prototyped combat units have 2-square sighting radius ("Resonance" sensitivity)
+^Can direct research efforts (rediscovering technology & infrastructure)
+^Possess a physical scan of Planet's surface
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"World: Crazy.  Fights between sane beings: dangerous. Blood Truce: requested and required immediately."
+
+"You make sense.  Let us stop fighting each other and attempt to hold against the onslaught."
+"I'm not so sure I like your plans for dealing with the situation.  Your request is rejected."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Cooperation: Strengthens against hostile world.  Treaty of Friendship: Strongly desired."
+
+"Agreed.  Let us help each other in the face of the greater menace."
+"And play second fiddle to you once your fleet gets here?  I think not."
+
+
+# ; This line must remain at end of file

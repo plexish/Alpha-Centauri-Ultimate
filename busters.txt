@@ -1,0 +1,119 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Pretty Princesses
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... buster
+;
+
+#BUSTERS
+Pretty Princesses, The Adorable, Princesses, F, 1, Buster, F, 0, 0, 1, 0, 0, 
+  TECH, Indust, SOCIAL, ++PLANET, SOCIAL, +GROWTH, SOCIAL, +MORALE, SOCIAL, +RESEARCH, FACILITY, 6, FACILITY, 2, FUNGMINERALS, 1
+  Politics, Democratic, GROWTH
+  Politics, Police State, nil
+  adorable, wonder.
+  Momma, Daddy, church
+  Princess, wonderful, immature, adoring, obsessesive, 
+  disobediant
+  play and play and play.
+  to watch Disney DVDs
+  playing in the sandbox all day
+  playing in the sandbox all day
+  tell Rataxis where I am
+  watching TV
+  playing pretend
+  kissing Rataxis
+  mask collection, F1
+  closet full of costumes, F1
+  shows that you put on, F1
+  allowance, F1
+  whooping Rataxis
+  Momma
+  good fun.
+
+#BASES
+Home
+Gramma's House
+Headquarters
+Aunt K's House
+Church
+Nursery  School
+TwentyNine Palms
+Mark's Camper
+Ellie's Room
+Momma and Daddy's Room
+Kitchen
+Living Room
+Horse Pen
+Bunk House
+Daddy's Workshop
+Lupe's House
+Front Yard
+Sand Box
+NC State
+Joshua Tree
+Texas
+Back Yard
+Apple Farm
+Wake Forest
+Salt Mine
+Glosson Rd.
+The Park
+#END
+
+#WATERBASES
+Marine base
+Swimming Pool
+Bathtub
+The Kitchen Sink
+Dog Water
+The Beach
+Play in the Rain
+Glass of Water
+#END
+
+#BLURB
+I am a pretty princess.  Let's play!
+^
+^
+^   -- Elizabeth Shaver
+^      "Ellie Speaks"
+^
+^
+
+#DATALINKS1
+^LEADER: {Elizabeth "Buster" Shaver}
+^BACKGROUND: {Five years' worth.}
+^AGENDA: {To learn and grow- and play!}
+^TECH: {Industrial Base}
+^
+
+#DATALINKS2
+^+2 PLANET: {Used to hostlle terrain.}
+^+1 GROWTH: {Like a weed.}
+^+1 MORALE: {Plays a lot.  Loving home.  Daddy can beat up Rataxis.}
+^+1 RESEARCH: {Learning all the time.}
+^{Free Recreation Commons & Children's Creche at every base.}
+^{Mineral bonus in fungus.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Ok let's stop this stupid war and do some coloring."
+
+"Yeah, I agree."
+"No...your faction will be destroyed. It's bad."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"I'd rather be playing chest $TITLE0 $NAME. Let's not fight."
+
+"Sure, $NAME3."
+"Not at all, your faction don't interest me."
+
+
+# ; This line must remain at end of file

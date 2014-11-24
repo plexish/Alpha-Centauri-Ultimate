@@ -1,0 +1,142 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#VALHALLA
+The Valhallans, The Barbarian, Valhallan, M, 2, Mraxis Mad Dog, M, 1, 1, 0, 1, 0, 
+SOCIAL, --EFFIC, SOCIAL, ++++MORALE, SOCIAL, --EFFIC, SOCIAL, +PROBE, SOCIAL, --POLICE, FANATIC, 0, TECHSTEAL, 0, MORALE, 4, 
+Values, Power, MORALE, 
+Future Society, Thought Control, nil, 
+Valhallans, Valhallans
+Reginlief, Dr.Marcus Loki, Well of Urd
+Jarl, brave, barbaric, brave, barbaric, 
+bloodthirsty savage
+have many legendary exploits
+form a society based on battle and finding freedom through glory
+pillaging every civilization on planet
+pillaging our homes
+create never ending war and suffering
+attacking helpess settlements and colonists
+attacking helpess settlements and colonists
+practicing barbarism
+savage ways, M1
+battle lust, M2
+exploits in battle, M2
+amount of loot, M1
+showing the way to true freedom and glory
+my Huskarls
+Asgard and Valhalla
+
+#BASES
+HammerFall
+Odin's Eye
+Grugnir
+Ragnarok
+Freyja's Garden
+Wind of Skaldi
+Baldr's Song
+Lair of Loki
+Jotunheim
+Nifleheim
+Tree of Ygrsdal
+Mjnoljr
+Hide of the Ulfsark
+Tyr's Woe
+Ride of the Valkryies
+Well of Urd
+The Hall of Heroes
+Fenris Howl
+Fimbulwinter
+Fall of The Frost GiantsMarch of the Jotun
+March of the Jotun
+Hersir's Hill Fort
+Raider's Rally
+Battle Lust
+Heimdall's Hold
+Ymir's Footprint
+Legends of Heroes
+Bardic Song
+Asgard
+Dreams of Valhalla
+Battle and Beer
+The Thrown Spear
+Ravenhold
+Mraxis' Saga
+Warrior's Path
+Bliss Through Battle
+Shieldwall
+#END
+
+#WATERBASES
+Njord's Tempest
+Kraken Castle
+Harbour Jormungund
+Longboat Port
+Long Voyage
+Raid and Pillage
+Vinlandsaga
+Sea of Worms
+#END
+
+#BLURB
+^  Mankind has always fought for as long as it has existed.
+And man has always longed for freedom. The Viking heaven
+was where men where free to fight, eat and drink, and
+so will we fight and eat and drink our fill." 
+^
+^        --  Mraxis Mad Dog,
+^           "Battle, Beer and Bread."
+
+#DATALINKS1
+^LEADER: {Mraxis Mad Dog}
+^BACKGROUND: {Unity Weapons Systems officer}
+^AGENDA: {Anocratic Warlord State}
+^TECH: {None}
+
+#DATALINKS2
+^+4 MORALE:   {Battle Hardened Warrior Culture}
+^+1 PROBE: {Experienced Raiders and Looters}
+^-2 EFFIC: {Constant fueds between warlords stifles progress}
+^-2 POLICE {Barbaric and Chaotic society}
+^25% Attack Bonus
+^Able to Steal Technologies
+^{May not use Thought Control in Social Engineering}
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"We have no reason to raid and pillage you currently,
+$NAME1, so we are willing to cease our raids and let
+you recover."
+
+"...We agree to your truce, touch our lands again andit
+may be a different story."
+it may be a different story."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, you seem to be quite battle worthy, and we approach you as shield brothers and sisters. Will you join us in glory?"
+
+"Of course! Your raiders are reknowned and legendary, we'd be honoured to have a treaty of friendship with you."
+"I'd rather not, your faction has been known for barbarity and hedonism, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"We have no interest in looting your settlements right now, $NAME1, would you care to recover and be in peace?"
+
+"Progenitor: wishes end to conflict. Mutual agreement: truce."
+"Your raiders: not threat to our security. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your people and you seem to be battle worthy allies, would you care to enter a treaty of friendship and be our shield brothers and sisters?
+
+"Valhallans: brave. Treaty: admirable idea."
+"Valhallans: control: non-existant. Ally: dangerous. Answer: no."
+
+# ; This line must remain at end of file

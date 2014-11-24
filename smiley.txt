@@ -1,0 +1,122 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Order of Happiness
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... smiley
+;
+
+#SMILEY
+Order of Happiness, the Smileys, Smileys, F, 2, Smiley, F, -1, 0, 0, 1, 0, 
+  SOCIAL, -PROBE, SOCIAL, -POLICE, SOCIAL, ++GROWTH, RESEARCH, 1, DRONE, 3, TALENT, 3, HURRY, 90, TECHCOST, 90, COMMERCE, 1, POPULATION, 1
+  Politics, Democratic, TALENT
+  Future Society, Thought Control, nil
+  Smiley, Smiley
+  Mei Jing, Woo Ming, Area 89
+  Madame, considerate, anarchist, individualistic, anarchist, 
+  lunatic
+  make this world a better place
+  to give everyone their justly deserved rights and liberties
+  destroying all order on this planet
+  destroying all order on this planet
+  fiddle while the world burns in anarchy
+  broadcasting soap opera re-runs
+  watching soap opera re-runs
+  spreading anarchy
+  disorganized philosophy, M1
+  grand schemes, M2
+  push for individualism, F1
+  wad of energy, M1
+  achieving everyone's satisfaction
+  my running dog lackeys
+  Statute 37-1-84 of article 553-2-9918 of bill 421.05 of amendment...
+
+#BASES
+Smiley's Capital
+Smiley's Metropolis
+Smiley's Utopia
+Smiley's Abode
+Smiley's Habitation Area
+Smiley's Population Center
+Smiley's City
+Smiley's Megalopolis
+Smiley's Homestead
+Smiley's Hometown
+Smiley's Villa
+Smiley's Paradise
+Smiley's Euphoria
+Smiley's Landmark
+Smiley's Territory
+Smiley's Outpost
+Smiley's Crossroads
+Smiley's Resort
+Smiley's Ghetto
+Smiley's Village
+Smiley's Land Claim
+Smiley's Area 1
+Smiley's Area 2
+Smiley's Area 3
+Smiley's Area 4
+Smiley's Area 5
+Smiley's Area 6
+#END
+
+#WATERBASES
+Smiley's Atoll
+Smiley's Island
+Smiley's Oceanic Outpost
+Smiley's Waterfront
+Smiley's Isle
+Smiley's Lagoon
+Smiley's WaterWorks
+Smiley's Deep Sea
+#END
+
+#BLURB
+Some things are better just left alone
+^
+^
+^   -- Anonymous
+^      "Madame Smiley's Theories on Everything"
+^
+
+#DATALINKS1
+^LEADER: {Miss Smiley}
+^BACKGROUND: {Unknown}
+^AGENDA: {To offer all to do what they please}
+^TECH: {None}
+^
+
+#DATALINKS2
+^++GROWTH: {Open policy results in influx of foreigners}
+^-PROBE: {Open policy leads to poor security measures}
+^-POLICE: {Decentralized government results in internal factionalization}
+^{Extra TALENT per 3 citizens, extra DRONE per 3 citizens}
+^{Reduced research and hurry costs, more commerce and research}
+^{Hab Complex needed to grow beyond 6 Population}
+^{May not use Thought Control}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This stupid war has been causing much destruction.  May I suggest
+a truce to end this nonsense, $NAME3, please?"
+
+"Good thinking.  Why fight when you don't have to?"
+"no...the party's not over yet."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"As much as I promote individualism, sometimes it is necessary
+to work together.   $TITLE0 $NAME1, how does cooperating sound
+to you?"
+
+"sure $NAME3, great idea."
+"Sorry.  I fear your radical ideals may corrupt my society."
+
+
+# ; This line must remain at end of file

@@ -1,0 +1,79 @@
+Tremblers:
+
+A pacifist faction.  The tremblers are a pacifist splinter group from Mririam’s believers, who instead focus on mental strength and strong community, and use persuasion and other non violent methods to spread their religion.
+
+Faction characteristics:
+
+Free children’s crèche and recreation commons:  This comes from the “community oriented” nature of the faction.
+
+1 talent per 4 citizens:  I wanted this to simply be 1 less drone, but did not know a way to do it.  Another representative of “strong community”.
+
++1 probe:  the tremblers use non-violent methods to advance their cause.
+
++30% psi combatl:  Tremblers are quite mentally strong (though really, it’s to prevent the morale penalty from being too much a problem with mind worms)
+
+-2 morale:  pacifist
+
+-3 police:  pacifist
+
+Social preference:  Fundamentalism
+
+Social aversion:  Power
+
+
+Faction leader profile:
+Name: Michael Elezar
+Position:  Unity Security
+Country of origin:  Israel  
+Birth: 06-17-2030
+
+Born 2030 in Tel Aviv to a strongly religious family.  Served with the Israeli defense force in the 2048 middle east tripolar war, fighting in the Judean theatre against Iranian and Iraqi Shiite forces, and in the Euphrates theatre against Syrian invasions, but lost both parents to car bombs and 3 siblings in the Sinai. Syrian, and Jordanian theatres of the war.  Elazar’s losses left him in spiritual confusion and loss, until finding a passing missionary of the Evangelical fire movement.  Finding his calling, Elazar would devote himself to the movement, as well as fighting several more wars in the Israeli armed forces, once again distinguishing himself in following wars.  His psychological strengths and skills led to his quick selection as a member of unity security.  At first, Elazar did not wish to abandon his home, but was encouraged by fellow evangelical fire members, including Miriam Godwinson.
+
+
+Psych Profile:  Spiritualist
+
+Elazar throughout his life shows tremendous loyalty to any cause or person he attaches himself to, showing great determination, lack of fear, and a willingness to fully devote himself to the cause.  Some questions arise, however, as to how he will react to mixed loyalties, and whether his devotion to evangelical fire, or any new causes he may join himself to, will interfere with his commitment to unity success.  Elazar’s family’s deaths have left him a strong longing for relationships and personal loyalty, it is suggested that Elazar be kept away from potentially troublesome people and focused strictly on task.
+
+
+After Landing:
+
+When the eight (including Silva’s colonists) faction leaders went their separate ways, Elazar joined Miriam’s believers, both out of personal respect for Miriam, and for his association to the evangelical fire.  On landing, Elazar quickly rose through the believer military ranks, and helped develop training methods that helped focus the strength of believer religious convictions into powerful offensive power.  Elazar also served with a number of militias and defenders against mind worm attacks, and was well known for his ability to focus even under the most vicious psychic attacks.
+
+However, after some time on planet, Elazar became troubled by the militarism of the believers, and the conflicts with other factions of centauri colonists.  The believer military was being used as often for religion based conflicts as to protect the original unity mission, and over time Elazar became more disillusioned with his role within believer society.  
+
+While on a training mission to teach new recruits survival skills, the group was caught be a surprise mind worm attack.  As the mind worms attacked, almost all the recruits and many of the training officers were psychically paralyzed.  While most of the unparalyzed trainers attempted to defend the recruits, Elazar, as his usual role, moved with three other highly skilled worm fighters into a weak spot in the worm boil, and began attacking the worms from behind to try and draw some worms away from the less mentally strong recruits.  The worm battle was bloody, with 5 recruits killed and 35 suffering from severe mental trauma.  1 of the trainers who went into the boil was killed, and another was found in a state of extreme psychic shock, suffering the hallucinations and extreme fear common after a psychic attack.  No one could find Elazar for nine hours, and when he was found, he was without his weapons, with a malfunctioning life support system.  His rescuers considered it a miracle that he had survived.  
+
+No one is entirely sure what happened but what is known is that, unlike others who had fought the worms, and unlike other times Elazar had fought against worm boils, he was unusually serene.  Future descriptions by Elazar described a spiritual vision and understanding, while others simply think that the mind worm attacks and toxins from the Centauri atmosphere had caused hallucinations.  Whatever the cause, Elazar soon began collecting followers, starting a new pacifist movement within believer society.  Within a few months, this new movement had reached a size where believer leaders, including Miriam, felt threatened and confused by this new order.
+
+Competition was inevitable between overall believer policy and Elazar’s new sect.  At first, Miriam’s followers attempted to reconvert Elazar’s followers back to typical believer viewpoints, but soon followers of the different sects began fighting each other, with occasional riots.  Elazar and Miriam at first attempted to negotiate their differences, but the two leaders had too much conviction in their own beliefs to effectively compromise and negotiate.  With nowhere else to go, elazar’s followers left believer cities and territory, and traveled to a still relatively uninhabited part of Centaurus. Battling fungus, weather, and other dangers much as the original colonists had, the new “tremblers” now established their own faction on the centauran world.
+
+
+Quotes:
+
+Ethical Calculus:
+
+“Before you make a move against your fellow man, ask yourself, are you truly righteous in your actions, or do you merely wish to benefit yourself?  Holiness is not merely a matter of following instructions, or of good intentions, but in every action thinking and acting for the benefit of our fellow man, as well as ourselves”  --Book of Trembling
+
+Social Psych:
+
+“All the technical knowledge in the world is useless if one does not have even a rudimentary understanding of community.  All of our actions are motivated by it, our technology serves it.  Technology by itself is useless, is only with social knowledge that it becomes worthwhile to the world.”  --The limits of technology
+
+Neural Amplifier:
+
+“Against the terror of the mind worms, the bravest of soldiers may serve as shields for the others, letting all defenders stand firm against the fury of an alien planet.”  --Psychic tactics and training
+
+Centauri Preserve:
+
+“As we have a responsibility to our fellow humans, we also must remember to respect and protect this land from which we draw our resources.  Wealth in the present is useless if it leads to poverty in the future.  Show care towards that which gives us wealth today, and we shall reap the reward tomorrow”   --Trembler book of wealth
+
+
+
+Personal notes:
+
+The name of this faction is based on quakers, shakers, and other such splinter religious groups and utopian movements.  The faction itself is also somewhat based on these groups, and more in general on description of how a number of religious movements started.
+
+As mentioned above, the bonus talents were meant to be drone reduction, but I was not sure how to actually do that with a faction.
+
+I am not sure whether this faction is overpowered or not, the games I’ve played so far tend to place it on islands, and it does seem to start quickly, but it is hard to tell whether the faction would be overpowered with more room to expand.
+
+I don’t really like fundamentalist as a faction preference, it makes the most sense in backstory terms, but doesn’t really make sense in terms of the social engineering bonuses it gives. 

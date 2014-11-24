@@ -1,0 +1,134 @@
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#KAMANRA
+Kaman Ra, Sun God, Ra, M, 1, Amon Ra, M, 1, 1, 1, 1, 0, 
+TECH, Physic, FACILITY, 10, FUNGMINERALS, 1, OFFENSE, 125, SOCIAL, +EFFIC, SOCIAL, -GROWTH, SOCIAL, -PLANET, FANATIC, 0, TECHSTEAL, 0, ENERGY, 100, TECH, 1, 
+Future Society, Thought Control, POLICE, 
+Politics, Democratic, nil, 
+Hive, Hive
+High Priest Anaken, Tutanakin, Song of Ra
+Lord, ruthless, cruel, unquestioning, brainwashed, 
+Inhuman Monster
+properly control our followers
+to found a society on the principles of enlightenment
+reducing us all to mindless slaves of his diabolical schemes
+reducing us all to mindless slaves in your quest for immortality
+reduce the human population of this world into mindless slavery
+brainwashing the wretched fools who chose to follow him
+brainwashing the wretched fools who chose to follow you
+relentless thought control
+brutal attempts at thought control, M1
+social experiments, M2
+thought control experiments, M2
+tithe, M1
+keeping an eye on the workers
+Ra's Guard
+Ra's decree
+
+#BASES
+Temple of Ra
+Garden of Ra
+Mininon's Delight
+Pyramid of the Sun
+Great Chariot
+Colony of Amon Ra
+Workers Teaming
+Eye of Ra
+Discipline Cave
+Festival Song
+Amon Cavern
+High Priest Speaks
+Eye of the Sphynx
+Ear of the Dog
+The Cat's Delight
+Complex of the Sun
+Transcendent Rose
+Hill of Thought
+Necromancer Heaven
+Immortal Ruins
+Mummylove
+The Great Joining
+Eunich Song
+Song of Ra
+#END
+
+#WATERBASES
+Ra of the Sea
+Sea Temple
+No Escape
+Port Amon
+Necromancer Drift
+Ocean Gorge
+Deep Churning
+Ra's Revenge
+#END
+
+#BLURB
+Only enlightenment will free the enslaved. I shall
+take your mind and through our common link, transcend
+mortality. Together we shall walk in the field of reeds.f
+of body, to embrace the self of group and the self of
+humanity. The goals of the group and the greater race
+are transcendent, and to embrace them is to achieve
+enlightenment. 
+^
+^        -- Lord Amon Ra,
+^           "Egyptian Book of Ra"
+
+#DATALINKS1
+^LEADER: {Amon Ra}
+^BACKGROUND: {Egyptologist , star traveler}
+^AGENDA: {World Domination}
+^TECH: {Applied Physics}
+^
+
+#DATALINKS2
+^FREE FACILITY: Skunkworks {Advanced production knowledge}
+^FREE VEHICLE:  Probe Team {Mind control}
+^+1 Mineral each fungus square {Geological knowledge}
+^+1 Efficiency
+^125% attack bonus {followers brainwashed}
+^-1 Growth, -1 Planet {zero tolerance for free thinking ideologies, total disregard for eco-damage)
+^Steal tech when conquer base {thought control}
+^{May not use Democratic politics}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+Ra's pledge of Blood Truce is offered."
+
+"Indeed. The Great Ra decrees Blood Truce between us.""Never!I
+plan to put an end to your enslavement once and for
+for all!"
+I plan to put an end to your enslavement once and for
+for all!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your ideals are admirable if a bit misguided and your faction need not pose a threat to Ra's decree. Shall we sign a Treaty of Friendship to formalize our mutual accord?"
+
+"As you wish. The Great Amon Ra seems a valuable friend."
+"No. Your attempt to make us all loyal slaves of Ra is unacceptable, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1, a pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+"Your needs: truth: not same. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my noninterference philosophies would seem to make me the only natural ally for you from among these warring human factions. Can't we sign a Treaty of Friendship and coexist in peace?
+
+"Hive: safe ally. Treaty: admirable idea."
+"Hive: control: too important. Ally: dangerous. Answer: no."
+
+# ; This line must remain at end of file

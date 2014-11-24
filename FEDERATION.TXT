@@ -1,0 +1,133 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Centauri Federation
+; by Fabio Knabenhans
+;
+; http://www.networknode.org
+;
+; ALPHA CENTAURI ruft die Spielregeln beim Start von dieser Datei
+; auf. Sie kšnnen auf eigenes Risiko mit dieser Datei experimentieren.
+; Wir empfehlen Ihnen, eine Sicherungskopie der Originaldatei anzulegen.
+;
+
+#FEDERATION
+The Centauri Federation, The Industrialists, Federation, N, 1, Knabenhans, M,  1,  1, 0, 1, 0,
+  TECH, PlaNets, FACILITY, 15, FACILITY, 4, SOCIAL, -POLICE, SOCIAL, +++INDUSTRY, SOCIAL, --ECONOMY, SOCIAL, ++SUPPORT, SOCIAL, --PLANET,
+  Politics, Democracy, GROWTH
+  Politics, Police State, nil
+  Federation, Federation
+  Ota Kyi, Shimoda, Gesang von Ota Kyi
+  President, Imperialist
+  Imperialist
+  pursue galactic peace
+  to form a stable and benevolent galactic empire
+  taking over the galaxy
+  taking over the galaxy
+  invading the planet with your bureaucracy
+  plotting to unite the Planet under his rule
+  plotting to unite the Planet under your rule
+  bureaucratic whimpering
+  Democracy and Industry, M1
+  Industry, N2
+  galactical domination, F2
+  Industry Taxes, M1
+  providing a united assemply for this Planet
+  Fedration Marines
+  Democracy
+
+#BASES
+Federation Commando
+Fabio Knabenhans-Basis
+Star Base
+Marine Baracks
+Robo Factory
+Mining Plant
+Patrol Zone
+Space Port
+Ground Batteries
+Worker Factory
+Deep Core Mine
+Nano Plant
+Networks Center
+Federations Labs
+Federation Nexus
+Federations Law
+Space Academy
+Management Center
+Federation Exchange
+Astro University
+Stock Exchange
+Democracy Currency
+Globenet
+National Defense
+Dimensional Portal
+Energie Center
+Federation Starport
+Scout Lab
+Supercomputer
+Nuclear Plant
+Cybernet
+Security Center
+Auto Farm
+Fusion Plant
+Gas Refinery
+Federation Hospital
+Nanopedia
+#END
+
+#WATERBASES
+Sea Federation
+Federation Harbor
+Undersea Mines
+Fisheries
+Sea Factory
+Sea Base
+Sea Sonar Basis
+#END
+
+#BLURB
+^Democracy, industry and profits go hand in hand.
+A great civilization is not conquered from without
+until is has destroyed itself from within.
+
+^
+^        -- President Fabio Knabenhans,
+^           "Democracy & Freedom"
+
+#DATALINKS1
+^LEADER:  {President Fabio Knabenhans}
+^BACKGROUND: { Freedom for Workers and a Great Democratic Empire}
+^AGENDA: { An Industrial and Democratic Empire}
+^TECH: {Planetary Networks}
+^
+
+#DATALINKS2
+^+2 SUPPORT: {Great Industry for support, for Democracy}
+^+3 INDUSTRY: {Hard workers and great mines}
+^-2 ECONOMY: {Great Industry is expensive and high taxes}
+^-2 PLANET: {Industry pollution and no recycling}
+^-1 POLICE: {Personal freedom, privacy and civil rights}
+^FREE PERIMETER DEFENSE,FREE FUSION LAB
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This fighting takes us nowhere $TITLE0 $NAME1. Should we live in peace 
+and use the free resources more constructively?."
+
+"Yes, there is no sense in destroying ourselves."
+"No. Your puny contingent makes me laugh, $NAME3."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"We are peaceful researchers, $TITLE0 $NAME1. Will you sign
+a Treaty of Friendship and leave us to study in peace?"
+
+"Of course. We must certainly strive for a peaceful galaxy."
+"No. Your "benevolent empire" makes me laugh, $NAME3."
+
+
+; This line must remain at end of file
+

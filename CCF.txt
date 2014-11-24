@@ -1,0 +1,145 @@
+; -III THE CCF III-
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+; Text by Jerry Ralph <chironforce@yahoo.com> 
+; Faction Graphics Copyright c2000 NetworkNode M.Dunk  - EXCEPT woman pic from http://members.xoom.com/acchiron
+; For more factions visit http://www.networknode.org
+; email networknode@lycos.com
+;
+
+#CCF
+Chiron Conservation Force, The Conservationist, CCF, F, 1, Quintris, F, 0, 0, 1, 0, 1, 
+TECH, Ecology, FACILITY, 13, SOCIAL, +RESEARCH, SOCIAL, ++PLANET, SOCIAL, --INDUSTRY, TERRAFORM, 0, RESEARCH, 1, TECH, 1 
+Economics, Green, RESEARCH, 
+Economics, Free Market, nil, 
+CCF, CCF
+Anastasia, Ty, Anastasia's Wood
+Project Lead, harmonic, backwards, ecological, nature freak, 
+Tree Hugger
+research nature
+to study and preserve the natural ecosystem of Chiron
+reducing us all to tree-hugging nature freaks
+reducing us all to tree-hugging nature freaks
+turn this planet into a giant forest
+running naked through the trees
+running naked through the trees
+sabotaging industries
+eco babble, M1
+nature study, M2
+research of nature, M2
+donation, M1
+keeping an eye on the industrialists
+CCF Security
+CCF Law
+
+#BASES
+Conservation Force HQ
+Nature Study
+Wilderness Park
+Forest City
+The Canopy
+Arbor Village
+Sylvain Point
+Verde Hills
+Lake Greenpoint
+Preservation Park
+Evergreen City
+Arboral Mists
+The Pine Barrens
+Chiron Redwoods
+Planet Forest
+Sunnydale Forest
+Wildlife Valley
+Centauri Preserve
+The Formations Park
+Treetop City
+Force of Nature
+The Conifers
+Olympia Forest
+Forest Research Base
+Cascade Woods
+Temple of Nature 
+Camp Flora 
+Pinecone Lodge
+#END
+
+#WATERBASES
+Ocean Conservation Base
+The Kelp Forests
+Conservation Marina
+Sealife Study Base
+Quintris Harbor
+Port Ecology
+Seapark
+Kelp Fields Preserve
+Aquatis Preservation
+Maratime Park  
+Aquatic Development Base
+Forest of the Deep
+Kelp Research Range
+#END
+
+#BLURB
+^The nature of this planet cries out to be researched
+and preserved.  We must make sure we learn the secrets
+of nature and not destroy it like on Earth. 
+^
+^        -- Project Leader Lexia Quintris,
+^           "Centauri Preservation"
+
+#DATALINKS1
+^LEADER: {Lexia Quintris}
+^BACKGROUND: {Greenpeace Volunteer}
+^AGENDA: {To Research and Preserve Chiron}
+^TECH: {Centauri Ecology}
+
+#DATALINKS2
+^+1 RESEARCH:   {Desire to learn from nature}
+^+2 PLANET: {Want to preserve nature}
+^-2: INDUSTRY  {Industry hurts planet}
+^Free Tree Farm at every base
+^{Cannot use FREE MARKET choice}
+^
+^
+^
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"This Vendetta is slowing our ecological research, $NAME1,
+a  Blood Truce would be beneficial."
+
+"Of course. A Blood Truce would be excellent."
+"Never! I will end your malvolent plans now!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your faction is acceptable and you
+do not pose a threat to my ideal.  Shall we sign a formal
+treaty?"
+
+"As you wish. The CCF seems a valuable friend."
+"No. You spend to much time in the forest for me."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my non-interference philosophies would
+seem to make me the only natural ally for you from among
+these warring human factions. Can't we sign a Treaty
+of Friendship and coexist in peace?
+
+"CCF: safe ally. Treaty: admirable idea."
+"CCF: control: too important. Ally: dangerous. Answer: no."
+
+# ; This line must remain at end of file

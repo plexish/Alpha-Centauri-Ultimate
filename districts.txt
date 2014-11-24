@@ -1,0 +1,138 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: United Districts
+;
+; created by ariete
+;
+
+#DISTRICTS
+United Districts, The Inspector, Districts, M, 2, Calitikov, M,  1,  1, 0, 0, 0,
+  TECH, Integ, SOCIAL, -ECONOMY, SOCIAL, +MORALE, SOCIAL, +POLICE, SOCIAL, +PROBE, NODRONE, 1
+  Politics, Police State, POLICE
+  Politics, Democratic, nil
+  Districts, Districts,
+  Judge Hajeryesh, Judge Shimoka, Court of Hajeryeshk
+  Supreme Judge, ruthless, cruel, unquestioning, mindless,
+  Inhuman Monster
+  properly control our followers
+  to found a society on the principles of security and control
+  reducing us all to mindless servants of his diabolical schemes
+  reducing us all to mindless servants of your diabolical schemes
+  reduce the human population of this world into mindless slavery
+  torturing the wretched fools who chose to follow him
+  torturing the wretched fools who chose to follow you
+  preaching brutal nihilism
+  brutal nihilism, M1
+  social experiments, M2
+  mind control experiments, M2
+  fine, M1
+  keeping the discipline
+  Districts Security
+  Districts Law
+
+#BASES
+Supreme Court Center
+1st Department
+District 126
+District 134
+District 148
+District 157
+District 162
+District 178
+District 184
+District 198
+District 211
+District 354
+District 478
+District 587
+District 693
+District 713
+District 844
+District 996
+Centurions Outpost
+Penal Colony 146
+Penal Colony 257
+Penal Colony 368
+Penal Colony 495
+Penal Colony 587
+#END
+
+#WATERBASES
+Marine Court Center
+Sea District 53
+Sea District 124
+Sea District 258
+Sea District 347
+Sea District 469
+Sea District 582
+Sea District 616
+Sea District 733
+Sea District 895
+Sea District 964
+#END
+
+#BLURB
+Spartan sent a space-ship expedition to colonize a new planet of 
+Centauri system. There were on board officers of the different spheres
+ compose the glorious Spartan Federation. But happen what happened to 
+Unity so the mission split in 5 human faction and 2 aliens. The 
+machinery of military police founded an Union of Districts, each 
+governed by his Judge, together under the guide of the Supreme Judge, 
+the chief of Judges.
+
+#DATALINKS1
+^LEADER: {Supreme Judge Vladimir Calitikov}
+^BACKGROUND: {Unity II Security Inspector}
+^AGENDA: {Atheist Police State}
+^TECH: {Doctrine: Intellectual Integrity}
+^
+
+#DATALINKS2
+^-1 ECONOMY: {restrictions to political-economic freedom}
+^+1 MORALE: {well trained troops}
+^+1 POLICE:  {martial court for the dissidents, troops employed for police activities}
+^+1 PROBE: {high internal security systems and trained investigative service}
+^-1 DRONES in every base: {strict application of the law}
+^{May not use Democratic politics.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order."
+
+"Indeed. Blood Truce would be most satisfactory."
+"Never! I plan to put an end to your scheming once and for all!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your ideals are admirable if a bit misguided and
+your faction need not pose a threat to Districts policy. Shall we sign
+a Treaty of Friendship to formalize our symbiotic relationship?
+
+"As you wish. The Districts seems a valuable friend."
+"No. Your social experiments are a bit too bizarre for me, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+"Your needs: truth: not same. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my noninterference philosophies would seem to make
+me the only natural ally for you from among these warring human
+factions. Can't we sign a Treaty of Friendship and coexist in peace?
+
+"Districts: safe ally. Treaty: admirable idea."
+"Districts: control: too important. Ally: dangerous. Answer: no."
+
+
+# ; This line must remain at end of file

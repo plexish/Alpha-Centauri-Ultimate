@@ -1,0 +1,126 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: The Cult of Isis
+;
+; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://www.networknode.org
+; email networknode@lycos.com
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; To use this Faction file select load from 
+; faction select in the game and write... isis
+;
+
+#ISIS
+The Cult of Isis, The Arcane, Isisan, F, 2, Leatt, F, -1, 0, 0, 0, 1, 
+  PENALTY, SUPPORT, SOCIAL, -EFFIC, SOCIAL, ---POLICE, SOCIAL, +++++GROWTH, FACILITY, 2, FACILITY, 24, TALENT, 8, TECHCOST, 140
+  Politics, Fundamentalist, GROWTH
+  Future Society, Cybernetic, nil
+  Isisan, Isisan
+  Ullo, Neab, Throne of Isis
+  High Priestess, spirited, superstitious, profound, debased, 
+  immoral
+  further the magic of Isis
+  embrace the magic of Isis
+  worshipping idols and trickery
+  trickery and idol worship
+  conduct these heresies
+  worshipping false gods
+  attending pagan ceremonies
+  immoral practices
+  cult, M1
+  the Glory of Isis, M2
+  Arcane pursuits, M1
+  tithe, M1
+  furthering the Glory of Isis
+  Warrior Priests
+  the Scrolls of Isis
+
+#BASES
+Throne of Isis
+Throne of Ra
+Nephthys
+Anubis
+Osiris
+Apshai
+Nammi
+Bes
+Geb
+Horus
+Adduk
+Ress
+Ptah
+Seker
+Set
+Bast
+Ussit
+Ybri
+Juamel
+Anhur
+Chib
+Hydd
+Brodi
+Apep
+#END
+
+#WATERBASES
+Tefnut
+Thoth
+Shu
+Gnak
+Riam
+Ingo
+Ehje
+Jema
+#END
+
+#BLURB
+Some would have you believe that magic is a dead artform, yet
+believe them not, for science has not the answers for all our
+questions and never can it. This is because science is an invention
+of man, magic however is an invention of the gods, as wondrous
+as the spark of life!
+^
+^   -- High Priestess Phena Leatt
+^      "Scrolls of Isis"
+^
+^
+
+#DATALINKS1
+^LEADER: { High Priestess Phena Leatt}
+^BACKGROUND: {Occultist and Spiritual Healer}
+^AGENDA: {To revive the Arcane Arts}
+^TECH: {None}
+^
+
+#DATALINKS2
+^-EFFICIENCY: {Large infrasructure due to high growth patterns.}
+^-3POLICE: {Followers of a pacifist religion.}
+^+4GROWTH: {Ritual fertility ceremonies to enhance poulation growth.}
+^EXTRA TALENT: {Per 8 citizens. Self fulfilled lifestyle.}
+^FREE FACILITIES: {HAB COMPLEX, CHILDRENS' CRECHE, communal living structures}
+^140% RESEARCH COSTS: {Little belief held in future technologies.}
+^{May NOT use CYBERNETIC future society.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"The Mighty Isis will tolerate this debacle no more, precious lives
+are wasted. Shall we sign a truce $NAME1, and end this bloodletting?"
+
+"Isis has powerful servants, $NAME3. Send me the documents."
+"Call on your idols, $NAME3, and see what use they are. Prepare to be crushed."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Isis has told me to seek an alliance with your people $TITLE0
+$NAME1, do you favour this?"
+
+"Your offer is most welcome $NAME3."
+"Are you mad? Magic in this day and age? Don't waste any more of my time!"
+
+
+# ; This line must remain at end of file
