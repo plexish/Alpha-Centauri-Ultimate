@@ -1256,6 +1256,9 @@ USURPER,  USURPER
 ; First item is file name, second item is search key.
 ; These should always be the same except for debugging purposes.
 ;
+; Full list
+; =========
+;
 ; AARDOM
 ; acol
 ; acolyte
@@ -1376,53 +1379,8 @@ USURPER,  USURPER
 ; Yeer
 ; YPUNAG
 ;
-; #JarlWolf's
-; crimson
-; Imperium
-; Fascist
-; Machine
-; Valhalla
-; Clones
-;
-; Sigma's
-; PROCYON
-; TECHNO
-; APOLLO
-; AUTH
-; GENOME
-; LEVIA
-; PILGRIMS
-; SATORI 
-; 
-; Green1's
-; Exterminatus
-; 
-; ete's
-; annihilator
-;
-; Kilka's
-; blackband
-;
-;angels+
-;annihilator
-;ANTIMIND
-;crimson
-;TECHNO
-;usurper+
-
-; STRAND
-; RED
-; 
-
-; AAR Pilgrims
-; crimson
-; Imperium
-; PILGRIMS
-; GENOME
-; LEVIA
-; Machine
-
-; ### broken, will crash on load ###
+; Broken, will crash on load
+; =======
 ;
 ; ACTIVE
 ; ANCIENT
@@ -1439,6 +1397,76 @@ USURPER,  USURPER
 ; REPLCNT
 ; TECH
 ;
+; JarlWolf's
+; =======
+;
+; crimson
+; Imperium
+; Fascist
+; Machine
+; Valhalla
+; Clones
+;
+; Sigma's
+; =======
+;
+; TECHNO
+; APOLLO
+; AUTH
+; GENOME
+; LEVIA
+; PILGRIMS
+; SATORI 
+; PROCYON
+; 
+; Oceanic pack
+; =======
+;
+; seastead
+; monarch
+;
+; Green1's
+; =======
+;
+; Exterminatus
+; 
+; ete's
+; =======
+;
+; annihilator
+;
+; Kilka's
+; =======
+;
+; blackband
+; 
+; Apocylpse
+; =======
+;
+; angels+
+; annihilator
+; ANTIMIND
+; crimson
+; TECHNO
+; usurper+
+; 
+; Fight for the Future
+; =======
+;
+; STRAND
+; RED
+; 
+
+; AAR Pilgrims
+; =======
+;
+; crimson
+; Imperium
+; PILGRIMS
+; GENOME
+; LEVIA
+; Machine
+;
 ; Current
 ; 
 ; 
@@ -1449,8 +1477,8 @@ SATORI
 grdrone
 CRECHE
 Imperium
-bree
-Valhalla
+seastead
+monarch
 
 #MANDATE
 Explore, EXPLORE
