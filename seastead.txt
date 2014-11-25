@@ -12,7 +12,7 @@
 
 #SEASTEAD
 The Seastead Accord, The Seasteader, Seasteaders, M, 2, Aki Zeta-5, M, -1, 0, 0, 1, 1,
-  TECH, InfNet, IMPUNITY, Cybernetic, SOCIAL, +RESEARCH, SOCIAL, ++GROWTH, AQUATIC, 0
+  TECH, InfNet, TECH, DocFlex, IMPUNITY, Cybernetic, SOCIAL, +RESEARCH, SOCIAL, ++GROWTH, AQUATIC, 0
   Future Society, Cybernetic, GROWTH
   Politics, Fundamentalist, nil
   Cybernetic, Cybern.

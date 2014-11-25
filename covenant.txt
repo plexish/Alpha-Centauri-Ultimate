@@ -1,7 +1,7 @@
 ;
 ; Sid Meier’s ALPHA CENTAURI
 ;
-; FACTION FILE: The Triton Monarchy
+; FACTION FILE: Covenant of the Deep
 ;
 ; Copyright © 1999 by Firaxis Games, Inc.
 ;
@@ -10,14 +10,14 @@
 ; this file. We recommend you make a backup copy of the original.
 ;
 
-#MONARCH
-The Triton Monarchy, The Neo-Reactionary, Neo-Reactionary, M, 1, Colton I, M, 1, 1, 0, 1, 0,
+#COVENANT
+The Covenant of the Deep, The Sect, Sect, M, 1, Vathe I, M, 1, 1, 1, 0, 0,
   TECH, Physic, TECH, DocFlex, IMPUNITY, Power, SOCIAL, ++POLICE, SOCIAL, -EFFIC, SOCIAL, -RESEARCH, ROBUST, MORALE, AQUATIC, 0
-  Politics, Police State, MORALE
-  Politics, Democratic, nil
-  Neo-Reactionary, NRx.
-  Rex, Johnson, Rex's Monument
-  King, sovereign, dictatorial, powerful, oppressive,
+  Politics, Fundamentalist, MORALE
+  Economics, Free Market, nil
+  Sect, Sect
+  Saitu, Lrgothau, Saitu's Descent
+  Deacon, sovereign, dictatorial, powerful, oppressive,
   Authoritarian Tyrant
   conquer this world for your "kingdom"
   to give the people of Planet what they really want: Stability
