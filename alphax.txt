@@ -1424,6 +1424,9 @@ USURPER,  USURPER
 ;
 ; seastead
 ; monarch
+; covenant
+; pragmatist
+; armada
 ;
 ; Green1's
 ; =======
@@ -1474,11 +1477,11 @@ USURPER,  USURPER
 #CUSTOMFACTIONS
 TECHNO
 SATORI
-grdrone
-CRECHE
-Imperium
+armada
+pragmatist
 seastead
 monarch
+covenant
 
 #MANDATE
 Explore, EXPLORE

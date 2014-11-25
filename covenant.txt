@@ -7,11 +7,11 @@
 ; 
 
 #COVENANT
-The Covenant of the Deep, The Sect, Sect, M, 1, Vathe I, M, 1, 1, 1, 0, 0,
-  TECH, Physic, TECH, DocFlex, IMPUNITY, Power, SOCIAL, ++POLICE, SOCIAL, -EFFIC, SOCIAL, -RESEARCH, ROBUST, MORALE, AQUATIC, 0
-  Politics, Fundamentalist, MORALE
+The Covenant of the Deep, The Covenant, Covenant, M, 1, Vathe, M, 1, 1, 1, 0, 0,
+  TECH, Chemist, TECH, DocFlex, SOCIAL, +PLANET, SOCIAL, -ECONOMY, FREEABIL, 20, FREEABIL, 1, VOTES, 0.5, AQUATIC, 0
+  Politics, Fundamentalist, PLANET
   Economics, Free Market, nil
-  Sect, Sect
+  Covenant, Covent.
   Saitu, Lrgothau, Saitu's Descent
   Deacon, sovereign, dictatorial, powerful, oppressive,
   Authoritarian Tyrant
@@ -32,11 +32,11 @@ The Covenant of the Deep, The Sect, Sect, M, 1, Vathe I, M, 1, 1, 1, 0, 0,
   the Triton Constitution
 
 #BASES
-Seat of Power
+Host of Demons
 #END
 
 #WATERBASES
-Colton's Founding
+Hub of the Drowning
 #END
 
 #BLURB

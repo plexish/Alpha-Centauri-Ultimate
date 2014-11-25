@@ -1,22 +1,22 @@
 ;
 ; Sid Meier’s ALPHA CENTAURI
 ;
-; FACTION FILE: The Triton Monarchy
+; FACTION FILE: Centauri Armada
 ;
-; Credit: ete, Sigma (ideas and feedback), and BU (art)
+; Credit: Sigma, ete (ideas and feedback)
 ; 
 
-#MONARCH
-The Triton Monarchy, The Neo-Reactionary, Neo-Reactionary, M, 1, Kriton I, M, 1, 1, 0, 1, 0,
-  TECH, Physic, TECH, DocFlex, IMPUNITY, Power, SOCIAL, ++POLICE, SOCIAL, -EFFIC, SOCIAL, -RESEARCH, ROBUST, MORALE, AQUATIC, 0
-  Politics, Police State, MORALE
-  Politics, Democratic, nil
-  Neo-Reactionary, NRx.
-  Rex, Johnson, Rex's Monument
-  King, sovereign, dictatorial, powerful, oppressive,
-  Authoritarian Tyrant
-  conquer this world for your "kingdom"
-  to give the people of Planet what they really want: Stability
+#ARMADA
+The Centauri Armada, The Flotilla, Armada, F, 1, Reyes, F, 0, 1, 0, 0, 1,
+  TECH, Ecology, TECH, DocFlex, SOCIAL, +SUPPORT, SOCIAL, -PLANET, FACILITY, 28, FREEABIL, 13, UNIT, 4, AQUATIC, 0,
+  Values, Power, SUPPORT
+  Economics, Green, nil
+  Armada, Armada
+  Marie, Rodrigo, Marie's Breakwater
+  Admiral, protective, eco-destructive, mission oriented, short sighted,
+  Oceanic Atilla
+  master Planet's hostile ecosystem to build a new home for our people
+  transform this alient world into a paradise for humanity
   removing all rights and personal freedom to expand his control
   removing all rights and personal freedom to expand your control
   delusions of grandeur
@@ -32,44 +32,39 @@ The Triton Monarchy, The Neo-Reactionary, Neo-Reactionary, M, 1, Kriton I, M, 1,
   the Triton Constitution
 
 #BASES
-Seat of Power
+Landfall Headquarters
 #END
 
 #WATERBASES
-Colton's Founding
+Centauri Anchorage
+New Corregidor
 #END
 
 #BLURB
-What has progressivism brought us? Decades of violence, with man turning on 
-man, tearing down his own creations with ever more powerful tools of harm, and
-finally bringing an apparent end to the planet of our birth. When humans
-given certain forms of freedom they use it for destructive ends. Time and 
-time again the complex progressive "fair" systems have been proven to not 
-work for people; they are unnatural, wrongheaded, and exploitable. If
-we are to avoid the mistakes of Earth's decay and catastrophic fall
-we must return to stable and well-organized society which acknowledges the
-very real differences between individuals, and has an appropriate place
-for all. Only as a society united behind an absolute leader can we forge an island
-of stability and safety on this hostile world.
+In the beginning, it is enough that we survive, that we claim each breath of clean
+air and each swallow of potable water as a victory against an ecosystem bent on 
+expelling mankind from its sphere. We will build ships and train soldiers, and they
+will guard the seeds of a second Earth which we will cultivate. We will grow a garden
+walled with fire, anchored in the sea and soil of Planet by iron roots.
  ^
- ^        —King Kriton Agrippa I,
- ^           “Address to subjects”
+ ^        —Admiral Jovelyn Reyes,
+ ^           “Lament of a Lost Earth"
 
 #DATALINKS1
-^LEADER: {King Kriton Agrippa I}
-^BACKGROUND: {USA Survivalist militia}
-^AGENDA: {Return to traditional values and societal structure}
-^TECH: {Applied Physics, Doctrine: Flexibility}
+^LEADER: {Admiral Jovelyn Reyes}
+^BACKGROUND: {Republic of the Philippines, Unity Marine Ecologist}
+^AGENDA: {Ecological Transformation}
+^TECH: {Centauri Ecology, Doctrine: Flexibility}
 ^
 
 #DATALINKS2
-^+2 POLICE: {Obedient subjects, strong chain of command}
-^-1 EFFICIENCY: {Hyper-centralized control leads to inefficiency}
-^-1 RESEARCH: {Distrust of development and free thought}
-^Impunity to POWER penalty: {Industry prepared for shift to war footing}
-^Robust MORALE: Negative MORALE values halved
-^{May not make Democratic choice in social engineering}
-^Aquatic: Starts at sea.
+^+1 SUPPORT: {Focused on naval expansion}
+^-1 PLANET: {Intent on transforming Planet's ecosystem}
+^Free Sea Formers at Planetfall
+^Formers Gain Fungicide Tanks with discovery of Synthetic Fossil Fuels
+^Free Naval Yard with discovery of Doctrine:Initiative
+^{May not use Green Economics}
+
 
 #FACTIONTRUCE
 #xs 440
