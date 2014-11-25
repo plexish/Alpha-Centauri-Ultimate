@@ -3,12 +3,8 @@
 ;
 ; FACTION FILE: The Triton Monarchy
 ;
-; Copyright © 1999 by Firaxis Games, Inc.
-;
-; ALPHA CENTAURI reads the rules of the game from this file at
-; startup. Feel free, at your own risk, to experiment with editing
-; this file. We recommend you make a backup copy of the original.
-;
+; Credit: ete, Sigma (ideas and feedback), and BU (art)
+; 
 
 #MONARCH
 The Triton Monarchy, The Neo-Reactionary, Neo-Reactionary, M, 1, Colton I, M, 1, 1, 0, 1, 0,
@@ -53,9 +49,7 @@ work for people; they are unnatural, wrongheaded, and exploitable. If
 we are to avoid the mistakes of Earth's decay and catastrophic fall
 we must return to stable and well-organized society which acknowledges the
 very real differences between individuals, and has an appropriate place
-for all.
-
-Only as a society united behind an absolute leader can we forge an island
+for all. Only as a society united behind an absolute leader can we forge an island
 of stability and safety on this hostile world.
  ^
  ^        —King Colton I,

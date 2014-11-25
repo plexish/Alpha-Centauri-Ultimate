@@ -3,12 +3,8 @@
 ;
 ; FACTION FILE: The Seastead Accord
 ;
-; Copyright © 1999 by Firaxis Games, Inc.
-;
-; ALPHA CENTAURI reads the rules of the game from this file at
-; startup. Feel free, at your own risk, to experiment with editing
-; this file. We recommend you make a backup copy of the original.
-;
+; Credit: ete, Sigma (ideas and feedback), and BU (art)
+; 
 
 #SEASTEAD
 The Seastead Accord, The Seasteader, Seasteaders, M, 2, Aki Zeta-5, M, -1, 0, 0, 1, 1,

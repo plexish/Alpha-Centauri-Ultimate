@@ -3,12 +3,8 @@
 ;
 ; FACTION FILE: Covenant of the Deep
 ;
-; Copyright © 1999 by Firaxis Games, Inc.
-;
-; ALPHA CENTAURI reads the rules of the game from this file at
-; startup. Feel free, at your own risk, to experiment with editing
-; this file. We recommend you make a backup copy of the original.
-;
+; Credit: ete, Sigma (ideas and feedback), and BU (art)
+; 
 
 #COVENANT
 The Covenant of the Deep, The Sect, Sect, M, 1, Vathe I, M, 1, 1, 1, 0, 0,
