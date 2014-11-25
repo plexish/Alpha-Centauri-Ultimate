@@ -1,0 +1,17 @@
+Terra.mp
+--------
+rebuilt the map within the past 2 weeks, basing on the Terra map 
+already circulating from an unknown artist (Sparky?).
+
+- correct the continent relations + sizes
+- set the resources as they are in real
+  (gold, diamonds, iron, coal, oil)
+- corrected some size relations of seas and mountains to make it 
+  as similar to the real Terra map.
+- save it under SMACX (but also playable with SMAC)
+- placed jungle at rivers there, where in real is no jungle but
+  extendet food (eg Nil, Rhine delta, and such) and setting 
+  nutrient bonus fields would give too much
+
+
+Dreifels, 02.06.2000

@@ -1,0 +1,47 @@
+4 at Gamma Centauri
+-------------------
+Version 2, 03.09.1999
+
+A synthetic world made by alien.
+4 Factions. Preselected factions:
+
+similar starting areas for the 4 factions.
+
+Gaia, University, Hive, Believers.
+Changing the player's factions is easy
+in scenario editor, if you like other.
+
+Map size is standard, so you can
+play this as IP game easy, too.
+
+No bacons, no alien artefacts.
+All factions have 2 colony pods,
+1 former, 1 unit 1-1-1 and 2 units 1-1-2
+Manifold Nexus, Ruins, Mount Planet, but no borehole cluster,
+Mount Planet and the Ruins with extended Energy.
+
+Made by US Version patch 4.
+Files 09.03.1999:
+4 Humans at Gamma Centauri 2100 (ready).SC = the respective scenario
+4 Humans at Gamma Centauri 2100.SC = before deleting the other factions
+
+
+Version 8, 09.09.1999
+
+- Map: distances between factions more fine set, center placement
+  of Garland Crater,Manifold and Ruins
+- Scenario + sav: start social settings to 50% econ + 50% research
+  for all
+  University has Planetary Networks as already discovered, same
+  as the game original makes in an IP level Tanscendence.
+  The sav file is ready for single user playing as Uni, 
+  otherwise call scenario by editor, say switch view, select 
+  an other faction, say in editor Game/save and then reload.
+  Same way to use it as Multiuser.
+Files 09.09.1999:
+4 at Gamma Centauri (build 8).MP
+4 at Gamma Centauri 2101 (ready build 8).SC
+4H(8)-2101.SAV
+
+
+Dreifels@1st-euro.net
