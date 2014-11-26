@@ -1427,6 +1427,7 @@ USURPER,  USURPER
 ; covenant
 ; pragmatist
 ; armada
+; trade
 ;
 ; Green1's
 ; =======
@@ -1476,7 +1477,7 @@ USURPER,  USURPER
 
 #CUSTOMFACTIONS
 TECHNO
-SATORI
+trade
 armada
 pragmatist
 seastead

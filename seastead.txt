@@ -8,7 +8,7 @@
 
 #SEASTEAD
 The Seastead Accord, The Seasteader, Seasteaders, M, 2, James, M, -1, 0, 1, 0, 1,
-  TECH, InfNet, TECH, DocFlex, FREEFAC, 0, POPULATION, 3, SOCIAL, ++GROWTH, AQUATIC, 0
+  TECH, InfNet, TECH, DocFlex, FACILITY, 0, POPULATION, 4, SOCIAL, ++GROWTH, AQUATIC, 0
   Future Society, Eudaimonic, GROWTH
   Politics, Thought Control, nil
   Seasteader, Seaste.

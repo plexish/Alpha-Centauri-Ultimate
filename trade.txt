@@ -1,19 +1,19 @@
 ;
 ; Sid Meier’s ALPHA CENTAURI
 ;
-; FACTION FILE: The Pragmatist Order
+; FACTION FILE: The Trader's Consortium
 ;
 ; Credit: ete, Sigma (ideas and feedback), and BU (art)
 ; 
 
-#PRAGMATIST
-The Praxis Harvesters, The Harvester, Harvester, M, 1, Helen, F, -1, 0, 0, 1, 1,
-  TECH, CentMed, TECH, DocFlex, PSI, 25, FREEFAC, 34, FUNGMINERALS, 2, SOCIAL, +INDUSTRY, SOCIAL, ---MORALE, SOCIAL, -SUPPORT, AQUATIC, 0
-  Economics, Planned, INDUSTRY
-  Economics, Green, nil
-  Harvester, Harves.
+#TRADE
+The Trader's Consortium, The Trader, Trader, M, 1, Francisco, F, -1, 0, 0, 1, 0,
+  TECH, Indust, TECH, DocFlex, FREEABIL, 7, FREEABIL, 19, FREEABIL, 21, SOCIAL, +ECONOMY, SOCIAL, -PROBE, AQUATIC, 0
+  Economics, Free Market, INDUSTRY
+  Economics, Planned, nil
+  Trader, Trader
   Alpha Talent, Gamma Thinker, Alpha Legacy
-  Supervisor, analytical, soulless, rational, inflexible,
+  Director, analytical, soulless, rational, inflexible,
   Unsexed Android
   impose rational thinking on this Planet
   to impose rationality and order on the inhabitants of this chaotic Planet
@@ -81,17 +81,16 @@ personalities can only be attributed to archaic evolutionary tendencies.
 #DATALINKS1
 ^LEADER: {Aki Zeta-5 (Prime Function Shell)}
 ^BACKGROUND: {Subroutine Specialist under Unity Science Officer}
-^AGENDA: {Rational Objectivity}
-^TECH: {Information Networks, Applied Physics}
+^AGENDA: {Profitable Trade}
+^TECH: {Doctrine: Flexibility, Industrial Base}
 ^
-
+  
 #DATALINKS2
-^+2 RESEARCH: {Human research abilities enhanced by algorithmic control}
-^+2 EFFICIENCY: {Cybernetic biologicals extremely efficient}
-^-1 GROWTH: {Humans ‘possessed by an algorithm’ find reproduction awkward}
-^Impunity to CYBERNETIC penalty: {Cybernetic social choice is ‘rational’ and not dissented by citizens}
-^Can steal technology when capturing a base
-^{May not make Fundamentalist choice in social engineering}
+^Free Heavy Transport, Repair Bay, and Carrier Deck with the required technologies
+^+1 ECONOMY & +1 Commerce rating: {Vast trading network}
+^-1 GROWTH: {Hard to raise a family while constantly sailing for trade}
+^-1 PROBE: {Open borders for trade easily infiltrated}
+^{May not make Planned choice in social engineering}
 
 #FACTIONTRUCE
 #xs 440

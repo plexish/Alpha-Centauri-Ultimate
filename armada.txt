@@ -8,7 +8,7 @@
 
 #ARMADA
 The Centauri Armada, The Flotilla, Armada, F, 1, Reyes, F, 0, 1, 0, 0, 1,
-  TECH, Ecology, TECH, DocFlex, SOCIAL, +SUPPORT, SOCIAL, -PLANET, FACILITY, 28, FREEABIL, 13, UNIT, 4, AQUATIC, 0,
+  TECH, Ecology, TECH, DocFlex, SOCIAL, +SUPPORT, SOCIAL, -PLANET, FREEFAC, 28, FREEABIL, 13, UNIT, 4, AQUATIC, 0,
   Values, Power, SUPPORT
   Economics, Green, nil
   Armada, Armada

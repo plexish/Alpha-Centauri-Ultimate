@@ -8,7 +8,7 @@
 
 #COVENANT
 The Covenant of the Deep, The Covenant, Covenant, M, 1, Vathe, M, 1, 1, 1, 0, 0,
-  TECH, Chemist, TECH, DocFlex, SOCIAL, +PLANET, SOCIAL, -ECONOMY, FREEABIL, 20, FREEABIL, 1, VOTES, 0.5, AQUATIC, 0
+  TECH, Chemist, TECH, DocFlex, SOCIAL, +PLANET, SOCIAL, -ECONOMY, FREEABIL, 20, FREEABIL, 1, VOTES, .5, AQUATIC, 0
   Politics, Fundamentalist, PLANET
   Economics, Free Market, nil
   Covenant, Covent.
@@ -40,38 +40,32 @@ Hub of the Drowning
 #END
 
 #BLURB
-What has progressivism brought us? Decades of violence, with man turning on 
-man, tearing down his own creations with ever more powerful tools of harm, and
-finally bringing an apparent end to the planet of our birth. When humans
-given certain forms of freedom they use it for destructive ends. Time and 
-time again the complex progressive "fair" systems have been proven to not 
-work for people; they are unnatural, wrongheaded, and exploitable. If
-we are to avoid the mistakes of Earth's decay and catastrophic fall
-we must return to stable and well-organized society which acknowledges the
-very real differences between individuals, and has an appropriate place
-for all.
-
-Only as a society united behind an absolute leader can we forge an island
-of stability and safety on this hostile world.
+In the deepest reaches of Planet's oceans, the crushing pressure and lack of nourishing 
+sunlight render the hadal trench zones barren of most forms of life. Yet in this hellish 
+environment, the xenofungus thrives in greater abundance and concentration than anywhere 
+on the surface. Fused into dense clusters by intense geothermal heat and over 1200 bars of
+deep sea pressure, the neural capacity of the hadal fungus is magnitudes larger than the
+rest of Planet's xenomass put together. In these fathomless depths, Planet's very soul lies
+dreaming.
  ^
- ^        —King Colton I,
- ^           “Address to subjects”
+ ^        —Deacon Daniel Vathe,
+ ^           “The Call of Chiron”
 
 #DATALINKS1
-^LEADER: {King Colton I}
-^BACKGROUND: {USA Survivalist militia}
-^AGENDA: {Return to traditional values and societal structure}
-^TECH: {Applied Physics, Doctrine: Flexibility}
+^LEADER: {Deacon Daniel Vathe}
+^BACKGROUND: {United Ireland, Unity Deep Sea Oceanographer}
+^AGENDA: {Communion with Planetmind}
+^TECH: {Social Psyche, Doctrine: Flexibility}
 ^
 
 #DATALINKS2
-^+2 POLICE: {Obedient subjects, strong chain of command}
-^-1 EFFICIENCY: {Hyper-centralized control leads to inefficiency}
-^-1 RESEARCH: {Distrust of development and free thought}
-^Impunity to POWER penalty: {Industry prepared for shift to war footing}
-^Robust MORALE: Negative MORALE values halved
-^{May not make Democratic choice in social engineering}
-^Aquatic: Starts at sea.
+^+1 PLANET: {Revere Planet as a powerful, godlike entity}
+^-1 ECONOMY: {Attract few trade partners}
+^Free Nerve Gas Pods on all units with discovery of High Energy Chemistry
+^Free Isle of the Deep at Planetfall
+^Planetary Council Votes Halved {Other leaders distrustful of beliefs}
+^Extra Drone per 4 Citizens {Citizens repulsed by beliefs and rituals}
+^{May not use Free Market Economics}
 
 #FACTIONTRUCE
 #xs 440
