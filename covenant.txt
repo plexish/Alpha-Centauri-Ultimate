@@ -7,36 +7,49 @@
 ; 
 
 #COVENANT
-The Covenant of the Deep, The Covenant, Covenant, M, 1, Vathe, M, 1, 1, 1, 0, 0,
-  TECH, Chemist, TECH, DocFlex, SOCIAL, +PLANET, SOCIAL, -ECONOMY, FREEABIL, 20, FREEABIL, 1, VOTES, .5, AQUATIC, 0
+The Covenant of the Deep, The Covenant, Covenant, M, 1, Vathe I, M, 1, 1, 1, 0, 0,
+  TECH, Chemist, TECH, DocFlex, SOCIAL, +PLANET, SOCIAL, -ECONOMY, FREEABIL, 20, VOTES, 0.5, AQUATIC, 0, Unit, 9,
   Politics, Fundamentalist, PLANET
   Economics, Free Market, nil
-  Covenant, Covent.
-  Saitu, Lrgothau, Saitu's Descent
-  Deacon, sovereign, dictatorial, powerful, oppressive,
-  Authoritarian Tyrant
-  conquer this world for your "kingdom"
-  to give the people of Planet what they really want: Stability
-  removing all rights and personal freedom to expand his control
-  removing all rights and personal freedom to expand your control
-  delusions of grandeur
-  imposing archaic and inefficient systems of governance
-  imposing archaic and inefficient systems of governance
-  delusions of grandeur
-  delusions of grandeur, M1
-  organization of society, M1
-  foolish authoritarianism, M1
-  tribute, M1
-  preventing chaos and anarchism
-  my Royal Legions
-  the Triton Constitution
+  Covenant, Covnt.
+  Saitu, Aodan, Saitu's Descent
+  Deacon, devout, insane, spiritual, brainwashed,
+  Cult Leader
+  bring our peoples into the benevolent embrace of the Planetmind
+  seek spiritual oneness with Planet's will
+  expunging this world of every man, woman and child who does not follow his insane dogma
+  expunging this world of every man, woman and child who does not follow your insane dogma
+  commit one atrocity after another in the name of your suicidal religion
+  brewing new chemical weapons and other atrocities to inflict upon his imagined "heretics"
+  brewing new chemical weapons and other atrocities to inflict upon your imagined "heretics"
+  leading a dangerous cult
+  so-called religious movement, M1
+  spiritual endeavors, M2
+  cult activies, M2
+  offering, M1
+  spreading wisdom of Planet's will amoung our colonies
+  the Abyssal Inquisition
+  the will of the Planetmind
 
 #BASES
-Host of Demons
+Rocky Pilgrimage
 #END
 
 #WATERBASES
-Hub of the Drowning
+The Depths Call Us
+Sorceror's Wharf
+Carcosa Island
+Song of the Abyss
+Lair of the Sealurk
+Church of Descent
+Sunken Cathedral
+Sea of Dreams
+Deep Rapture
+Hadal Reverie
+Clione Nursery
+Benthic Temple
+Cold Seep Sanctuary
+Prayer for the Drowned
 #END
 
 #BLURB
@@ -55,7 +68,7 @@ dreaming.
 ^LEADER: {Deacon Daniel Vathe}
 ^BACKGROUND: {United Ireland, Unity Deep Sea Oceanographer}
 ^AGENDA: {Communion with Planetmind}
-^TECH: {Social Psyche, Doctrine: Flexibility}
+^TECH: {High Energy Chemistry, Doctrine: Flexibility}
 ^
 
 #DATALINKS2
@@ -66,6 +79,7 @@ dreaming.
 ^Planetary Council Votes Halved {Other leaders distrustful of beliefs}
 ^Extra Drone per 4 Citizens {Citizens repulsed by beliefs and rituals}
 ^{May not use Free Market Economics}
+
 
 #FACTIONTRUCE
 #xs 440
