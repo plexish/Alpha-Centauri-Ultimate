@@ -7,7 +7,7 @@
 ; 
 
 #MONARCH
-The Triton Monarchy, The Neo-Reactionary, Neo-Reactionary, M, 1, Kriton I, M, 1, 1, 0, 1, 0,
+The Triton Monarchy, The Neo-Reactionary, Neo-Reactionary, M, 1, Colton I, M, 1, 1, 0, 1, 0,
   TECH, Physic, TECH, DocFlex, IMPUNITY, Power, SOCIAL, ++POLICE, SOCIAL, -EFFIC, SOCIAL, -RESEARCH, ROBUST, MORALE, AQUATIC, 0
   Politics, Police State, MORALE
   Politics, Democratic, nil
@@ -52,11 +52,11 @@ very real differences between individuals, and has an appropriate place
 for all. Only as a society united behind an absolute leader can we forge an island
 of stability and safety on this hostile world.
  ^
- ^        —King Kriton Agrippa I,
+ ^        —King Colton I,
  ^           “Address to subjects”
 
 #DATALINKS1
-^LEADER: {King Kriton Agrippa I}
+^LEADER: {King Colton I}
 ^BACKGROUND: {USA Survivalist militia}
 ^AGENDA: {Return to traditional values and societal structure}
 ^TECH: {Applied Physics, Doctrine: Flexibility}
