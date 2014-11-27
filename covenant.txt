@@ -7,7 +7,7 @@
 ; 
 
 #COVENANT
-The Covenant of the Deep, The Covenant, Covenant, M, 1, Vathe I, M, 1, 1, 1, 0, 0,
+The Covenant of the Deep, The Covenant, Covenant, M, 1, Vathe, M, 1, 1, 1, 0, 0,
   TECH, Chemist, TECH, DocFlex, SOCIAL, +PLANET, SOCIAL, -ECONOMY, FREEABIL, 20, VOTES, 0.5, AQUATIC, 0, Unit, 9,
   Politics, Fundamentalist, PLANET
   Economics, Free Market, nil
@@ -25,9 +25,9 @@ The Covenant of the Deep, The Covenant, Covenant, M, 1, Vathe I, M, 1, 1, 1, 0, 
   leading a dangerous cult
   so-called religious movement, M1
   spiritual endeavors, M2
-  cult activies, M2
+  cult activities, M2
   offering, M1
-  spreading wisdom of Planet's will amoung our colonies
+  spreading wisdom of Planet's will among our colonies
   the Abyssal Inquisition
   the will of the Planetmind
 
