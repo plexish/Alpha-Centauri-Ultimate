@@ -1,0 +1,109 @@
+;
+; Sid Meier’s ALPHA CENTAURI
+;
+; FACTION FILE: Savant Caliphate
+; CLASS: Compatible
+;
+; Credit: ete, Sigma (ideas and feedback), and BU (art)
+; 
+
+#SAVANTS
+The Savant Caliphate, The Scholars, Savants, M, 2, Saeed, M, 0, 0, 1, 0, 1,
+  TECH, 1, TECH, DocFlex, SOCIAL, ++RESEARCH, SOCIAL, +PROBE, SOCIAL, -INDUSTRY, HURRY, 110, IMPUNITY, KNOWLEDGE, FREEABIL, 28, AQUATIC, 0,
+  Values, Knowledge, PROBE
+  Politics, Fundamentalist, nil
+  Savant, Savant
+  Saitu, Aodan, Saitu's Descent
+  Caliph, devout, insane, spiritual, brainwashed,
+  Cult Leader
+  bring our peoples into the benevolent embrace of the Planetmind
+  seek spiritual oneness with Planet's will
+  expunging this world of every man, woman and child who does not follow his insane dogma
+  expunging this world of every man, woman and child who does not follow your insane dogma
+  commit one atrocity after another in the name of your suicidal religion
+  brewing new chemical weapons and other atrocities to inflict upon his imagined "heretics"
+  brewing new chemical weapons and other atrocities to inflict upon your imagined "heretics"
+  leading a dangerous cult
+  so-called religious movement, M1
+  spiritual endeavors, M2
+  cult activities, M2
+  offering, M1
+  spreading wisdom of Planet's will among our colonies
+  the Abyssal Inquisition
+  the will of the Planetmind
+
+#BASES
+Library of Planet
+#END
+
+#WATERBASES
+Citadel of the Mind
+#END
+
+#BLURB
+Men have longed followed the idiom that knowledge is power. This cannot be denied.
+But these same men do not follow this idiom to its final conclusion: that knowledge,
+like power, will cast men undeserving of its burden into corruption, and in this
+manner fell our first home. The lesson painfully learned is this: the power of the
+mind to change the world must be guarded as jeaously as the power to split atoms, for
+from the first arises the second.
+ ^
+ ^        —Caliph Saeed Alizadeh,
+ ^           “Planet Theory”
+
+#DATALINKS1
+^LEADER: {Caliph Saeed Alizadeh}
+^BACKGROUND: {Iranian Islamic Republic, Unity Education Specialist}
+^AGENDA: {Golden Age of Knowledge}
+^TECH: {Doctrine: Flexibility, Choose 1}
+^
+
+#DATALINKS2
+^+2 RESEARCH: {Hierarchy of scholars and academics}
+^+1 PROBE: {Protected networks and trained infiltrators}
+^-1 INDUSTRY: {Labor neglected in favor of research}
+^+10% Hurry Cost {Understaffed factories}
+^Does not experience negative effects of Knowledge Values
+^All units gain Algorithmic Enhancement upon discovery of Nanominiaturazation
+^{May not use Fundamentalist Politics}
+
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+“Our strategic simulations predict an inevitable stalemate for this
+conflict, $NAME1. We therefore attach a high value to Blood Truce at this time.”
+
+“I need no simulation to tell me that, $NAME3. Blood Truce is the best choice.”
+“That’s funny … our simulations predict your inevitable defeat. We see no value in a Blood Truce.”
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+“You have recently demonstrated enhanced left-brain activity, $TITLE0 $NAME1.
+A Treaty of Friendship would exponentially increase our mutual capabilities.”
+
+“Your conclusions are irrefutable. A Treaty is the only rational path for our people, $NAME3.”
+“I prefer my right-brain impulses on this one, $NAME3. You can use what’s left of yours.”
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+“Our strategic simulations predict an inevitable stalemate for this
+conflict, $NAME1. We therefore attach a high value to Blood Truce at this time.”
+
+“Wisdom: avoid stalemate. Progenitor: better things to do. Agreement.”
+“Your simulations: faulty. Your defeat: inevitable. Answer: negative.”
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+“$TITLE0 $NAME1, your devotion to research and your vast intellect make you
+a suitable partner. A Treaty of Friendship would exponentially increase
+our mutual capabilities.”
+
+“Geometric power: preferable: arithmetic power. Treaty: excellent idea.”
+“Logic flaw: Progenitor: no benefit: your commerce. Answer: negative.”
+
+
+# ; This line must remain at end of file
