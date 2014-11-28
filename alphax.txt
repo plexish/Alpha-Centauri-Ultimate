@@ -1382,7 +1382,7 @@ USURPER,  USURPER
 ; Broken, will crash on load
 ; =======
 ;
-; ACTIVE
+; ACTIVE- Updated 2014.11.28
 ; ANCIENT
 ; ChrionColonists
 ; COLLECTIVE

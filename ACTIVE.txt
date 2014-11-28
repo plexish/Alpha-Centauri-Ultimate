@@ -1,1 +1,100 @@
-;; Sid Meier's ALPHA CENTAURI;; FACTION FILE: The New World Activists;; Done with ACEdit (c)1999 ANX; And manually by Mark Burdon mumfstar@hotmail.com; For use this Faction file select load from; faction select in the game and write active;#ACTIVEThe New World Activists, The Eco-warrior, Activists, M, 2, Abel, F, 1, 1, 0, 0, 1,SOCIAL, +++PLANET, SOCIAL, +MORALE, SOCIAL, -GROWTH, SOCIAL, --INDUSTRY, TECH, Ecology, UNIT, 8  Economics, Green, PLANET  Economics, Free Market, nil  Activist, Activi.  Anne, Lindberg, Anne's Peace  Miss, pretty, daft, efficient, hippy,  Tree Hugger  save Planet  to destroy wasteful industries  burning all human growth on Planet  burning all human growth on Planet  destroy our economy  kissing Xenofungus  kissing Xenofungus  treehugging  tree hugging, M1  conservation, M1  "conservation", M1  payment, M1  protecting Planet  Activist Squad Alpha  Activist Planetary Code#BASESBase ActivistRazorback ParkSpeech of PlanetPlanet's FuryNew LandIndustrial Death#END#WATERBASESSea of PlanetDeep Blue#END#BLURBWe are not attacking in cold blood: Your industries attacked Planet first.^^--Miss Abel,^Datalinks#DATALINKS1^LEADER: {Miss Abel}^BACKGROUND: {Eco-Warrior}^AGENDA: {Green}^TECH: {Centauri Ecology}^#DATALINKS2^+3 PLANET: {Eco-mad}^-2 INDUSTRY: {Do not like pollution}^-1 GROWTH: {Strict controls}^+1 MORALE: {Militaristic}^Free Mind Worms.#FACTIONTRUCE#xs 440#caption $CAPTION7"$NAME3, you are damaging Planet, but I have bigger fish to fry.Let us pledge Truce and see to our own matters.""I will sign, but do not expect me to start hugging trees.""No. You will fry soon!"#FACTIONTREATY#xs 440#caption $CAPTION7"Planet wishes us to become friends.Would you sign this Treaty?""Agreed.Planet is wise.""No. Tell Planet to curl up and die."# ; This line must remain at end of file
+;
+; Sid Meier's ALPHA CENTAURI;
+; FACTION FILE: The New World Activists
+; CLASS: Compatible
+;
+; Done with ACEdit (c)1999 ANX; And manually by Mark Burdon mumfstar@hotmail.com
+; Revised by Sigma (AC2), 2014, to correct formatting and add Alien Dialog
+;
+; For use this Faction file select load from; faction select in the game and write active
+;
+
+#ACTIVE
+The New World Activists, The Eco-warrior, Activists, M, 2, Abel, F, 1, 1, 0, 0, 1,
+  SOCIAL, +++PLANET, SOCIAL, +MORALE, SOCIAL, -GROWTH, SOCIAL, --INDUSTRY, TECH, Ecology, UNIT, 8,  
+  Economics, Green, PLANET,  
+  Economics, Free Market, nil,
+  Activist, Activi.  
+  Anne, Lindberg, Anne's Peace
+  Miss, pretty, daft, efficient, hippy,
+  Tree Hugger 
+  save Planet
+  to destroy wasteful industries
+  burning all human growth on Planet
+  burning all human growth on Planet
+  destroy our economy
+  kissing Xenofungus
+  kissing Xenofungus
+  treehugging
+  treehugging, M1
+  conservation, M1
+  "conservation", M1
+  payment, M1
+  protecting Planet
+  Activist Squad Alpha
+  Activist Planetary Code
+
+#BASES
+Activist Base
+Razorback Park
+Speech of Planet
+Planet's Fury
+New Land
+Industrial Death
+#END
+
+#WATERBASES
+Sea of Planet
+Deep Blue
+#END
+
+#BLURB
+We are not attacking in cold blood: Your industries attacked Planet first.
+^
+^--Miss Abel,
+^Datalinks
+
+#DATALINKS1
+^LEADER: {Miss Abel}
+^BACKGROUND: {Eco-Warrior}
+^AGENDA: {Green}
+^TECH: {Centauri Ecology}
+^
+
+#DATALINKS2
+^+3 PLANET: {Eco-mad}
+^-2 INDUSTRY: {Do not like pollution}
+^-1 GROWTH: {Strict controls}
+^+1 MORALE: {Militaristic}
+^Free Mind Worms.
+^{Cannot choose Free Market Economics}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME3, you are damaging Planet, but I have bigger fish to fry. Let us pledge Truce and see to our own matters."
+"I will sign, but do not expect me to start hugging trees."
+"No. You will fry soon!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Planet wishes us to become friends. Would you sign this Treaty?"
+"Agreed.Planet is wise."
+"No. Tell Planet to curl up and die."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"$NAME3, you are damaging Planet, but I have bigger fish to fry. Let us pledge Truce and see to our own matters."
+"Damage to Manifold Six: undesirable. Treaty: preferable."
+"Fish fry: unknown metaphor. Argument: invalid. War: continues."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Planet wishes us to become friends. Would you sign this Treaty?"
+"Manifold Six: possesses great wisdom. Progenitors: wise to listen. Treaty: accepted."
+"Manifold Six: does not speek to humans. Treaty: unwise."
+
+# ; This line must remain at end of file
