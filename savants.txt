@@ -4,7 +4,7 @@
 ; FACTION FILE: Savant Caliphate
 ; CLASS: Compatible
 ;
-; Credit: ete, Sigma (ideas and feedback), and BU (art)
+; Credit: ete, Sigma, and BU (art)
 ; 
 
 #SAVANTS
@@ -45,7 +45,7 @@ Men have longed followed the idiom that knowledge is power. This cannot be denie
 But these same men do not follow this idiom to its final conclusion: that knowledge,
 like power, will cast men undeserving of its burden into corruption, and in this
 manner fell our first home. The lesson painfully learned is this: the power of the
-mind to change the world must be guarded as jeaously as the power to split atoms, for
+mind to change the world must be guarded as jealously as the power to split atoms, for
 from the first arises the second.
  ^
  ^        —Caliph Saeed Alizadeh,

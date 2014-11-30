@@ -2,8 +2,9 @@
 ; Sid Meier’s ALPHA CENTAURI
 ;
 ; FACTION FILE: Centauri Armada
+; CLASS: Compatible
 ;
-; Credit: Sigma, ete (ideas and feedback)
+; Credit: ete, Sigma, and BU (art)
 ; 
 
 #ARMADA

@@ -2,8 +2,9 @@
 ; Sid Meier’s ALPHA CENTAURI
 ;
 ; FACTION FILE: Covenant of the Deep
+; CLASS: Compatible
 ;
-; Credit: ete, Sigma (ideas and feedback), and BU (art)
+; Credit: ete, Sigma, and BU (art)
 ; 
 
 #COVENANT
