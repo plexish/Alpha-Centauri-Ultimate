@@ -9,7 +9,7 @@
 
 #PRAGMATIST
 The Praxis Harvesters, The Harvester, Harvester, M, 1, Helen, F, -1, 0, 0, 1, 1,
-  TECH, CentMed, TECH, DocFlex, PSI, 25, FREEFAC, 34, FUNGMINERALS, 2, SOCIAL, +INDUSTRY, SOCIAL, ---MORALE, SOCIAL, -SUPPORT, AQUATIC, 0
+  TECH, CentMed, TECH, DocFlex, PSI, 25, FREEFAC, 34, FUNGMINERALS, 2, SOCIAL, ---MORALE, SOCIAL, -SUPPORT, AQUATIC, 0
   Economics, Planned, INDUSTRY
   Economics, Green, nil
   Harvester, Harves.
