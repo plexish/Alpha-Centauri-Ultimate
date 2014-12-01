@@ -33,40 +33,11 @@ The Trader's Consortium, The Trader, Trader, M, 1, Francisco, F, -1, 0, 0, 1, 0,
   the Dictates of Logic
 
 #BASES
-Alpha Prime
-Beta Crossing
-Gamma Flats
-Delta Marsh
-Epsilon Center
-Eta Crossroads
-Theta Banks
-Iota Station
-Kappa Hills
-Lambda Farms
-Mu Crescent
-Nu Square
-Xi Ellipse
-Omicron Quadrangle
-Pi Complex
-Rho Yards
-Sigma Complex
-Tau Collective
-Upsilon Depot
-Psi Consensus
-Chi Plains
-Phi Lumiere
-Omega Terminus
+Port of call
 #END
 
 #WATERBASES
-Alpha Basin
-Gamma Breakwater
-Beta Mudflats
-Delta Trench
-Epsilon Reef
-Eta Ridge
-Theta Barrier
-Iota Point
+Trader's Hub
 #END
 
 #BLURB
