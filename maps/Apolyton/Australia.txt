@@ -1,0 +1,34 @@
+--AUSTRALIA map--
+
+Thanks for downloading this map.
+
+This is my second map I've made for SMAC. I decided to do this one because since
+I live in Australia and there were other country maps out there, Australia should be
+with them as well. You will notice some landmarks and also some other realistic touches
+such as Uranium near Jabaluka, Great Barrier Reef and no Tasmania 'cause it's not part
+of Australia (just joking). The starting location for each faction is a capital city of
+Australia except Canberra and Hobart (there wasn't much room to expand) so Yang moved
+to Alice. The factions have been located to each state becuase of there personality or
+the look of the faction (Peacekeeper's base look's like St Peter's Cathedral, UoP
+is in Melbourne because of Monash Uni, etc.)
+If you're Australian or you know quite a bit about it here, you'll notice alot of familiar
+places.
+
+*There is also a scenario version out if you want to play it as well. It should be 
+in the scenario section of the site you downloaded this scenario from.*
+
+---------------------------------------------------------------------------------------
+INSTALLATION: Extract files into the map folder.
+---------------------------------------------------------------------------------------
+
+******************
+
+Matthew M.
+
+ICQ:4433460
+
+URL:http://surf.to/bladerunner
+
+******************
+
+14/5/99

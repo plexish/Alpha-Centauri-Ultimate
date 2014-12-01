@@ -1,0 +1,10 @@
+Mapname: Promised Lands
+Author: Benny 'Benza' Johansson
+
+Description: A standard sized planet with some small islands and a huge continent. the only problem is that only the western coast of the continent is habitable, the rest is a arid plain, with no water.
+
+Recomend to play as the Belivers or Peacekeepers.
+
+Hope I got the starting positions corrrect.
+
+Benza

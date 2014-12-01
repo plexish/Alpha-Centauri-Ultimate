@@ -1,0 +1,20 @@
+Datei: planetXXL.txt
+Format: 96 x 192
+
+große Kontinente, die es ermöglichen, für jede Fraktionen einen
+eigenen Kontinant als Startpunkt zu definieren.
+Interessant, wenn man eine gleichmässige Entwicklung möchte,
+ohne frühzeitige Kontakte.
+
+Empfohlen wird dann, unmittelbar nach dem Start in Szenario
+zu gehen und die Startpunkte zu kontrollieren oder direkt
+selbst zu fixieren. Die AI setzt gerne 2 oder mehr Fraktionen
+direkt nebeneinander auf denselben Kontinent, was zumeist schnell
+zum Tod von 2 Fraktionen führt.
+
+Nur für Rechner mit hohem RAM und schneller CPU
+(mit 600 x 800 bei 64 MB RAM, 96 MB Swapfile, 200 MHz getestet,
+Tempo noch akzeptabel, wenn PCX und Caviars mit geringer Auflösung
+und ohne Sound, schnelle Unitbewegung, kein Fog of War)
+
+Dreifels@1st-euro.net
