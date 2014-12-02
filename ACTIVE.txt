@@ -11,7 +11,7 @@
 
 #ACTIVE
 The New World Activists, The Eco-warrior, Activists, M, 2, Abel, F, 1, 1, 0, 0, 1,
-  SOCIAL, +++PLANET, SOCIAL, +MORALE, SOCIAL, -GROWTH, SOCIAL, --INDUSTRY, TECH, Ecology, UNIT, 8,  
+SOCIAL, +++PLANET, SOCIAL, +MORALE, SOCIAL, -GROWTH, SOCIAL, --INDUSTRY, TECH, Ecology, UNIT, 8,  
   Economics, Green, PLANET,  
   Economics, Free Market, nil,
   Activist, Activi.  
