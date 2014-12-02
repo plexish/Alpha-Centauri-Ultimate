@@ -1,0 +1,113 @@
+; XENOFUNGUS http://xenofungus.cjb.net
+; 
+; Strategic Scenarios for Sid Meier's ALPHA CENTAURI
+;
+; Scenario File ""AlterWars : Buccaneers!" (V1.0/US)
+;
+; Copyright (c) 1999 Tres (trespassa@lycosmail.com)
+;
+; NOT FOR COMMERCIAL USE!
+
+
+#SPARTANS
+Spartan Liberation Army, The Buccaneer, Buccaneers, M, 2, Santiago, F,  0,  1, 1, 0, 0,
+  TECH, Mobile, FREEPROTO, 0, Energy, 500, SOCIAL, ++MORALE, SOCIAL, +POLICE, SOCIAL, -INDUSTRY
+  Values, Power, MORALE
+  Values, Wealth, nil
+  Spartan, Spartan,
+  Voki, Bonaventura, Voki's Price
+  Colonel, vigilant, paranoid, cautious, sociopathic,
+  Right-Wing Lunatic
+  exercise our rights to keep and bear arms
+  to exercise freely the God-given right to keep and bear arms
+  equipping a private army to seize control of resources
+  equipping your private army to seize control of resources
+  equip a liberation army and seize control of this world
+  polishing her beloved artillery pieces
+  polishing your beloved artillery pieces
+  having paranoid delusions
+  paranoid delusions, M2
+  military preparations, M2
+  right-wing fantasies, M2
+  stipend, M1
+  keeping the peace
+  the Spartan Liberation Army
+  the Spartan Buccaneer Codex
+
+#BASES
+Sparta Command
+Survival Base
+Commander's Keep
+War Outpost
+Militia Station
+Fort Legion
+Janissary Rock
+Blast Rifle Crag
+Hawk of Chiron
+Assassin's Redoubt
+Centurion Cave
+Bunker 118
+Hommel's Citadel
+Training Camp
+Defiance Freehold
+Hero's Waypoint
+Fort Liberty
+Ironholm
+Fort Survivalist
+Fort Superiority
+Halls of Discipline
+Parade Ground
+#END
+
+#WATERBASES
+Fleet Anchorage
+Admiralty Base
+Hydrodock
+Fleet Base
+Sea Outpost
+#END
+
+#BLURB
+Superior training and superior weaponry have, when taken together,
+a geometric effect on overall military strength. Well-trained,
+well-equipped troops can stand up to many more times their lesser
+brethren than linear arithmetic would seem to indicate.
+^
+^        -- Col. Corazon Santiago,
+^           "Spartan Liberation Army - Official Statutes"
+
+#DATALINKS1
+^LEADER: {Col. Corazon Santiago}
+^BACKGROUND: {Survivalist, Spartan Liberation Army}
+^AGENDA: {Right To Keep And Bear Arms}
+^TECH: {Doctrine: Mobility}
+^
+
+#DATALINKS2
+^+2 MORALE:  {Well-armed survivalist movement}
+^+1 POLICE:  {Highly disciplined followers}
+^-1 INDUSTRY:  {Extravagant weapons are costly}
+^Prototype units do not cost extra minerals.
+^{May not use Wealth value in Social Engineering.}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"You cannot hope to stand against me, $NAME1.
+Pledge Blood Truce now or face total destruction."
+
+"Truce it is, then. I thank you."
+"Bluffing will get you nowhere, $NAME3. Prepare to be obliterated!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1. My survivalist followers are content to guard their homes
+in armed peace. I suggest we sign a Treaty of Friendship
+and stay out of each others' way."
+
+"Fair enough, but I shall guard my resources carefully."
+"Hardly. A faction armed to the teeth hardly seems friendly to me."
+
+# ; This line must remain at end of file
+

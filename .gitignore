@@ -64,7 +64,6 @@ al_land_sm.pcx
 al_pod_sm.pcx
 al_pop_sm.pcx
 al_starv_sm.pcx
-aol.txt
 Apsid.cvr
 Apwall.cvr
 ARIALB.TTF
@@ -152,7 +151,7 @@ capture_sm.pcx
 caretake.flc
 caretake.pcx
 CARETAKE.tmp
-caretake.txt
+/caretake.txt
 caretake2.pcx
 caretake3.pcx
 CARETAKEvals.tmp
@@ -184,7 +183,7 @@ Cursor.pcx
 cyborg.flc
 cyborg.pcx
 CYBORG.tmp
-cyborg.txt
+/cyborg.txt
 cyborg2.pcx
 cyborg3.pcx
 CYBORGvals.tmp
@@ -210,7 +209,7 @@ Dot3.pcx
 drone.flc
 drone.pcx
 DRONE.tmp
-drone.txt
+/drone.txt
 drone2.pcx
 drone3.pcx
 DRONEvals.tmp
@@ -255,7 +254,7 @@ freevals.tmp
 fungboy.flc
 fungboy.pcx
 FUNGBOY.tmp
-fungboy.txt
+/fungboy.txt
 fungboy2.pcx
 fungboy3.pcx
 FUNGBOYvals.tmp
@@ -266,7 +265,7 @@ FUNLOAD.cvr
 gaians.flc
 Gaians.pcx
 GAIANS.tmp
-gaians.txt
+/gaians.txt
 gaians2.pcx
 Gaians3.pcx
 GAIANSvals.tmp
@@ -370,7 +369,7 @@ moon3_800.pcx
 morgan.flc
 morgan.pcx
 MORGAN.tmp
-morgan.txt
+/morgan.txt
 morgan2.pcx
 morgan3.pcx
 MORGANvals.tmp
@@ -395,7 +394,7 @@ pickfac.pcx
 pirates.flc
 pirates.pcx
 PIRATES.tmp
-pirates.txt
+/pirates.txt
 pirates2.pcx
 pirates3.pcx
 PIRATESvals.tmp
@@ -490,7 +489,7 @@ space_sm.pcx
 spartans.flc
 spartans.pcx
 SPARTANS.tmp
-spartans.txt
+/spartans.txt
 spartans2.pcx
 spartans3.pcx
 SPARTANSvals.tmp
@@ -526,14 +525,14 @@ unit_sm.pcx
 univ.flc
 univ.pcx
 UNIV.tmp
-univ.txt
+/univ.txt
 univ2.pcx
 univ3.pcx
 UNIVvals.tmp
 usurper.flc
 usurper.pcx
 USURPER.tmp
-usurper.txt
+/usurper.txt
 usurper2.pcx
 usurper3.pcx
 USURPERvals.tmp

@@ -1,0 +1,125 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Alphacentauri Online
+;
+; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
+;
+; For use this Faction file select load from 
+; faction select in the game and write... aol
+;
+
+#AOL
+Alphacentauri Online, AOL, AOL fruitcakes, M, 1, AOL, M, 0, 0, 0, 0, 0, 
+  TECH, InfNet, SOCIAL, ----EFFIC, SOCIAL, +++GROWTH, SOCIAL, -PROBE, FACILITY, 8, DRONE, 5, COMMERCE, 2
+  Values, Wealth, EFFIC
+  Economics, Planned, nil
+  AOL, AOL
+  Tech Support guy, Cyber Nerd, Tech Support
+  Mr, techono-savvy, cyber-addicted, internet-savvy, God-****, 
+  #$%*%-ing awful
+  dominate the Internet
+  to stop the onslaught of Microsoft
+  cornering and disabling the internet access market
+  cornering and disabling the internet access market
+  cause traffic jams on the Information superhighway
+  waiting days for internet webpages to load
+  waiting days for internet webpages to load
+  having excruciating server breakdowns
+  free trials, M2
+  domination of the free internet disk market, M2
+  server crashes, M2
+  monthly fee, M1
+  the distribution of free 250-hour disks
+  my techno nerds
+  the AOL License Agreement
+
+#BASES
+AOL Central
+Login Failure
+Error 404
+Connection Dropped
+Please Stand By
+Host Not Found
+Error 500
+Disconnecting...
+Proxy Error
+Server Down
+General Protection Fault
+Abort Retry Fail
+Lost Cookies
+Free Disk City
+A O Hell
+Unable to contact host
+Networking Error
+Unable to Access
+SPAM
+Email Error
+???Unknown Exception
+Crash
+Undetectable Virus
+Program Bug
+more SPAM
+Control Alternate Delete
+Random Error
+#END
+
+#WATERBASES
+Tech Support Unavailable
+Broken Link
+Error sending message
+Unknown Failure
+You Have Been Hacked
+Crashed Again
+Connection Refused
+Incorrect Password
+#END
+
+#BLURB
+Network Connection dropped.  Reason unknown.  Please restart your
+computer and try again.
+^
+^
+^   -- AOL Online Tech Support
+^      
+^
+^
+
+#DATALINKS1
+^LEADER: {AOL guy}
+^BACKGROUND: {AOL marketing agent}
+^AGENDA: {mass distribute free 100 hour disks}
+^TECH: {Information networks}
+^
+
+#DATALINKS2
+^-4 EFFIC: {AOL is very slow and crashes a lot}
+^+3 GROWTH: {Free 250-hour disks attract new users}
+^Free network node: {Extensive server system}
+^Extra drone per 5 citizens: {Irritated customers that lose data due to server crashes}
+^+2 Commerce Rate: {Internet stock skyrockets very quickly}
+^-1 PROBE: {Easily hacked}
+^75% research costs: {Extensive search engine allows easy mooching of others discoveries}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Maybe we'll stop crashing each others servers after the web page
+finishes loading in the next two years, but why don't we do
+it sooner right now?  Peace, dude?"
+
+"yeah i agree.  Gimme 5000 free trial hours, OK?"
+"no...I shall spam your server to dust!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Let us join our forces and defeat those evil scum that do not
+wish to spend two hours to load a text only web page!  We will
+tomp out all other free-100 hour disk distributes together!"
+
+"Alright!  Down with all other ISPs!"
+"no way, I got better ways to waste my time."
+
+
+# ; This line must remain at end of file

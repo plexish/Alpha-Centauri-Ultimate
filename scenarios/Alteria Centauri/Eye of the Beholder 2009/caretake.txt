@@ -1,0 +1,143 @@
+;
+; Sid Meier's ALPHA CENTAURI
+;
+; FACTION FILE: Autochthon
+;
+; Copyright (c) 1999 by Firaxis Games, Inc.
+;
+; ALPHA CENTAURI reads the rules of the game from this file at
+; startup. Feel free, at your own risk, to experiment with editing
+; this file. We recommend you make a backup copy of the original.
+;
+
+#CARETAKE
+The Autochthon, The Naturalist, Primitives, F, 2, Selar, F, 1, 1, 1, 0, 1, 
+  Alien, 0, SOCIAL, ++PLANET, SOCIAL, ++PROBE, FREEFAC, 3, FUNGMINERALS, 2, FUNGENERGY, 2, FUNGNUTRIENT, 1, FACILITY, 33
+  Politics, Fundamentalist, PROBE  
+  Economics, Planned, PLANET
+  nil, nil, nil
+  Autochthon, Autoch.
+  Hackjob, Peter, Hackjob Hovel
+  Villager, insightful, reactionary, unyielding, horrific, 
+  Walking Atrocity
+  preserve the sanctity of the Way
+  to keep the invader plague from defiling Planet
+  wiping Planet clean of our kind
+  wiping Planet clean of our kind
+  turn Planet into one big Mind Worm preserve
+  picking fights with anyone who opposes her vision of a pure Planet
+  picking fights with anyone who opposes your vision of a pure Planet
+  'species cleansing' in the name of the sanctity of the People and the Way
+  alarmist singsong, M1
+  grand experiment, M1
+  'grand experiment', M1
+  energy modulation obligation, M1
+  natural harmony sanctity preservation
+  my Harmonic Acolytes
+  the Law of the People
+
+#BASES
+Natural : Harmony
+Ancestral Memory
+Way : Nature
+Resonance : Power
+Resonant Node
+Hymn : Modulation
+Adapt to Live
+M'dar Holding
+Tower Preserve
+Phantom Forces
+Balance of Nature
+Star Harmony
+Energy Nexus
+Vinculum
+Melody of Souls
+Greater Harmonic
+Worlds : Within Worlds
+Home : Hearth
+Vision : Sound
+Great Intertwining
+Caretaker Reverence
+Thought : Seed
+Consonance
+Overtone Song
+Conservator's Mantle
+Harmonic Acolyte
+Harmony : Homeworld
+Memories : Awakened
+The People : Survive
+Resonances : Five
+Resonant : Modulation
+Trees : Breathe
+Sound : Vision
+Y'clet Holding
+Forces : Preserve
+Phantom : Star
+Nature : Balance
+Harmony : Resonates
+Claws : Shielded
+Nature : Conserving
+#END
+
+#WATERBASES
+Carapace Point
+Wavesound
+Bird : Cry
+Ripplesound
+Sea : Wind
+Echo Bay
+Nest : Water
+Island Shallows
+Resonance : Wave
+Waves : Roar
+Wind : Whispers
+Streams : Gurgling
+Birds : Chirping
+Tides : Ebb
+Manifold : Turning
+Fungus : Sighs
+Water : Wills
+#END
+
+#BLURB
+The Way: The People live in harmony with nature: or die. 
+Invaders: must follow the Way: or die.
+^
+^       -- Chief Selar S'plorr
+^          "Harmony:  The Way"
+
+#DATALINKS1
+^LEADER: {Chief Selar S'plorr}
+^BACKGROUND: {<marooned Proginators' descendents gone native>}
+^AGENDA: {Repel invaders}
+^TECH: {Progenitor Psych, Centauri Ecology, Field Modulation, Information Networks, Biogenetics}
+^
+
+#DATALINKS2
+^+25% Defensive combat: {Can sense and manipulate "Resonance" fields}
+^+1 PLANET: {Understand workings of their planet; many generations of ecological harmony}
+^Free RECYCLING TANKS at every base
+^"Energy Grid" at each base: {Increased infrastructure generates additional energy}
+^Begin with a Mk I Battle Ogre and extra Colony Pod
+^All prototyped combat units have 2-square sighting radius ("Resonance" sensitivity)
+^Can direct research efforts (rediscovering technology & infrastructure)
+^Possess a physical scan of planet's surface
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Pointless skirmishing: distracts from true goal: the Way. Blood Truce: requested and required immediately."
+
+"We don't want to stand in your way, $NAME3. Blood Truce : accepted."
+"YOU are the true menace here, $NAME3. This war shall continue!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Although ultimate goal : return world to native state : in interim, our cultures can co-operate. Treaty of Friendship : sign please?"
+
+"We don't plan to move anytime soon, $NAME3. But we can probably work together for the short term."
+"Why hasten our own demise by working with your kind? Sorry, but we can't sign your Treaty."
+
+
+# ; This line must remain at end of file
