@@ -25,10 +25,10 @@ to found a free society of peace and enlightenment
 using all the resources of this planet for his blind ambition
 using all the resources of this planet for your blind ambition
 hoard all the resources on this planet for your foolish missions
-planning ways to confiscate the resouces of this planet for his blind ambitions
+planning ways to confiscate the resources of this planet for his blind ambitions
 furthering your ambitions with the use of this planets valuable resources
 wasting our resources
-"efficent" Talents, M1
+"efficient" Talents, M1
 social experiments, M2
 social ambitions, M2
 contribution, M1
@@ -51,7 +51,7 @@ Sociality Warrens
 Rec Tower
 Eve of Planet
 Chiron Worlds
-Tower of Insparation
+Tower of Inspiration
 Aardom's Wish
 Peoples Hope
 Eden's Garden
@@ -66,7 +66,7 @@ New Luxembourg
 Gold Pearl Refinery
 Garden of Earth
 Diamond Glistening
-Nessus Elipse
+Nessus Ellipse
 #END
 
 #WATERBASES
@@ -86,7 +86,7 @@ destroying other life? Sure, the Spartans preach "the
 right to take up arms," and the Believers talk about
 war "in God's name." But we have been collected from
 all over planet and know of the pain of war. From the
-brainwashing chambers of New Jeruselam to Deirdre's
+brainwashing chambers of New Jerusalem to Deirdre's
 nitrogen experiments, they have seen the bad side of
 even the most peaceful faction. And we are determined
 to avoid the mistakes of Earth as well as the mistakes
@@ -106,7 +106,7 @@ of the present.
 ^-2 POLICE: {freedom loving}
 ^+1 TALENT per 4 citizens:  {Well educated workers}
 ^Free {Colony Pod} at start of game
-^Impunity Eudiamonic
+^Impunity Eudaimonic
 ^Chose one tech as start
 ^Cannot use Police State Politics
 ^85% Techcost {Elite researchers from varied backgrounds}
@@ -132,9 +132,9 @@ $NAME1, so let's end it with a blood truce.
 #ALIENFACTIONTRUCE
 #xs 440
 #caption $CAPTION7
-"I find no percievable benifit of this war for either of our races. Let's end the pointless blood shed."
+"I find no perceivable benefit of this war for either of our races. Let's end the pointless blood shed."
 
-"Progenitor: not need war. Truce: benificial."
+"Progenitor: not need war. Truce: beneficial."
 "War: has purpose. Purpose: to dispose of planet scum. Example: you!"
 
 #ALIENFACTIONTREATY

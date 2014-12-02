@@ -20,7 +20,7 @@ The Anarchists, The Revolutionary, The Anarchists, M, 2, Magnus, M, 1, 1, 0, 0, 
   Politics, Police State, nil
   Anarchist, Anarch.
   McErlain, Giyuaani, BlackMarket
-  Firebrand, free, riotus, free willed, primitive, 
+  Firebrand, free, riotous, free willed, primitive, 
   scum
   bring down the system
   destroy authority

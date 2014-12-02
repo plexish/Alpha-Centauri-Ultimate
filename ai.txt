@@ -10,15 +10,15 @@ Future Society, Cybernetic, PROBE,
 nil, nil, nil, 
 Algorithms, Algorithms
 Assistant Algorithm, Research Algorithm, Song of Ota Kyi
-Hunter Seeker, calculating, voyeristic, inflitrating, annoying, 
+Hunter Seeker, calculating, voyeuristic, infiltrating, annoying, 
 Virus
 exchange information
 to accumulate all of Planet's information
 stealing all of our personal info
 stealing all of our personal info
 won't share the password to dedriesnudephotos.com
-trying to inflitrate our computer systems
-trying to inflitrate our computer systems
+trying to infiltrate our computer systems
+trying to infiltrate our computer systems
 probing other's datalinks
 virus replication, M1
 probing efforts, M2
@@ -80,7 +80,7 @@ far-reaching repercussions.
 
 #DATALINKS2
 ^-1 INDUSTRY: {Lack of manual labor}
-^-50% Offensive combat: {Lacks advanced millitary algorithms}
+^-50% Offensive combat: {Lacks advanced military algorithms}
 ^-75% Probe Cost: {Programmed for information warfare}
 ^Immunity to Mind Control: {Hunter Seeker Algorithm}
 ^Air Superiority ability FREE to all units upon discovery of Doctrine: Air Power: {Allows probe teams to subvert air units}

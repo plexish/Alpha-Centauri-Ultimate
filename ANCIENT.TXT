@@ -25,8 +25,8 @@ The Ancients League, The Ancients, Ancients, M, 2, Dimitri, M, 0, 1, 0, 0, 0,
   compile an intelligence file on every single citizen of Planet
   peering at us all through his telescopes
   peering at us all through your telescopes
-  unrepentant voyerism
-  voyeristic tendancies, M1
+  unrepentant voyeurism
+  voyeuristic tendencies, M1
   intelligence gathering, M2
   "investigations", M1
   finders fee, M1
@@ -90,7 +90,7 @@ the enemy powerless.
 #DATALINKS1
 ^LEADER: {Commander Dimitri}
 ^BACKGROUND: {Suspected KGB / CIA double agent}
-^AGENDA: {Intelligence Information Aquisition}
+^AGENDA: {Intelligence Information Acquisition}
 ^TECH: {Planetary Networks, Polymorphic Software}
 ^
 
@@ -98,7 +98,7 @@ the enemy powerless.
 ^+++Probe: {Unsurpassed intelligence network}
 ^+Research: {Keeps an eye on others labs}
 ^--Morale: {Unwillingness to commit to a stand-up fight}
-^-%50 Votes: {Viewed as untrustworthy.  Receives %50 less votes in elections for Planetary Governer and  Supreme Leader.}
+^-%50 Votes: {Viewed as untrustworthy.  Receives %50 less votes in elections for Planetary Governor and  Supreme Leader.}
 ^{Starts game with two well-trained probe teams.}
 
 #FACTIONTRUCE

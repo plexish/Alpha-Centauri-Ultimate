@@ -1256,9 +1256,9 @@ USURPER,  USURPER
 ; First item is file name, second item is search key.
 ; These should always be the same except for debugging purposes.
 ;
-; Full list
+; All functional factions
 ; =========
-;
+; 
 ; AARDOM
 ; acol
 ; acolyte
@@ -1379,7 +1379,38 @@ USURPER,  USURPER
 ; van
 ; Yeer
 ; YPUNAG
+; 
+; ### Factions by thematic compatibility ###
+; 
 ;
+; Compatible - These factions are generally thematically compatible with the original 14.
+; =======
+; 
+; AARDOM
+; acolyte
+; ACTIVE
+; AGRI
+; algorithm
+; ANARCHY
+; ANCIENT
+; 
+; Alternate - These factions do not fit in with the original 14, but they do attempt to present and explore an ideology in a serious manner.
+; =======
+; 
+; acol
+; adve
+; 
+; Novelty - Joke factions. Not compatible with the original 14, and are not serious attempts at exploring an ideology.
+; =======
+; 
+; ai
+; 
+; Crossover - Factions based explicitly on other media.
+; =======
+; 
+; 
+; 
+; 
 ; Broken, will crash on load
 ; =======
 ;
@@ -1396,7 +1427,10 @@ USURPER,  USURPER
 ; PERFECT
 ; REPLCNT
 ; TECH
-;
+; 
+; #### Factions by pack ###
+; =========================
+; 
 ; JarlWolf's
 ; =======
 ;
@@ -1472,9 +1506,6 @@ USURPER,  USURPER
 ; LEVIA
 ; Machine
 ;
-; Current
-; 
-; 
 
 #CUSTOMFACTIONS
 savants
