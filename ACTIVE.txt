@@ -48,26 +48,26 @@ Razorback Park
 Deep Blue
 #END
 
-#BLURB
+#BLURB
 We are not attacking in cold blood: Your industries attacked Planet first.
-^
-^--Miss Abel,
-^Datalinks
+^
+^        -- Miss Abel,
+^           Datalinks
 
 #DATALINKS1
-^LEADER: {Miss Abel}
-^BACKGROUND: {Eco-Warrior}
-^AGENDA: {Green}
-^TECH: {Centauri Ecology}
+^LEADER: {Miss Abel}
+^BACKGROUND: {Eco-Warrior}
+^AGENDA: {Green}
+^TECH: {Centauri Ecology}
 ^
 
-#DATALINKS2
-^+3 PLANET: {Eco-mad}
-^-2 INDUSTRY: {Do not like pollution}
-^-1 GROWTH: {Strict controls}
-^+1 MORALE: {Militaristic}
+#DATALINKS2
+^+3 PLANET:  {Eco-mad}
+^-2 INDUSTRY:  {Do not like pollution}
+^-1 GROWTH:  {Strict controls}
+^+1 MORALE:  {Militaristic}
 ^Free Mind Worms.
-^{Cannot choose Free Market Economics}
+^{May not use Free Market Economics.}
 
 #FACTIONTRUCE
 #xs 440
