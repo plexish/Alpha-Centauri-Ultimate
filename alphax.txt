@@ -1339,11 +1339,14 @@ USURPER,  USURPER
 ; MERCHANTS
 ; MERMAIDS
 ; Microsoft
+; mosaic
 ; navy
 ; neoborg
 ; Nomades
 ; PATH
+; peaceres
 ; peop
+; perfect
 ; phs
 ; Planetia
 ; plat
@@ -1354,7 +1357,7 @@ USURPER,  USURPER
 ; PROD
 ; protect
 ; RANGERS
-; REPLCNT
+; replicant
 ; Ronin
 ; SAINTS
 ; Seamen
@@ -1374,6 +1377,7 @@ USURPER,  USURPER
 ; TERRAN
 ; Texas
 ; tobacco
+; triade
 ; unicon
 ; unifascist
 ; van
@@ -1408,7 +1412,7 @@ USURPER,  USURPER
 ; Crossover - Factions based explicitly on other media.
 ; =======
 ; 
-; 
+; replicant - bonuses need fixing, has more than 8
 ; 
 ; 
 ; Broken, will crash on load
@@ -1422,11 +1426,6 @@ USURPER,  USURPER
 ; GENESIS
 ; MARAUDERS
 ; mech
-; mosaic
-; PEACERES
-; PERFECT
-; REPLCNT
-; TECH
 ; 
 ; #### Factions by pack ###
 ; =========================
@@ -1456,7 +1455,7 @@ USURPER,  USURPER
 ; Oceanic pack
 ; =======
 ; 
-; savants
+; savant
 ; voyager
 ; armada
 ; harvester
@@ -1508,13 +1507,7 @@ USURPER,  USURPER
 ;
 
 #CUSTOMFACTIONS
-savants
-voyager
-armada
-harvester
-seasteader
-monarch
-covenant
+mech
 
 #MANDATE
 Explore, EXPLORE

@@ -10,16 +10,16 @@
 ; email networknode@lycos.com
 ;
 ; To use this Faction file select load from 
-; faction select in the game and write... replcnt
+; faction select in the game and write... replicant
 ;
 
-#REPLCNT
-Replicants, Neo Humans, The Replicants, M, 2, Corum IV, M, 1, 0, 1, 0, 1, 
+#REPLICANT
+Replicants, The Neo Humans, Replicants, M, 2, Corum IV, M, 1, 0, 1, 0, 1, 
   TECH, Biogen, TECH, Gene, SOCIAL, +++GROWTH, SOCIAL, +RESEARCH, SOCIAL, --POLICE, SOCIAL, --ECONOMY, FACILITY, 9, UNIT, 0, PSI, 15, TALENT, 3, HURRY, 130, COMMERCE, -2
   Politics, Democratic, GROWTH
   Politics, Police State, nil
   Replicant, Replic.
-  Quathi , Max , Trellion
+  Quathi, Max, Trellion
   Transhuman, Superior, mutated, cloned, soulless, 
   test tube abominations
   advance the principles of genetic enhancement

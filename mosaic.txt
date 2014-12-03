@@ -42,7 +42,7 @@
 ; ================
 ;
 
-#MOSAICS
+#MOSAIC
 Mosaics, The Artist, Mosaics, M, 2, Willem Noah, M, 0, 0, 1, 1, 0, 
 TECH, Psych, SOCIAL, +TALENT, SOCIAL, -GROWTH, SOCIAL, -PROBE, SOCIAL, -POLICE, FACILITY, 6, TALENT, 4
 Politics, Democratic, TALENT
