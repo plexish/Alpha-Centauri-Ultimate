@@ -1503,6 +1503,10 @@ USURPER,  USURPER
 ;
 
 #CUSTOMFACTIONS
+savant
+voyager
+armada
+harvester
 
 #MANDATE
 Explore, EXPLORE

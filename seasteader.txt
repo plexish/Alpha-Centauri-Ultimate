@@ -7,7 +7,7 @@
 ; Credit: ete, Sigma, and BU (art)
 ; 
 
-#SEASTEAD
+#SEASTEADER
 The Seastead Accord, The Seasteader, Seasteaders, M, 2, James, M, -1, 0, 1, 0, 1,
   TECH, InfNet, TECH, DocFlex, FACILITY, 0, POPULATION, 4, SOCIAL, +GROWTH, TECHCOST, 130, RESEARCH, 1, SOCIAL, --ECONOMY, AQUATIC, 0
   Future Society, Eudaimonic, GROWTH

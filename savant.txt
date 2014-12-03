@@ -7,7 +7,7 @@
 ; Credit: ete, Sigma, and BU (art)
 ; 
 
-#SAVANTS
+#SAVANT
 The Savant Caliphate, The Scholars, Savants, M, 2, Saeed, M, 0, 0, 1, 0, 1,
   TECH, 1, TECH, DocFlex, SOCIAL, ++RESEARCH, SOCIAL, +PROBE, SOCIAL, -INDUSTRY, HURRY, 110, IMPUNITY, KNOWLEDGE, FREEABIL, 28, AQUATIC, 0,
   Values, Knowledge, PROBE
