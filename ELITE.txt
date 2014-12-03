@@ -1,1 +1,121 @@
-; The Elite; by DarkCloud <ftg3@lycos.com>; Some minor alterations made by NetworkNode for game balance;; Sid Meier's Alpha Centauri; Faction Editor;#ELITEThe Elite, The Market Manager, Elite, M, 2, Lars Popkin, M, 0, 1, 0, 1, 0, TECH, Indust, SOCIAL, ++ECONOMY, SOCIAL, --PLANET, SOCIAL, +INDUSTRY Economics, Free Market, ECONOMY, nil, nil, nil, Elite, EliteLithon, Kalion, Lithon Rememberance Market Manager, shrewd, monopolistic, well-to-do, headstrong, Greedy Scumdominate Planet's economyto reap the rightful rewards of skillful investment and planningachieving total monopolistic control of all of Planet's resourcesachieving total monopolistic control of all of Planet's resourcesgrab every drop of Planet's wealth for yourselfcounting his ill-gotten energy tokenscounting your ill-gotten energy tokensmonopolistic graspingmonopolistic grasping, M1business plans, M2corporate empire-building, M2investment, M1exploiting Planet's natural wealthCorporate SecurityMorgan Corporate Policy#BASESWorld TradecenterWorld TradingTrading ResourcesTrading TowersTrade CityTrading TownWealth JunctionWealth CitiesWorkers PridePopkin PalacePopkin Palace 2Palace of IvoryIvory TowersIvory TusksMindworm MetalsMindworm HusksEnergy JunctionJewel JunctionInterstellar TravelInterstellar TradeAlien TradePlanet HarnessedPlanet ExploitedPlanet UsedPlanet Divvied-UpPlanet MarketMarket JunctionLars Land#END#WATERBASESTrade BayTrade DocksTrade Undersea TowersTrade Underwater Docks#END#BLURB^The only way to combat the aliens is to buy them off! ^^        -- Market Manager Lars Popkin,^           "The Stock Exchange and the Elimination of the Aliens"#DATALINKS1^LEADER: {Market Manager Lars Popkin}^BACKGROUND: {Stock Exchange Manager}^AGENDA: {Free Market Economics, Pro-Industry}^TECH: {Industrial Base}#DATALINKS2^+2 ECONOMY:  {Due to fanatical need for wealth}^-2 PLANET:  {Disregard for Planet in quest for wealth}^+1 INDUSTRY: {The backbone of any economy}#FACTIONTRUCE#xs 440#caption $CAPTION7"Vendetta is bad for business, $NAME1. I suggest we pledge Blood Truce and get back to work.""Fair enough. I shall order hostilities to cease.""Sorry, $NAME3, but I plan to put you out of business."#FACTIONTREATY#xs 440#caption $CAPTION7"Friend $NAME1, let us join each other and show off our glowing economies to all who oppose us.""By all means. Let us prosper together in peace.""No. You seem to neglect we do not need your help in our fine economy."#ALIENFACTIONTRUCE#xs 440#caption $CAPTION7"You need to be at peace with us for we can provide you with much money and goods.""Economy: important. Death: to be avoided. Truce: agreed.""$NAME3: believes money can save. Progenitor: disagree. War: continues!"#ALIENFACTIONTREATY#xs 440#caption $CAPTION7"$NAME1, surely we can work out an agreement that is mutually beneficial to our economies?""Commerce: not the only result. Friendship: valued. Treaty: agreed.""Progenitor: no benefit: human treaty policies. Decline: politely."# ; This line must remain at end of file
+; The Elite
+; by DarkCloud <ftg3@lycos.com>
+; Some minor alterations made by NetworkNode for game balance
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#ELITE
+The Elite, The Market Manager, Elite, M, 2, Lars Popkin, M, 0, 1, 0, 1, 0, 
+TECH, Indust, SOCIAL, ++ECONOMY, SOCIAL, --PLANET, SOCIAL, +INDUSTRY 
+Economics, Free Market, ECONOMY, 
+nil, nil, nil, 
+Elite, Elite
+Lithon, Kalion, Lithon Rememberance 
+Market Manager, shrewd, monopolistic, well-to-do, headstrong, 
+Greedy Scum
+dominate Planet's economy
+to reap the rightful rewards of skillful investment and planning
+achieving total monopolistic control of all of Planet's resources
+achieving total monopolistic control of all of Planet's resources
+grab every drop of Planet's wealth for yourself
+counting his ill-gotten energy tokens
+counting your ill-gotten energy tokens
+monopolistic grasping
+monopolistic grasping, M1
+business plans, M2
+corporate empire-building, M2
+investment, M1
+exploiting Planet's natural wealth
+Corporate Security
+Morgan Corporate Policy
+
+#BASES
+World Tradecenter
+World Trading
+Trading Resources
+Trading Towers
+Trade City
+Trading Town
+Wealth Junction
+Wealth Cities
+Workers Pride
+Popkin Palace
+Popkin Palace 2
+Palace of Ivory
+Ivory Towers
+Ivory Tusks
+Mindworm Metals
+Mindworm Husks
+Energy Junction
+Jewel Junction
+Interstellar Travel
+Interstellar Trade
+Alien Trade
+Planet Harnessed
+Planet Exploited
+Planet Used
+Planet Divvied-Up
+Planet Market
+Market Junction
+Lars Land
+#END
+
+#WATERBASES
+Trade Bay
+Trade Docks
+Trade Undersea Towers
+Trade Underwater Docks
+#END
+
+#BLURB
+^The only way to combat the aliens is to buy them off! 
+^
+^        -- Market Manager Lars Popkin,
+^           "The Stock Exchange and the Elimination of the Aliens"
+
+#DATALINKS1
+^LEADER: {Market Manager Lars Popkin}
+^BACKGROUND: {Stock Exchange Manager}
+^AGENDA: {Free Market Economics, Pro-Industry}
+^TECH: {Industrial Base}
+
+#DATALINKS2
+^+2 ECONOMY:  {Due to fanatical need for wealth}
+^-2 PLANET:  {Disregard for Planet in quest for wealth}
+^+1 INDUSTRY: {The backbone of any economy}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Vendetta is bad for business, $NAME1. I suggest we pledge Blood Truce and get back to work."
+
+"Fair enough. I shall order hostilities to cease."
+"Sorry, $NAME3, but I plan to put you out of business."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Friend $NAME1, let us join each other and show off our glowing economies to all who oppose us."
+
+"By all means. Let us prosper together in peace."
+"No. You seem to neglect we do not need your help in our fine economy."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"You need to be at peace with us for we can provide you with much money and goods."
+
+"Economy: important. Death: to be avoided. Truce: agreed."
+"$NAME3: believes money can save. Progenitor: disagree. War: continues!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$NAME1, surely we can work out an agreement that is mutually beneficial to our economies?"
+
+"Commerce: not the only result. Friendship: valued. Treaty: agreed."
+"Progenitor: no benefit: human treaty policies. Decline: politely."
+
+# ; This line must remain at end of file

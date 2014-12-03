@@ -1,1 +1,137 @@
-; -III THE COLLECTIVE III-;; Text by DarkCloud <ftg3@lycos.com> ; Faction Graphics Copyright c2000 NetworkNode M.Dunk; For more factions visit http://networknode.org/; email networknode@lycos.com; The Collective by DarkCloud <ftg3@lycos.com>;; Amended by  NetworkNode - Originally called the Stalinists, thought I'd be more PC and Generalise!; Some minor alterations made, mainly to the Datalinks and subtle changes for game balance;; Sid Meier's Alpha Centauri; Faction Editor;#COLLECTIVECollective, The Oppressor, Collective, M, 2, Dwauvin Dwavin, M, 1, 1, 0, 0, 1, REVOLT, 0, OFFENSE, 115, SOCIAL, ++GROWTH, SOCIAL, +++INDUSTRY, SOCIAL, ----ECONOMY, IMMUNITY, EFFIC, SOCIAL, --MORALE Future Society, Thought Control, MORALE, Politics, Democratic, nil, Collective, CollectiveEzya, Ezyo, Ezya(o) RememberedElector, efficient, monstorous, efficient, oppressive, Evil Oppressorproperly manage our populacesto found a society on the agenda of Marx,Stalin, and Leninreducing us all to mindless servants of his diabolical schemesreducing us all to mindless servants of your diabolical schemesreduce the human population of this world into mindless slaveryliquidating the wretched fools who chose to follow himliquidating the wretched fools who chose to follow youliquidating my followers, this is true, but necessarilybrutal nihilism, M1social experiments, M2mind control experiments, M2, M1keeping an eye on the workersMarxist CourtStalinist Agenda#BASESLeningradNew LeningradLenin KeepStalingradMarxist LimboIndustrial SupportCities HeartMarxingradMarxLeninStalinCollective #1Collective #2Collective #3Collective #4Collective #5Great CollectiveCooperation KeepCooperation CityPeoples DawnAssociation IncorporatedStalin CityLenin CityMarxtownDwavin CityDwavin Gate#END#WATERBASESStalin CoveLenin ReefIdeology ReefSea Collective #3Sea Collective #2Sea Collective #1#END#BLURBMarx, Lenin, Stalin, gods of Communisim; Yang isnot correct in his interpretation of the Communist agenda,so we must set him right ^^        -- Elector Dwauvin Dwavin,^           "True Communism"#DATALINKS1^LEADER: {Dwauvin Dwavin}^BACKGROUND: {Hive Director of Communist Agenda Study}^AGENDA: {Communist Police State}^TECH: {None}#DATALINKS2^+2 GROWTH:   {Rapid population growth}^+3 INDUSTRY: {Brutal serfdom}^-2 MORALE:  {Little Hope for a better life unless one of the elite}^OFFENSE: {115% Brutally driven into battle 'for the Elector', Killed for cowardice}^IMMUNITY to EFFICIENCY: {They will always be efficient}^-4 ECONOMY: {The economy suffers because they do not believe in trade}^NO REVOLT: {They are extremely harsh on dissidents}#FACTIONTRUCE#xs 440#caption $CAPTION7"As I see no need for this Vendetta to continue, $NAME1, a pledge of peace would be useful to both sides.""Indeed. A peace would be most satisfactory.""Never! We will never bow to foul communist oppressors!"#FACTIONTREATY#xs 440#caption $CAPTION7"$TITLE0 $NAME1, your ideals are admirable if a bitmisguided and your faction need not pose a threat toHive policy. Shall we sign a Treaty of Friendship toformalize our symbiotic relationship?"As you wish. You seem to be a useful friend.""No. You make me uneasy, $NAME3."#ALIENFACTIONTRUCE#xs 440#caption $CAPTION7"As I see no need for this Vendetta to continue, $NAME1, a pledge of Blood Truce would seem in order.""Progenitor: perceive no point either. Mutual agreement: truce."#ALIENFACTIONTREATY#xs 440#caption $CAPTION7"$TITLE0 $NAME1, my control of my people, and your controlof your mind seem to unite us. Together we shall crushall of the other warring factions. Can we not sign aTreaty of Friendship and coexist in peace?"Collective: safe ally. Treaty: admirable idea.""Collective: control: too important. Ally: dangerous: no."# ; This line must remain at end of file
+; -III THE COLLECTIVE III-
+;
+; Text by DarkCloud <ftg3@lycos.com> 
+; Faction Graphics Copyright c2000 NetworkNode M.Dunk
+; For more factions visit http://networknode.org/
+; email networknode@lycos.com; The Collective by DarkCloud <ftg3@lycos.com>
+;
+; Amended by  NetworkNode - Originally called the Stalinists, thought I'd be more PC and Generalise!
+; Some minor alterations made, mainly to the Datalinks and subtle changes for game balance
+;
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+
+#COLLECTIVE
+Collective, The Oppressor, Collective, M, 2, Dwauvin Dwavin, M, 1, 1, 0, 0, 1, 
+REVOLT, 0, OFFENSE, 115, SOCIAL, ++GROWTH, SOCIAL, +++INDUSTRY, SOCIAL, ----ECONOMY, IMMUNITY, EFFIC, SOCIAL, --MORALE 
+Future Society, Thought Control, MORALE, 
+Politics, Democratic, nil, 
+Collective, Collective
+Ezya, Ezyo, Ezya(o) Remembered
+Elector, efficient, monstorous, efficient, oppressive, 
+Evil Oppressor
+properly manage our populaces
+to found a society on the agenda of Marx,Stalin, and Lenin
+reducing us all to mindless servants of his diabolical schemes
+reducing us all to mindless servants of your diabolical schemes
+reduce the human population of this world into mindless slavery
+liquidating the wretched fools who chose to follow him
+liquidating the wretched fools who chose to follow you
+liquidating my followers, this is true, but necessarily
+brutal nihilism, M1
+social experiments, M2
+mind control experiments, M2, M1
+keeping an eye on the workers
+Marxist Court
+Stalinist Agenda
+
+#BASES
+Leningrad
+New Leningrad
+Lenin Keep
+Stalingrad
+Marxist Limbo
+Industrial Support
+Cities Heart
+Marxingrad
+Marx
+Lenin
+Stalin
+Collective #1
+Collective #2
+Collective #3
+Collective #4
+Collective #5
+Great Collective
+Cooperation Keep
+Cooperation City
+Peoples Dawn
+Association Incorporated
+Stalin City
+Lenin City
+Marxtown
+Dwavin City
+Dwavin Gate
+#END
+
+#WATERBASES
+Stalin Cove
+Lenin Reef
+Ideology Reef
+Sea Collective #3
+Sea Collective #2
+Sea Collective #1
+#END
+
+#BLURB
+Marx, Lenin, Stalin, gods of Communisim; Yang is
+not correct in his interpretation of the Communist agenda,
+so we must set him right 
+^
+^        -- Elector Dwauvin Dwavin,
+^           "True Communism"
+
+#DATALINKS1
+^LEADER: {Dwauvin Dwavin}
+^BACKGROUND: {Hive Director of Communist Agenda Study}
+^AGENDA: {Communist Police State}
+^TECH: {None}
+
+#DATALINKS2
+^+2 GROWTH:   {Rapid population growth}
+^+3 INDUSTRY: {Brutal serfdom}
+^-2 MORALE:  {Little Hope for a better life unless one of the elite}
+^OFFENSE: {115% Brutally driven into battle 'for the Elector', Killed for cowardice}
+^IMMUNITY to EFFICIENCY: {They will always be efficient}
+^-4 ECONOMY: {The economy suffers because they do not believe in trade}
+^NO REVOLT: {They are extremely harsh on dissidents}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1, a pledge of peace would be useful to both sides."
+
+"Indeed. A peace would be most satisfactory."
+"Never! We will never bow to foul communist oppressors!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, your ideals are admirable if a bit
+misguided and your faction need not pose a threat to
+Hive policy. Shall we sign a Treaty of Friendship to
+formalize our symbiotic relationship?
+
+"As you wish. You seem to be a useful friend."
+"No. You make me uneasy, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1, a pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, my control of my people, and your control
+of your mind seem to unite us. Together we shall crush
+all of the other warring factions. Can we not sign a
+Treaty of Friendship and coexist in peace?
+
+"Collective: safe ally. Treaty: admirable idea."
+"Collective: control: too important. Ally: dangerous: no."
+
+# ; This line must remain at end of file

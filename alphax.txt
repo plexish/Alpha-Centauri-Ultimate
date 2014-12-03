@@ -1267,6 +1267,7 @@ USURPER,  USURPER
 ; AGRI
 ; ai
 ; ANARCHY
+; ANCIENT
 ; androgyn
 ; ANTIMIND
 ; aol
@@ -1286,12 +1287,15 @@ USURPER,  USURPER
 ; CCF
 ; CHILD
 ; Children
+; ChrionColonists
 ; church
 ; clone
 ; coastguards
+; COLLECTIVE
 ; cons
 ; CRECHE
 ; damned
+; DARK
 ; darkjudges
 ; dealers
 ; Disciples
@@ -1301,6 +1305,7 @@ USURPER,  USURPER
 ; DROID
 ; Eden
 ; eighth
+; ELITE
 ; EMPATH
 ; Empire
 ; ene
@@ -1316,6 +1321,7 @@ USURPER,  USURPER
 ; FREELCE
 ; GEBAZZU
 ; GEM
+; genesis
 ; GENX
 ; guar
 ; guerrillas
@@ -1334,6 +1340,7 @@ USURPER,  USURPER
 ; kamanra
 ; Knowledge
 ; legion
+; marauders
 ; Marketeers
 ; mcs
 ; MERCHANTS
@@ -1396,7 +1403,7 @@ USURPER,  USURPER
 ; AGRI
 ; algorithm
 ; ANARCHY
-; ANCIENT
+; ANCIENT - bonuses need fixing, has more than 8
 ; 
 ; Alternate - These factions do not fit in with the original 14, but they do attempt to present and explore an ideology in a serious manner.
 ; =======
@@ -1415,17 +1422,6 @@ USURPER,  USURPER
 ; replicant - bonuses need fixing, has more than 8
 ; 
 ; 
-; Broken, will crash on load
-; =======
-;
-; ANCIENT
-; ChrionColonists
-; COLLECTIVE
-; DARK
-; ELITE
-; GENESIS
-; MARAUDERS
-; mech
 ; 
 ; #### Factions by pack ###
 ; =========================
@@ -1507,7 +1503,6 @@ USURPER,  USURPER
 ;
 
 #CUSTOMFACTIONS
-mech
 
 #MANDATE
 Explore, EXPLORE

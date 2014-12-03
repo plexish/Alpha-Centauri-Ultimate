@@ -1,1 +1,131 @@
-; -III THE MARAUDERS III-; Sid Meier's Alpha Centauri; Faction Editor;; Text by DarkCloud <ftg3@lycos.com> ; Faction Graphics Copyright c2000 NetworkNode M.Dunk  - EXCEPT base pic from StarCraft <www.blizzard.com>; For more factions visit http://www.civgaming.net/citizens/networknode/; email networknode@lycos.com#MARAUDERSThe Marauders, The Looter, Marauder, M, 1, Luis Sorn, M, 1, 1, 0, 1, 1, DEFENSE, 110, SOCIAL, ++MORALE, SOCIAL, --RESEARCH, SOCIAL, +EFFIC, UNIT, 0, SOCIAL, --POLICE, TECHCOST, 125 Values, Power, SUPPORT, Economics, Planned, nil, Marauder, MarauderIndirah Ghadfrai, Indog, Ghadfrai's CityHeadman, ruthless, pirate, pillaging, pirates, Pillaging Barongain the best of our opponents landsto create the best anarchistic society possiblecontrol of this planet; but what's new- WASSUP!?control of this planet through force.reduce the populace of this planet to nothing but layabouts not fightingputtering away at computersputtering away at computerslooting the planet; there however is truth in that statementintelligence, M1army, M2army training is, M2token of gratitude, M1protecting your bordersMy PeopleMarauder Doctrine#BASESLooters CavernMarauder DocksMarauder CityRazing CattleSorn CountryGreenhillsBurned VillageWolves DenMarauders LairLair of ThievesDen of ThievesThief MountainPillaging ForestSorn CitySorn VillageMarauders Outpost #1Marauder PeakMarauder ValleyMarauder MoundCaverns of DelightGolden TombsLyken CavernCavern of BatsCloudy SkiesSky BriteLuis Sorn's HeadquartersPrivateer Drydocks#END#WATERBASESDeep DivingSeaward HoSea CitySea ColonyPrivateer PostPrivateer DocksUnder the Sea#END#BLURB^  To kill is not why we were founded; to loot and rob is!^^        -- Headman Luis Sorn,^           "The Marauders Doctrine"#DATALINKS1^LEADER: {Headman Luis Sorn}^BACKGROUND: {Once a great poet and thinker}^AGENDA: {Anarchistic State}^TECH: {None}^#DATALINKS2^+1 EFFICIENCY: {Hard working}^+2 MORALE: {Loyal Troops}^-2 RESEARCH: {No use for thinkers}^-2 POLICE: {Lawless society}^110% DEFENSE: {Berserker Troopers, Well trained}^Free COLONY POD: {Stolen Resources}^125% RESEARCH COSTS: {Little use for the intelligensia elite}#FACTIONTRUCE#xs 440#caption $CAPTION7"As I see no need for this Vendetta to continue, $NAME1, a pledge of Blood Truce would seem in order.""Indeed. A Truce should benefit us both.""Never! I believe you may backstab me!"#FACTIONTREATY#xs 440#caption $CAPTION7"$TITLE0 $NAME1, how say we ally and kick the other factions @sses?"You seem to be, rather eloquent (COUGH) Alliance accepted.""No. You have proved once and again to be nothing buta land pirate, $NAME3."#ALIENFACTIONTRUCE#xs 440#caption $CAPTION7"As I see no need for this Vendetta to continue, $NAME1,a pledge of Blood Truce would seem in order.""Progenitor: perceive no point either. Mutual agreement: truce.""Your needs: pillage: not same. Continued conflict: beneficial to Progenitor!"#ALIENFACTIONTREATY#xs 440#caption $CAPTION7"$TITLE0 $NAME1, shall we become buds?"Marauders: Can help: Agreed.""Marauders: too intellectually stupid: Declined."# ; This line must remain at end of file
+; -III THE MARAUDERS III-
+; Sid Meier's Alpha Centauri
+; Faction Editor
+;
+; Text by DarkCloud <ftg3@lycos.com> 
+; Faction Graphics Copyright c2000 NetworkNode M.Dunk  - EXCEPT base pic from StarCraft <www.blizzard.com>
+; For more factions visit http://www.civgaming.net/citizens/networknode/
+; email networknode@lycos.com
+
+#MARAUDERS
+The Marauders, The Looter, Marauder, M, 1, Luis Sorn, M, 1, 1, 0, 1, 1, 
+DEFENSE, 110, SOCIAL, ++MORALE, SOCIAL, --RESEARCH, SOCIAL, +EFFIC, UNIT, 0, SOCIAL, --POLICE, TECHCOST, 125 
+Values, Power, SUPPORT, 
+Economics, Planned, nil, 
+Marauder, Marauder
+Indirah Ghadfrai, Indog, Ghadfrai's City
+Headman, ruthless, pirate, pillaging, pirates, 
+Pillaging Baron
+gain the best of our opponents lands
+to create the best anarchistic society possible
+control of this planet; but what's new- WASSUP!?
+control of this planet through force.
+reduce the populace of this planet to nothing but layabouts not fighting
+puttering away at computers
+puttering away at computers
+looting the planet; there however is truth in that statement
+intelligence, M1
+army, M2
+army training is, M2
+token of gratitude, M1
+protecting your borders
+My People
+Marauder Doctrine
+
+#BASES
+Looters Cavern
+Marauder Docks
+Marauder City
+Razing Cattle
+Sorn Country
+Greenhills
+Burned Village
+Wolves Den
+Marauders Lair
+Lair of Thieves
+Den of Thieves
+Thief Mountain
+Pillaging Forest
+Sorn City
+Sorn Village
+Marauders Outpost #1
+Marauder Peak
+Marauder Valley
+Marauder Mound
+Caverns of Delight
+Golden Tombs
+Lyken Cavern
+Cavern of Bats
+Cloudy Skies
+Sky Brite
+Luis Sorn's Headquarters
+Privateer Drydocks
+#END
+
+#WATERBASES
+Deep Diving
+Seaward Ho
+Sea City
+Sea Colony
+Privateer Post
+Privateer Docks
+Under the Sea
+#END
+
+#BLURB
+^  To kill is not why we were founded; to loot and rob is!
+^
+^        -- Headman Luis Sorn,
+^           "The Marauders Doctrine"
+
+#DATALINKS1
+^LEADER: {Headman Luis Sorn}
+^BACKGROUND: {Once a great poet and thinker}
+^AGENDA: {Anarchistic State}
+^TECH: {None}
+^
+
+#DATALINKS2
+^+1 EFFICIENCY: {Hard working}
+^+2 MORALE: {Loyal Troops}
+^-2 RESEARCH: {No use for thinkers}
+^-2 POLICE: {Lawless society}
+^110% DEFENSE: {Berserker Troopers, Well trained}
+^Free COLONY POD: {Stolen Resources}
+^125% RESEARCH COSTS: {Little use for the intelligensia elite}
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1, a pledge of Blood Truce would seem in order."
+
+"Indeed. A Truce should benefit us both."
+"Never! I believe you may backstab me!"
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, how say we ally and kick the other factions @sses?
+
+"You seem to be, rather eloquent (COUGH) Alliance accepted."
+"No. You have proved once and again to be nothing but
+a land pirate, $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"As I see no need for this Vendetta to continue, $NAME1,
+a pledge of Blood Truce would seem in order."
+
+"Progenitor: perceive no point either. Mutual agreement: truce."
+"Your needs: pillage: not same. Continued conflict: beneficial to Progenitor!"
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"$TITLE0 $NAME1, shall we become buds?
+
+"Marauders: Can help: Agreed."
+"Marauders: too intellectually stupid: Declined."
+
+# ; This line must remain at end of file

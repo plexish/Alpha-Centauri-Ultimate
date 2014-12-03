@@ -9,7 +9,7 @@
 ; faction select in the game and write... ancients
 ;
 
-#ANCIENTS
+#ANCIENT
 The Ancients League, The Ancients, Ancients, M, 2, Dimitri, M, 0, 1, 0, 0, 0, 
   TECH, PlaNets, TECH, Poly, SOCIAL, +++PROBE, SOCIAL, +RESEARCH, SOCIAL, --MORALE, UNIT, 6, UNIT, 6, PSI, 1, RESEARCH, 1, DRONE, 1, TALENT, 1, ENERGY, 50, COMMERCE, 1, VOTES, -2, MINDCONTROL, 0
   Future Society, Thought Control, PROBE

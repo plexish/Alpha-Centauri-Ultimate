@@ -3,7 +3,7 @@
 ; Faction Editor
 ;
 
-#CHIRONCOLONISTS
+#ChrionColonists
 Chiron Colonists, The Developer, Colonists, M, 2, Silva, M, 0, 0, 0, 1, 1, 
 TECH, Ecology, SOCIAL, ++GROWTH, SOCIAL, +EFFIC, SOCIAL, -POLICE, SOCIAL, --PLANET, UNIT, 1, TERRAFORM, 0, 
 Values, Wealth, GROWTH, 
