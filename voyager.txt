@@ -7,8 +7,8 @@
 ; Credit: ete, Sigma, and BU (art)
 ; 
 
-#TRADE
-The Trader's Consortium, The Trader, Trader, M, 1, Francisco, F, -1, 0, 0, 1, 0,
+#VOYAGER
+The Tradewind Voyagers, The Voyager, Voyagers, M, 1, Francisco, F, -1, 0, 0, 1, 0,
   TECH, Indust, TECH, DocFlex, FREEABIL, 7, FREEABIL, 19, FREEABIL, 21, IMPUNITY, Wealth, SOCIAL, -PROBE, AQUATIC, 0
   Economics, Free Market, INDUSTRY
   Economics, Planned, nil

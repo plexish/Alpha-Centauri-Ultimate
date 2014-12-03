@@ -1455,14 +1455,14 @@ USURPER,  USURPER
 ; 
 ; Oceanic pack
 ; =======
-;
-; seastead
+; 
+; savants
+; voyager
+; armada
+; harvester
+; seasteader
 ; monarch
 ; covenant
-; pragmatist
-; armada
-; trade
-; savants
 ;
 ; Green1's
 ; =======
@@ -1509,10 +1509,10 @@ USURPER,  USURPER
 
 #CUSTOMFACTIONS
 savants
-trade
+voyager
 armada
-pragmatist
-seastead
+harvester
+seasteader
 monarch
 covenant
 
