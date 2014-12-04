@@ -28,7 +28,7 @@ The Confederation, The Unitarian, Confederates, M, 2, Wesson, M, 1, 1, 0, 0, 0,
   Alicia, Harvardi Lars, Mandez Memorial
   Representative, intuitive, slimy, faithful, fat, 
   manipulative
-  allow the economy to flourish, and provide a strong millitary
+  allow the economy to flourish, and provide a strong military
   to establish a strong economy and republic
   converting all the drones to drooling morons
   total domination
@@ -113,7 +113,7 @@ found in the universe, and we part of that universe.
 #xs 440
 #caption $CAPTION7
 "To increase future earnings for both sides, and save our large
-reserve army any trouble, we offically offer a Blood Truce."
+reserve army any trouble, we officially offer a Blood Truce."
 
 "You're right, it is more efficient at this point to end the conflict."
 "And let the CAF and CASF grow prepared?  Prepare for the void!"

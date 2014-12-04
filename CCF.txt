@@ -111,7 +111,7 @@ of nature and not destroy it like on Earth.
 a  Blood Truce would be beneficial."
 
 "Of course. A Blood Truce would be excellent."
-"Never! I will end your malvolent plans now!"
+"Never! I will end your malevolent plans now!"
 
 #FACTIONTREATY
 #xs 440

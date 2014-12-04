@@ -16,8 +16,8 @@ Pretty Princesses, The Adorable, Princesses, F, 1, Buster, F, 0, 0, 1, 0, 0,
   Politics, Police State, nil
   adorable, wonder.
   Momma, Daddy, church
-  Princess, wonderful, immature, adoring, obsessesive, 
-  disobediant
+  Princess, wonderful, immature, adoring, obsessive, 
+  disobedient
   play and play and play.
   to watch Disney DVDs
   playing in the sandbox all day
@@ -92,11 +92,11 @@ I am a pretty princess.  Let's play!
 ^
 
 #DATALINKS2
-^+2 PLANET: {Used to hostlle terrain.}
+^+2 PLANET: {Used to hostile terrain.}
 ^+1 GROWTH: {Like a weed.}
 ^+1 MORALE: {Plays a lot.  Loving home.  Daddy can beat up Rataxis.}
 ^+1 RESEARCH: {Learning all the time.}
-^{Free Recreation Commons & Children's Creche at every base.}
+^{Free Recreation Commons & Children's Crèche at every base.}
 ^{Mineral bonus in fungus.}
 
 #FACTIONTRUCE
@@ -105,7 +105,7 @@ I am a pretty princess.  Let's play!
 "Ok let's stop this stupid war and do some coloring."
 
 "Yeah, I agree."
-"No...your faction will be destroyed. It's bad."
+"No... your faction will be destroyed. It's bad."
 
 #FACTIONTREATY
 #xs 440

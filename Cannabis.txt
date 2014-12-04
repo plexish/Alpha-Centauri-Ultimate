@@ -90,7 +90,7 @@ Give me liberty or give me pizza pie.
 ^
 
 #DATALINKS2
-^+1 PLANET: {Knowledgable in 'agriculture'}
+^+1 PLANET: {Knowledgeable in 'agriculture'}
 ^-1 EFFICIENCY: {Pot Induced Laziness}
 ^+1 MORALE: {Permanently Happy}
 ^-2 POLICE: {The Man!}
@@ -109,7 +109,7 @@ to my latest crop of herb. I urge we mend our differences and
 pledge Blood Truce."
 
 "It is as you say. This violence must end or the buds may have less resin."
-"Hah! Your hookas won't save you now, $NAME3!"
+"Hah! Your hookahs won't save you now, $NAME3!"
 
 #FACTIONTREATY
 #xs 440

@@ -8,7 +8,7 @@
 ; 
 
 #MONARCH
-The Triton Monarchy, The Neo-Reactionary, Neo-Reactionary, M, 1, Colton I, M, 1, 1, 0, 1, 0,
+The Triton Monarchy, The Neo-Reactionary, Monarchists, M, 2, Colton I, M, 1, 1, 0, 1, 0,
   TECH, Physic, TECH, DocFlex, IMPUNITY, Power, SOCIAL, ++POLICE, SOCIAL, -EFFIC, SOCIAL, -RESEARCH, ROBUST, MORALE, AQUATIC, 0
   Politics, Police State, MORALE
   Politics, Democratic, nil

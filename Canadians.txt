@@ -94,7 +94,7 @@ Moose Factory
 ^+1 RESEARCH: {High education rate, many inventors hail from Canada}
 ^+1 SUPPORT: {Canadians supply more than their share of peacekeepers}
 ^FREE TECH: {Ethical Calculus}
-^FREE FACILITY: {Children's Creche}
+^FREE FACILITY: {Children's Crèche}
 ^FREE TALENT: {For every five citizens}
 
 #FACTIONTRUCE

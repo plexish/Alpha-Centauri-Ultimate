@@ -114,10 +114,10 @@ I have nothing to offer but blood, toil, tears and sweat.
 #DATALINKS2
 ^+2 GROWTH:  {Rapid Expansion}
 ^+2 POLICE:  {Quite strict control of subjects}
-^-1 EFFICIENCY: {Large Beuracracy}
+^-1 EFFICIENCY: {Large Bureaucracy}
 ^+1 ECONOMY: {Very strong, well-managed economy}
 ^+1 RESEARCH: {Excellent education}
-^FREE FACILITY: {Children's Creche}
+^FREE FACILITY: {Children's Crèche}
 
 #FACTIONTRUCE
 #xs 440
@@ -138,6 +138,4 @@ sign a Treaty of Friendship that we may join forces and crush our common foes?"
 "No. I alone shall rule this opulent planet, $NAME3."
 
 
-
 # ; This line must remain at end of file
-

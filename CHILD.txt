@@ -10,18 +10,18 @@ Future Society, Eudaimonic, nil,
 Values, Power, nil, 
 Children's Alliance, Children's Alliance
 Gene, Samantha, Gene's Star
-Twin Guides, exhubriant, defiant, youthful, defiant, 
+Twin Guides, exuberant, defiant, youthful, defiant, 
 Inexperienced Fools
 usher in an era of enlightenment and youth
-give youths the power to controll their own futures
-depriving responsible adults of all their rightful possitions
-depriving we responsible adults of all our rightful possitions
+give youths the power to control their own futures
+depriving responsible adults of all their rightful positions
+depriving we responsible adults of all our rightful positions
 hand all the power of the planet to your immature minions
-plotting to dethrone all the ruling adults from our rightful possitions
-plotting to dethrone all the ruling adults from our rightful possitions
+plotting to dethrone all the ruling adults from our rightful positions
+plotting to dethrone all the ruling adults from our rightful positions
 encouraging children to rebel against authority
-youthful endevors, M1
-youthful endevors, M2
+youthful endeavors, M1
+youthful endeavors, M2
 educational projects, M2
 sum, M1
 preparing your children for the future
@@ -31,7 +31,7 @@ children's rights
 #BASES
 Children's Alliance
 Youthful Quest
-First Commencment
+First Commencement
 Child's Mind
 Future Vision
 Son's Colony
@@ -50,7 +50,7 @@ Great Aide
 Prelude To Light
 Bolero To Fire
 Minuet of Forest
-Requiem of Spirt
+Requiem of Spirit
 Rhapsody To Peace
 Oath to Order
 Sonata Of Awakening
