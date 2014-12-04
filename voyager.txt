@@ -8,55 +8,61 @@
 ; 
 
 #VOYAGER
-The Tradewind Voyagers, The Voyager, Voyagers, M, 1, Francisco, F, -1, 0, 0, 1, 0,
+The Tradewind Voyagers, The Mercantilist, Voyagers, F, 2, Lin, F, 0, 0, 1, 1, 0,
   TECH, Indust, TECH, DocFlex, FREEABIL, 7, FREEABIL, 19, FREEABIL, 21, IMPUNITY, Wealth, SOCIAL, -PROBE, AQUATIC, 0
   Economics, Free Market, INDUSTRY
   Economics, Planned, nil
-  Trader, Trader
-  Alpha Talent, Gamma Thinker, Alpha Legacy
-  Director, analytical, soulless, rational, inflexible,
-  Unsexed Android
-  impose rational thinking on this Planet
-  to impose rationality and order on the inhabitants of this chaotic Planet
-  destroying all that makes us self-aware
-  destroying all that makes us self-aware
-  try to reduce us all to a collection of algorithms
-  grafting silicon onto her few remaining biological components
-  grafting silicon onto your few remaining biological components
-  destroying the sentience of unwilling subjects
-  so-called logic, M1
-  quest for rational perfection, M1
-  quest for rational perfection, M1
-  licensing fee, M1
-  developing rational codes for your people to follow
-  my Logic Corps
-  the Dictates of Logic
+  Voyager, Voyager
+  Baozhei, Li Wei, Baozhei's Island
+  Quartermaster, adventurous, plunderous, bold, credit-mad,
+  Mad Treasure Hunter
+  prosper from exploring this world and discovering its sunken treasures
+  to attain prosperity for my people through trade and exploration
+  plundering Planet's resources with her fleet of pirates and treasure seekers
+  plundering Planet's resources with your fleet of pirates and treasure seekers
+  and your greedy treasure hunters take control of Planet's entire economy 
+  pouring over maps of trade routes to find better ways of exploiting the rest of us
+  pouring over maps of trade routes to find better ways of exploiting the rest of us
+  seeking a monopoly on Planet's trade routes
+  fleet of ragged life boats, M2
+  commercial ambitions, M2
+  treasure hunting, M1
+  commercial dividend, M1
+  establishing and maintaining Planet's valuable trade routes
+  our Commercial Patrol Fleet
+  Planetary Trade Regulations
 
 #BASES
-Port of call
+Port of Call
+Prospector's Landing
 #END
 
 #WATERBASES
-Trader's Hub
+Unto a New World
+The Eigth Sea
+Zheng He Harbor
+Treasure Fleet Review
+Baochuan Station
+Quartermaster's Rest
 #END
 
 #BLURB
-Those who join us need give up only half of their humanity—the illogical,
-ill-tempered, and disordered half, commonly thought of as ‘right-brain’
-functioning. In exchange, the ‘left-brain’ capacities are increased to undreamed
-potential. The tendency of Biologicals to cling instead to their individual
-personalities can only be attributed to archaic evolutionary tendencies.
- ^
- ^        —Prime Function Aki Zeta-5,
- ^           “Convergence”
+The scout foil's bow tipped skyward as Hao opened up the throttle, testing what she was really
+capable of. Despite the yeoman's warnings I stripped off my breathing mask and allowed
+myself to feel the cold spray of a foreign sea upon my face. Endless kilometers of open, unexplored 
+ocean spread out in all directions, and I felt as did Earth's first seafarers, crossing unknown fathoms
+in search of fame and prosperity.
+^
+^        —Quartermaster Julia Zhang Lin,
+^           “Mapping the New World”
 
 #DATALINKS1
-^LEADER: {Aki Zeta-5 (Prime Function Shell)}
-^BACKGROUND: {Subroutine Specialist under Unity Science Officer}
+^LEADER: {Julia Zhang Lin}
+^BACKGROUND: {Hong Kong Protectorate, Unity Quartermaster}
 ^AGENDA: {Profitable Trade}
-^TECH: {Doctrine: Flexibility, Industrial Base}
+^TECH: {Industrial Base, Doctrine Flexibility}
 ^
-  
+
 #DATALINKS2
 ^Free Heavy Transport, Repair Bay, and Carrier Deck with the required technologies
 ^+1 ECONOMY & +1 Commerce rating: {Vast trading network}
