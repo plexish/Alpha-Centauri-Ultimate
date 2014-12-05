@@ -1,0 +1,198 @@
+;
+; Sid Meier's Alpha Centauri
+;
+
+#GRUSMINIONS
+Gru's Minions, Gru's Minions, Minions, M, 2, Gru, M, 1, 1, 1, 1, 1,
+SOCIAL, --ECONOMY, ROBUST, EFFIC, ROBUST, POLICE, SOCIAL, -PLANET, SOCIAL, +INDUSTRY, SOCIAL, +TALENT, POPULATION, -3
+Politics, Police State, MORALE
+Politics, Democratic, nil
+Minions', Minions'
+Dr. Nefario, Tim the Minion, The Dead Lawn
+Professor, wise, clueless, hardy, uncivilized,
+Washed-Up Super-Villain
+  bring good things to light
+  to bring good things to light
+  despicable methods
+  despicable methods
+  use despicable methods
+  using despicable methods
+  using despicable methods
+  methods
+  scheme, M1
+  scheme, M1
+  scheme, M1
+  ransom, M1
+  bringing good things to light
+  security
+  common sense
+
+#BASES
+The Moon
+Ganymede
+Callisto
+Titan
+Io
+Europa
+Triton
+Rhea
+Iapetus
+Dion
+Tethys
+Titania
+Oberon
+Umbriel
+Ariel
+Charon
+Enceladus
+Mimas
+Hyperion
+Miranda
+Proteus
+Nereid
+Amalthea
+Himalia
+Thebe
+Phoebe
+Janus
+Epimetheus
+Sycorax
+Puck
+Portia
+Larissa
+Galatea
+Despina
+Elara
+Pasiphae
+Prometheus
+Pandora
+Caliban
+Juliet
+Belinda
+Cressida
+Rosalind
+Desdemona
+Bianca
+Thalassa
+Halimede
+Naiad
+Hydra
+Nix
+Carme
+Metis
+Sinope
+Lysithea
+Ananke
+Siarnaq
+Helene
+Albiorix
+Atlas
+Pan
+Ophelia
+Cordelia
+Setebos
+Prospero
+Perdita
+Stephano
+Sao
+Laomedeia
+Psamathe
+Phobos
+Deimos
+Leda
+Adrastea
+Telesto
+Paaliaq
+Calypso
+Ymir
+Kiviuq
+Tarvos
+Ijiraq
+Erriapus
+Mab
+Cupid
+Francisco
+Ferdinand
+Margaret
+Trinculo
+Kerberos
+Styx
+#END
+
+#WATERBASES
+Oceanus Procellarum
+Mare Frigoris
+Mare Imbrium
+Mare Fecunditatis
+Mare Tranquillitatis
+Mare Serenitatis
+Mare Australe
+Mare Marginis
+Mare Crisium
+Mare Humorum
+Mare Cognitum
+Mare Smythii
+Mare Nectaris
+Mare Orientale
+Mare Moscoviense
+Mare Humboltianum
+Mare Vaporum
+Mare Undarum
+Mare Anguis
+Mare Spumans
+#END
+
+#BLURB
+^Three things cannot be long hidden:
+^the sun, the moon, and the truth.
+^- Buddha
+
+#DATALINKS1
+^LEADER: {Professor Gru} and his {Minions}
+^BACKGROUND: {all thing wicked}
+^AGENDA: {Steal The Moon}
+^TECH: {}
+^PRIORITIES: {Margo, Edith, and Agnes}
+
+#DATALINKS2
+^-2 Economy
+^Robust Efficiency
+^Robust Police
+^-1 Planet
+^+1 Industry
+^+1 Talent
+^3 Population over Normal
+
+#FACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Truce, $TITLE0 $NAME1?"
+
+"Truce, $TITLE2 $NAME3."
+"No Truce, $TITLE2 $NAME3."
+
+#FACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Treaty, $TITLE0 $NAME1?"
+
+"Treaty, $TITLE2 $NAME3."
+"No Treaty, $TITLE2 $NAME3."
+
+#ALIENFACTIONTRUCE
+#xs 440
+#caption $CAPTION7
+"Truce, $TITLE0 $NAME1?"
+
+"$TITLE2 $NAME3 : Truce."
+"$TITLE2 $NAME3 : No Truce."
+
+#ALIENFACTIONTREATY
+#xs 440
+#caption $CAPTION7
+"Truce, $TITLE0 $NAME1?"
+
+"$TITLE2 $NAME3 : Treaty."
+"$TITLE2 $NAME3 : No Treaty."
+
+# ; This line must remain at end of file

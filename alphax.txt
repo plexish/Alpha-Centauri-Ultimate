@@ -1323,6 +1323,7 @@ USURPER,  USURPER
 ; GEM
 ; genesis
 ; GENX
+; GRUSMINIONS
 ; guar
 ; guerrillas
 ; Gunrunners
@@ -1420,7 +1421,7 @@ USURPER,  USURPER
 ; =======
 ; 
 ; replicant - bonuses need fixing, has more than 8
-; 
+; GRUSMINIONS
 ; 
 ; 
 ; #### Factions by pack ###
