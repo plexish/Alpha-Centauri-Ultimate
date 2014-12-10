@@ -13,24 +13,24 @@ The Savant Caliphate, The Scholars, Savants, M, 2, Saeed, M, 0, 0, 1, 0, 1,
   Values, Knowledge, PROBE
   Politics, Fundamentalist, nil
   Savant, Savant
-  Saitu, Aodan, Saitu's Descent
-  Caliph, devout, insane, spiritual, brainwashed,
-  Cult Leader
-  bring our peoples into the benevolent embrace of the Planetmind
-  seek spiritual oneness with Planet's will
-  expunging this world of every man, woman and child who does not follow his insane dogma
-  expunging this world of every man, woman and child who does not follow your insane dogma
-  commit one atrocity after another in the name of your suicidal religion
-  brewing new chemical weapons and other atrocities to inflict upon his imagined "heretics"
-  brewing new chemical weapons and other atrocities to inflict upon your imagined "heretics"
-  leading a dangerous cult
-  so-called religious movement, M1
-  spiritual endeavors, M2
-  cult activities, M2
-  offering, M1
-  spreading wisdom of Planet's will among our colonies
-  the Abyssal Inquisition
-  the will of the Planetmind
+  Zula, Mahmoud, Zula's Academy
+  Archcurator, wise, sinister, intellectual, misanthropic,
+  Knowledge Baron
+  shepherd mankind into a new Golden Age of science and learning
+  pursue scientific advancement and protect it from those who would misuse it
+  hoarding every significant scientific achievement on Planet, leaving the rest of us in the dark ages
+  hoarding every significant scientific achievement on Planet, leaving the rest of us in the dark ages
+  steal from and assasinate every threat to your scientific supremacy
+  finding new ways to steal from the hard earned academic achievements of other factions
+  finding new ways to steal from the hard earned academic achievements of other factions
+  advocating scientific elitism
+  scientific elitism, M1
+  academic pursuits, M1
+  scientific espionage, M1
+  funding grant, M1
+  furthering and safeguarding the cause of scientific advancement on Planet
+  the Caliphate's hidden agents 
+  the Code of Academic Succession
 
 #BASES
 Library of Planet
@@ -38,6 +38,10 @@ Library of Planet
 
 #WATERBASES
 Citadel of the Mind
+House of Wisdom
+Waters of Knowledge
+Baghdad of the Sea
+Reefstrider Academy
 #END
 
 #BLURB
@@ -48,12 +52,12 @@ manner fell our first home. The lesson painfully learned is this: the power of t
 mind to change the world must be guarded as jealously as the power to split atoms, for
 from the first arises the second.
  ^
- ^        —Caliph Saeed Alizadeh,
+ ^        —Archcurator Saeed Alizadeh,
  ^           “Planet Theory”
 
 #DATALINKS1
-^LEADER: {Caliph Saeed Alizadeh}
-^BACKGROUND: {Iranian Islamic Republic, Unity Education Specialist}
+^LEADER: {Archcurator Saeed Alizadeh}
+^BACKGROUND: {Iranian Islamic Republic, Unity Archival Scientist}
 ^AGENDA: {Golden Age of Knowledge}
 ^TECH: {Doctrine: Flexibility, Choose 1}
 ^
