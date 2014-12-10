@@ -2,6 +2,7 @@
 ; Sid Meier's ALPHA CENTAURI
 ;
 ; FACTION FILE: Agri-Culture v1.0
+; CLASS: Compatible
 ;
 ; Text & Faction Graphics Copyright c2000 NetworkNode M.Dunk
 ; For more factions visit http://www.networknode.org

@@ -2,7 +2,8 @@
 ;
 ; Sid Meier's Alpha Centauri
 ; 
-; Apollo Industries
+; FACTION FILE: Apollo Industries
+; CLASS: Compatible
 ; 
 ; Custom Faction Sig2013-05
 ; Text by Sigma

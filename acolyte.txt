@@ -1,5 +1,8 @@
 ;
-; Gaian Acolytes Faction
+;
+; FACTION FILE: Gaian Acolytes
+; CLASS: Compatible
+;
 ; By Kilkakon
 ;
 ; kilkakon.com

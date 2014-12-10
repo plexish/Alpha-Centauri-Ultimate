@@ -1,6 +1,6 @@
-; -III THE AARDOM FEDERATION III-
 ; Sid Meier's Alpha Centauri
-; Faction Editor
+; FACTION FILE: The Aardom Federation
+; CLASS: Compatible
 ;
 ; Text by Aalogin <Aalogin@aol.com> 
 ; Faction Graphics Copyright c2000 NetworkNode M.Dunk

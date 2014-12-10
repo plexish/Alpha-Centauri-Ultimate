@@ -2,6 +2,9 @@
 ; Sid Meier's Alien Crossfire
 ; Faction Editor
 ;
+; FACTION FILE: The Androgynous Community
+; CLASS: Novelty
+;
 ; Created August 2000 by Sysiyö using the Faction Editor.
 ; All graphics by Sysiyö, except diplomacy photographs by Waterlily.
 ; (C) 2000, 2001 Sysiyö. All reproduction, downloads and changes fully

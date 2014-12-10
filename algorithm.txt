@@ -1,6 +1,9 @@
 ;
 ; Sid Meier's Alpha Centauri
 ; Faction Editor
+; 
+; FACTION FILE: The Cybernetic Algorithmciousness
+; CLASS: Compatible
 ;
 
 #ALGORITHM

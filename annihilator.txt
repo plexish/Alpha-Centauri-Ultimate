@@ -1,6 +1,9 @@
 ;
 ; Sid Meier's Alpha Centauri
 ; Faction Editor
+; 
+; FACTION FILE: Annihilators
+; CLASS: Compatible
 ;
 
 #ANNIHILATOR

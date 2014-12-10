@@ -2,6 +2,7 @@
 ; Sid Meier's ALPHA CENTAURI
 ;
 ; FACTION FILE: The Artisans v1.0
+; CLASS: Compatible
 ;
 ; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
 ;

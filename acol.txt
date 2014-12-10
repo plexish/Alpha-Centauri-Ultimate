@@ -2,6 +2,7 @@
 ; Sid Meier's ALPHA CENTAURI
 ;
 ; FACTION FILE: Acolytes of the Flame
+; CLASS: Alternate
 ;
 ; Made with ACEdit (c)1999 ANX  at http://www.sidgames.com/acedit
 ;

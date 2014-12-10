@@ -2,6 +2,9 @@
 ; Sid Meier's Alpha Centauri
 ; Faction Editor
 ;
+; FACTION FILE: Arcology Movement
+; CLASS: 
+;
 
 #ARCOLOGY MOVEMENT
 Arcology Movement, The City Planner, Arco, F, 1, Satriyo, F, 0, 0, 0, 1, 0, 

@@ -1,6 +1,9 @@
 ;
 ; Sid Meier's Alpha Centauri
 ; Faction Editor
+; 
+; FACTION FILE: Self Ware Algorithms
+; CLASS: Novelty
 ;
 
 #AI

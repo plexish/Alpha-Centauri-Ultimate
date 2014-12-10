@@ -1,6 +1,7 @@
 ; Sid Meier's Alpha Centauri
 ;
-; The Colonial Authority
+; FACTION FILE: The Colonial Authority
+; CLASS: Compatible
 ;
 ; Custom Faction Sig2013-04
 ; Text by Sigma

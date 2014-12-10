@@ -2,6 +2,9 @@
 ; Sid Meier's Alpha Centauri
 ; Faction Editor
 ;
+; FACTION FILE: AntiMind
+; CLASS: Compatible
+;
 ; Text by ColonyPod <colonypod@aol.com> 
 ; Faction Graphics Copyright c2000 NetworkNode M.Dunk
 ; For more factions visit http://www.networknode.org
